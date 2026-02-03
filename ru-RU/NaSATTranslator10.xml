@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="CollectComponentsForExportSatError" devLabel="Autodesk Translation Services failed to translate the current document to sat file!" translation="Службе перевода Autodesk не удалось перевести текущий документ в спутниковый файл!" />
+	<label commandName="CollectComponentsForExportSatError_InvalidVersion " devLabel="Invalid SAT version: Autodesk Translation Services failed because you tried to export file with SAT extension in wrong format! Change sat version to SAT7 format or file extenstion to SMT" translation="Неверная версия SAT: Службам перевода Autodesk не удалось экспортировать файл с расширением SAT в неправильном формате! Измените версию спутника на формат SAT7 или расширение файла на SMT." />
+	<label commandName="ContextFolderTooltip" devLabel="Cached objects from a dissolved Assembly Context" translation="Кэшированные объекты из解散ленной сборки контекста" />
+	<label commandName="CreateComponentFromBodyError" devLabel="Create Component From Body failed:  invalid input" translation="Ошибка создания компонента из тела: неверные входные данные" />
+	<label commandName="CreateComponentsByImportSatError" devLabel="Autodesk Translation Services failed to translate the sat file, please make sure the sat file isn't corrupt!" translation="Службе перевода Autodesk не удалось перевести файл sat. Убедитесь, что файл sat не поврежден!" />
+	<label commandName="CreateComponentsByOpenSatError" devLabel="Autodesk Translation Services failed to translate the sat file, please make sure the sat file isn't corrupt!" translation="Службе перевода Autodesk не удалось перевести файл sat. Убедитесь, что файл sat не поврежден!" />
+	<label commandName="SATFileFilterDescription" devLabel="SAT Files (*.sat);;SMT Files (*.smt)" translation="Файлы SAT (*.sat);;Файлы SMT (*.smt)" />
+</Resource>

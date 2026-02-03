@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="CFDImportSatToMat" devLabel="CFD ImportSatToMat" translation="CFD ImportSatToMat" />
+	<label commandName="CFDLoadLibrary" devLabel="Load CFD Library" translation="Загрузить библиотеку CFD" />
+	<label commandName="GetProcAddressCFDProdInfo" devLabel="Unable to Set Fusion Product Information" translation="Невозможно установить информацию о продукте Fusion" />
+	<label commandName="GetProcAddressMoldflowProdInfo" devLabel="Unable to Set Fusion Product Information" translation="Невозможно установить информацию о продукте Fusion" />
+	<label commandName="MoldflowLoadLibrary" devLabel="Load Moldflow Library" translation="Загрузить библиотеку Moldflow" />
+	<label commandName="PushFusionToCFD" devLabel="Unable to push data from Fusion to CFD." translation="Невозможно передать данные из Fusion в CFD." />
+	<label commandName="PushFusionToCFDBusy" devLabel="Unable to push data from Fusion to CFD. CFD application may be busy." translation="Невозможно передать данные из Fusion в CFD. Приложение CFD может быть занято." />
+	<label commandName="PushFusionToCFDMat" devLabel="Unable to push data from Fusion to CFD." translation="Невозможно передать данные из Fusion в CFD." />
+	<label commandName="PushFusionToCFDPlugin" devLabel="Unable to communicate with Fusion to CFD plugin." translation="Невозможно связаться с плагином Fusion to CFD." />
+	<label commandName="PushFusionToMoldflow" devLabel="Unable to push data from Fusion to Moldflow." translation="Невозможно передать данные из Fusion в Moldflow." />
+	<label commandName="PushFusionToMoldflowBusy" devLabel="Unable to push data from Fusion to Moldflow. Moldflow application may be busy." translation="Невозможно передать данные из Fusion в Moldflow. Приложение Moldflow может быть занято." />
+	<label commandName="PushFusionToMoldflowPlugin" devLabel="Unable to communicate with Fusion to Moldflow plugin." translation="Невозможно связаться с плагином Fusion to Moldflow." />
+	<label commandName="PushFusionToMoldflowSetPath" devLabel="Unable to push data from Fusion to Moldflow." translation="Невозможно передать данные из Fusion в Moldflow." />
+	<label commandName="WinAPIFailed" devLabel="Windows API %s failed with error %d: %s" translation="Windows API %s завершился с ошибкой %d: %s" />
+</Resource>

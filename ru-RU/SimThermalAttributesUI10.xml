@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Переопределить систему единиц" />
+	<label commandName="SimConvectionGraph" devLabel="Convection Value" translation="Значение конвекции" />
+	<label commandName="SimGeometriesSelectionGroup" devLabel="Geometries" translation="Геометрии" />
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="Американская система (дюймы)" />
+	<label commandName="SimInfoAppliedTemperatureLoadTimeDependentGraph" devLabel="Temperature Value" translation="Значение температуры" />
+	<label commandName="SimInfoAppliedTemperatureLoadTimeDependentValue" devLabel="Time Dependent" translation="Зависит от времени" />
+	<label commandName="SimInfoAppliedTemperatureLoadValue" devLabel="Temperature Value" translation="Значение температуры" />
+	<label commandName="SimInfoConvectionAmbientTemperatureGroup" devLabel="Ambient Temperature" translation="Температура окружающей среды" />
+	<label commandName="SimInfoConvectionInputType" devLabel="Input Type" translation="Тип ввода" />
+	<label commandName="SimInfoConvectionLoadTimeDependentAmbientTemperatureGraph" devLabel="Temperature Value" translation="Значение температуры" />
+	<label commandName="SimInfoConvectionLoadTimeDependentAmbientTemperatureInputType" devLabel="Input Type" translation="Тип ввода" />
+	<label commandName="SimInfoConvectionLoadTimeDependentAmbientTemperatureValue" devLabel="Temperature Curve" translation="Температурная кривая" />
+	<label commandName="SimInfoConvectionLoadTimeDependentConvectionValue" devLabel="Convection Curve" translation="Кривая конвекции" />
+	<label commandName="SimInfoConvectionLoadTimeDependentTimeDependentConvectionGraph" devLabel="Convection Value" translation="Значение конвекции" />
+	<label commandName="SimInfoConvectionTempDependentValue" devLabel="Temperature Dependent" translation="Зависит от температуры" />
+	<label commandName="SimInfoEmissivityLoadAmbientTemperatureValue" devLabel="Temperature Value" translation="Значение температуры" />
+	<label commandName="SimInfoEmissivityLoadEmissivityInputType" devLabel="Input Type" translation="Тип ввода" />
+	<label commandName="SimInfoEmissivityLoadEmissivityValue" devLabel="Emissivity/Absorptivity Value" translation="Значение излучательной/поглощающей способности" />
+	<label commandName="SimInfoEmissivityLoadTempDependentEmissivityGraph" devLabel="Emissivity/Absorptivity Value" translation="Значение излучательной/поглощающей способности" />
+	<label commandName="SimInfoEmissivityLoadTempDependentEmissivityValue" devLabel="Temperature Dependent Emissivity/Absorptivity" translation="Зависимая от температуры излучательная/поглощающая способность" />
+	<label commandName="SimInfoEmissivityLoadTimeDependentAmbientTemperatureInputType" devLabel="Input Type" translation="Тип ввода" />
+	<label commandName="SimInfoEmissivityLoadTimeDependentEmissivityGraph" devLabel="Emissivity Value" translation="Значение коэффициента излучения" />
+	<label commandName="SimInfoEmissivityLoadTimeDependentEmissivityValue" devLabel="Time Dependent Emissivity" translation="Зависящая от времени излучательная способность" />
+	<label commandName="SimInfoInternalHeatLoadInternalHeatValue" devLabel="Heat Load" translation="Тепловая нагрузка" />
+	<label commandName="SimInfoInternalHeatLoadPerEntity" devLabel="Apply Per Entity" translation="Применить для каждой организации" />
+	<label commandName="SimInfoInternalHeatLoadPerUnitVolume" devLabel="Unit Volume" translation="Объем единицы" />
+	<label commandName="SimInfoInternalHeatLoadTempDependentGraph" devLabel="Heat Load" translation="Тепловая нагрузка" />
+	<label commandName="SimInfoInternalHeatLoadTempDependentValue" devLabel="Dependent Value" translation="Зависимое значение" />
+	<label commandName="SimInfoInternalHeatLoadTimeDependentInternalHeateValue" devLabel="Time Dependent Value" translation="Зависимое от времени значение" />
+	<label commandName="SimInfoSimEmissivityAmbientTemperatureGroup" devLabel="Ambient Temperature" translation="Температура окружающей среды" />
+	<label commandName="SimInfoSurfaceHeatLoadInputType" devLabel="Input Type" translation="Тип ввода" />
+	<label commandName="SimInfoSurfaceHeatLoadPerUnit" devLabel="Unit Area" translation="Площадь единицы" />
+	<label commandName="SimInfoSurfaceHeatLoadSurfaceHeatValue" devLabel="Heat Source Value" translation="Значение источника тепла" />
+	<label commandName="SimInfoSurfaceHeatLoadTempDependentGraph" devLabel="Heat Source Value" translation="Значение источника тепла" />
+	<label commandName="SimInfoSurfaceHeatLoadTempDependentValue" devLabel="Heat Source Value" translation="Значение источника тепла" />
+	<label commandName="SimInfoSurfaceHeatLoadTimeDependentGraph" devLabel="Heat Source" translation="Источник тепла" />
+	<label commandName="SimInfoSurfaceHeatLoadTimeDependentValue" devLabel="Heat Source Value" translation="Значение источника тепла" />
+	<label commandName="SimLoadsUnitsType" devLabel="Units" translation="ЕДИНИЦЫ" />
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Пользовательский" />
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Метрическая система (СИ)" />
+	<label commandName="SimThermalAllFaces" devLabel="Select all faces" translation="Выбрать все лица" />
+	<label commandName="SimThermalConvectionLoadAmbientTemperature" devLabel="Ambient Temperature" translation="Температура окружающей среды" />
+	<label commandName="SimThermalConvectionLoadConvectionValue" devLabel="Convection Value" translation="Значение конвекции" />
+	<label commandName="SimThermalConvectionLoadTemperatureValue" devLabel="Temperature Value" translation="Значение температуры" />
+	<label commandName="SimThermalEmissivityLoadTemperatureValue" devLabel="Ambient Temperature" translation="Температура окружающей среды" />
+	<label commandName="SimThermalGraphCmd" devLabel="Graph" translation="График" />
+	<label commandName="SimThermalGraphDialogueDependentEmissivity" devLabel="Emissivity" translation="Коэффициент излучения" />
+	<label commandName="SimThermalGraphDialogueDependentInternalHeat" devLabel="Internal Heat" translation="Внутреннее тепло" />
+	<label commandName="SimThermalGraphDialogueDependentTemperature" devLabel="Temperature" translation="Температура" />
+	<label commandName="SimThermalGraphDialogueIndependentConvection" devLabel="Temperature" translation="Температура" />
+	<label commandName="SimThermalGraphDialogueIndependentEmissivity" devLabel="Temperature" translation="Температура" />
+	<label commandName="SimThermalGraphDialogueIndependentTemperature" devLabel="Temperature" translation="Температура" />
+	<label commandName="SimThermalGraphDialogueIndependentTime" devLabel="Time" translation="Время" />
+	<label commandName="SimThermalGraphDialogueSurfaceHeatDependent" devLabel="Heat Source" translation="Источник тепла" />
+	<label commandName="SimThermalGraphDialogueSurfaceHeatIndependent" devLabel="Temperature" translation="Температура" />
+	<label commandName="SimThermalGraphDialogueSurfaceHeatTitle" devLabel="Heat Source Load" translation="Нагрузка источника тепла" />
+	<label commandName="SimThermalGraphDialogueTitleAppliedTemperature" devLabel="Applied Temperature" translation="Применяемая температура" />
+	<label commandName="SimThermalGraphDialogueTitleConvection" devLabel="Thermal Convection" translation="Тепловая конвекция" />
+	<label commandName="SimThermalGraphDialogueTitleEmissivity" devLabel="Radiation Load" translation="Радиационная нагрузка" />
+	<label commandName="SimThermalGraphDialogueTitleInternalHeat" devLabel="Internal Heat Load" translation="Внутренняя тепловая нагрузка" />
+	<label commandName="SimThermalLoadConvectionCmd" devLabel="Convection" translation="Конвекция" />
+	<label commandName="SimThermalLoadConvectionCmdDesc1" devLabel="Simulate heat transfer between one or more surfaces and a liquid or gas flowing over the surface." translation="Моделируйте теплообмен между одной или несколькими поверхностями и жидкостью или газом, текущими по поверхности." />
+	<label commandName="SimThermalLoadConvectionCmdDesc2" devLabel="Specify an ambient temperature and a film coefficient to  simulate flow-induced heat transfer, without actually simulating the flow itself. Additionally, you can define the film coefficient to be dependent on the local temperature." translation="Задайте температуру окружающей среды и коэффициент пленки для моделирования теплопередачи, вызванной потоком, без фактического моделирования самого потока. Кроме того, вы можете определить коэффициент пленки в зависимости от местной температуры." />
+	<label commandName="SimThermalLoadEmissivityCmd" devLabel="Radiation" translation="Радиация" />
+	<label commandName="SimThermalLoadEmissivityCmdDesc1" devLabel="Simulate radiative heat transfer between one or more surfaces and the surrounding environment." translation="Моделируйте радиационный теплообмен между одной или несколькими поверхностями и окружающей средой." />
+	<label commandName="SimThermalLoadEmissivityCmdDesc2" devLabel="Specify an ambient temperature and an emissivity to simulate radiative heat transfer with an external source. Additionally, you can define the emissivity to be dependent on the local temperature." translation="Укажите температуру окружающей среды и коэффициент излучения, чтобы моделировать радиационную теплопередачу с внешним источником. Кроме того, вы можете определить коэффициент излучения в зависимости от местной температуры." />
+	<label commandName="SimThermalLoadInternalHeatCmd" devLabel="Internal Heat" translation="Внутреннее тепло" />
+	<label commandName="SimThermalLoadInternalHeatCmdDesc1" devLabel="Simulate internal heat generation within a part or component." translation="Моделируйте внутреннее тепловыделение внутри детали или компонента." />
+	<label commandName="SimThermalLoadInternalHeatCmdDesc2" devLabel="An example is the heat dissipation within an electronic device. You can assign Body Heat either as a total value or as a volumetric condition (per volume). Additionally, you can define Body Heat to be dependent on the component temperature." translation="Примером является рассеивание тепла внутри электронного устройства. Вы можете назначить &#171;Тепло тела&#187; либо как общее значение, либо как объемное состояние (по объему). Кроме того, вы можете определить, что температура тела будет зависеть от температуры компонента." />
+	<label commandName="SimThermalLoadSelectBodyLocation" devLabel="Select location(s) for load (only bodies)." translation="Выберите местоположение(я) для загрузки (только тела)." />
+	<label commandName="SimThermalLoadSelectEdgeLocation" devLabel="Select location(s) for load (only edges)." translation="Выберите место(а) для нагрузки (только края)." />
+	<label commandName="SimThermalLoadSelectFaceLocation" devLabel="Select location(s) for load (only faces)." translation="Выберите местоположение(я) для нагрузки (только грани)." />
+	<label commandName="SimThermalLoadSelectLocation" devLabel="Select location(s) for load (face, edge or vertex)." translation="Выберите местоположение(я) для нагрузки (грань, ребро или вершина)." />
+	<label commandName="SimThermalLoadSelectVertexLocation" devLabel="Select location(s) for load (only vertexes)." translation="Выберите местоположение(я) для загрузки (только вершины)." />
+	<label commandName="SimThermalLoadSurfaceHeatCmd" devLabel="Heat Source" translation="Источник тепла" />
+	<label commandName="SimThermalLoadSurfaceHeatCmdDesc1" devLabel="Impose a specific amount of heat directly on one or more surfaces, edges, or vertices." translation="Направьте определенное количество тепла непосредственно на одну или несколько поверхностей, ребер или вершин." />
+	<label commandName="SimThermalLoadSurfaceHeatCmdDesc2" devLabel="You can assign Heat Source either as a total value or as a heat flux (per area). Additionally, you can define Heat Source to be dependent on the local surface temperature." translation="Вы можете назначить Источник тепла либо как общее значение, либо как тепловой поток (на площадь). Кроме того, вы можете определить источник тепла в зависимости от температуры локальной поверхности." />
+	<label commandName="SimThermalLoadTemperatureCmd" devLabel="Applied Temperature" translation="Применяемая температура" />
+	<label commandName="SimThermalLoadTemperatureCmdDesc1" devLabel="Prescribe a constant temperature on one or more faces, edges, or vertices." translation="Задайте постоянную температуру на одной или нескольких гранях, ребрах или вершинах." />
+	<label commandName="SimThermalLoadTemperatureCmdDesc2" devLabel="The applied temperature is held constant throughout the simulation." translation="Применяемая температура поддерживается постоянной на протяжении всего моделирования." />
+	<label commandName="SimThermalLoadTipsAndTricksDesc" devLabel="To select all faces on a body, select a body or click &lt;b&gt;Select All Faces&lt;/b&gt; and pick any face.&lt;br&gt;For Surface/Internal Heat uncheck &lt;b&gt;Unit Area&lt;/b&gt; to specify the 'total' heat.&lt;br&gt;For Surface/Internal Heat check &lt;b&gt;Unit Area&lt;/b&gt; to specify a 'specific' heat per a unit volume, area or length.&lt;br&gt;For natural Convection (a buoyancy-driven flow with still air), use &lt;b&gt;Coefficient Value&lt;/b&gt; about 5 W/(m^2 C). Use a higher value to simulate faster flow.&lt;br&gt;For Radiation specify a value of &lt;b&gt;Emissivity/Absorptivity&lt;/b&gt; between 0 and 1. Use a lower value for reflective surfaces and a higher value for darker, emittive surfaces." translation="Чтобы выбрать все грани тела, выберите тело или нажмите &lt;b&gt;Выбрать все грани&lt;/b&gt; и выберите любую грань.&lt;br&gt;Для поверхностного/внутреннего тепла снимите флажок &lt;b&gt;Единичная площадь&lt;/b&gt;, чтобы указать &#171;общее&#187; тепло.&lt;br&gt;Для поверхностного/внутреннего тепла установите флажок &lt;b&gt;Единичная площадь&lt;/b&gt;, чтобы указать &#171;удельное&#187; тепло на единицу объема, площади или длины.&lt;br&gt;Для естественной конвекции (поток, вызванный плавучестью при неподвижном воздухе), используйте &lt;b&gt;Значение коэффициента&lt;/b&gt; около 5 Вт/(м^2 К). Используйте более высокое значение для имитации более быстрого потока.&lt;br&gt;Для параметра &#171;Излучение&#187; укажите значение &lt;b&gt;Излучательная способность/Поглощающая способность&lt;/b&gt; от 0 до 1. Используйте более низкое значение для отражающих поверхностей и более высокое значение для более темных излучающих поверхностей." />
+	<label commandName="SimThermalLoadTipsAndTricksTips" devLabel="Select the geometry where load will be placed. The geometry can be edges, faces, or vertices. You can select individual or multiple entities." translation="Выберите геометрию, на которую будет помещена нагрузка. Геометрией могут быть ребра, грани или вершины. Вы можете выбрать отдельные или несколько объектов." />
+	<label commandName="SimThermalLoadTransientConvectionCmd" devLabel="Convection" translation="Конвекция" />
+	<label commandName="SimThermalLoadTransientEmissivityCmd" devLabel="Radiation" translation="Радиация" />
+	<label commandName="SimThermalLoadTransientInternalHeatCmd" devLabel="Internal Heat" translation="Внутреннее тепло" />
+	<label commandName="SimThermalLoadTransientSurfaceHeatCmd" devLabel="Heat Source" translation="Источник тепла" />
+	<label commandName="SimThermalLoadTransientTemperatureCmd" devLabel="Applied Temperature" translation="Применяемая температура" />
+	<label commandName="SimThermalLoadsCmd" devLabel="Thermal Loads" translation="Термические нагрузки" />
+	<label commandName="SimThermalLoadsCmdLoadTypeConvection" devLabel="Convection" translation="Конвекция" />
+	<label commandName="SimThermalLoadsCmdLoadTypeEmissivity" devLabel="Radiation" translation="Радиация" />
+	<label commandName="SimThermalLoadsCmdLoadTypeInternalHeat" devLabel="Internal Heat" translation="Внутреннее тепло" />
+	<label commandName="SimThermalLoadsCmdLoadTypeSurfaceHeat" devLabel="Heat Source" translation="Источник тепла" />
+	<label commandName="SimThermalLoadsCmdLoadTypeSurfaceHeatPerUnitLength" devLabel="Unit Length" translation="Длина блока" />
+	<label commandName="SimThermalLoadsCmdLoadTypeTemperature" devLabel="Applied Temperature" translation="Применяемая температура" />
+	<label commandName="SimThermalLoadsCmdLoadTypeTransientConvection" devLabel="Convection" translation="Конвекция" />
+	<label commandName="SimThermalLoadsCmdLoadTypeTransientEmissivity" devLabel="Radiation" translation="Радиация" />
+	<label commandName="SimThermalLoadsCmdLoadTypeTransientInternalHeat" devLabel="Internal Heat" translation="Внутреннее тепло" />
+	<label commandName="SimThermalLoadsCmdLoadTypeTransientSurfaceHeat" devLabel="Heat Source" translation="Источник тепла" />
+	<label commandName="SimThermalLoadsCmdLoadTypeTransientTemperature" devLabel="Applied Temperature" translation="Применяемая температура" />
+	<label commandName="SimThermalLoadsDesc1" devLabel="Applies thermal loads to selected geometry." translation="Применяет термические нагрузки к выбранной геометрии." />
+	<label commandName="SimThermalLoadsDesc2" devLabel="Individually or multi-select faces, edges, or vertices and apply one or more thermal loads. You cannot mix geometry types in your selection set and you cannot combine temperature loads with the other thermal loads (heat source, radiation, or convection)." translation="Индивидуально или несколько выберите грани, ребра или вершины и примените одну или несколько термических нагрузок. В наборе выбора нельзя смешивать типы геометрии, а также нельзя комбинировать температурные нагрузки с другими тепловыми нагрузками (источник тепла, излучение или конвекция)." />
+	<label commandName="SimThermalLoadsEditCmd" devLabel="Edit Thermal Load" translation="Редактировать тепловую нагрузку" />
+	<label commandName="SimThermalLoadsInputTypeConstant" devLabel="Constant" translation="Постоянный" />
+	<label commandName="SimThermalLoadsInputTypeTempDependent" devLabel="Temperature Dependent" translation="Зависит от температуры" />
+	<label commandName="SimThermalLoadsInputTypeTimeDependent" devLabel="Time Dependent" translation="Зависит от времени" />
+	<label commandName="SimThermalLoadsLoadTypeCombo" devLabel="Type" translation="Тип" />
+	<label commandName="SimThermalLoadsSelection" devLabel="Bodies" translation="Тела" />
+	<label commandName="SimThermalLoadsTipsAndTricksTitle" devLabel="Thermal Loads Information" translation="Информация о тепловых нагрузках" />
+	<label commandName="SimThermalTimeDependentGraphDialogueIndependentConvection" devLabel="Time" translation="Время" />
+	<label commandName="SimThermalTimeDependentGraphDialogueIndependentEmissivity" devLabel="Time" translation="Время" />
+	<label commandName="SimThermalTimeDependentGraphDialogueIndependentInternalHeat" devLabel="Time" translation="Время" />
+	<label commandName="SimThermalTimeDependentGraphDialogueIndependentSurfaceHeat" devLabel="Time" translation="Время" />
+	<label commandName="SimTimeDependentAmbientTemperatureGraph" devLabel="Temperature Value" translation="Значение температуры" />
+	<label commandName="SimTimeDependentAmbientTemperatureValue" devLabel="Temperature Curve" translation="Температурная кривая" />
+	<label commandName="SimTransientThermalLoadsCmd" devLabel="Transient Thermal Loads" translation="Переходные тепловые нагрузки" />
+	<label commandName="SimTransientThermalLoadsEditCmd" devLabel="Edit Transient Thermal Loads" translation="Редактирование переходных тепловых нагрузок" />
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Процент" />
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Штуки" />
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Ускорение" />
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Угол" />
+	<label commandName="SimUnitsConvectionSwitcher" devLabel="Change Units" translation="Изменить единицы" />
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Ток" />
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Электрическое сопротивление" />
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Энергия" />
+	<label commandName="SimUnitsForce" devLabel="Force" translation="Сила" />
+	<label commandName="SimUnitsHeatSwitcher" devLabel="Change Units" translation="Изменить единицы" />
+	<label commandName="SimUnitsLength" devLabel="Length" translation="Длина" />
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="Масса" />
+	<label commandName="SimUnitsPower" devLabel="Power" translation="Мощность" />
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Давление" />
+	<label commandName="SimUnitsSwitcher" devLabel="Change Units" translation="Изменить единицы" />
+	<label commandName="SimUnitsSwitcherTemperature" devLabel="Change Temperature Units" translation="Изменить единицы измерения температуры" />
+	<label commandName="SimUnitsTemperatureSwitcher" devLabel="Change Units" translation="Изменить единицы" />
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Температура" />
+	<label commandName="SimUnitsTime" devLabel="Time" translation="Время" />
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Скорость" />
+	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Вязкость" />
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Напряжение" />
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Расход" />
+	<label commandName="SiminfoInternalHeatLoadInputType" devLabel="Input Type" translation="Тип ввода" />
+	<label commandName="SiminfoThermalLoadTypeGroup" devLabel="Load" translation="Загрузить" />
+	<label commandName="infoBodyType" devLabel="Bodies" translation="Тела" />
+	<label commandName="infoFaceType" devLabel="Faces" translation="Поверхности" />
+	<label commandName="infoInternalHeatLoadTimeDependentInternalHeateGraph" devLabel="Internal Heat Value" translation="Внутренняя теплотворная способность" />
+	<label commandName="infoObjectType" devLabel="Object Type" translation="Тип объекта" />
+	<label commandName="simInfoAppliedTemperatureLoadTimeDependentInputType" devLabel="Input Type" translation="Тип ввода" />
+	<label commandName="simSelectedEntities" devLabel="Selections" translation="Выбор" />
+</Resource>

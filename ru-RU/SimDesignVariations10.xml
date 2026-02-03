@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="DeleteSMRequestFailed" devLabel="Delete Simulation Model request failed" translation="Запрос на удаление имитационной модели не выполнен." />
+	<label commandName="SimCaseCopyFailed" devLabel="An error occurred during Simulation Study copy operation." translation="Произошла ошибка во время операции копирования Simulation Study." />
+	<label commandName="SimCaseCopyNoConfig" devLabel="An error occurred, the source Model is not associated with a configuration." translation="Произошла ошибка. Исходная модель не связана с конфигурацией." />
+	<label commandName="SimCaseCopySameConfig" devLabel="Warning, the same configuration was specified." translation="Внимание, была указана та же конфигурация." />
+	<label commandName="SimCaseCopyToExistingWMFailed" devLabel="Failed to copy study to existing Working Model." translation="Не удалось скопировать исследование в существующую рабочую модель." />
+	<label commandName="SimStudies" devLabel="Simulations" translation="Симуляторы" />
+	<label commandName="XRefOutOfDateParentIconMessage" devLabel="The component is out of date. Update to the latest version using Get Latest in the Design workspace." translation="Компонент устарел. Обновитесь до последней версии с помощью функции &#171;Получить последние&#187; в рабочей области &#171;Дизайн&#187;." />
+	<label commandName="XRefOutOfDateParentIconMessage_ccy" devLabel="The component is out of date. Update to the latest change using Get Latest in the Design workspace." translation="Компонент устарел. Обновите последние изменения с помощью функции &#171;Получить последние&#187; в рабочей области &#171;Дизайн&#187;." />
+</Resource>

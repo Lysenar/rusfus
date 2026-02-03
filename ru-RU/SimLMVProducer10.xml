@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="ReactionForceTotal" devLabel="Reaction Force Total" translation="Сила реакции, общая" />
+	<label commandName="ReactionForceX" devLabel="Reaction Force X" translation="Сила реакции X" />
+	<label commandName="ReactionForceY" devLabel="Reaction Force Y" translation="Сила реакции Y" />
+	<label commandName="ReactionForceZ" devLabel="Reaction Force Z" translation="Сила реакции Z" />
+	<label commandName="ReactionMomentTotal" devLabel="Reaction Moment Total" translation="Суммарный момент реакции" />
+	<label commandName="ReactionMomentX" devLabel="Reaction Moment X" translation="Момент реакции X" />
+	<label commandName="ReactionMomentY" devLabel="Reaction Moment Y" translation="Момент реакции Y" />
+	<label commandName="ReactionMomentZ" devLabel="Reaction Moment Z" translation="Момент реакции Z" />
+	<label commandName="SimAttributeStatus" devLabel="Status" translation="Статус" />
+	<label commandName="SimAttributeType" devLabel="Type" translation="Тип" />
+	<label commandName="SimAttributes" devLabel="Attributes" translation="Атрибуты" />
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Переопределить систему единиц" />
+	<label commandName="SimFeatureEdgesPlotLabel" devLabel="Feature edges" translation="Ребра элемента" />
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="Американская система (дюймы)" />
+	<label commandName="SimLoadMagnitude" devLabel="Magnitude" translation="Величина" />
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Пользовательский" />
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Метрическая система (СИ)" />
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Процент" />
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Штуки" />
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Ускорение" />
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Угол" />
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Ток" />
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Электрическое сопротивление" />
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Энергия" />
+	<label commandName="SimUnitsForce" devLabel="Force" translation="Сила" />
+	<label commandName="SimUnitsLength" devLabel="Length" translation="Длина" />
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="Масса" />
+	<label commandName="SimUnitsPower" devLabel="Power" translation="Мощность" />
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Давление" />
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Температура" />
+	<label commandName="SimUnitsTime" devLabel="Time" translation="Время" />
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Скорость" />
+	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Вязкость" />
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Напряжение" />
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Расход" />
+</Resource>

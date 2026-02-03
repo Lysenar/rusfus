@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="AMM_ERROR_DISCONNECTED_MESH" devLabel="The target mesh needs to be a connected mesh." translation="Целевая сетка должна быть связной сеткой." />
+	<label commandName="AMM_ERROR_EMPTY_SELECTION" devLabel="Failure due to empty selection." translation="Ошибка из-за пустого выбора." />
+	<label commandName="AMM_ERROR_FAILED_TO_CREATE_MESH" devLabel="Failed to generate the mesh. Try different parameter settings if possible." translation="Не удалось создать сетку. Если возможно, попробуйте другие настройки параметров." />
+	<label commandName="AMM_ERROR_FAILED_TO_OPEN_FILE" devLabel="Failed to open mesh file." translation="Не удалось открыть файл сетки." />
+	<label commandName="AMM_ERROR_FAILED_TO_SAVE_FILE" devLabel="Failed to save mesh file." translation="Не удалось сохранить файл сетки." />
+	<label commandName="AMM_ERROR_FAILED_TO_SLICE_MESH" devLabel="Failed to slice the mesh with the specified plane." translation="Не удалось разрезать сетку по указанной плоскости." />
+	<label commandName="AMM_ERROR_NO_OVERHANGS_FOR_SUPPORT" devLabel="No supports are required because there are no overhangs in the mesh." translation="Никакие опоры не требуются, поскольку в сетке нет выступов." />
+	<label commandName="AMM_ERROR_REPAIR_FAILED" devLabel="The repair tool failed to reduce the number of defects." translation="Инструмент для ремонта не смог уменьшить количество дефектов." />
+	<label commandName="AMM_ERROR_SELECTION_ALREADY_DRAWING" devLabel="Error during paint selection." translation="Ошибка при выборе краски." />
+	<label commandName="AMM_ERROR_SELECTION_FAILED" devLabel="Error creating selection." translation="Ошибка создания выделения." />
+	<label commandName="AMM_ERROR_TOO_SMALL_FOR_SUPPORT" devLabel="Mesh is too small for support generation." translation="Сетка слишком мала для создания поддержки." />
+	<label commandName="AMM_ERROR_UNABLE_TO_EXPORT_MULTIPLE_MESHES" devLabel="Mesh export failed." translation="Экспорт сетки не удался." />
+	<label commandName="AMM_ERROR_UNABLE_TO_FIND_CONSISTENT_NORMAL" devLabel="Unsable to find consistent normals for the mesh. Try repairing any non-manifold regions first." translation="Невозможно найти согласованные нормали для сетки. Попробуйте сначала восстановить любые немногообразные области." />
+	<label commandName="AMM_ERROR_WRONG_BRUSH_STROKE_ORDER" devLabel="Error during paint selection." translation="Ошибка при выборе краски." />
+	<label commandName="AMM_FAILED" devLabel="Mesh operation failed." translation="Операция сетки не удалась." />
+	<label commandName="MMIGenerateMeshFromVoxelSolid" devLabel="Generating mesh from voxelized body..." translation="Генерация сетки из вокселизированного тела..." />
+	<label commandName="MMIGenerateVoxelSolid" devLabel="Generating voxel representation..." translation="Создание воксельного представления..." />
+	<label commandName="MMIProjectResultSolid" devLabel="Projecting result on original mesh..." translation="Проецирование результата на исходную сетку..." />
+	<label commandName="MMIReduceMeshSolid" devLabel="Reducing mesh body..." translation="Уменьшение сетчатого тела..." />
+	<label commandName="MMIRepairMeshSolid" devLabel="Repairing mesh body..." translation="Ремонт сетчатого кузова..." />
+	<label commandName="MMISmoothVoxelSolid" devLabel="Smoothing voxelized body..." translation="Сглаживание вокселизированного тела..." />
+	<label commandName="MMIThickenVoxelSolid" devLabel="Thickening voxelized body..." translation="Утолщение вокселизированного тела..." />
+</Resource>

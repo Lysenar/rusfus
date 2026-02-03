@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="AreaProperty" devLabel="Area" translation="Площадь" />
+	<label commandName="ContextFolderTooltip" devLabel="Cached objects from a dissolved Assembly Context" translation="Кэшированные объекты из解散ленной сборки контекста" />
+	<label commandName="DensityProperty" devLabel="Density" translation="Плотность" />
+	<label commandName="MassProperty" devLabel="Mass" translation="Масса" />
+	<label commandName="VolumeProperty" devLabel="Volume" translation="Объем" />
+	<label commandName="frontNamedView" devLabel="FRONT" translation="ПЕРЕДНИЙ" />
+	<label commandName="homeNamedView" devLabel="HOME" translation="ГЛАВНАЯ ПРОСМОТР" />
+	<label commandName="rightNamedView" devLabel="RIGHT" translation="ПРАВО" />
+	<label commandName="topNamedView" devLabel="TOP" translation="ВЕРХ" />
+</Resource>

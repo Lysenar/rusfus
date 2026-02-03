@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="BrowserAmbientTemperatureLabel" devLabel="Ambient Temperature" translation="Температура окружающей среды" />
+	<label commandName="BrowserComponentIdealizationsLabel" devLabel="Component Idealizations" translation="Идеализации компонентов" />
+	<label commandName="BrowserCriticalTempsLabel" devLabel="Temperature Thresholds" translation="Температурные пороги" />
+	<label commandName="BrowserEnvironmentLabel" devLabel="Environment" translation="Среда" />
+	<label commandName="SimAmbientTemperatureBrowserEntry1BodyTooltip" devLabel="1 body" translation="1" />
+	<label commandName="SimAmbientTemperatureBrowserEntry1SickBodyTooltip" devLabel="1 body is missing" translation="1" />
+	<label commandName="SimAmbientTemperatureBrowserEntryNBodyTooltip" devLabel="%1% bodies" translation="%1% bodies" />
+	<label commandName="SimAmbientTemperatureBrowserEntryNSickBodyTooltip" devLabel="%1% bodies are missing" translation="%1% bodies are missing" />
+	<label commandName="SimAmbientTemperatureHigherThanCritical" devLabel="Warning: The ambient temperature is higher than the temperature threshold." translation="Предупреждение: температура окружающей среды выше температурного порога." />
+	<label commandName="SimAmbientTemperatureName" devLabel="Ambient Temperature" translation="Температура окружающей среды" />
+	<label commandName="SimAmbientTemperatureValue" devLabel="Value" translation="Значение" />
+	<label commandName="SimCallAmbientTemperaturesAttribute" devLabel="Click here to select Ambient Temperature." translation="Нажмите здесь, чтобы выбрать температуру окружающей среды." />
+	<label commandName="SimCallCriticalTemperaturesAttribute" devLabel="Click here to set Temperature thresholds." translation="Нажмите здесь, чтобы установить пороговые значения температуры." />
+	<label commandName="SimCallFDInternalHeatAttribute" devLabel="Click here to select 'Thermal Load'." translation="Нажмите здесь, чтобы выбрать &#171;Тепловая нагрузка&#187;." />
+	<label commandName="SimCallFanAttribute" devLabel="Click here to select 'Fan'." translation="Нажмите здесь, чтобы выбрать &#171;Вентилятор&#187;." />
+	<label commandName="SimCallShowAttributesDlg" devLabel="Click here to inspect all loads in this case." translation="Нажмите здесь, чтобы проверить все нагрузки в этом случае." />
+	<label commandName="SimCaseIsMissing" devLabel="Simulation Study is missing" translation="Исследование моделирования отсутствует" />
+	<label commandName="SimCaseNameFluidDynamics" devLabel="Study %1% - Electronics Cooling" translation="Study %1% - Electronics Cooling" />
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Переопределить систему единиц" />
+	<label commandName="SimCriticalTemperatureBrowserEntry1Body" devLabel="1 body" translation="1" />
+	<label commandName="SimCriticalTemperatureBrowserEntry1BodyTooltip" devLabel="1 body" translation="1" />
+	<label commandName="SimCriticalTemperatureBrowserEntry1LostBody" devLabel="1 missing" translation="1" />
+	<label commandName="SimCriticalTemperatureBrowserEntry1SickBody" devLabel="1 sick" translation="1" />
+	<label commandName="SimCriticalTemperatureBrowserEntry1SickBodyTooltip" devLabel="1 body is missing" translation="1" />
+	<label commandName="SimCriticalTemperatureBrowserEntryNBody" devLabel="%1% bodies" translation="%1% bodies" />
+	<label commandName="SimCriticalTemperatureBrowserEntryNBodyTooltip" devLabel="%1% bodies" translation="%1% bodies" />
+	<label commandName="SimCriticalTemperatureBrowserEntryNLostBody" devLabel="%1% missing" translation="%1% missing" />
+	<label commandName="SimCriticalTemperatureBrowserEntryNSickBody" devLabel="%1% sick" translation="%1% sick" />
+	<label commandName="SimCriticalTemperatureBrowserEntryNSickBodyTooltip" devLabel="%1% bodies are missing" translation="%1% bodies are missing" />
+	<label commandName="SimCriticalTemperatureInitialTemperatureValue" devLabel="InitialTemperatureValue" translation="Начальное значение температуры" />
+	<label commandName="SimCriticalTemperatureName" devLabel="Thresholds" translation="Пороги" />
+	<label commandName="SimCriticalTemperatureValue" devLabel="Value" translation="Значение" />
+	<label commandName="SimFDHeatAndFanAssignedToSamePart" devLabel="Cannot solve: A heat load has been assigned to the fan bodies %1%%2%." translation="Cannot solve: A heat load has been assigned to the fan bodies %1%%2%." />
+	<label commandName="SimFDHeatAndHeatSinkAssignedToSamePart" devLabel="Cannot solve: A heat load has been assigned to the heat sink bodies %1%%2%." translation="Cannot solve: A heat load has been assigned to the heat sink bodies %1%%2%." />
+	<label commandName="SimFDHeatSinkAndFanAssignedToSamePart" devLabel="Cannot solve: A fan has been assigned to the heat sink bodies %1%%2%." translation="Cannot solve: A fan has been assigned to the heat sink bodies %1%%2%." />
+	<label commandName="SimFDMultipleFansAssignedToSamePart" devLabel="Cannot solve: Multiple fans had been assigned to %1%%2%." translation="Cannot solve: Multiple fans had been assigned to %1%%2%." />
+	<label commandName="SimFDMultipleHeatSinksAssignedToSamePart" devLabel="Cannot solve: Multiple heat sinks had been assigned to %1%%2%." translation="Cannot solve: Multiple heat sinks had been assigned to %1%%2%." />
+	<label commandName="SimFailedToCreaterCriticalTemperature" devLabel="Failed to create the temperature threshold" translation="Не удалось создать температурный порог." />
+	<label commandName="SimFanAttributeName" devLabel="Fan" translation="Вентилятор" />
+	<label commandName="SimFluidDynamics" devLabel="Electronics Cooling" translation="Охлаждение электроники" />
+	<label commandName="SimFluidDynamicsGeneralSettingsAnalysisType" devLabel="Analysis Type" translation="Тип анализа" />
+	<label commandName="SimFluidDynamicsGeneralSettingsBoundingBoxMin" devLabel="Bounding Box Extension Minimal Voxel Count" translation="Расширение ограничивающей рамки Минимальное количество вокселей" />
+	<label commandName="SimFluidDynamicsGeneralSettingsBoundingBoxPercent" devLabel="Bounding Box Extension Percentage" translation="Процент расширения ограничивающей рамки" />
+	<label commandName="SimFluidDynamicsGeneralSettingsBoundingBoxType" devLabel="Bounding Box Extension Type" translation="Тип расширения ограничивающей рамки" />
+	<label commandName="SimFluidDynamicsGeneralSettingsNumberOfIterations" devLabel="Number of Iterations" translation="Количество итераций" />
+	<label commandName="SimFluidDynamicsGeneralSettingsResolution" devLabel="Resolution" translation="Разрешение" />
+	<label commandName="SimFluidDynamicsGeneralSettingsResolutionType" devLabel="Resolution Type" translation="Тип разрешения" />
+	<label commandName="SimFluidDynamicsGeneralSettingsUseGPU" devLabel="Use GPU" translation="Использовать графический процессор" />
+	<label commandName="SimGenerativeAdditiveMethodGroup" devLabel="Additive" translation="Аддитивное производство" />
+	<label commandName="SimGenerativeAllMethodssGroup" devLabel="All methods" translation="Все методы" />
+	<label commandName="SimGenerativeCuttingMethodGroup" devLabel="2-axis Cutting" translation="2" />
+	<label commandName="SimGenerativeDieCastingMethodGroup" devLabel="Casting" translation="Кастинг" />
+	<label commandName="SimGenerativeMillingMethodGroup" devLabel="Milling" translation="Фрезерование" />
+	<label commandName="SimGenerativeUnrestrictedMethodGroup" devLabel="Unrestricted" translation="Неограниченный" />
+	<label commandName="SimGeometrySimplifierFlag" devLabel="Value" translation="Значение" />
+	<label commandName="SimHeatSinkAttributeName" devLabel="Heat Sink" translation="Радиатор" />
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="Американская система (дюймы)" />
+	<label commandName="SimInternalHeatAttributeNegative" devLabel="Cannot solve: Heat loads must be positive%1%." translation="Cannot solve: Heat loads must be positive%1%." />
+	<label commandName="SimInvalidLoad" devLabel="Warning: Invalid load: %1%%2%." translation="Warning: Invalid load: %1%%2%." />
+	<label commandName="SimLoadCaseString" devLabel=" in &quot;%1%&quot;" translation=" in &quot;%1%&quot;" />
+	<label commandName="SimMissingLoadTarget" devLabel="Warning: Load with lost target(s): %1%%2%." translation="Warning: Load with lost target(s): %1%%2%." />
+	<label commandName="SimNoCriticalTemperaturesDefined" devLabel="Warning: No Temperature thresholds are listed. The Threshold result cannot be calculated without Temperature threshold values." translation="Предупреждение: пороговые значения температуры не указаны. Результат &#171;Порог&#187; не может быть рассчитан без пороговых значений температуры." />
+	<label commandName="SimNoFDInternalHeatAttribute" devLabel="Cannot solve: There has to be a Heat load assigned %1%." translation="Cannot solve: There has to be a Heat load assigned %1%." />
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Пользовательский" />
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Метрическая система (СИ)" />
+	<label commandName="SimSelectionIsMissing" devLabel="Missing selection" translation="Отсутствует выбор" />
+	<label commandName="SimSelectionReference" devLabel="Selection Reference" translation="Справочник по выбору" />
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Процент" />
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Штуки" />
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Ускорение" />
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Угол" />
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Ток" />
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Электрическое сопротивление" />
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Энергия" />
+	<label commandName="SimUnitsForce" devLabel="Force" translation="Сила" />
+	<label commandName="SimUnitsLength" devLabel="Length" translation="Длина" />
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="Масса" />
+	<label commandName="SimUnitsPower" devLabel="Power" translation="Мощность" />
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Давление" />
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Температура" />
+	<label commandName="SimUnitsTime" devLabel="Time" translation="Время" />
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Скорость" />
+	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Вязкость" />
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Напряжение" />
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Расход" />
+</Resource>

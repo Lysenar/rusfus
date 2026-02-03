@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<label commandName="SimGenerativeAdditiveMethodGroup" devLabel="Additive" translation="Additiv"/>
+	<label commandName="SimGenerativeAllMethodssGroup" devLabel="All methods" translation="Alle Methoden"/>
+	<label commandName="SimGenerativeCuttingMethodGroup" devLabel="2-axis Cutting" translation="2-Achsen-Schneiden"/>
+	<label commandName="SimGenerativeDieCastingMethodGroup" devLabel="Die Casting" translation="Druckgießen"/>
+	<label commandName="SimGenerativeFrameMethodGroup" devLabel="Frame" translation="Rahmen"/>
+	<label commandName="SimGenerativeMillingMethodGroup" devLabel="Milling" translation="Fräsen"/>
+	<label commandName="SimGenerativeUnrestrictedMethodGroup" devLabel="Unrestricted" translation="Unbegrenzt"/>
+	<label commandName="SimJobLimitElementCountMeshSizeExceeded" devLabel="The current maximum mesh size of %1% elements has been exceeded." translation="Die aktuelle maximale Netzgröße von %1% Elementen wurde überschritten."/>
+	<label commandName="SimJobLimitGenericMeshSizeExceeded" devLabel="The current maximum mesh size has been exceeded." translation="Die aktuelle maximale Netzgröße wurde überschritten."/>
+	<label commandName="SimJobLimitGenericMeshSizeExceededRectification" devLabel="Please increase the average element size and/or simplify the model and try solving again." translation="Erhöhen Sie die durchschnittliche Elementgröße und/oder vereinfachen Sie das Modell, führen Sie die Lösung erneut durch."/>
+	<label commandName="SimJobLimitModalMeshSizeExceededRectification" devLabel="Please increase the average element size, decrease the number of modes and/or simplify the model and try solving again." translation="Erhöhen Sie die durchschnittliche Elementgröße, verringern Sie die Anzahl der Modi und/oder vereinfachen Sie das Modell, und führen Sie die Lösung erneut durch."/>
+	<label commandName="Sim_IDS_DIFFERENT_BODY_COUNT" devLabel="One or more configurations result in a different number of bodies than the base configuration.&#xA;These configurations will not be solved." translation="Eine oder mehrere Konfigurationen führen zu einer anderen Anzahl an Körpern als in der Basiskonfiguration.&#xA;Diese Konfigurationen werden nicht aufgelöst."/>
+	<label commandName="Sim_IDS_ERR_FAILED_GEN_CONFIG" devLabel="Failed to generate configuration" translation="Die Konfiguration konnte nicht generiert werden."/>
+	<label commandName="Sim_IDS_MESH_WARN_BODY_TOO_THIN" devLabel="Certain parts of the model are extremely thin, which can lead to long meshing/solution times and numerical instabilities in the results. Please use careful judgment when interpreting the results." translation="Bestimmte Teile des Modells sind sehr dünn, was zu langen Netzerstellungs-/Berechnungszeiten und numerischen Instabilitäten bei den Ergebnissen führen kann. Gehen Sie bei der Beurteilung der Ergebnisse mit Bedacht vor."/>
+	<label commandName="Sim_IDS_MESH_WARN_LOCAL_SIZE_VERY_SMALL" devLabel="Warning: Local mesh control '%s' specifies a very small element size." translation="Warnung: Über die lokale Netzsteuerung '%s' ist eine sehr kleine Elementgröße festgelegt."/>
+	<label commandName="Sim_IDS_MESH_WARN_THIN_BODY" devLabel="Body '%s' is thin." translation="Körper '%s' ist sehr dünn."/>
+	<label commandName="Sim_IDS_NO_CONTACT_BODY" devLabel="Warning: There are no contacts attached to body(s): %s" translation="Warnung: Es sind keine Kontakte mit Körper(n) verknüpft: %s"/>
+	<label commandName="Sim_IDS_NO_SOLID_BODY" devLabel="Error processing the geometry. The model contains no solid body." translation="Fehler beim Verarbeiten der Geometrie. Das Modell enthält keinen Volumenkörper."/>
+	<label commandName="Sim_IDS_PROGRESS_BAR_TEXTTOP_BREP_COMPUTE" devLabel="Computing geometry..." translation="Geometrieberechnung läuft..."/>
+	<label commandName="Sim_IDS_PROGRESS_BAR_TEXTTOP_CONTACT_COMPUTE" devLabel="Computing contacts..." translation="Kontaktberechnung läuft..."/>
+	<label commandName="Sim_IDS_PROGRESS_BAR_TEXTTOP_MESH_COMPUTE" devLabel="Computing mesh..." translation="Netzberechnung läuft..."/>
+	<label commandName="Sim_IDS_PROGRESS_BAR_TEXTTOP_MESH_REFINE1" devLabel="Adaptive Refinement Setup..." translation="Einrichtung für adaptive Verfeinerung..."/>
+	<label commandName="Sim_IDS_PROGRESS_BAR_TEXTTOP_MESH_REFINE2" devLabel="Adaptive Refinement..." translation="Adaptive Verfeinerung..."/>
+	<label commandName="Sim_IDS_PROGRESS_BAR_TEXTTOP_RESULT_COMPUTE" devLabel="Computing results..." translation="Ergebnisberechnung läuft..."/>
+	<label commandName="Sim_IDS_SERVER_ERR0" devLabel="" translation=""/>
+	<label commandName="Sim_IDS_SERVER_ERR1" devLabel="Internal solver error" translation="Interner Berechnungsfehler"/>
+	<label commandName="Sim_IDS_SERVER_ERR10" devLabel="Not enough constraints and not balanced load" translation="Nicht genügend Abhängigkeiten sowie keine ausgeglichene Last"/>
+	<label commandName="Sim_IDS_SERVER_ERR100" devLabel="Internal Error # 100" translation="Interner Fehler # 100"/>
+	<label commandName="Sim_IDS_SERVER_ERR101" devLabel="Internal Error # 101" translation="Interner Fehler # 101"/>
+	<label commandName="Sim_IDS_SERVER_ERR11" devLabel="Error opening the mesh file" translation="Fehler beim Öffnen der Netzdatei"/>
+	<label commandName="Sim_IDS_SERVER_ERR12" devLabel="Error opening the debug output file" translation="Fehler beim Öffnen der Debug-Ausgabedatei"/>
+	<label commandName="Sim_IDS_SERVER_ERR13" devLabel="Error processing the mesh" translation="Fehler bei Netzverarbeitung"/>
+	<label commandName="Sim_IDS_SERVER_ERR14" devLabel="There are no new DOFs for the current p-cycle" translation="Es sind keine neuen Freiheitsgrade für den aktuellen p-Zyklus vorhanden"/>
+	<label commandName="Sim_IDS_SERVER_ERR15" devLabel="Not enough memory to continue operation" translation="Nicht genügend Speicher zum Fortsetzen des Vorgangs"/>
+	<label commandName="Sim_IDS_SERVER_ERR16" devLabel="Improper constraints, material or mesh" translation="Falsche Abhängigkeiten, falsches Material oder falsches Netz"/>
+	<label commandName="Sim_IDS_SERVER_ERR17" devLabel="Not enough constraints" translation="Nicht genügend Abhängigkeiten"/>
+	<label commandName="Sim_IDS_SERVER_ERR18" devLabel="Internal Error # ps_1" translation="Interner Fehler # ps_1"/>
+	<label commandName="Sim_IDS_SERVER_ERR19" devLabel="Internal Error # ps_2" translation="Interner Fehler # ps_2"/>
+	<label commandName="Sim_IDS_SERVER_ERR2" devLabel="Load not defined" translation="Last nicht definiert"/>
+	<label commandName="Sim_IDS_SERVER_ERR20" devLabel="Internal Error # ps_3" translation="Interner Fehler # ps_3"/>
+	<label commandName="Sim_IDS_SERVER_ERR201" devLabel="Internal Error # 201" translation="Interner Fehler # 201"/>
+	<label commandName="Sim_IDS_SERVER_ERR202" devLabel="Internal Error # 202" translation="Interner Fehler # 202"/>
+	<label commandName="Sim_IDS_SERVER_ERR204" devLabel="Internal Error # 204" translation="Interner Fehler # 204"/>
+	<label commandName="Sim_IDS_SERVER_ERR206" devLabel="Internal Error # 206" translation="Interner Fehler # 206"/>
+	<label commandName="Sim_IDS_SERVER_ERR208" devLabel="Internal Error # 208" translation="Interner Fehler # 208"/>
+	<label commandName="Sim_IDS_SERVER_ERR21" devLabel="Error opening the tetrahedra data file" translation="Fehler beim Öffnen der Tetraeder-Datendatei"/>
+	<label commandName="Sim_IDS_SERVER_ERR210" devLabel="Internal Error # 210" translation="Interner Fehler # 210"/>
+	<label commandName="Sim_IDS_SERVER_ERR212" devLabel="Internal Error # 212" translation="Interner Fehler # 212"/>
+	<label commandName="Sim_IDS_SERVER_ERR216" devLabel="Internal Error # 216" translation="Interner Fehler # 216"/>
+	<label commandName="Sim_IDS_SERVER_ERR22" devLabel="Error opening the result file" translation="Fehler beim Öffnen der Ergebnisdatei"/>
+	<label commandName="Sim_IDS_SERVER_ERR23" devLabel="Unable to create a temporary file" translation="Eine temporäre Datei konnte nicht erstellt werden"/>
+	<label commandName="Sim_IDS_SERVER_ERR24" devLabel="Error while closing a temporary file" translation="Fehler beim Schließen einer temporären Datei"/>
+	<label commandName="Sim_IDS_SERVER_ERR25" devLabel="Error while reading from a temporary file" translation="Fehler beim Lesen von einer temporären Datei"/>
+	<label commandName="Sim_IDS_SERVER_ERR26" devLabel="Error while writing to a temporary file" translation="Fehler beim Schreiben in eine temporäre Datei"/>
+	<label commandName="Sim_IDS_SERVER_ERR27" devLabel="Simulation canceled" translation="Simulation abgebrochen"/>
+	<label commandName="Sim_IDS_SERVER_ERR28" devLabel="Bad modeling parameter - some faces have disappeared!" translation="Unzulässiger Modellparameter: Einige Flächen sind nicht mehr vorhanden."/>
+	<label commandName="Sim_IDS_SERVER_ERR29" devLabel="Error executing the solver." translation="Fehler beim Ausführen der Berechnung."/>
+	<label commandName="Sim_IDS_SERVER_ERR3" devLabel="Unacceptable combination of boundary condition and element type" translation="Nicht akzeptable Kombination von Begrenzungsbedingung und Elementtyp"/>
+	<label commandName="Sim_IDS_SERVER_ERR30" devLabel="Internal Error # 30" translation="Interner Fehler # 30"/>
+	<label commandName="Sim_IDS_SERVER_ERR301" devLabel="Internal Error # 301" translation="Interner Fehler # 301"/>
+	<label commandName="Sim_IDS_SERVER_ERR31" devLabel="Internal Error: Can not use the same file for the input and the output" translation="Interner Fehler: Dieselbe Datei kann nicht für die Ein- und Ausgabe verwendet werden."/>
+	<label commandName="Sim_IDS_SERVER_ERR32" devLabel="Internal Error: Can not open the thermal load file." translation="Interner Fehler: Thermolast-Datei kann nicht geöffnet werden."/>
+	<label commandName="Sim_IDS_SERVER_ERR33" devLabel="Error reading the thermal load file." translation="Fehler beim Lesen der Thermolast-Datei."/>
+	<label commandName="Sim_IDS_SERVER_ERR34" devLabel="Add-in format is not supported." translation="Add-in-Format wird nicht unterstützt."/>
+	<label commandName="Sim_IDS_SERVER_ERR35" devLabel="Internal solver error. Can not process the contacts." translation="Interner Berechnungsfehler. Kontakte können nicht verarbeitet werden."/>
+	<label commandName="Sim_IDS_SERVER_ERR36" devLabel="Some rigid body modes remain after application of constraints" translation="Einige Modi für starre Bauteile verbleiben nach der Anwendung von Abhängigkeiten"/>
+	<label commandName="Sim_IDS_SERVER_ERR37" devLabel="Load is directed along a rigid body mode" translation="Lastrichtung entlang des Modus für starres Bauteil"/>
+	<label commandName="Sim_IDS_SERVER_ERR38" devLabel="Can not open the pre-stress file" translation="Fehler beim Öffnen der Vorspannungsdatei"/>
+	<label commandName="Sim_IDS_SERVER_ERR39" devLabel="Error reading the pre-stress file" translation="Fehler beim Lesen der Vorspannungsdatei"/>
+	<label commandName="Sim_IDS_SERVER_ERR4" devLabel="Degenerate element" translation="Beschädigtes Element"/>
+	<label commandName="Sim_IDS_SERVER_ERR40" devLabel="Improper preloading" translation="Unzulässige Vorlast"/>
+	<label commandName="Sim_IDS_SERVER_ERR41" devLabel="Mesh at the contacts is too coarse. It is recommended to use local mesh control in the areas of high stress concentration." translation="Netz an den Kontakten ist zu grob. Es wird empfohlen, die lokale Netzsteuerung für die Bereiche mit hoher Spannungskonzentration zu verwenden."/>
+	<label commandName="Sim_IDS_SERVER_ERR42" devLabel="The assembly breaks up into disjointed pieces" translation="Die Baugruppe wird in unverbundene Teile zerlegt."/>
+	<label commandName="Sim_IDS_SERVER_ERR43" devLabel="Nonlinear iterations diverge" translation="Nicht lineare Iterationen weichen ab"/>
+	<label commandName="Sim_IDS_SERVER_ERR44" devLabel="Internal Error: Data import failed" translation="Interner Fehler: Datenimport fehlgeschlagen"/>
+	<label commandName="Sim_IDS_SERVER_ERR45" devLabel="Error processing the contacts" translation="Fehler beim Verarbeiten der Kontakte"/>
+	<label commandName="Sim_IDS_SERVER_ERR5" devLabel="Internal Error # 5" translation="Interner Fehler # 5"/>
+	<label commandName="Sim_IDS_SERVER_ERR555" devLabel="Internal Error #555" translation="Interner Fehler # 555"/>
+	<label commandName="Sim_IDS_SERVER_ERR6" devLabel="Element material is not defined" translation="Elementmaterial ist nicht definiert"/>
+	<label commandName="Sim_IDS_SERVER_ERR600" devLabel="Internal Error: SAT translation failed" translation="Interner Fehler: SAT-Translation fehlgeschlagen"/>
+	<label commandName="Sim_IDS_SERVER_ERR601" devLabel="Internal Error: Regularization failed" translation="Interner Fehler: Regelung fehlgeschlagen"/>
+	<label commandName="Sim_IDS_SERVER_ERR602" devLabel="Unknown error in geometry builder" translation="Unbekannter Fehler bei Geometrieerstellung"/>
+	<label commandName="Sim_IDS_SERVER_ERR612" devLabel="Currently import of surface models is not supported" translation="Derzeit keine Unterstützung für den Import von Flächenmodellen"/>
+	<label commandName="Sim_IDS_SERVER_ERR613" devLabel="Geometry translation failed. Solid body breaks into multiple bodies or into disconnected surfaces" translation="Geometrieumwandlung ist fehlgeschlagen. Volumenkörper wird in mehrere Körper oder in getrennte Flächen zerlegt."/>
+	<label commandName="Sim_IDS_SERVER_ERR614" devLabel="Geometry processing failed. Solid body could not be mapped back to any Simulus entity" translation="Geometrieverarbeitung fehlgeschlagen. Volumenkörper konnte nicht wieder einem Simulus-Element zugeordnet werden."/>
+	<label commandName="Sim_IDS_SERVER_ERR615" devLabel="Body '%s' cannot be processed." translation="Körper '%s' kann nicht verarbeitet werden."/>
+	<label commandName="Sim_IDS_SERVER_ERR7" devLabel="Material property set is not defined" translation="Materialeigenschaftssatz nicht definiert"/>
+	<label commandName="Sim_IDS_SERVER_ERR701" devLabel="Simulation canceled" translation="Simulation abgebrochen"/>
+	<label commandName="Sim_IDS_SERVER_ERR702" devLabel="Mesh failed: Unknown error" translation="Fehler bei Netzerstellung: Unbekannter Fehler"/>
+	<label commandName="Sim_IDS_SERVER_ERR703" devLabel="Mesh failed: Very large number of elements generated, mesher cannot proceed further" translation="Fehler bei Netzerstellung: Es wurde eine sehr umfangreiche Anzahl von Elementen erstellt. Netzerstellung kann nicht fortgesetzt werden."/>
+	<label commandName="Sim_IDS_SERVER_ERR704" devLabel="Mesh failed: Vertex failure" translation="Fehler bei Netzerstellung: Scheitelpunktfehler"/>
+	<label commandName="Sim_IDS_SERVER_ERR705" devLabel="Mesh failed: Edge failure" translation="Fehler bei Netzerstellung: Kantenfehler"/>
+	<label commandName="Sim_IDS_SERVER_ERR706" devLabel="Mesh failed: Face failure" translation="Fehler bei Netzerstellung: Flächenfehler"/>
+	<label commandName="Sim_IDS_SERVER_ERR707" devLabel="Mesh failed: Body failure" translation="Fehler bei Netzerstellung: Körperfehler"/>
+	<label commandName="Sim_IDS_SERVER_ERR708" devLabel="Mesh failed: Curvature failure" translation="Fehler bei Netzerstellung: Kurvenfehler"/>
+	<label commandName="Sim_IDS_SERVER_ERR8" devLabel="The load is inconsistent with the boundary conditions" translation="Die Last stimmt nicht mit den Begrenzungsbedingungen überein."/>
+	<label commandName="Sim_IDS_SERVER_ERR9" devLabel="Coordinate system is referenced but not defined" translation="Koordinatensystem ist referenziert, jedoch nicht definiert"/>
+	<label commandName="Sim_IDS_SIMULATION_LOG_SERVER1" devLabel="Solution time: %ss" translation="Lösungszeit: %ss"/>
+	<label commandName="Sim_IDS_SIMULATION_LOG_SERVER2" devLabel="Computed %s frequency modes" translation="%s Frequenzmodi berechnet"/>
+	<label commandName="Sim_IDS_SIMULATION_LOG_SERVER3" devLabel="Soft spring was added" translation="Weiche Feder wurde hinzugefügt"/>
+	<label commandName="Sim_IDS_SIMULATION_LOG_SERVER4" devLabel="Model separates into %s independent groups of bodies" translation="Modell wird in %s unabhängige Gruppen von Körpern unterteilt"/>
+	<label commandName="Sim_IDS_SIMULATION_LOG_SERVER5" devLabel="Mesh at contact %s is too coarse" translation="Netz am Kontakt %s ist zu grob"/>
+	<label commandName="Sim_IDS_SIMULATION_LOG_SERVER6" devLabel="Contact %s: direction of the non-bonded edge-to-edge contact can not be determined" translation="Kontakt %s: Die Richtung des nicht verbundenen Kante-zu-Kante-Kontakts kann nicht ermittelt werden"/>
+	<label commandName="Sim_IDS_SIMULATION_LOG_SERVER7" devLabel="The deformation is large compared to the model size. Please verify that load and constraint settings are appropriately scaled." translation="Die Verformung ist im Vergleich zur Modellgröße groß. Überprüfen Sie, ob Last- und Abhängigkeitseinstellungen korrekt skaliert sind."/>
+	<label commandName="Sim_IDS_SIMULATION_LOG_SERVER8" devLabel="Number of equations solved: %s" translation="Anzahl der gelösten Gleichungen: %s"/>
+	<label commandName="Sim_IDS_SIMULATION_LOG_SERVER9" devLabel="Computed %s buckling modes" translation="%s Knickmodi berechnet"/>
+	<label commandName="Sim_IDS_SIM_ERROR_COMPUTE_MESH" devLabel="Compute mesh before proceeding." translation="Berechnen Sie das Netz, bevor Sie fortfahren."/>
+	<label commandName="Sim_IDS_SIM_ERROR_CONTACTS" devLabel="Compute automatic contacts before proceeding." translation="Berechnen Sie automatische Kontakte, bevor Sie fortfahren."/>
+	<label commandName="Sim_IDS_SIM_ERROR_DESIGN_PARA_HAS_DEPENDENT" devLabel="One or more parameters in the Parametric Table have dependent objects which are not allowed in the Table, and must be removed: %s" translation="Mindestens ein Parameter in der parametrischen Tabelle hat untergeordnete Objekte. Diese sind in der Tabelle nicht zulässig und müssen entfernt werden: %s"/>
+	<label commandName="Sim_IDS_SIM_ERROR_INVALIDCONSTRAINT" devLabel="Invalid constraint: %s" translation="Ungültige Abhängigkeit: %s"/>
+	<label commandName="Sim_IDS_SIM_ERROR_INVALIDLOAD" devLabel="Invalid load: %s" translation="Ungültige Last: %s"/>
+	<label commandName="Sim_IDS_SIM_ERROR_INVALIDSHELL" devLabel="Invalid shell: %s" translation="Ungültige Wandung: %s"/>
+	<label commandName="Sim_IDS_SIM_ERROR_INVALIDSHELLDEFINITION" devLabel="Invalid shell definition (unconnected lumps/gaps): %s" translation="Ungültige Wandungsdefinition (nicht verbundene Stücke/Abstände): %s"/>
+	<label commandName="Sim_IDS_SIM_ERROR_LOADONFIX" devLabel="All loads are acting on entities which have fixed constraints applied on them" translation="Alle Lasten wirken auf Elemente, auf die festgelegte Abhängigkeiten angewendet wurden."/>
+	<label commandName="Sim_IDS_SIM_ERROR_MATERIALS" devLabel="Can not run. Some materials are not defined correctly. Please assign a valid override material in the Assign Materials dialog." translation="Kann nicht ausgeführt werden. Einige Materialien wurden nicht korrekt definiert. Geben Sie ein gültiges Überschreibungsmaterial im Dialogfeld Materialien zuweisen ein."/>
+	<label commandName="Sim_IDS_SIM_ERROR_MESH_FAILURE" devLabel="Repair mesh failures before proceeding." translation="Beheben Sie Netzfehler, bevor Sie fortfahren."/>
+	<label commandName="Sim_IDS_SIM_ERROR_MESH_OUTOFDATE" devLabel="Update mesh before proceeding." translation="Aktualisieren Sie das Netz, bevor Sie fortfahren."/>
+	<label commandName="Sim_IDS_SIM_ERROR_NOCONSTRAINT" devLabel="No constraint defined." translation="Keine Abhängigkeit definiert."/>
+	<label commandName="Sim_IDS_SIM_ERROR_NOLOAD" devLabel="No load defined." translation="Keine Last definiert."/>
+</Resource>

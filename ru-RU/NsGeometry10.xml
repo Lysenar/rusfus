@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="ActiveTangentHandleSelectionId" devLabel="Active Tangent Handle" translation="Активная ручка касательной" />
+	<label commandName="AnnotationSelectionCategory" devLabel="PMI" translation="А" />
+	<label commandName="AnnotationSelectionId" devLabel="PMI" translation="А" />
+	<label commandName="AnnotationsSelectionId" devLabel="PMI" translation="А" />
+	<label commandName="AppearanceCIStr" devLabel="AppearanceCI" translation="Внешний видCI" />
+	<label commandName="AppearanceStr" devLabel="Appearance" translation="Внешний вид" />
+	<label commandName="ContextFolderTooltip" devLabel="Cached objects from a dissolved Assembly Context" translation="Кэшированные объекты из解散ленной сборки контекста" />
+	<label commandName="ErrCurveData" devLabel="Curve" translation="Кривизна" />
+	<label commandName="ErrPointData" devLabel="Point" translation="Точка" />
+	<label commandName="ErrSurfData" devLabel="Surface" translation="Поверхность" />
+	<label commandName="ErrUnknownData" devLabel="Unknow data" translation="Неизвестные данные" />
+	<label commandName="Geometry2DSelectionCategory" devLabel="2D Geometry" translation="2" />
+	<label commandName="OriginWorkGeometriesSelectionId" devLabel="Origin WorkGeometries" translation="Происхождение РаботыГеометрии" />
+	<label commandName="OriginWorkGeometrySelectionCategory" devLabel="Origin Collection" translation="Коллекция происхождения" />
+	<label commandName="OriginWorkGeometrySelectionId" devLabel="Origin WorkGeometry" translation="Происхождение WorkGeometry" />
+	<label commandName="PhysicalMaterialStr" devLabel="Physical Material" translation="Физический материал" />
+	<label commandName="PlasticRuleStr" devLabel="Plastic Rule" translation="Правило для пластика" />
+	<label commandName="PropertiesStr" devLabel="Properties" translation="Свойства" />
+	<label commandName="SelectedConfigurationStr" devLabel="Insert" translation="Вставить" />
+	<label commandName="SheetMetalRuleStr" devLabel="Sheet Metal Rule" translation="Правило листового металла" />
+	<label commandName="SketchArcSelectionId" devLabel="Sketch Arc" translation="Эскиз дуги" />
+	<label commandName="SketchCVSplineSelectionId" devLabel="Control Point Spline (Degree " translation="Сплайн контрольной точки (градусы)" />
+	<label commandName="SketchConeDefaultName" devLabel="Sketch Cone" translation="Эскиз конуса" />
+	<label commandName="SketchCurveSelectionCategory" devLabel="Sketch Curves" translation="Эскиз кривых" />
+	<label commandName="SketchCurveSelectionID" devLabel="Sketch Curve" translation="Эскиз кривой" />
+	<label commandName="SketchCurveSelectionId" devLabel="Sketch Curve" translation="Эскиз кривой" />
+	<label commandName="SketchCurvesSelectionId" devLabel="Sketch Curves" translation="Эскиз кривых" />
+	<label commandName="SketchCustomGroupCategory" devLabel="Sketch Custom Group" translation="Пользовательская группа эскизов" />
+	<label commandName="SketchCustomGroupSelectionId" devLabel="SketchCustomGroup" translation="ЭскизПользовательскийГруппа" />
+	<label commandName="SketchCylinerDefaultName" devLabel="Sketch Cylinder" translation="Эскиз цилиндра" />
+	<label commandName="SketchDefaultName" devLabel="Sketch" translation="Эскиз" />
+	<label commandName="SketchEllipticalCurveSelectionID" devLabel="Sketch Elliptical Curve" translation="Эскиз эллиптической кривой" />
+	<label commandName="SketchFitPointSplineSelectionId" devLabel="Sketch Fit Point Spline" translation="Сплайн с точкой прилегания эскиза" />
+	<label commandName="SketchLineSelectionID" devLabel="Sketch Line" translation="Линия эскиза" />
+	<label commandName="SketchLineSelectionId" devLabel="Sketch Line" translation="Линия эскиза" />
+	<label commandName="SketchPlaneDefaultName" devLabel="Sketch Plane" translation="Плоскость эскиза" />
+	<label commandName="SketchPointSelectionCategory" devLabel="Sketch Points" translation="Точки эскиза" />
+	<label commandName="SketchPointSelectionId" devLabel="Sketch Point" translation="Точка эскиза" />
+	<label commandName="SketchPointsSelectionId" devLabel="Sketch Points" translation="Точки эскиза" />
+	<label commandName="SketchSelectionCategory" devLabel="Sketches" translation="Эскизы" />
+	<label commandName="SketchSelectionId" devLabel="Sketch" translation="Эскиз" />
+	<label commandName="SketchSphereDefaultName" devLabel="Sketch Sphere" translation="Эскиз сферы" />
+	<label commandName="SketchSplineSurfaceDefaultName" devLabel="Sketch Spline Surface" translation="Эскиз сплайновой поверхности" />
+	<label commandName="SketchSurface3DSelectionID" devLabel="Sketch Surface3D" translation="Эскиз поверхности3D" />
+	<label commandName="SketchSurfaceDefaultName" devLabel="Sketch Surface" translation="Поверхность эскиза" />
+	<label commandName="SketchSurfaceSelectionCategory" devLabel="Sketch Surface" translation="Поверхность эскиза" />
+	<label commandName="SketchTextExSelectionID" devLabel="Sketch TextEx" translation="Эскиз TextEx" />
+	<label commandName="SketchTextSelectionID" devLabel="Sketch Text" translation="Текст эскиза" />
+	<label commandName="SketchTextSelectionId" devLabel="Sketch Text" translation="Текст эскиза" />
+	<label commandName="SketchTorusDefaultName" devLabel="Sketch Torus" translation="Эскиз тора" />
+	<label commandName="SketchesGroupBrowserLabel" devLabel="Group" translation="Группа" />
+	<label commandName="SketchesSelectionCategory" devLabel="Sketch Collection" translation="Коллекция эскизов" />
+	<label commandName="SketchesSelectionId" devLabel="Sketches" translation="Эскизы" />
+	<label commandName="Surface3DSelectionId" devLabel="Surface3D" translation="Поверхность3D" />
+	<label commandName="TextSelectionCategory" devLabel="Text Selection" translation="Выбор текста" />
+	<label commandName="TextsSelectionId" devLabel="Text Objects" translation="Текстовые объекты" />
+	<label commandName="VisibilityStr" devLabel="Visibility" translation="Видимость" />
+	<label commandName="WorkAxesSelectionId" devLabel="WorkAxes" translation="Рабочие оси" />
+	<label commandName="WorkAxisDefaultName" devLabel="Axis" translation="Ось" />
+	<label commandName="WorkAxisExtentSelectionId" devLabel="WorkAxis Extent" translation="Экстент рабочей оси" />
+	<label commandName="WorkAxisExtentsSelectionId" devLabel="WorkAxis Extents" translation="Экстенты WorkAxis" />
+	<label commandName="WorkAxisSelectionId" devLabel="WorkAxis" translation="Рабочая ось" />
+	<label commandName="WorkGeometriesSelectionCategory" devLabel="WorkGeometry Collection" translation="Коллекция WorkGeometry" />
+	<label commandName="WorkGeometriesSelectionId" devLabel="Construction Geometry" translation="Вспомогательная геометрия" />
+	<label commandName="WorkGeometryCustomGroupCategory" devLabel="WorkGeometry Custom Group" translation="Пользовательская группа WorkGeometry" />
+	<label commandName="WorkGeometryCustomGroupSelectionId" devLabel="WorkGeometryCustomGroup" translation="РаботаГеометрияПользовательскийГруппа" />
+	<label commandName="WorkGeometryGroupDefaultName" devLabel="Group" translation="Группа" />
+	<label commandName="WorkPlaneDefaultName" devLabel="Plane" translation="Плоскость" />
+	<label commandName="WorkPlaneExtentLineSelectionId" devLabel="WorkPlane Extent Line" translation="Линия расширения рабочей плоскости" />
+	<label commandName="WorkPlaneExtentLinesSelectionId" devLabel="WorkPlane Extent Lines" translation="Линии расширения рабочей плоскости" />
+	<label commandName="WorkPlaneExtentPointSelection" devLabel="WorkPlane Extent Point" translation="Точка расширения рабочей плоскости" />
+	<label commandName="WorkPlaneExtentPointsSelection" devLabel="WorkPlane Extent Points" translation="Точки экстента рабочей плоскости" />
+	<label commandName="WorkPlaneSelectionId" devLabel="WorkPlane" translation="Рабочая плоскость" />
+	<label commandName="WorkPlanesSelectionId" devLabel="WorkPlanes" translation="Рабочие плоскости" />
+	<label commandName="WorkPointDefaultName" devLabel="Point" translation="Точка" />
+	<label commandName="WorkPointSelectionId" devLabel="WorkPoint" translation="Рабочая точка" />
+	<label commandName="WorkPointsSelectionId" devLabel="WorkPoints" translation="Рабочие точки" />
+</Resource>

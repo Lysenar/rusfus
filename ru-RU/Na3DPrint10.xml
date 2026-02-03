@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="CmMKSUnitSystemName" devLabel="cm modeling length with MKS (m, kg, second, Celsius) units" translation="Modellierlänge in cm mit MKS-Einheiten (m, kg, Sekunde, Celsius)"/>
+	<label commandName="GenerateSupportsGenericError" devLabel="Supports generation failed due to invalid input" translation="Auflagererstellung aufgrund einer ungültigen Eingabe fehlgeschlagen"/>
+	<label commandName="ImperialUnitSystemName" devLabel="Imperial (foot, lbmass, second, Fahrenheit) units" translation="Britische Einheiten (Fuß, lbmass, Sekunde, Fahrenheit)"/>
+	<label commandName="InchImperialUnitSystemName" devLabel="inch modeling length with imperial (foot, lbmass, second, Fahrenheit) units" translation="Zoll-Modellierlänge mit britischen Einheiten (Fuß, lbmass, Sekunde, Fahrenheit)"/>
+	<label commandName="MmMKSUnitSystemName" devLabel="mm modeling length with MKS (m, kg, second, Celsius) units" translation="Modellierlänge in mm mit MKS-Einheiten (m, kg, Sekunde, Celsius)"/>
+	<label commandName="NextValidChildPrintConfigurationName" devLabel="Print Setup" translation="Druckereinrichtung"/>
+	<label commandName="PrintConfigurationSelectionId" devLabel="PrintConfiguration" translation="Druckkonfiguration"/>
+	<label commandName="PrintConfigurationsSelectionCategory" devLabel="Configuration Collection" translation="Konfigurationssammlung"/>
+</Resource>

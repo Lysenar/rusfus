@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="CollectComponentsForExportStlError" devLabel="Autodesk Translation Services failed to translate the current document to stl file!" translation="Службе перевода Autodesk не удалось перевести текущий документ в файл stl!" />
+	<label commandName="ContextFolderTooltip" devLabel="Cached objects from a dissolved Assembly Context" translation="Кэшированные объекты из解散ленной сборки контекста" />
+	<label commandName="STLFileFilterDescription" devLabel="STL Files (*.stl)" translation="STL-файлы (*.stl)" />
+</Resource>

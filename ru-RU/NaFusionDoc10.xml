@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="ASSEMBLYSOURCETYPE" devLabel="Assembly" translation="Сборка"/>
+	<label commandName="AlignedDimDirAndLengthSamePriorityAlgo" devLabel="Aligned Dimension Dir And Length Same Priority Algorithm" translation="Алгоритм выравнивания размеров с одинаковым приоритетом направления и длины"/>
+	<label commandName="AlignedDimGenAlgo" devLabel="Aligned Dimension Generator Algorithm" translation="Алгоритм генератора выровненных размеров"/>
+	<label commandName="AlignedDimSameLengthAndEndPointsWithSameXorYPriorityAlgo" devLabel="Aligned Dimension SameLength And EndPoints With Same XorY PriorityAlgo Algorithm" translation="Алгоритм выравнивания размеров одинаковой длины и конечных точек с одинаковым приоритетом по X или Y"/>
+	<label commandName="AngularDimEdgeLengthThreshold_ASME" devLabel="Angular dimension Edge length threshold" translation="Порог длины грани для угловых размеров"/>
+	<label commandName="AngularDimEdgeLengthThreshold_ISO" devLabel="Angular dimension Edge length threshold" translation="Порог длины грани для угловых размеров"/>
+	<label commandName="AngularDimGenAlgo" devLabel="Angular Dimension Generator Algorithm" translation="Алгоритм генератора угловых размеров"/>
+	<label commandName="AnimationCreateStoryboardSheet" devLabel="Create Storyboard Sheet" translation="Создать лист раскадровки"/>
+	<label commandName="AnimationDefaultPartListLoc" devLabel="Default Parts List Loc" translation="Расположение списка деталей по умолчанию"/>
+	<label commandName="AnimationIncludePartList" devLabel="Include Parts List" translation="Включить список деталей"/>
+	<label commandName="AnimationWithSingleISO" devLabel="Sheet with Single ISO View" translation="Лист с одним ISO видом"/>
+	<label commandName="Animationroup" devLabel="Animation" translation="Анимация"/>
+	<label commandName="AspectRatio" devLabel="Aspect Ratio" translation="Соотношение сторон"/>
+	<label commandName="AutoArrangeDimensions" devLabel="Auto Arrange Dimensions:Main Assembly" translation="Автоматическое размещение размеров: Основная сборка"/>
+	<label commandName="AutoArrangeDimensions_Component" devLabel="Auto Arrange Dimensions:Component" translation="Автоматическое размещение размеров: Компонент"/>
+	<label commandName="AutoArrangeDimensions_FlatPattern" devLabel="Auto Arrange Dimensions:Sheet Metal Flat Pattern" translation="Автоматическое размещение размеров: Плоская развертка листового металла"/>
+	<label commandName="AutoArrangeDimensions_Folded" devLabel="Auto Arrange Dimensions:Sheet Metal Folded" translation="Автоматическое размещение размеров: Гнутый листовой металл"/>
+	<label commandName="AutoArrangeDimensions_SA" devLabel="Auto Arrange Dimensions:Sub Assembly" translation="Автоматическое размещение размеров: Подсборка"/>
+	<label commandName="AutoArrangeDimensions_TidyUp" devLabel="Auto Arrange Dimensions:Tidy Up" translation="Автоматическое размещение размеров: Упорядочить"/>
+	<label commandName="AutoArrangeGroup" devLabel="Auto Arrange Setings" translation="Настройки автоматического расположения"/>
+	<label commandName="AutoBreakGroup" devLabel="Auto Break Setings" translation="Настройки автоматического разрыва"/>
+	<label commandName="AutoCenterLine" devLabel="Auto centerline" translation="Автоматическая осевая линия"/>
+	<label commandName="AutoCenterLineForHole" devLabel="Holes" translation="Отверстия"/>
+	<label commandName="AutoCenterLineForRoundCuts" devLabel="Round Cuts" translation="Круглые вырезы"/>
+	<label commandName="AutoCenterLineForRoundExtrude" devLabel="Round Extrude" translation="Круглые выступы"/>
+	<label commandName="AutoCenterLineGroup" devLabel="Auto Centerline Setings" translation="Настройки автоматических осевых линий"/>
+	<label commandName="AutoCenterMark" devLabel="Auto centermark" translation="Автоматическая центровая метка"/>
+	<label commandName="AutoCenterMarkForFilet" devLabel="Fillet" translation="Фаска"/>
+	<label commandName="AutoCenterMarkForHole" devLabel="Holes" translation="Отверстия"/>
+	<label commandName="AutoCenterMarkForRoundCuts" devLabel="Round Cuts" translation="Круглые вырезы"/>
+	<label commandName="AutoCenterMarkForRoundExtrude" devLabel="Round Extrude" translation="Круглые выступы"/>
+	<label commandName="AutoCenterMarkGroup" devLabel="Auto Centermark Setings" translation="Настройки автоматических центровых меток"/>
+	<label commandName="AutoCenterMarkPattern" devLabel="Pattern" translation="Массив"/>
+	<label commandName="AutoCmFilletMaxRadius" devLabel="Fillet Max Radius" translation="Максимальный радиус фаски"/>
+	<label commandName="AutoCmFilletMinRadius" devLabel="Fillet Min Radius" translation="Минимальный радиус фаски"/>
+	<label commandName="AutoCutGroup" devLabel="Auto Cut Setings" translation="Настройки автоматического разреза"/>
+	<label commandName="AutoDrawingGenerationGoup" devLabel="Automated Drawing Generation" translation="Автоматическое создание чертежей"/>
+	<label commandName="AutoHoleNote" devLabel="Auto Hole Note" translation="Автоматическая выноска отверстия"/>
+	<label commandName="AutoHoletGroup" devLabel="Auto Hole Note Setings" translation="Настройки автоматических выносок отверстий"/>
+	<label commandName="AutoNestGroup" devLabel="Auto Nest Setings" translation="Настройки автоматической компоновки"/>
+	<label commandName="AutoRotateForManualView" devLabel="Enable for Manual View" translation="Включить для ручного вида"/>
+	<label commandName="AutoRotateGroup" devLabel="Auto Rotate Setings" translation="Настройки автоматического поворота"/>
+	<label commandName="AutoScaleFitOption" devLabel="Fit Option" translation="Вариант подгонки"/>
+	<label commandName="AutoScaleFitOption_MOVE_TO_BIGGER_SHEET" devLabel="Move To Bigger Sheet" translation="Переместить на больший лист"/>
+	<label commandName="AutoScaleFitOption_NO_OP" devLabel="None" translation="Нет"/>
+	<label commandName="AutoScaleFitOption_SCALE_DOWN" devLabel="Scale Down" translation="Уменьшить масштаб"/>
+	<label commandName="AutoScaleGroup" devLabel="Auto Scale Setings" translation="Настройки автоматического масштабирования"/>
+	<label commandName="AutoSheetSizeGroup" devLabel="Auto Sheet Size Setings" translation="Настройки автоматического размера листа"/>
+	<label commandName="AutoViewGroup" devLabel="Auto View Setings" translation="Настройки автоматического вида"/>
+	<label commandName="BreakDistance_ASME" devLabel="Break Distance" translation="Расстояние разрыва"/>
+	<label commandName="BreakDistance_ISO" devLabel="Break Distance" translation="Расстояние разрыва"/>
+	<label commandName="COMPONENTSOURCETYPE" devLabel="Component" translation="Компонент"/>
+	<label commandName="CellMapBasedLoopGeneratorAlgorithm" devLabel="Loop Generator Algorithm" translation="Алгоритм генератора контуров"/>
+	<label commandName="CenterMarkDimGenAlgo" devLabel="Center Mark Dim Genrator Algorithm" translation="Алгоритм генератора размеров центровых меток"/>
+	<label commandName="ChamferDimGenAlgo" devLabel="Chamfer Dimension Generator Algorithm" translation="Алгоритм генератора размеров фасок"/>
+	<label commandName="ChamferDimPriorityAlgo" devLabel="Chamfer Dimension Priority Algorithm" translation="Алгоритм приоритета размеров фасок"/>
+	<label commandName="CircularDimGenAlgorithm" devLabel="Circular Dim Algorithm" translation="Алгоритм круговых размеров"/>
+	<label commandName="CompISOWithOrthoViews" devLabel="Add ISO View with Ortho Views" translation="Добавить изометрический вид с ортогональными видами"/>
+	<label commandName="CompSheetCreate" devLabel="Create Component Sheet" translation="Создать лист компонента"/>
+	<label commandName="CompWithOrthoViews" devLabel="Sheet With Orthogonal Views" translation="Лист с ортогональными видами"/>
+	<label commandName="ComponentGroup" devLabel="Component" translation="Компонент"/>
+	<label commandName="ConfigurationGroup" devLabel="" translation=""/>
+	<label commandName="ContextBodyClientType" devLabel="Context Body" translation="Тело контекста"/>
+	<label commandName="CustomKeyword" devLabel="Custom" translation="Пользовательский"/>
+	<label commandName="DiffenentXYPriorityReducingAlgo" devLabel="Diffenent XY Priority Reducing Algorithm" translation="Алгоритм уменьшения приоритета по X и Y"/>
+	<label commandName="DimToDimDistance" devLabel="Dim to Dim Distance" translation="Расстояние между размерами"/>
+	<label commandName="DimensionAlgos" devLabel="Disabled Dimension Algorithms" translation="Отключенные алгоритмы размеров"/>
+	<label commandName="DimensionEdgeGeneratorAlgorithm" devLabel="Edge Generator Algorithm" translation="Алгоритм генератора граней"/>
+	<label commandName="DimensionGroup" devLabel="Dimension Settings" translation="Настройки размеров"/>
+	<label commandName="DimensionPointGeneratorAlgorithm" devLabel="Point Generator Algorithm" translation="Алгоритм генератора точек"/>
+	<label commandName="DimensionPriorityModifierByStrategyAlgo" devLabel="Dimension Priority Modifier By Strategy" translation="Модификатор приоритета размеров по стратегии"/>
+	<label commandName="DimensionRange" devLabel="Dimension Range (0-100)" translation="Диапазон размеров (0-100)"/>
+	<label commandName="DimensionRegionBasedFilterAlgorithm" devLabel="Dimension Region Based Filter Algorithm" translation="Алгоритм фильтрации размеров по регионам"/>
+	<label commandName="DimensionUnitsBrowserLabel" devLabel="Dimension Units: " translation="Единицы измерения: "/>
+	<label commandName="DimensionUnitsBrowserTooltip" devLabel="Change Dimension Units" translation="Изменить единицы измерения"/>
+	<label commandName="DisplayBorderBrowserLabel" devLabel="Display Border: " translation="Граница дисплея: "/>
+	<label commandName="DisplayBorderBrowserToolTip" devLabel="Change Display Border" translation="Изменить отображение рамки"/>
+	<label commandName="DisplayTitleBlockBrowserLabel" devLabel="Display Title Block: " translation="Отображать заголовок блока: "/>
+	<label commandName="DisplayTitleBlockBrowserToolTip" devLabel="Change Display Title Block" translation="Изменить отображение штампа"/>
+	<label commandName="DocFontBrowserLabel" devLabel="Font: " translation="Шрифт: "/>
+	<label commandName="DocFontBrowserToolTip" devLabel="Change Font" translation="Изменить шрифт"/>
+	<label commandName="DocLineWidthGroupBrowserLabel" devLabel="Line Width Group: " translation="Группа ширины линии: "/>
+	<label commandName="DocLineWidthGroupBrowserToolTip" devLabel="Change Line Width Group" translation="Изменить группу толщины линий"/>
+	<label commandName="DocTextHeightGroupBrowserLabel" devLabel="Text Height Group: " translation="Группа высоты текста: "/>
+	<label commandName="DocTextHeightGroupBrowserToolTip" devLabel="Change Text Height Group" translation="Изменить группу высоты текста"/>
+	<label commandName="DocUnitBrowserLabel" devLabel="Units: " translation="Единицы измерения: "/>
+	<label commandName="DocUnitBrowserToolTip" devLabel="Change Units" translation="Изменить единицы"/>
+	<label commandName="DocumentSettingsBrowserCMDToolTip" devLabel="Change Document Settings" translation="Изменить настройки документа"/>
+	<label commandName="EdgeDimGenAlgo" devLabel="Edge Dim Generator Algorithm" translation="Алгоритм генератора размеров граней"/>
+	<label commandName="EdgeMajoritySymbolTypeFull" devLabel="FullList" translation="Полный список"/>
+	<label commandName="EdgeMajoritySymbolTypeInput" devLabel="Edge" translation="Ребро"/>
+	<label commandName="EdgeMajoritySymbolTypeSimplified" devLabel="SimplifiedList" translation="Упрощенный список"/>
+	<label commandName="EdgeMajoritySymbolTypeToolTip" devLabel="Specify the edge majority symbol type" translation="Укажите тип символа большинства ребер"/>
+	<label commandName="EnableInterviewDatums" devLabel="Enable Interview datums" translation="Включить базовые метки"/>
+	<label commandName="ExistingDimGeneratorAlgorithm" devLabel="Existing Dimension Generator Algorithm" translation="Алгоритм генератора существующих размеров"/>
+	<label commandName="FLATPATTERNSOURCETYPE" devLabel="Component(Flat Pattern)" translation="Компонент (развертка)"/>
+	<label commandName="FOLDEDMODELSOURCETYPE" devLabel="Component" translation="Компонент"/>
+	<label commandName="FlatPattern" devLabel="Flat Pattern" translation="Развертка"/>
+	<label commandName="ForceNestISO" devLabel="Force Nest Isometric -1Dont 0UL 1UR 2LL 3LR 4UC 5LC 6MC" translation="Принудительная вставка изометрии -1Не 0ВЛ 1ВП 2НЛ 3НП 4ВЦ 5НЦ 6СЦ"/>
+	<label commandName="FusDocAutoBreak" devLabel="Auto Break" translation="Автоматический разрыв"/>
+	<label commandName="FusDocAutoDimension" devLabel="Auto Dimension" translation="Автоматический размер"/>
+	<label commandName="FusDocAutoRotate" devLabel="Auto Rotate" translation="Автоматический поворот"/>
+	<label commandName="FusDocAutomaticDimension" devLabel="Automatic Dimension" translation="Автоматический размер"/>
+	<label commandName="FusDocBaselineDimension" devLabel="Baseline Dimension" translation="Базовый размер"/>
+	<label commandName="FusDocBodiesForAutoRotate" devLabel="Maximum Number Of Bodies For Auto Rotate" translation="Максимальное количество тел для автоматического поворота"/>
+	<label commandName="FusDocChainDimension" devLabel="Chain Dimension" translation="Цепочка размеров"/>
+	<label commandName="FusDocCircularPatternDimensions" devLabel="Circular Pattern Dimensions" translation="Размеры кругового массива"/>
+	<label commandName="FusDocCustomLineWidth" devLabel="%1%mm" translation="%1%мм"/>
+	<label commandName="FusDocCustomLineWidth1" devLabel="0.00mm" translation="0.00мм"/>
+	<label commandName="FusDocCustomLineWidth10" devLabel="0.35mm" translation="0.35мм"/>
+	<label commandName="FusDocCustomLineWidth11" devLabel="0.40mm" translation="0.40мм"/>
+	<label commandName="FusDocCustomLineWidth12" devLabel="0.50mm" translation="0.50мм"/>
+	<label commandName="FusDocCustomLineWidth13" devLabel="0.53mm" translation="0.53мм"/>
+	<label commandName="FusDocCustomLineWidth14" devLabel="0.60mm" translation="0.60мм"/>
+	<label commandName="FusDocCustomLineWidth15" devLabel="0.70mm" translation="0.70мм"/>
+	<label commandName="FusDocCustomLineWidth16" devLabel="0.80mm" translation="0.80мм"/>
+	<label commandName="FusDocCustomLineWidth17" devLabel="0.90mm" translation="0.90мм"/>
+	<label commandName="FusDocCustomLineWidth18" devLabel="1.00mm" translation="1.00мм"/>
+	<label commandName="FusDocCustomLineWidth19" devLabel="1.06mm" translation="1.06мм"/>
+	<label commandName="FusDocCustomLineWidth2" devLabel="0.05mm" translation="0.05мм"/>
+	<label commandName="FusDocCustomLineWidth20" devLabel="1.20mm" translation="1.20мм"/>
+	<label commandName="FusDocCustomLineWidth21" devLabel="1.40mm" translation="1.40мм"/>
+	<label commandName="FusDocCustomLineWidth22" devLabel="1.58mm" translation="1.58мм"/>
+	<label commandName="FusDocCustomLineWidth23" devLabel="2.00mm" translation="2.00мм"/>
+	<label commandName="FusDocCustomLineWidth24" devLabel="2.11mm" translation="2.11мм"/>
+	<label commandName="FusDocCustomLineWidth3" devLabel="0.09mm" translation="0.09мм"/>
+	<label commandName="FusDocCustomLineWidth4" devLabel="0.13mm" translation="0.13мм"/>
+	<label commandName="FusDocCustomLineWidth5" devLabel="0.15mm" translation="0.15мм"/>
+	<label commandName="FusDocCustomLineWidth6" devLabel="0.18mm" translation="0.18мм"/>
+	<label commandName="FusDocCustomLineWidth7" devLabel="0.20mm" translation="0.20мм"/>
+	<label commandName="FusDocCustomLineWidth8" devLabel="0.25mm" translation="0.25мм"/>
+	<label commandName="FusDocCustomLineWidth9" devLabel="0.30mm" translation="0.30мм"/>
+	<label commandName="FusDocDefaultSheetSizeValue0" devLabel="A0 (1189mm x 841mm)" translation="A0 (1189 мм x 841 мм)"/>
+	<label commandName="FusDocDefaultSheetSizeValue1" devLabel="A1 (841mm x 594mm)" translation="A1 (841 мм x 594 мм)"/>
+	<label commandName="FusDocDefaultSheetSizeValue10" devLabel="D (34in x 22in)" translation="D (34 дюйма x 22 дюйма)"/>
+	<label commandName="FusDocDefaultSheetSizeValue11" devLabel="E (44in x 34in)" translation="E (44 дюйма x 34 дюйма)"/>
+	<label commandName="FusDocDefaultSheetSizeValue2" devLabel="A2 (594mm x 420mm)" translation="A2 (594 мм x 420 мм)"/>
+	<label commandName="FusDocDefaultSheetSizeValue3" devLabel="A3 (420mm x 297mm)" translation="A3 (420 мм x 297 мм)"/>
+	<label commandName="FusDocDefaultSheetSizeValue4" devLabel="A4 (210mm x 297mm)" translation="A4 (210 мм x 297 мм)"/>
+	<label commandName="FusDocDefaultSheetSizeValue5" devLabel="A4 (297mm x 210mm)" translation="A4 (297 мм x 210 мм)"/>
+	<label commandName="FusDocDefaultSheetSizeValue6" devLabel="A (8.5in x 11in)" translation="A (8,5 дюйма x 11 дюймов)"/>
+	<label commandName="FusDocDefaultSheetSizeValue7" devLabel="A (11in x 8.5in)" translation="A (11 дюймов x 8,5 дюйма)"/>
+	<label commandName="FusDocDefaultSheetSizeValue8" devLabel="B (17in x 11in)" translation="B (17 дюймов x 11 дюймов)"/>
+	<label commandName="FusDocDefaultSheetSizeValue9" devLabel="C (22in x 17in)" translation="C (22 дюйма x 17 дюймов)"/>
+	<label commandName="FusDocDefaultSheetSizeValueCustom" devLabel="Custom" translation="Пользовательский"/>
+	<label commandName="FusDocDesignDlError" devLabel="Could not download design file." translation="Не удалось загрузить файл дизайна."/>
+	<label commandName="FusDocDesignLinkNotFoundError" devLabel="Could not find the Design file linked with this Drawing" translation="Не удалось найти файл проекта, связанный с этим чертежом."/>
+	<label commandName="FusDocDimensionDirection1" devLabel="Bottom left" translation="Снизу слева"/>
+	<label commandName="FusDocDimensionDirection2" devLabel="Bottom right" translation="Снизу справа"/>
+	<label commandName="FusDocDimensionDirection3" devLabel="Top left" translation="Сверху слева"/>
+	<label commandName="FusDocDimensionDirection4" devLabel="Top right" translation="Сверху справа"/>
+	<label commandName="FusDocDimensionHDirection" devLabel="Dimension Datum" translation="База размеров"/>
+	<label commandName="FusDocDimensionStrategy" devLabel="Dimension Strategy" translation="Стратегия размеров"/>
+	<label commandName="FusDocFacesForAutoRotate" devLabel="Maximum Number Of Faces For Auto Rotate" translation="Максимальное количество граней для автоматического поворота"/>
+	<label commandName="FusDocHighlightDimensionset" devLabel="Highlight Dimensionset" translation="Выделить набор размеров"/>
+	<label commandName="FusDocInterLoopDimensionStrategy" devLabel="Inter Loop Dimension Strategy" translation="Стратегия размеров между петлями"/>
+	<label commandName="FusDocLinearDimensionPrecision0" devLabel="0" translation="0"/>
+	<label commandName="FusDocLinearDimensionPrecision1" devLabel="0.1" translation="0,1"/>
+	<label commandName="FusDocLinearDimensionPrecision10" devLabel="1" translation="1"/>
+	<label commandName="FusDocLinearDimensionPrecision11" devLabel="1/2" translation="1/2"/>
+	<label commandName="FusDocLinearDimensionPrecision12" devLabel="1/4" translation="1/4"/>
+	<label commandName="FusDocLinearDimensionPrecision13" devLabel="1/8" translation="1/8"/>
+	<label commandName="FusDocLinearDimensionPrecision14" devLabel="1/16" translation="1/16"/>
+	<label commandName="FusDocLinearDimensionPrecision15" devLabel="1/32" translation="1/32"/>
+	<label commandName="FusDocLinearDimensionPrecision16" devLabel="1/64" translation="1/64"/>
+	<label commandName="FusDocLinearDimensionPrecision17" devLabel="1/128" translation="1/128"/>
+	<label commandName="FusDocLinearDimensionPrecision18" devLabel="1/256" translation="1/256"/>
+	<label commandName="FusDocLinearDimensionPrecision19" devLabel="0'-0&quot;" translation="0&apos;-0&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision2" devLabel="0.12" translation="0,12"/>
+	<label commandName="FusDocLinearDimensionPrecision20" devLabel="0'-0.1&quot;" translation="0&apos;-0.1&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision21" devLabel="0'-0.12&quot;" translation="0&apos;-0.12&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision22" devLabel="0'-0.123&quot;" translation="0&apos;-0.123&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision23" devLabel="0'-0.1234&quot;" translation="0&apos;-0.1234&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision24" devLabel="0'-0.12345&quot;" translation="0&apos;-0.12345&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision25" devLabel="0'-0.123456&quot;" translation="0&apos;-0.123456&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision26" devLabel="0'-0.1234567&quot;" translation="0&apos;-0.1234567&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision27" devLabel="0'-0.12345678&quot;" translation="0&apos;-0.12345678&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision28" devLabel="0'-0&quot;" translation="0&apos;-0&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision29" devLabel="0'-0 1/2&quot;" translation="0&apos;-0 1/2&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision3" devLabel="0.123" translation="0,123"/>
+	<label commandName="FusDocLinearDimensionPrecision30" devLabel="0'-0 1/4&quot;" translation="0&apos;-0 1/4&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision31" devLabel="0'-0 1/8&quot;" translation="0&apos;-0 1/8&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision32" devLabel="0'-0 1/16&quot;" translation="0&apos;-0 1/16&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision33" devLabel="0'-0 1/32&quot;" translation="0&apos;-0 1/32&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision34" devLabel="0'-0 1/64&quot;" translation="0&apos;-0 1/64&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision35" devLabel="0'-0 1/128&quot;" translation="0&apos;-0 1/128&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision36" devLabel="0'-0 1/256&quot;" translation="0&apos;-0 1/256&quot;"/>
+	<label commandName="FusDocLinearDimensionPrecision4" devLabel="0.1234" translation="0,1234"/>
+	<label commandName="FusDocLinearDimensionPrecision5" devLabel="0.12345" translation="0,12345"/>
+	<label commandName="FusDocLinearDimensionPrecision6" devLabel="0.123456" translation="0,123456"/>
+	<label commandName="FusDocLinearDimensionPrecision7" devLabel="0.1234567" translation="0,1234567"/>
+	<label commandName="FusDocLinearDimensionPrecision8" devLabel="0.12345678" translation="0,12345678"/>
+	<label commandName="FusDocMinimumIndividualBreakPercentage" devLabel="Minimum Individual Break Percentage" translation="Минимальный процент разрыва для отдельного элемента"/>
+	<label commandName="FusDocMinimumTotalBreakPercentage" devLabel="Minimum Total Break Percentage" translation="Минимальный общий процент разрыва"/>
+	<label commandName="FusDocOptionsSheetSizeA0L" devLabel="A0" translation="А0"/>
+	<label commandName="FusDocOptionsSheetSizeA0P" devLabel="A0" translation="А0"/>
+	<label commandName="FusDocOptionsSheetSizeA1L" devLabel="A1" translation="А1"/>
+	<label commandName="FusDocOptionsSheetSizeA1P" devLabel="A1" translation="А1"/>
+	<label commandName="FusDocOptionsSheetSizeA2L" devLabel="A2" translation="А2"/>
+	<label commandName="FusDocOptionsSheetSizeA2P" devLabel="A2" translation="А2"/>
+	<label commandName="FusDocOptionsSheetSizeA3L" devLabel="A3" translation="А3"/>
+	<label commandName="FusDocOptionsSheetSizeA3P" devLabel="A3" translation="А3"/>
+	<label commandName="FusDocOptionsSheetSizeA4L" devLabel="A4" translation="А4"/>
+	<label commandName="FusDocOptionsSheetSizeA4P" devLabel="A4" translation="А4"/>
+	<label commandName="FusDocOptionsSheetSizeAL" devLabel="A" translation="A"/>
+	<label commandName="FusDocOptionsSheetSizeAP" devLabel="A" translation="A"/>
+	<label commandName="FusDocOptionsSheetSizeBL" devLabel="B" translation="Б"/>
+	<label commandName="FusDocOptionsSheetSizeBP" devLabel="B" translation="Б"/>
+	<label commandName="FusDocOptionsSheetSizeCL" devLabel="C" translation="C"/>
+	<label commandName="FusDocOptionsSheetSizeCP" devLabel="C" translation="C"/>
+	<label commandName="FusDocOptionsSheetSizeDL" devLabel="D" translation="Д"/>
+	<label commandName="FusDocOptionsSheetSizeDP" devLabel="D" translation="Д"/>
+	<label commandName="FusDocOptionsSheetSizeEL" devLabel="E" translation="Э"/>
+	<label commandName="FusDocOptionsSheetSizeEP" devLabel="E" translation="Э"/>
+	<label commandName="FusDocOrdinateDimension" devLabel="Ordinate Dimension" translation="Ординатный размер"/>
+	<label commandName="FusDocOverallDimension" devLabel="Overall Dimension" translation="Габаритный размер"/>
+	<label commandName="FusDocPreferHnTNoteOverDims" devLabel="Prefer hole and thread note over dimensions" translation="Предпочитать примечания отверстий и резьб вместо размеров"/>
+	<label commandName="FusDocPreferSymmetricDims" devLabel="Prefer Symmetric Dims for Symmertic Part" translation="Предпочитать симметричные размеры для симметричных деталей"/>
+	<label commandName="FusDocPreferredSheetSize" devLabel="Preferred Sheet Sizes" translation="Предпочтительные размеры листов"/>
+	<label commandName="FusDocSymmetricDimension" devLabel="Symmetric Dimension" translation="Симметричный размер"/>
+	<label commandName="FusDocSymmetricWithBaseLineDimension" devLabel="Symmetric With Baseline Dimension" translation="Симметричный размер с базовой линией"/>
+	<label commandName="FusDocSymmetricWithOrdinateDimension" devLabel="Symmetric With Ordinate Dimension" translation="Симметричный размер с ординатой"/>
+	<label commandName="FusDocTextHeightASME0" devLabel="0.07in" translation="0.07дюйм"/>
+	<label commandName="FusDocTextHeightASME1" devLabel="0.1in" translation="0.1дюйм"/>
+	<label commandName="FusDocTextHeightASME2" devLabel="0.12in" translation="0.12дюйм"/>
+	<label commandName="FusDocTextHeightASME3" devLabel="0.24in" translation="0.24дюйм"/>
+	<label commandName="FusDocTextHeightASME4" devLabel="0.35in" translation="0.35дюйм"/>
+	<label commandName="FusDocTextHeightASME5" devLabel="0.5in" translation="0.5дюйм"/>
+	<label commandName="FusDocTextHeightASME6" devLabel="0.75in" translation="0.75дюйм"/>
+	<label commandName="FusDocTextHeightISO0" devLabel="1.8mm" translation="1.8мм"/>
+	<label commandName="FusDocTextHeightISO1" devLabel="2.5mm" translation="2.5мм"/>
+	<label commandName="FusDocTextHeightISO2" devLabel="3.5mm" translation="3.5мм"/>
+	<label commandName="FusDocTextHeightISO3" devLabel="5mm" translation="5мм"/>
+	<label commandName="FusDocTextHeightISO4" devLabel="7mm" translation="7мм"/>
+	<label commandName="FusDocTextHeightISO5" devLabel="10mm" translation="10мм"/>
+	<label commandName="FusDocTextHeightISO6" devLabel="14mm" translation="14мм"/>
+	<label commandName="FusDocTextHeightISO7" devLabel="20mm" translation="20мм"/>
+	<label commandName="FusDocViewProjectionDirectionValue0" devLabel="First Angle" translation="Первый ракурс"/>
+	<label commandName="FusDocViewProjectionDirectionValue1" devLabel="Third Angle" translation="Третий угол"/>
+	<label commandName="FusionDocAltDimLinTolPrecisionName" devLabel="Linear Tolerance Precision" translation="Точность линейного допуска"/>
+	<label commandName="FusionDocAltDimLinTolPrecisionToolTip" devLabel="Sets the default alternate dimension tolerance precision" translation="Устанавливает точность допуска альтернативного размера по умолчанию."/>
+	<label commandName="FusionDocAltDimUnitDisplaySuffixName" devLabel="Display Alternate Unit Abbreviation" translation="Отображение альтернативной аббревиатуры единиц измерения"/>
+	<label commandName="FusionDocAltDimUnitDisplaySuffixToolTip" devLabel="Display Alternate Unit Abbreviation" translation="Отображение альтернативной аббревиатуры единиц измерения"/>
+	<label commandName="FusionDocAltDimUnitLeadingZerosName" devLabel="Display Alternate Unit Leading Zeros" translation="Отображение альтернативных единиц измерения ведущих нулей"/>
+	<label commandName="FusionDocAltDimUnitLeadingZerosToolTip" devLabel="Display Alternate Unit Leading Zeros" translation="Отображение альтернативных единиц измерения ведущих нулей"/>
+	<label commandName="FusionDocAltDimUnitTrailingZerosName" devLabel="Display Alternate Unit Trailing Zeros" translation="Отображать конечные нули альтернативных единиц измерения"/>
+	<label commandName="FusionDocAltDimUnitTrailingZerosToolTip" devLabel="Display Alternate Unit Trailing Zeros" translation="Отображать конечные нули альтернативных единиц измерения"/>
+	<label commandName="FusionDocAlternateDimLinearPrecisionName" devLabel="Linear Precision" translation="Точность линейных размеров"/>
+	<label commandName="FusionDocAlternateDimLinearPrecisionToolTip" devLabel="Sets the default alternate dimension precision" translation="Устанавливает точность альтернативного размера по умолчанию."/>
+	<label commandName="FusionDocAlternateDimensionUnitDisplayName" devLabel="Alternate Units" translation="Альтернативные единицы"/>
+	<label commandName="FusionDocAlternateUnitDisplayToolTip" devLabel="Display Alternate Units" translation="Отображение альтернативных единиц"/>
+	<label commandName="FusionDocAngularDimensionPrecisionName" devLabel=" Angular Dimension Precision" translation=" Точность угловых размеров"/>
+	<label commandName="FusionDocAngularDimensionPrecisionToolTip" devLabel="Sets the default angular dimension precision for drawings created using the 'From Scratch' option" translation="Устанавливает точность угловых размеров по умолчанию для чертежей, созданных с использованием параметра &#171;С нуля&#187;."/>
+	<label commandName="FusionDocAnnotationFormatName" devLabel="Standard" translation="Стандарт"/>
+	<label commandName="FusionDocAnnotationsFormatToolTip" devLabel="Sets the default drafting standard for drawings created using the 'From Scratch' option" translation="Устанавливает стандарт черчения по умолчанию для чертежей, созданных с использованием параметра &#171;С нуля&#187;."/>
+	<label commandName="FusionDocAnnotationsUnitDisplayToolTip" devLabel="Sets the default display of dimension unit abbreviation in dimension values for drawings created using the 'From Scratch' option" translation="Устанавливает отображение сокращений единиц измерения по умолчанию в значениях размеров для чертежей, созданных с использованием параметра &#171;С нуля&#187;."/>
+	<label commandName="FusionDocAnnotationsUnitsToolTip" devLabel="Sets the default annotation units for drawings created using the 'From Scratch' option" translation="Устанавливает единицы измерения аннотаций по умолчанию для чертежей, созданных с использованием параметра &#171;С нуля&#187;."/>
+	<label commandName="FusionDocArrowhead0" devLabel="Closed_Filled" translation="Закрыто_Заполнено"/>
+	<label commandName="FusionDocArrowhead1" devLabel="Closed_Blank" translation="Closed_Blank"/>
+	<label commandName="FusionDocArrowhead10" devLabel="Open_30" translation="Открыть_30"/>
+	<label commandName="FusionDocArrowhead11" devLabel="Dot_Small" translation="Dot_Small"/>
+	<label commandName="FusionDocArrowhead12" devLabel="Dot_Blank" translation="Dot_Blank"/>
+	<label commandName="FusionDocArrowhead13" devLabel="Dot_Small_Blank" translation="Dot_Small_Blank"/>
+	<label commandName="FusionDocArrowhead14" devLabel="Box" translation="Квадрат"/>
+	<label commandName="FusionDocArrowhead15" devLabel="Box_Filled" translation="Box_Filled"/>
+	<label commandName="FusionDocArrowhead16" devLabel="Datum_Triangle" translation="Datum_Triangle"/>
+	<label commandName="FusionDocArrowhead17" devLabel="Datum_Triangle_Filled" translation="Datum_Triangle_Filled"/>
+	<label commandName="FusionDocArrowhead18" devLabel="Integral" translation="Интеграл"/>
+	<label commandName="FusionDocArrowhead19" devLabel="None" translation="Нет"/>
+	<label commandName="FusionDocArrowhead2" devLabel="Closed" translation="Закрытый"/>
+	<label commandName="FusionDocArrowhead3" devLabel="Dot" translation="Точка"/>
+	<label commandName="FusionDocArrowhead4" devLabel="Architectural_Tick" translation="Архитектурный_тик"/>
+	<label commandName="FusionDocArrowhead5" devLabel="Oblique" translation="Косой"/>
+	<label commandName="FusionDocArrowhead6" devLabel="Open" translation="Открыть"/>
+	<label commandName="FusionDocArrowhead7" devLabel="Origin_Indicator" translation="Origin_Indicator"/>
+	<label commandName="FusionDocArrowhead8" devLabel="Origin_Indicator_2" translation="Origin_Indicator_2"/>
+	<label commandName="FusionDocArrowhead9" devLabel="Right_Angle" translation="Правый_угол"/>
+	<label commandName="FusionDocAutoCutView" devLabel="Auto Cut View" translation="Автоматический разрез"/>
+	<label commandName="FusionDocAutoDetailedView" devLabel="Auto Detailed View" translation="Автоматический детальный вид"/>
+	<label commandName="FusionDocAutoNest" devLabel="Auto Nest" translation="Автоматическая компоновка"/>
+	<label commandName="FusionDocAutoScale" devLabel="Auto Scale" translation="Автоматический масштаб"/>
+	<label commandName="FusionDocAutoSectionalView" devLabel="Auto Sectional View" translation="Автоматический сечений"/>
+	<label commandName="FusionDocAutoView" devLabel="Auto View" translation="Автоматический вид"/>
+	<label commandName="FusionDocAutoViewMaxBodiesToConsider" devLabel="Max Bodies To Consider for Auto View" translation="Максимальное количество тел для автоматического вида"/>
+	<label commandName="FusionDocAutoViewPercentDiffInViews" devLabel="Percentage Difference In Views" translation="Процентное различие между видами"/>
+	<label commandName="FusionDocBorderDisplayName" devLabel="Display Border" translation="Отображать границу"/>
+	<label commandName="FusionDocBorderDisplayToolTip" devLabel="Display or hide border" translation="Отобразить или скрыть границу"/>
+	<label commandName="FusionDocCreateIsometricView" devLabel="Isometric View" translation="Изометрический вид"/>
+	<label commandName="FusionDocCustomLargeTextHeight" devLabel="Large Text Height" translation="Высота крупного текста"/>
+	<label commandName="FusionDocCustomLargeTextHeightToolTip" devLabel="Sets the custom large text height for drawings created using the 'From Scratch' option." translation="Устанавливает пользовательскую высоту большого текста для рисунков, созданных с использованием параметра &#171;С нуля&#187;."/>
+	<label commandName="FusionDocCustomLineWidthMedium" devLabel="Medium Line Width" translation="Средняя толщина линии"/>
+	<label commandName="FusionDocCustomLineWidthThick" devLabel="Thick Line Width" translation="Толстая линия"/>
+	<label commandName="FusionDocCustomLineWidthThin" devLabel="Thin Line Width" translation="Тонкая линия"/>
+	<label commandName="FusionDocCustomMediumLineWidthToolTip" devLabel="Sets the default medium line width for drawings created using the 'From Scratch' option. The medium line width is defined by the selected line width group" translation="Устанавливает среднюю толщину линии по умолчанию для рисунков, созданных с использованием параметра &#171;С нуля&#187;. Средняя ширина линии определяется выбранной группой ширины линии."/>
+	<label commandName="FusionDocCustomMediumTextHeight" devLabel="Medium Text Height" translation="Высота среднего текста"/>
+	<label commandName="FusionDocCustomMediumTextHeightToolTip" devLabel="Sets the custom medium text height for drawings created using the 'From Scratch' option." translation="Устанавливает пользовательскую среднюю высоту текста для рисунков, созданных с использованием параметра &#171;С нуля&#187;."/>
+	<label commandName="FusionDocCustomSmallTextHeight" devLabel="Small Text Height" translation="Высота мелкого текста"/>
+	<label commandName="FusionDocCustomSmallTextHeightToolTip" devLabel="Sets the custom small text height for drawings created using the 'From Scratch' option." translation="Устанавливает пользовательскую высоту мелкого текста для рисунков, созданных с использованием параметра &#171;С нуля&#187;."/>
+	<label commandName="FusionDocCustomThickLineWidthToolTip" devLabel="Sets the default thick line width for drawings created using the 'From Scratch' option. The thick line width is defined by the selected line width group" translation="Устанавливает толщину толстой линии по умолчанию для рисунков, созданных с использованием параметра &#171;С нуля&#187;. Толщина толстой линии определяется выбранной группой ширины линии."/>
+	<label commandName="FusionDocCustomThinLineWidthToolTip" devLabel="Sets the default thin line width for drawings created using the 'From Scratch' option. The thin line width is defined by the selected line width group" translation="Устанавливает толщину тонкой линии по умолчанию для рисунков, созданных с использованием параметра &#171;С нуля&#187;. Толщина тонкой линии определяется выбранной группой ширины линии."/>
+	<label commandName="FusionDocDatumIDStandardName" devLabel="DatumID" translation="Идентификатор данных"/>
+	<label commandName="FusionDocDatumIDStandardToolTip" devLabel="DatumID Standard" translation="Стандартный идентификатор DatumID"/>
+	<label commandName="FusionDocDefaultDelimiterInput" devLabel="Delimiter" translation="Разделитель"/>
+	<label commandName="FusionDocDefaultDelimiterToolTip" devLabel="Specify the delimiter that will be used for numerical values within a drawing" translation="Укажите разделитель, который будет использоваться для числовых значений на чертеже."/>
+	<label commandName="FusionDocDefaultSheetSizeIFDOnlyToolTip" devLabel="To Specify a Sheet Size as a Preference, select a Drafting Standard in the above drop-down" translation="Чтобы указать размер листа в качестве предпочтения, выберите стандарт оформления в раскрывающемся списке выше."/>
+	<label commandName="FusionDocDefaultSheetSizeName" devLabel="Sheet Size" translation="Размер листа"/>
+	<label commandName="FusionDocDefaultSheetSizeNameIFDOnly" devLabel="Sheet Size" translation="Размер листа"/>
+	<label commandName="FusionDocDefaultSheetSizeToolTip" devLabel="Sets the default sheet size for drawings created using the 'From Scratch' option" translation="Устанавливает размер листа по умолчанию для чертежей, созданных с использованием параметра &#171;С нуля&#187;."/>
+	<label commandName="FusionDocDelimiterComma" devLabel="Comma" translation="Запятая"/>
+	<label commandName="FusionDocDelimiterDecimal" devLabel="Decimal" translation="Десятичный"/>
+	<label commandName="FusionDocDesignOpenError" devLabel="Could not open the design file." translation="Не удалось открыть файл дизайна."/>
+	<label commandName="FusionDocDesignOpenNotValid" devLabel="The opened referenced design file is invalid." translation="Открытый файл проекта по ссылке недействителен."/>
+	<label commandName="FusionDocDesignRGError" devLabel="Could not create relationship graph." translation="Не удалось создать график отношений."/>
+	<label commandName="FusionDocDimLeadingZeroToolTip" devLabel="Sets the default display of leading zeros within dimension values for drawings created using the 'From Scratch' option" translation="Устанавливает отображение ведущих нулей по умолчанию в значениях размеров для чертежей, созданных с использованием параметра &#171;С нуля&#187;."/>
+	<label commandName="FusionDocDimLinTolPrecisionName" devLabel="Linear Tolerance Precision" translation="Точность линейного допуска"/>
+	<label commandName="FusionDocDimLinTolPrecisionToolTip" devLabel="Sets the default dimension tolerance precision" translation="Устанавливает точность допуска размера по умолчанию."/>
+	<label commandName="FusionDocDimTrailingZeroToolTip" devLabel="Sets the default display of trailing zeros within dimension values for drawings created using the 'From Scratch' option" translation="Устанавливает отображение конечных нулей по умолчанию в значениях размеров для чертежей, созданных с использованием параметра &#171;С нуля&#187;."/>
+	<label commandName="FusionDocDisplayLineWidth" devLabel="Display Line Widths" translation="Отображать толщину линий"/>
+	<label commandName="FusionDocDisplayLineWidthToolTip" devLabel="Sets the default display of line widths for drawings created using the 'From Scratch' option" translation="Устанавливает отображение ширины линий по умолчанию для рисунков, созданных с использованием параметра &#171;С нуля&#187;."/>
+	<label commandName="FusionDocDrawingUnitsName" devLabel="Units" translation="ЕДИНИЦЫ"/>
+	<label commandName="FusionDocDwgSketchesBrowserLabel" devLabel="Sketches" translation="Эскизы"/>
+	<label commandName="FusionDocEdgeSymbolStandardName" devLabel="Edge Symbol" translation="Символ кромки"/>
+	<label commandName="FusionDocEdgeSymbolStandardToolTip" devLabel="Edge Symbol Standard" translation="Стандартный символ края"/>
+	<label commandName="FusionDocFCFName" devLabel="FCF" translation="с"/>
+	<label commandName="FusionDocFCFStandardToolTip" devLabel="FCF Standard" translation="Стандарт свободного денежного потока"/>
+	<label commandName="FusionDocFontName" devLabel="Font" translation="Шрифт"/>
+	<label commandName="FusionDocFontToolTip" devLabel="Sets the default font for drawings created using the 'From Scratch' option" translation="Устанавливает шрифт по умолчанию для рисунков, созданных с использованием параметра &#171;С нуля&#187;."/>
+	<label commandName="FusionDocForcePreferredIsoView" devLabel="Force Preferred Isometric View" translation="Принудительный изометрический вид"/>
+	<label commandName="FusionDocIncludeMesh" devLabel="Include Mesh Bodies" translation="Включить тела сетки"/>
+	<label commandName="FusionDocIncludeMeshToolTip" devLabel="Include Mesh in Drawings" translation="Включение сетки в чертежи"/>
+	<label commandName="FusionDocIncludeSurface" devLabel="Include Surface Bodies" translation="Включить поверхностные тела"/>
+	<label commandName="FusionDocIncludeSurfaceToolTip" devLabel="Include Surface in Drawings" translation="Включение поверхности в чертежи"/>
+	<label commandName="FusionDocLargeTextHeight" devLabel="Large Text Height" translation="Высота крупного текста"/>
+	<label commandName="FusionDocLargeTextHeightToolTip" devLabel="Sets the default large text height for drawings created using the 'From Scratch' option. The large text height is defined by the selected text height group" translation="Устанавливает большую высоту текста по умолчанию для рисунков, созданных с использованием параметра &#171;С нуля&#187;. Большая высота текста определяется выбранной группой высоты текста."/>
+	<label commandName="FusionDocLeadingZeroName" devLabel="Display Leading Zeros" translation="Отображать ведущие нули"/>
+	<label commandName="FusionDocLineType0" devLabel="Center" translation="Центр"/>
+	<label commandName="FusionDocLineType1" devLabel="Center_2" translation="Центр_2"/>
+	<label commandName="FusionDocLineType2" devLabel="Continuous" translation="Непрерывный"/>
+	<label commandName="FusionDocLineType3" devLabel="Hidden" translation="СКРЫТО"/>
+	<label commandName="FusionDocLineType4" devLabel="Hidden_2" translation="Скрыто_2"/>
+	<label commandName="FusionDocLineType5" devLabel="Phantom_2" translation="Фантом_2"/>
+	<label commandName="FusionDocLineWidthGroup" devLabel="Line Width Group" translation="Группа толщины линий"/>
+	<label commandName="FusionDocLineWidthGroupToolTip" devLabel="Sets the default line width group for drawings created using the 'From Scratch' option" translation="Устанавливает группу толщины линий по умолчанию для рисунков, созданных с использованием параметра &#171;С нуля&#187;."/>
+	<label commandName="FusionDocLinearDimensionPrecisionName" devLabel="Linear Dimension Precision" translation="Точность линейных размеров"/>
+	<label commandName="FusionDocLinearDimensionPrecisionToolTip" devLabel="Sets the default linear dimension precision for drawings created using the 'From Scratch' option" translation="Устанавливает точность линейных размеров по умолчанию для чертежей, созданных с использованием параметра &#171;С нуля&#187;."/>
+	<label commandName="FusionDocLinearUnitName" devLabel="Dimension Format" translation="Формат измерения"/>
+	<label commandName="FusionDocLinearUnitToolTip" devLabel="Sets the default dimension format for drawings created using the 'From Scratch' option" translation="Устанавливает формат размеров по умолчанию для чертежей, созданных с использованием параметра &#171;С нуля&#187;."/>
+	<label commandName="FusionDocMassPrecisionName" devLabel="Mass Precision" translation="Точность массы"/>
+	<label commandName="FusionDocMassPrecisionToolTip" devLabel="Mass Precision" translation="Точность массы"/>
+	<label commandName="FusionDocMassUnitName" devLabel="Mass Unit" translation="Единица массы"/>
+	<label commandName="FusionDocMassUnitToolTip" devLabel="Mass Unit" translation="Единица массы"/>
+	<label commandName="FusionDocMediumLineWidth" devLabel="Medium Line Width" translation="Средняя толщина линии"/>
+	<label commandName="FusionDocMediumLineWidthToolTip" devLabel="Sets the default medium line width for drawings created using the 'From Scratch' option. The medium line width is defined by the selected line width group" translation="Устанавливает среднюю толщину линии по умолчанию для рисунков, созданных с использованием параметра &#171;С нуля&#187;. Средняя ширина линии определяется выбранной группой ширины линии."/>
+	<label commandName="FusionDocMediumTextHeight" devLabel="Medium Text Height" translation="Высота среднего текста"/>
+	<label commandName="FusionDocMediumTextHeightToolTip" devLabel="Sets the default medium text height for drawings created using the 'From Scratch' option. The medium text height is defined by the selected text height group" translation="Устанавливает среднюю высоту текста по умолчанию для рисунков, созданных с использованием параметра &#171;С нуля&#187;. Средняя высота текста определяется выбранной группой высоты текста."/>
+	<label commandName="FusionDocOnlyConsiderVisibleEdges" devLabel="Only Consider Visible Edges Auto View" translation="Учитывать только видимые грани в автоматическом виде"/>
+	<label commandName="FusionDocOptionDrawingGroupToolTip" devLabel="Preferences controlling Fusion 360 Drawings behavior" translation="Настройки, управляющие поведением рисунков Fusion 360"/>
+	<label commandName="FusionDocOptionGroupToolTip" devLabel="Preferences for the Drawing and Drawing Template &quot;From Scratch&quot; option" translation="Настройки для параметра &#171;Рисунок и шаблон чертежа &#171;С нуля&#187;&#187;"/>
+	<label commandName="FusionDocOptionGroupUserName" devLabel="Drawing" translation="Чертеж"/>
+	<label commandName="FusionDocOutlineLineType0" devLabel="Straight" translation="Прямой"/>
+	<label commandName="FusionDocOutlineLineType1" devLabel="Jagged" translation="Ломаная"/>
+	<label commandName="FusionDocOverrideFormatDefaultsName" devLabel="Override or Restore Format Defaults Below" translation="Переопределить или восстановить значения формата по умолчанию ниже"/>
+	<label commandName="FusionDocOverrideFormatDefaultsToolTip" devLabel="Checking this allows editing of the below fields, unchecking restores default values" translation="Установка этого флажка позволяет редактировать поля ниже, снятие флажка восстанавливает значения по умолчанию."/>
+	<label commandName="FusionDocPopNewDrawingWarning" devLabel="Warning if contains mesh, surface or TSpline" translation="Предупреждение, если содержит сетку, поверхность или TSpline"/>
+	<label commandName="FusionDocPrintLandscapeOrientation" devLabel="Print landscape orientation" translation="Печать в альбомной ориентации"/>
+	<label commandName="FusionDocPrintLandscapeOrientationToolTip" devLabel="Sets the default print orientation" translation="Устанавливает ориентацию печати по умолчанию"/>
+	<label commandName="FusionDocPrintLinewidth" devLabel="Print linewidth " translation="Ширина линии печати"/>
+	<label commandName="FusionDocPrintLinewidthToolTip" devLabel="Sets the default print linewidth" translation="Устанавливает ширину линии печати по умолчанию"/>
+	<label commandName="FusionDocPrintNumOfCopies" devLabel="Print number of copies" translation="Распечатать количество копий"/>
+	<label commandName="FusionDocPrintNumOfCopiesToolTip" devLabel="Sets the default number of copies for print" translation="Устанавливает количество копий для печати по умолчанию"/>
+	<label commandName="FusionDocPrintPaperSize" devLabel="Print paper size" translation="Размер бумаги для печати"/>
+	<label commandName="FusionDocPrintPaperSizeToolTip" devLabel="Sets the default paper size of the print" translation="Устанавливает размер бумаги по умолчанию для печати"/>
+	<label commandName="FusionDocPrintScale" devLabel="Print scale" translation="Распечатать масштаб"/>
+	<label commandName="FusionDocPrintScaleToolTip" devLabel="Sets the default scale for print" translation="Устанавливает масштаб по умолчанию для печати"/>
+	<label commandName="FusionDocPrintXOffset" devLabel="Print X offset" translation="Печать смещения по оси X"/>
+	<label commandName="FusionDocPrintXOffsetToolTip" devLabel="Sets the default X offset for print" translation="Устанавливает смещение X по умолчанию для печати"/>
+	<label commandName="FusionDocPrintYOffset" devLabel="Print Y offset" translation="Печать смещения по оси Y"/>
+	<label commandName="FusionDocPrintYOffsetToolTip" devLabel="Sets the default Y offset for print" translation="Устанавливает смещение по оси Y по умолчанию для печати."/>
+	<label commandName="FusionDocRenderModeName" devLabel="Render Mode" translation="Режим рендеринга"/>
+	<label commandName="FusionDocRenderModeToolTip" devLabel="Indicates the render mode for the drawing. Could be Default(0), OpenGL(1) or Metal(2)" translation="Указывает режим рендеринга рисунка. Может быть Default(0), OpenGL(1) или Metal(2)"/>
+	<label commandName="FusionDocSectionLineDisplayName" devLabel="Display Section Line" translation="Отображать линию сечения"/>
+	<label commandName="FusionDocSectionLineDisplayToolTip" devLabel="Display Section Line" translation="Отображать линию сечения"/>
+	<label commandName="FusionDocSingleBodySection" devLabel="Only Single Body Sectional View" translation="Разрез только для одного тела"/>
+	<label commandName="FusionDocSmallTextHeight" devLabel="Small Text Height" translation="Высота мелкого текста"/>
+	<label commandName="FusionDocSmallTextHeightToolTip" devLabel="Sets the default small text height for drawings created using the 'From Scratch' option. The small text height is defined by the selected text height group" translation="Устанавливает небольшую высоту текста по умолчанию для рисунков, созданных с использованием параметра &#171;С нуля&#187;. Маленькая высота текста определяется выбранной группой высоты текста."/>
+	<label commandName="FusionDocSuppress" devLabel="Toggle Suppress" translation="Переключить подавление"/>
+	<label commandName="FusionDocSurfaceTextureStandardName" devLabel="Surface Texture" translation="Шероховатость поверхности"/>
+	<label commandName="FusionDocSurfaceTextureStandardToolTip" devLabel="Surface Texture Standard" translation="Стандарт текстуры поверхности"/>
+	<label commandName="FusionDocTaperSlopeStandardName" devLabel="Taper Slope" translation="Конусный наклон"/>
+	<label commandName="FusionDocTaperSlopeStandardToolTip" devLabel="Taper Slope Standard" translation="Стандарт наклона конуса"/>
+	<label commandName="FusionDocTextHeightGroup" devLabel="Text Height Group" translation="Группа высоты текста"/>
+	<label commandName="FusionDocTextHeightGroupToolTip" devLabel="Sets the text height group for drawings created using the 'From Scratch' option" translation="Устанавливает группу высоты текста для рисунков, созданных с использованием параметра &#171;С нуля&#187;."/>
+	<label commandName="FusionDocThickLineWidth" devLabel="Thick Line Width" translation="Толстая линия"/>
+	<label commandName="FusionDocThickLineWidthToolTip" devLabel="Sets the default thick line width for drawings created using the 'From Scratch' option. The thick line width is defined by the selected line width group" translation="Устанавливает толщину толстой линии по умолчанию для рисунков, созданных с использованием параметра &#171;С нуля&#187;. Толщина толстой линии определяется выбранной группой ширины линии."/>
+	<label commandName="FusionDocThinLineWidth" devLabel="Thin Line Width" translation="Тонкая линия"/>
+	<label commandName="FusionDocThinLineWidthToolTip" devLabel="Sets the default thin line width for drawings created using the 'From Scratch' option. The thin line width is defined by the selected line width group" translation="Устанавливает толщину тонкой линии по умолчанию для рисунков, созданных с использованием параметра &#171;С нуля&#187;. Толщина тонкой линии определяется выбранной группой ширины линии."/>
+	<label commandName="FusionDocTitleBlockDisplayName" devLabel="Display Title Block" translation="Отображать штамп"/>
+	<label commandName="FusionDocTitleBlockDisplayToolTip" devLabel="Display or hide title block" translation="Отобразить или скрыть основную надпись"/>
+	<label commandName="FusionDocTrailingZeroName" devLabel="Display Trailing Zeros" translation="Отображать конечные нули"/>
+	<label commandName="FusionDocUnitDisplayName" devLabel="Display Dimension Units" translation="Отображение единиц измерения"/>
+	<label commandName="FusionDocUpdateMessage" devLabel="Changes have been made to a referenced design. &#xA;You can update the drawing from the button in the Application Bar." translation="Внесены изменения в связанный дизайн. &#10;Обновите чертеж с помощью кнопки на панели приложения."/>
+	<label commandName="FusionDocViewProjectionDirName" devLabel="Projection Angle" translation="Угол проекции"/>
+	<label commandName="FusionDocViewProjectionDirToolTip" devLabel="Sets the default projection angle for drawings created using the 'From Scratch' option" translation="Устанавливает угол проекции по умолчанию для рисунков, созданных с использованием параметра &#171;С нуля&#187;."/>
+	<label commandName="FusionDocWeldingStandardName" devLabel="Welding" translation="Сварка"/>
+	<label commandName="FusionDocWeldingStandardToolTip" devLabel="Welding Standard" translation="Стандарт сварки"/>
+	<label commandName="FusionDocumentSettingsBrowserLabel" devLabel="Document Settings" translation="Настройки документа"/>
+	<label commandName="FusionDrawingEntryNameBendTable" devLabel="Bend Table" translation="ТАБЛИЦА ИЗГИБОВ"/>
+	<label commandName="FusionDrawingEntryNameHoleTable" devLabel="Hole Table" translation="Таблица отверстий"/>
+	<label commandName="FusionDrawingEntryNameLayerStackTable" devLabel="Layer Stack Table" translation="Таблица стека слоев"/>
+	<label commandName="FusionDrawingEntryNameLayerStackView" devLabel="Layer Stack View" translation="Вид стека слоев"/>
+	<label commandName="FusionDrawingEntryNamePartsList" devLabel="Parts List" translation="Список компонентов"/>
+	<label commandName="FusionDrawingEntryNameViaPairsTable" devLabel="Via Pairs Table" translation="Через таблицу пар"/>
+	<label commandName="FusionDrawingEntryReferenceDesignators" devLabel="Reference Designators" translation="Позиционные обозначения"/>
+	<label commandName="FusionDrawingExtFileBlobSerializer" devLabel="Fusion Drawing failed to generate a small thumbnail." translation="Fusion Drawing не удалось создать маленькую миниатюру."/>
+	<label commandName="FusionSheetSettingsBrowserLabel" devLabel="Sheet Settings" translation="Настройки листа"/>
+	<label commandName="GeneralAnnotationFonts0" devLabel="Arial" translation="Ариал"/>
+	<label commandName="GeneralAnnotationFormatValue0" devLabel="" translation=""/>
+	<label commandName="GeneralAnnotationFormatValue1" devLabel="" translation=""/>
+	<label commandName="GeneralAnnotationFormatValue2" devLabel="Inherit From Design" translation="Наследовать от дизайна"/>
+	<label commandName="GeneralAnnotationHeightValue0" devLabel="0.1in" translation="0.1дюйм"/>
+	<label commandName="GeneralAnnotationHeightValue1" devLabel="0.12in" translation="0.12дюйм"/>
+	<label commandName="GeneralAnnotationHeightValue2" devLabel="0.24in" translation="0.24дюйм"/>
+	<label commandName="GeneralAnnotationHeightValue3" devLabel="2.5mm" translation="2.5мм"/>
+	<label commandName="GeneralAnnotationHeightValue4" devLabel="3.5mm" translation="3.5мм"/>
+	<label commandName="GeneralAnnotationHeightValue5" devLabel="5.0mm" translation="5,0 мм"/>
+	<label commandName="GeneralAnnotationHeightValue6" devLabel="7.0mm" translation="7,0 мм"/>
+	<label commandName="GeneralAnnotationHeightValue7" devLabel="10.0mm" translation="10,0 мм"/>
+	<label commandName="GeneralAnnotationSheetSizeIFDOnly1" devLabel="Based on Standard" translation="На основе стандарта"/>
+	<label commandName="GeneralAnnotationUnitsValue0" devLabel="mm" translation="мм"/>
+	<label commandName="GeneralAnnotationUnitsValue3" devLabel="in" translation="дюйм"/>
+	<label commandName="GeneralAnnotationUnitsValue4" devLabel="Inherit From Design" translation="Наследовать от дизайна"/>
+	<label commandName="GeneralAnnotationUnitsValue5" devLabel="cm" translation="см"/>
+	<label commandName="GeneralAnnotationUnitsValue6" devLabel="m" translation="м"/>
+	<label commandName="GeneralAnnotationUnitsValue7" devLabel="ft" translation="фут"/>
+	<label commandName="GeneralGroup" devLabel="General Settings" translation="Общие настройки"/>
+	<label commandName="Group_Configuration" devLabel="Configured Aspect Name" translation="Настроенное имя аспекта"/>
+	<label commandName="Group_General" devLabel="General" translation="Общие"/>
+	<label commandName="Group_Manage" devLabel="Manage" translation="УПРАВЛЕНИЕ"/>
+	<label commandName="Group_Parameter" devLabel="Parameter" translation="Параметр"/>
+	<label commandName="Group_Physical" devLabel="Physical" translation="Физический"/>
+	<label commandName="HoleAndThreadNoteGeneratorAlgo" devLabel="Hole And Thread Note Generator Algorithm" translation="Алгоритм генератора обозначений отверстий и резьбы"/>
+	<label commandName="HorizontalBaseLineDimGenAlgorithm" devLabel="Horizontal Base Line Dim Algorithm" translation="Алгоритм горизонтальных базовых размеров"/>
+	<label commandName="HorizontalChainDimGenAlgorithm" devLabel="Horizontal Chain Dim Algorithm" translation="Алгоритм горизонтальных цепных размеров"/>
+	<label commandName="InnerStep" devLabel="%1% Inner Step" translation="Внутренний шаг %1%"/>
+	<label commandName="InterLoopDimGeneratorAlgo" devLabel="InterLoop Dim Generator Algorithm" translation="Алгоритм генератора размеров между контурами"/>
+	<label commandName="InterViewDimensionFungibleAlgorithm" devLabel="Inter View Dimension Fungible Algorithm" translation="Алгоритм взаимозаменяемых размеров между видами"/>
+	<label commandName="Isometric View Preference ASME" devLabel="Isometric View Preference 0TR 1TL 2BL 3BR" translation="Предпочтение изометрического вида 0TR 1TL 2BL 3BR"/>
+	<label commandName="Isometric View Preference ISO" devLabel="Isometric View Preference 0TR 1TL 2BL 3BR" translation="Предпочтение изометрического вида 0TR 1TL 2BL 3BR"/>
+	<label commandName="LayerStackNameStr" devLabel="Layer Stack" translation="Стек слоев"/>
+	<label commandName="LineWidthGroup0" devLabel="Very Thin" translation="Очень тонкий"/>
+	<label commandName="LineWidthGroup1" devLabel="Thin" translation="Тонкий"/>
+	<label commandName="LineWidthGroup2" devLabel="Medium" translation="Средний"/>
+	<label commandName="LineWidthGroup3" devLabel="Thick" translation="Толстый"/>
+	<label commandName="LineWidthGroup4" devLabel="Very Thick" translation="Очень толстый"/>
+	<label commandName="LineWidthGroup5" devLabel="Custom" translation="Пользовательский"/>
+	<label commandName="LinearUnitFormat0" devLabel="Decimal" translation="Десятичный"/>
+	<label commandName="LinearUnitFormat1" devLabel="Fractional" translation="Дробный"/>
+	<label commandName="LinearUnitFormat2" devLabel="Engineering" translation="Инженерный"/>
+	<label commandName="LinearUnitFormat3" devLabel="Architectural" translation="Архитектурный"/>
+	<label commandName="LoopSymmetryGeneratorAlgorithm" devLabel="Loop Symmetry Generator Algorithm" translation="Алгоритм генератора симметрии контуров"/>
+	<label commandName="MainASMGroup" devLabel="Main Assembly" translation="Основная сборка"/>
+	<label commandName="MainASMISOGroup" devLabel="Main Assembly ISO" translation="Основная сборка ISO"/>
+	<label commandName="MainASMOrthoGroup" devLabel="Main Assembly Ortho" translation="Основная сборка Ortho"/>
+	<label commandName="MainASMSheetCreate" devLabel="Create Main Assembly" translation="Создать основную сборку"/>
+	<label commandName="MainAsmISOPartList" devLabel="Include Parts List" translation="Включить список деталей"/>
+	<label commandName="MainAsmOrthoPartList" devLabel="Include Parts List" translation="Включить список деталей"/>
+	<label commandName="MainAsmOrthoPartListLocation" devLabel="Default Parts List Location" translation="Расположение списка деталей по умолчанию"/>
+	<label commandName="MainAsmSheetOrthoViesw" devLabel="Sheet with Ortho Views" translation="Лист с ортогональными видами"/>
+	<label commandName="MainAsmSheetPartListLocation" devLabel="Default Parts List Location" translation="Расположение списка деталей по умолчанию"/>
+	<label commandName="MainAsmSheetSingleISOView" devLabel="Sheet with Single ISO View" translation="Лист с одним ISO видом"/>
+	<label commandName="MaxBodiesToDimension" devLabel="Max Bodies To Dimension" translation="Максимум тел для размеров"/>
+	<label commandName="MaxNumberOfDims" devLabel="Max Number of Dimensions" translation="Максимальное количество размеров"/>
+	<label commandName="MinLeaderLength_ASME" devLabel="Minimum Leader Length" translation="Минимальная длина выноски"/>
+	<label commandName="MinLeaderLength_ISO" devLabel="Minimum Leader Length" translation="Минимальная длина выноски"/>
+	<label commandName="MinMovementForArrangeAnnotation" devLabel="Minimum Movement For Arrange Annotation" translation="Минимальное перемещение для упорядочивания аннотаций"/>
+	<label commandName="MoveDimsWithNoCommonEdgeAndDifferentZToYellowZone" devLabel="Move Dims With No Common Edge And DifferentZ To YellowZone" translation="Переместить размеры без общего ребра и разными Z в желтую зону"/>
+	<label commandName="MoveRadialDimsWithSmallArcLengthAndAngleToYellowZoneAlgo" devLabel="Move Radial Dims With Small Arc Length And Angle To Yellow Zone" translation="Переместить радиальные размеры с малой длиной дуги и углом в желтую зону"/>
+	<label commandName="No" devLabel="No" translation="Нет"/>
+	<label commandName="OfflineFailedGetDesignMsg" devLabel="The design file %1% is not available in Offline mode. Please switch to Online mode to perform the command again." translation="The design file %1% is not available in Offline mode. Please switch to Online mode to perform the command again."/>
+	<label commandName="OrdinateDimGenAlgorithm" devLabel="Ordinate Dim Generator Algorithm" translation="Алгоритм генерации размеров по ординате"/>
+	<label commandName="OverallDimsGeneratorAlgo" devLabel="Overall Dim Generator Algorithm" translation="Алгоритм генерации общих размеров"/>
+	<label commandName="PARTSLISTTABLENAME" devLabel="PARTS LIST" translation="Список компонентов"/>
+	<label commandName="PIMDrawingGroup" devLabel="" translation=""/>
+	<label commandName="PIMGeneralGroup" devLabel="" translation="Общий"/>
+	<label commandName="PIMManageGroup" devLabel="" translation="Управлять"/>
+	<label commandName="PIMPhysicalGroup" devLabel="" translation="Физический"/>
+	<label commandName="PaddAsPerAnnotations" devLabel="Padd As Per Annotations" translation="Отступы по аннотациям"/>
+	<label commandName="PaddAsPerDetails" devLabel="Padd As Per Details" translation="Отступы по деталям"/>
+	<label commandName="ParameterGroup" devLabel="" translation="Параметр"/>
+	<label commandName="PartListLoc1" devLabel="Bottom Left" translation="Снизу слева"/>
+	<label commandName="PartListLoc2" devLabel="Bottom Right" translation="Снизу справа"/>
+	<label commandName="PartListLoc3" devLabel="Top Left" translation="Сверху слева"/>
+	<label commandName="PartListLoc4" devLabel="Top Right" translation="Сверху справа"/>
+	<label commandName="PartsListME__REVISION" devLabel="Rev" translation="Преподобный"/>
+	<label commandName="PreferHZ" devLabel="Prefer Horizontal" translation="Предпочитать горизонтальные"/>
+	<label commandName="ProjecteAnd3dLengthCheckAlgorithm" devLabel="Projected And 3d Length Check Algorithm" translation="Алгоритм проверки проекционной и 3D длины"/>
+	<label commandName="Property_ChangeOrder" devLabel="Change Order" translation="Изменить порядок"/>
+	<label commandName="Property_Description" devLabel="Description" translation="Описание"/>
+	<label commandName="Property_ItemId" devLabel="Item" translation="Элемент"/>
+	<label commandName="Property_ItemNumber" devLabel="Item Number" translation="Номер позиции"/>
+	<label commandName="Property_Lifecycle" devLabel="Lifecycle" translation="Жизненный цикл"/>
+	<label commandName="Property_Mass" devLabel="Mass" translation="Масса"/>
+	<label commandName="Property_Material" devLabel="Material" translation="Материал"/>
+	<label commandName="Property_PartName" devLabel="Part Name" translation="Название детали"/>
+	<label commandName="Property_PartNumber" devLabel="Part Number" translation="Номер детали"/>
+	<label commandName="Property_Qty" devLabel="Qty" translation="Кол-во"/>
+	<label commandName="Property_Revision" devLabel="Revision" translation="Ревизия"/>
+	<label commandName="Property_State" devLabel="State" translation="Состояние"/>
+	<label commandName="RadialArcAnglehreshold_ASME" devLabel="Radial Arc Angle threshold" translation="Порог угла радиальной дуги"/>
+	<label commandName="RadialArcLengthThreshold_ASME" devLabel="Radial Arc length threshold" translation="Порог длины радиальной дуги"/>
+	<label commandName="RadialArcLengthThreshold_ISO" devLabel="Radial Arc length threshold" translation="Порог длины радиальной дуги"/>
+	<label commandName="RedundantDimensionRemovalAlgorithm" devLabel="Redundant Dimension Removal Algorithm(Graph)" translation="Алгоритм удаления избыточных размеров (граф)"/>
+	<label commandName="ReferenceDesignatorsBrowserLabel" devLabel="Reference Designators" translation="Позиционные обозначения"/>
+	<label commandName="RelativeSmallDim" devLabel="Relative small dim percentage" translation="Процент относительно малых размеров"/>
+	<label commandName="RelativelySmallDimWithDifferentXorYAlgo" devLabel="Relatively Small Dims With Different XY Algorithm" translation="Алгоритм относительно малых размеров с разными XY"/>
+	<label commandName="RemoveDimsInTemplateWorkflow" devLabel="Remove Quick Dims In Template Workflow" translation="Удалить быстрые размеры в шаблонном рабочем процессе"/>
+	<label commandName="RemoveDisassociatedDims" devLabel="Remove Disassociated Dims" translation="Удалить несвязанные размеры"/>
+	<label commandName="RevisionNumbering0" devLabel="Custom" translation="Пользовательский"/>
+	<label commandName="RevisionScope0" devLabel="Drawing" translation="Чертеж"/>
+	<label commandName="RevisionScope1" devLabel="Sheet" translation="Лист"/>
+	<label commandName="RevisionScopeBrowserLabel" devLabel="Revision Scope: " translation="Объем редакции:"/>
+	<label commandName="RevisionScopeBrowserTooltip" devLabel="Change Revision Scope" translation="Изменить область ревизии"/>
+	<label commandName="RunAutoCmdsDuringTests" devLabel="Run Auto-Cmds during automation tests" translation="Запускать авто-команды во время тестов автоматизации"/>
+	<label commandName="STORYBOARDSOURCETYPE" devLabel="Assembly(Storyboard)" translation="Сборка(Раскадровка)"/>
+	<label commandName="SameCircularDimFungibilityAlgo" devLabel="Same Circular Dim Fungibility Algorithm" translation="Алгоритм взаимозаменяемости одинаковых круговых размеров"/>
+	<label commandName="SameLoopCheckerAlgorithm" devLabel="Same Loop Checker Algorithm" translation="Алгоритм проверки одинаковых циклов"/>
+	<label commandName="SameLoopFungibilityAlgo" devLabel="Same Loop Fungibility Algorithm" translation="Алгоритм взаимозаменяемости одинаковых циклов"/>
+	<label commandName="SheetMetalFlatGroup" devLabel="Sheet Metal : Flat" translation="Листовой металл: развертка"/>
+	<label commandName="SheetMetalFlatPCreateSheet" devLabel="SheetMetal: Flat Pattern" translation="Листовой металл: развертка"/>
+	<label commandName="SheetMetalFlatPISOWithOrthoViews" devLabel="Add Folded Metal Isometric View" translation="Добавить изометрический вид сложенного металла"/>
+	<label commandName="SheetMetalFlatPIncludeBendTable" devLabel="Include Bend Table" translation="Включить таблицу гибов"/>
+	<label commandName="SheetMetalFlatPIncludeBendTableLoc" devLabel="Bend Table Location" translation="Расположение таблицы гибов"/>
+	<label commandName="SheetMetalFlatPWithOrthoViews" devLabel="SheetMetal: Sheet With Orthogonal Views" translation="SheetMetal: лист с ортогональными видами"/>
+	<label commandName="SheetMetalFoldedCreateSheet" devLabel="Create Sheet" translation="Создать лист"/>
+	<label commandName="SheetMetalFoldedGroup" devLabel="Sheet Metal : Folded" translation="Листовой металл: сгиб"/>
+	<label commandName="SheetMetalFoldedISOWithOrthoViews" devLabel="Add ISO View with Ortho Views" translation="Добавить изометрию с ортогональными видами"/>
+	<label commandName="SheetMetalFoldedWithOrthoViews" devLabel="Sheet With Orthogonal Views" translation="Лист с ортогональными видами"/>
+	<label commandName="SheetSizeBrowserLabel" devLabel="Sheet Size: " translation="Размер листа:"/>
+	<label commandName="SheetSizeBrowserToolTip" devLabel="Change Sheet Size" translation="Изменить размер листа"/>
+	<label commandName="SimilarHoleIdentifierAlgo" devLabel="Similar Hole Identifier Algorithm" translation="Алгоритм идентификации похожих отверстий"/>
+	<label commandName="SliderValue" devLabel="Slider Value" translation="Значение ползунка"/>
+	<label commandName="SmallDimPriorityModifierAlgo" devLabel="Small Dimension Priority Modifier" translation="Модификатор приоритета малых размеров"/>
+	<label commandName="SmallDimThreshold_ASME" devLabel="Small dimension threshold" translation="Порог малых размеров"/>
+	<label commandName="SmallDimThreshold_ISO" devLabel="Small dimension threshold" translation="Порог малых размеров"/>
+	<label commandName="SubASMCreateSheetOrtho" devLabel="Sheet with Ortho Views" translation="Лист с ортогональными видами"/>
+	<label commandName="SubASMGroup" devLabel="Sub Assemblies" translation="Подсборки"/>
+	<label commandName="SubASMISOGroup" devLabel="Sub Assemblies ISO" translation="Подсборки ISO"/>
+	<label commandName="SubASMOrthoGroup" devLabel="Sub Assemblies Ortho" translation="Подсборки Ortho"/>
+	<label commandName="SubASMOrthoPartListLocation" devLabel="Default Parts List Location" translation="Расположение списка деталей по умолчанию"/>
+	<label commandName="SubASMSheetCreate" devLabel="Create Sub Assembly" translation="Создать подсборку"/>
+	<label commandName="SubASMSheetISOPartList" devLabel="Include Parts List" translation="Включить список деталей"/>
+	<label commandName="SubASMSheetOrthoPartList" devLabel="Include Parts List" translation="Включить список деталей"/>
+	<label commandName="SubASMSheetSingleISO" devLabel="Sheet with Single ISO View" translation="Лист с одной изометрией"/>
+	<label commandName="SubASmSheetISOPartListLocation" devLabel="Default Parts List Location" translation="Расположение списка деталей по умолчанию"/>
+	<label commandName="SymmetricDimsGeneratorAlgo" devLabel="Symmetric Dim Generator Algorithm" translation="Алгоритм генерации симметричных размеров"/>
+	<label commandName="SymmetricRecipeSettingAlgo" devLabel="Symmetric Recipe Setting Algorithm" translation="Алгоритм настройки симметричного шаблона"/>
+	<label commandName="SymmetricWithBaselineDimsGenerator" devLabel="Symmetric With Baseline Dim Generator Algorithm" translation="Алгоритм генерации симметричных размеров с базовой линией"/>
+	<label commandName="SymmetryDimFungibilityAlgo" devLabel="Symmetry Dim Fungibility Algorithm" translation="Алгоритм взаимозаменяемости симметричных размеров"/>
+	<label commandName="TangencyPointPriorityAlgo" devLabel="G1 Continuity Algorithm" translation="Алгоритм непрерывности G1"/>
+	<label commandName="TemplateGroup" devLabel="Template Setings" translation="Настройки шаблона"/>
+	<label commandName="TextHeightCustom" devLabel="Custom" translation="Пользовательский"/>
+	<label commandName="TextHeightLarge" devLabel="Large" translation="Большой"/>
+	<label commandName="TextHeightMedium" devLabel="Medium" translation="Средний"/>
+	<label commandName="TextHeightSmall" devLabel="Small" translation="Малый"/>
+	<label commandName="ThreeEdgesIntersectionDimPriorityAlgo" devLabel="Three Edges Intersection DimPriority Algorithm" translation="Алгоритм приоритета размеров пересечения трех кромок"/>
+	<label commandName="TitleBlockBrowserLabel" devLabel="Title Block: " translation="Титульный блок:"/>
+	<label commandName="TitleBlockBrowserNoneLabel" devLabel="&lt;NONE&gt;" translation="&lt;"/>
+	<label commandName="TitleBlockBrowserToolTip" devLabel="Change Title Block" translation="Изменить штамп"/>
+	<label commandName="TurnedComponentDimPriorityAlgo" devLabel="Turned Component Dim Priority Algorithm" translation="Алгоритм приоритета размеров повернутого компонента"/>
+	<label commandName="UniqueSectionGeneratorAlgorithm" devLabel="Unique Section Generator Algorithm" translation="Алгоритм генерации уникального сечения"/>
+	<label commandName="UniqueSectionPriorityReducingAlgo" devLabel="Unique Section Dim Priority Reducing Algorithm" translation="Алгоритм снижения приоритета размеров уникального сечения"/>
+	<label commandName="UnsavedDocumentLabel" devLabel="(Unsaved)" translation="(Не сохранено)"/>
+	<label commandName="UserGeneralProperty_DESCRIPTION" devLabel="" translation=""/>
+	<label commandName="UserGeneralProperty_ITEM" devLabel="" translation=""/>
+	<label commandName="UserGeneralProperty_MATERIAL" devLabel="" translation=""/>
+	<label commandName="UserGeneralProperty_PARTNAME" devLabel="" translation=""/>
+	<label commandName="UserGeneralProperty_PARTNUMBER" devLabel="" translation=""/>
+	<label commandName="UserGeneralProperty_QTY" devLabel="" translation=""/>
+	<label commandName="UserMEProperty__CHANGE_ORDER" devLabel="" translation=""/>
+	<label commandName="UserMEProperty__ITEM_NUMBER" devLabel="" translation=""/>
+	<label commandName="UserMEProperty__LIFE_CYCLE" devLabel="" translation=""/>
+	<label commandName="UserMEProperty__REVISION" devLabel="" translation=""/>
+	<label commandName="UserMEProperty__STATE" devLabel="" translation=""/>
+	<label commandName="UserPhysicalProperty__MASS" devLabel="" translation=""/>
+	<label commandName="VOJointOrigin" devLabel="Joint Origins" translation="Начало связи"/>
+	<label commandName="VerticalBaseLineDimGenAlgorithm" devLabel="Vertical Base Line Dim Algorithm" translation="Алгоритм вертикальных базовых размеров"/>
+	<label commandName="VerticalChainDimGenAlgorithm" devLabel="Vertical Chain Dim Algorithm" translation="Алгоритм вертикальных цепных размеров"/>
+	<label commandName="ViewDefaultPadding" devLabel="View Default Padding val * textHeight" translation="Отступ вида по умолчанию val * высота текста"/>
+	<label commandName="ViewNestCorner" devLabel="View Nest corner 0UL 1UR 2LL 3LR 4UC 5LC 6MC" translation="Угол вложения вида 0UL 1UR 2LL 3LR 4UC 5LC 6MC"/>
+	<label commandName="ViewNestDirection" devLabel="View Nest Direction 0-HZ" translation="Направление вложения вида 0-HZ"/>
+	<label commandName="ViewPreference_ASME" devLabel="Auto View Preference 0T 1L 2B 3R" translation="Автоматическое предпочтение вида 0T 1L 2B 3R"/>
+	<label commandName="ViewPreference_ISO" devLabel="Auto View Preference 0T 1L 2B 3R" translation="Автоматическое предпочтение вида 0T 1L 2B 3R"/>
+	<label commandName="Yes" devLabel="Yes" translation="Да"/>
+	<label commandName="minDistToDim_ASME" devLabel="Minimum distance to dimension (ASME)" translation="Минимальное расстояние до размера (ASME)"/>
+	<label commandName="minDistToDim_ISO" devLabel="Minimum distance to dimension (ISO)" translation="Минимальное расстояние до размера (ISO)"/>
+</Resource>

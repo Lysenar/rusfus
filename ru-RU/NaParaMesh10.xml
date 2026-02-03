@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+    <label commandName="Body" devLabel="Body" translation="Тело" />
+    <label commandName="ConversionFailed" devLabel="Conversion failed" translation="Преобразование не удалось" />
+    <label commandName="CreateComponentsFromMeshBodiesFeatureMissing" devLabel="Editing Feature for CreateComponentsFromBodies is missing." translation="Отсутствует функция редактирования для CreateComponentsFromBodies." />
+    <label commandName="CreateComponentsFromMeshBodiesMeshMissing" devLabel="Mesh Body for CreateComponentsFromBodies is missing." translation="Отсутствует полигональная сетка для CreateComponentsFromBodies." />
+    <label commandName="DeriveEntitiesCreateComponentsFromMeshBodiesIsNotSupported" devLabel="This operation is not supported for Derived entities, they will not participate in the operation." translation="Эта операция не поддерживается для производных объектов, они не будут участвовать в операции." />
+    <label commandName="Face Group" devLabel="Face Group" translation="Группа граней" />
+    <label commandName="Faces" devLabel="Faces" translation="Грани" />
+    <label commandName="FailedDefectInspection" devLabel="Mesh defect inspection failed." translation="Проверка дефектов сетки не удалась." />
+    <label commandName="FailedParaMeshBoolean" devLabel="Cannot combine mesh bodies. Use Repair to ensure selected meshes are closed, oriented correctly, and have positive volume." translation="Невозможно объединить полигональные сетки. Используйте Восстановить, чтобы убедиться, что выбранные сетки замкнуты, правильно ориентированы и имеют положительный объем." />
+    <label commandName="FailedParaMeshDelete" devLabel="Cannot delete mesh body." translation="Невозможно удалить полигональную сетку." />
+    <label commandName="FailedParaMeshExportOperation" devLabel="Cannot export mesh body. Select a different export format or save the file to a different location." translation="Невозможно экспортировать полигональную сетку. Выберите другой формат экспорта или сохраните файл в другом месте." />
+    <label commandName="FailedParaMeshFaceGroup" devLabel="Cannot generate face groups for mesh body." translation="Невозможно сгенерировать группы граней для полигональной сетки." />
+    <label commandName="FailedParaMeshFaceGroupDelete" devLabel="Mesh body delete face groups command failed" translation="Команда удаления групп граней полигональной сетки не выполнена" />
+    <label commandName="FailedParaMeshFacetsDelete" devLabel="Mesh body delete faces command failed" translation="Команда удаления граней полигональной сетки не выполнена" />
+    <label commandName="FailedParaMeshHollow" devLabel="Cannot shell mesh body. Adjust thickness or use Repair to ensure selected meshes are closed, oriented correctly, and have positive volume." translation="Невозможно выполнить оболочку полигональной сетки. Отрегулируйте толщину или используйте Восстановить, чтобы убедиться, что выбранные сетки замкнуты, правильно ориентированы и имеют положительный объем." />
+    <label commandName="FailedParaMeshLattice" devLabel="Cannot lattice mesh body." translation="Невозможно преобразовать полигональную сетку в решетку." />
+    <label commandName="FailedParaMeshLatticeCmd" devLabel="Cannot lattice mesh body." translation="Невозможно преобразовать полигональную сетку в решетку." />
+    <label commandName="FailedParaMeshMerge" devLabel="Cannot combine mesh bodies with the Merge operation." translation="Невозможно объединить полигональные сетки с помощью операции Слияние." />
+    <label commandName="FailedParaMeshMergeFaceGroups" devLabel="Cannot combine face groups on mesh body. Use Generate Face Groups to regenerate a starting set of face groups." translation="Невозможно объединить группы граней на полигональной сетке. Используйте Сгенерировать группы граней для восстановления начального набора групп граней." />
+    <label commandName="FailedParaMeshMeshToBREP" devLabel="Cannot convert mesh body to solid or surface body. Use Generate Face Groups or Direct Edit to align face groups to geometric features on the mesh body." translation="Невозможно преобразовать полигональную сетку в твердое или поверхностное тело. Используйте Сгенерировать группы граней или Прямое редактирование, чтобы выровнять группы граней по геометрическим особенностям сетки." />
+    <label commandName="FailedParaMeshOperation" devLabel="Mesh interface operation failed." translation="Операция с сеткой не удалась." />
+    <label commandName="FailedParaMeshOperationAssetAdapterMissing" devLabel="No Asset or AssetAdapter available. Save the design and restart." translation="Ассет или AssetAdapter недоступны. Сохраните проект и перезапустите." />
+    <label commandName="FailedParaMeshOperationCreate" devLabel="Cannot insert mesh body. The source file may be damaged." translation="Невозможно вставить полигональную сетку. Исходный файл может быть поврежден." />
+    <label commandName="FailedParaMeshOperationExtract" devLabel="Cannot separate regions of mesh body." translation="Невозможно разделить области полигональной сетки." />
+    <label commandName="FailedParaMeshPlaneCut" devLabel="Cannot complete plane cut of mesh body. Use Repair or Direct Edit to ensure mesh body does not intersect itself." translation="Невозможно завершить плоскостной разрез полигональной сетки. Используйте Восстановить или Прямое редактирование, чтобы убедиться, что сетка не пересекает саму себя." />
+    <label commandName="FailedParaMeshRangeCheck" devLabel="Parameter value is out of bounds" translation="Значение параметра вне допустимого диапазона" />
+    <label commandName="FailedParaMeshReduce" devLabel="Cannot reduce mesh body or face groups. Use Repair to ensure selected meshes are closed, oriented correctly, and have positive volume." translation="Невозможно уменьшить полигональную сетку или группы граней. Используйте Восстановить, чтобы убедиться, что выбранные сетки замкнуты, правильно ориентированы и имеют положительный объем." />
+    <label commandName="FailedParaMeshRemesh" devLabel="Cannot remesh mesh body or face groups. Use Repair to ensure selected meshes are closed, oriented correctly, and have positive volume." translation="Невозможно перестроить полигональную сетку или группы граней. Используйте Восстановить, чтобы убедиться, что выбранные сетки замкнуты, правильно ориентированы и имеют положительный объем." />
+    <label commandName="FailedParaMeshRemeshSeperateRegions" devLabel="Cannot remesh mesh body or face groups. Input selection of triangles may be disjoint, e.g. subareas of the selection not sharing an edge. Adjusting and sanitizing the input selection can help." translation="Невозможно перестроить полигональную сетку или группы граней. Входное выделение треугольников может быть несвязным, например, подобласти выделения не имеют общей кромки. Настройка и очистка входного выделения может помочь." />
+    <label commandName="FailedParaMeshRemove" devLabel="Cannot remove mesh body." translation="Невозможно удалить полигональную сетку." />
+    <label commandName="FailedParaMeshRemoveFeature" devLabel="Cannot remove mesh body. Target mesh body does not exist." translation="Невозможно удалить полигональную сетку. Целевая сетка не существует." />
+    <label commandName="FailedParaMeshRepair" devLabel="Cannot repair mesh body. Try a different repair type." translation="Невозможно восстановить полигональную сетку. Попробуйте другой тип восстановления." />
+    <label commandName="FailedParaMeshScaling" devLabel="Cannot scale mesh body. Adjust scale factor or X/Y/Z scale." translation="Невозможно масштабировать полигональную сетку. Отрегулируйте коэффициент масштабирования или масштаб по X/Y/Z." />
+    <label commandName="FailedParaMeshSmooth" devLabel="Cannot smooth mesh body or face groups. Use Repair to ensure selected meshes are closed, oriented correctly, and have positive volume." translation="Невозможно сгладить полигональную сетку или группы граней. Используйте Восстановить, чтобы убедиться, что выбранные сетки замкнуты, правильно ориентированы и имеют положительный объем." />
+    <label commandName="FailedParaMeshTessellate" devLabel="Cannot tessellate solid or surface body to create mesh body." translation="Невозможно тесселировать твердое или поверхностное тело для создания полигональной сетки." />
+    <label commandName="FailedParaMeshToBREP" devLabel="Cannot convert mesh body to solid or surface body. Use Generate Face Groups or Direct Edit to align face groups to geometric features on the mesh body." translation="Невозможно преобразовать полигональную сетку в твердое или поверхностное тело. Используйте Сгенерировать группы граней или Прямое редактирование, чтобы выровнять группы граней по геометрическим особенностям сетки." />
+    <label commandName="FailedParaMeshToQuadMesh" devLabel="Cannot convert mesh body to quad mesh." translation="Невозможно преобразовать полигональную сетку в квад-сетку." />
+    <label commandName="FailedParaMeshToTSpline" devLabel="Cannot convert mesh body to T-Spline body." translation="Невозможно преобразовать полигональную сетку в T-Spline тело." />
+    <label commandName="FeatureCalculateFaceGroups" devLabel="GenerateFaceGroups" translation="Сгенерировать группы граней" />
+    <label commandName="FeatureCopyPasteMeshes" devLabel="CopyPasteMeshes" translation="Копировать/Вставить сетки" />
+    <label commandName="FeatureCreateMesh" devLabel="CreateMesh" translation="Создать сетку" />
+    <label commandName="FeatureCutPasteMeshes" devLabel="CutPasteMeshes" translation="Вырезать/Вставить сетки" />
+    <label commandName="FeatureMergeFaceGroups" devLabel="CombineFaceGroups" translation="Объединить группы граней" />
+    <label commandName="FeatureMesh" devLabel="Base Mesh Feature" translation="Базовая функция сетки" />
+    <label commandName="FeatureMeshCombine" devLabel="MeshCombine" translation="Объединить сетки" />
+    <label commandName="FeatureMeshExtract" devLabel="MeshSeparate" translation="Разделить сетку" />
+    <label commandName="FeatureMeshHollow" devLabel="MeshShell" translation="Оболочка сетки" />
+    <label commandName="FeatureMeshPlaneCut" devLabel="MeshPlaneCut" translation="Плоскостной разрез сетки" />
+    <label commandName="FeatureMeshReduce" devLabel="MeshReduce" translation="Уменьшить сетку" />
+    <label commandName="FeatureMeshRemesh" devLabel="MeshRemesh" translation="Перестроить сетку" />
+    <label commandName="FeatureMeshRemove" devLabel="MeshRemove" translation="Удалить сетку" />
+    <label commandName="FeatureMeshRepair" devLabel="MeshRepair" translation="Восстановить сетку" />
+    <label commandName="FeatureMeshReverseNormals" devLabel="MeshReverseNormals" translation="Обратить нормали сетки" />
+    <label commandName="FeatureMeshScale" devLabel="Scale" translation="Масштабировать" />
+    <label commandName="FeatureMeshSection" devLabel="MeshSection" translation="Сечение сетки" />
+    <label commandName="FeatureMeshSmooth" devLabel="MeshSmooth" translation="Сгладить сетку" />
+    <label commandName="FeatureMeshTessellate" devLabel="MeshTessellate" translation="Тесселировать сетку" />
+    <label commandName="FeatureMeshToBREP" devLabel="Convert Mesh" translation="Преобразовать сетку" />
+    <label commandName="FeatureMeshToQuadMesh" devLabel="MeshToQuadMesh" translation="Преобразовать в квад-сетку" />
+    <label commandName="FeatureModify" devLabel="Modify" translation="Изменить" />
+    <label commandName="FreeForm" devLabel="Free Form" translation="Свободная форма" />
+    <label commandName="General" devLabel="General" translation="Общие" />
+    <label commandName="ImportFailed" devLabel="Import failed" translation="Импорт не удался" />
+    <label commandName="MESH_SELECTION_OPTION_GROUP" devLabel="Modify Selection" translation="Изменить выделение" />
+    <label commandName="MESH_TARGET_BODY_REFERENCE_LOST" devLabel="Lost target body. Edit feature to reselect target body." translation="Целевое тело утеряно. Отредактируйте функцию для повторного выбора целевого тела." />
+    <label commandName="MESH_TOOLBODY_REFERENCE_LOST" devLabel="Lost tool body. Edit feature to reselect tool body." translation="Инструментальное тело утеряно. Отредактируйте функцию для повторного выбора инструментального тела." />
+    <label commandName="MeshConversionNotCompleteWarning" devLabel="Not all facegroups of the mesh body could be converted. The generated solid or surface body is not complete. Try a different method for conversion or adjust the face groups to correspond better to geometric features of the mesh." translation="Не все группы граней сетки удалось преобразовать. Полученное твердое или поверхностное тело неполное. Попробуйте другой метод преобразования или настройте группы граней для лучшего соответствия геометрическим особенностям сетки." />
+    <label commandName="MeshDirectEditFailedMultiComponent" devLabel="Cannot directly edit mesh bodies in different components. Edit mesh bodies separately or move them into the same component." translation="Невозможно напрямую редактировать полигональные сетки в разных компонентах. Редактируйте сетки отдельно или переместите их в один компонент." />
+    <label commandName="MeshGenericReformError" devLabel="Mesh to T-Spline operation failed." translation="Преобразование сетки в T-Spline не удалось." />
+    <label commandName="MeshGenericTSplineError" devLabel="T-Spline operation failed." translation="Операция T-Spline не удалась." />
+    <label commandName="MeshNoParent" devLabel="Missing parent of mesh body. Try pasting mesh body again." translation="Отсутствует родитель полигональной сетки. Попробуйте вставить сетку снова." />
+    <label commandName="MeshNoTimelineParent" devLabel="Parent of mesh body missing from timeline. Try pasting mesh body again." translation="Родитель полигональной сетки отсутствует на временной шкале. Попробуйте вставить сетку снова." />
+    <label commandName="MeshOperationCanceled" devLabel="Mesh operation canceled" translation="Операция с сеткой отменена" />
+    <label commandName="MeshOutOfBoundsConvertFaceNumber" devLabel="Face Number value is out of range. The valid range is from %1% to %2%" translation="Значение количества граней вне диапазона. Допустимый диапазон от %1% до %2%" />
+    <label commandName="MeshOutOfBoundsGenerateFaceGrpOpeningAngle" devLabel="Angle threshold is out of range. The valid range is from %1% deg to %2% deg" translation="Порог угла вне диапазона. Допустимый диапазон от %1% град. до %2% град." />
+    <label commandName="MeshOutOfBoundsGenerateFaceGrpSegTol" devLabel="Boundary tolerance is out of range. The valid range is from %1% cm to %2% cm" translation="Допуск границы вне диапазона. Допустимый диапазон от %1% см до %2% см" />
+    <label commandName="MeshOutOfBoundsGenerateFaceGrpSegmentArea" devLabel="Minimum Face Group Size is out of range. The valid range is from %1% to %2%" translation="Минимальный размер группы граней вне диапазона. Допустимый диапазон от %1% до %2%" />
+    <label commandName="MeshOutOfBoundsHollowInsideThickness" devLabel="Thickness is too small. The minimum value is %1% cm" translation="Толщина слишком мала. Минимальное значение: %1% см" />
+    <label commandName="MeshOutOfBoundsTessellateAspectRatio" devLabel="Aspect ratio is out of range. The valid range is from %1% to %2%" translation="Соотношение сторон вне диапазона. Допустимый диапазон от %1% до %2%" />
+    <label commandName="MeshOutOfBoundsTessellateNormalTol" devLabel="Normal deviation is out of range. The valid range is from %1% to %2%" translation="Отклонение нормали вне диапазона. Допустимый диапазон от %1% до %2%" />
+    <label commandName="MeshPointsSelectionId" devLabel="Mesh Points" translation="Точки сетки" />
+    <label commandName="MeshScaleGenericError" devLabel="Cannot scale mesh body. Adjust scale settings or selection set." translation="Невозможно масштабировать полигональную сетку. Отрегулируйте настройки масштабирования или набор выделения." />
+    <label commandName="MeshToolProps" devLabel="Mesh Selection Tool" translation="Инструмент выделения сетки" />
+    <label commandName="MeshUnknownASMError" devLabel="Modeling operation failed." translation="Операция моделирования не удалась." />
+    <label commandName="MeshUnknownError" devLabel="Mesh modeling operation failed." translation="Операция моделирования сетки не удалась." />
+    <label commandName="MeshWarningHollowShellCount" devLabel="The triangle count did not change. Try adjusting the thickness value." translation="Количество треугольников не изменилось. Попробуйте отрегулировать значение толщины." />
+    <label commandName="MigrationFailedDocumentHasNoSegment" devLabel="Document has no Segment" translation="В документе нет сегмента" />
+    <label commandName="MigrationFailedNoParaMeshWasAdopted" devLabel="No ParaMesh was adopted" translation="ParaMesh не был принят" />
+    <label commandName="MigrationFailedObjectPathHasNotMeshBody" devLabel="ObjectPath has not MeshBody" translation="ObjectPath не содержит полигональной сетки" />
+    <label commandName="NamePostfixParametric" devLabel=" (Parametric)" translation=" (Параметрический)" />
+    <label commandName="PARAMESH_SELECTOR_BRUSH_SIZE" devLabel="Brush Size" translation="Размер кисти" />
+    <label commandName="PARAMESH_SELECTOR_EXPANDTOCONNECTED_MESH_SEL_ACTION" devLabel="Expand to Connected" translation="Расширить до связанных" />
+    <label commandName="PARAMESH_SELECTOR_EXPANDTOGROUP_MESH_SEL_ACTION" devLabel="Expand to Face Group" translation="Расширить до группы граней" />
+    <label commandName="PARAMESH_SELECTOR_GROW_MESH_SEL" devLabel="Grow" translation="Увеличить" />
+    <label commandName="PARAMESH_SELECTOR_GROW_SHRINK_MESH_SEL_EXPAND" devLabel="Expand" translation="Расширить" />
+    <label commandName="PARAMESH_SELECTOR_GROW_SHRINK_MESH_SEL_GROW" devLabel="Grow/Shrink" translation="Увеличить/Уменьшить" />
+    <label commandName="PARAMESH_SELECTOR_INVERT_MESH_SEL" devLabel="Invert" translation="Инвертировать" />
+    <label commandName="PARAMESH_SELECTOR_INVERT_MESH_SEL_ACTION" devLabel="Invert Selection" translation="Инвертировать выделение" />
+    <label commandName="PARAMESH_SELECTOR_N_SELECTED_BODIES" devLabel="Selected Mesh Bodies" translation="Выбранные полигональные сетки" />
+    <label commandName="PARAMESH_SELECTOR_N_SELECTED_FACE_GROUPS" devLabel="Selected Face Groups" translation="Выбранные группы граней" />
+    <label commandName="PARAMESH_SELECTOR_N_SELECTED_TRIANGLES" devLabel="Selected Faces" translation="Выбранные грани" />
+    <label commandName="PARAMESH_SELECTOR_SHRINK_MESH_SEL" devLabel="Shrink" translation="Уменьшить" />
+    <label commandName="Paint" devLabel="Paint" translation="Краска" />
+    <label commandName="ParaMeshBodyDefaultUserName" devLabel="MeshBody" translation="Полигональная сетка" />
+    <label commandName="ParaMeshBodySelectionCategory" devLabel="Mesh Bodies" translation="Полигональные сетки" />
+    <label commandName="ParaMeshCalculateFaceGroupsBoundaryTolerance" devLabel="Boundary Tolerance" translation="Допуск границы" />
+    <label commandName="ParaMeshCalculateFaceGroupsMinimumEdgeLength" devLabel="Minimum Face Group Size" translation="Минимальный размер группы граней" />
+    <label commandName="ParaMeshCalculateFaceGroupsOpeningAngle" devLabel="Angle Threshold" translation="Порог угла" />
+    <label commandName="ParaMeshEditMeshNamePostfix" devLabel="_Edited" translation="_Отредактировано" />
+    <label commandName="ParaMeshFaceGroupSelectionCategory" devLabel="Mesh Face Groups" translation="Группы граней сетки" />
+    <label commandName="ParaMeshFaceGroupSelectionId" devLabel="Face Group" translation="Группа граней" />
+    <label commandName="ParaMeshFaceGroupSelectionsId" devLabel="Face Groups" translation="Группы граней" />
+    <label commandName="ParaMeshFaceSelectionId" devLabel="Mesh Faces" translation="Грани сетки" />
+    <label commandName="ParaMeshFaceSelectionsId" devLabel="Mesh Faces" translation="Грани сетки" />
+    <label commandName="ParaMeshFacetSelectionCategory" devLabel="Mesh Faces" translation="Грани сетки" />
+    <label commandName="ParaMeshFeatureSelectionId" devLabel="ParaMesh Feature" translation="Функция ParaMesh" />
+    <label commandName="ParaMeshFeatureSelectionIds" devLabel="ParaMesh Features" translation="Функции ParaMesh" />
+    <label commandName="ParaMeshGridAspectRatio" devLabel="Aspect Ratio" translation="Соотношение сторон" />
+    <label commandName="ParaMeshMaxEdgeLength" devLabel="Maximum Edge Length" translation="Максимальная длина ребра" />
+    <label commandName="ParaMeshNormalTolerance" devLabel="Normal Deviation" translation="Отклонение нормали" />
+    <label commandName="ParaMeshPointSelectionCategory" devLabel="Mesh Points" translation="Точки сетки" />
+    <label commandName="ParaMeshPointSelectionId" devLabel="Mesh Point" translation="Точка сетки" />
+    <label commandName="ParaMeshReduceFaceCount" devLabel="Face Count" translation="Количество граней" />
+    <label commandName="ParaMeshReduceProportion" devLabel="Proportion" translation="Пропорция" />
+    <label commandName="ParaMeshReduceTolerance" devLabel="Tolerance" translation="Допуск" />
+    <label commandName="ParaMeshRemeshDensity" devLabel="Density" translation="Плотность" />
+    <label commandName="ParaMeshRemeshpShapePreservation" devLabel="Shape Preservation" translation="Сохранение формы" />
+    <label commandName="ParaMeshScaleFactorMissing" devLabel="Missing scal-factor for scaling. Edit feature and define scaling factor." translation="Отсутствует коэффициент масштабирования. Отредактируйте функцию и определите коэффициент масштабирования." />
+    <label commandName="ParaMeshScaleReferenceMissing" devLabel="Missing reference point for scaling. Edit feature and reselect reference point." translation="Отсутствует опорная точка для масштабирования. Отредактируйте функцию и повторно выберите опорную точку." />
+    <label commandName="ParaMeshSelectionId" devLabel="Mesh Body" translation="Полигональная сетка" />
+    <label commandName="ParaMeshSelectionsId" devLabel="Mesh Bodies" translation="Полигональные сетки" />
+    <label commandName="ParaMeshSmoothness" devLabel="Smoothness" translation="Сглаженность" />
+    <label commandName="ParaMeshSourceBodyNotFound" devLabel="Cannot find mesh body source. Edit feature to reselect mesh body." translation="Не удается найти исходную полигональную сетку. Отредактируйте функцию для повторного выбора сетки." />
+    <label commandName="ParaMeshSurfaceTolerance" devLabel="Surface Deviation" translation="Отклонение поверхности" />
+    <label commandName="ParameshFeatureSelectionCategory" devLabel="Mesh Points" translation="Точки сетки" />
+    <label commandName="SelectBackFacets" devLabel="Select Back Faces" translation="Выбрать задние грани" />
+    <label commandName="SelectionFilter" devLabel="Selection Filter" translation="Фильтр выделения" />
+    <label commandName="Selectionmode" devLabel="Selection Type" translation="Тип выделения" />
+    <label commandName="TargetSketchNotFound" devLabel="Missing mesh section sketch. Delete Mesh Section feature from timeline and recreate it." translation="Отсутствует эскиз сечения сетки. Удалите функцию Сечение сетки из временной шкалы и создайте ее заново." />
+    <label commandName="Window" devLabel="Window" translation="Окно" />
+	<label commandName="FailedMeshReplace" devLabel="Cannot modify mesh." translation="Невозможно изменить полигональную сетку." />
+<label commandName="FeatuTextureTexture" devLabel="MeshTexture" translation="Текстура сетки" />
+<label commandName="FeatureBodyComp" devLabel="Body-&gt;Comp" translation="Тело->Компонент" />
+<label commandName="MeshBodyUnselectableTooltip" devLabel="%1% is Unselectable.&lt;br&gt;&lt;br&gt;Right-click &gt; Selectable to enable selection." translation="%1% не доступно для выбора.&lt;br&gt;&lt;br&gt;Щелкните правой кнопкой мыши &gt; Выбираемый, чтобы включить выбор." />
+<label commandName="ParaMeshStatusEmptyMesh" devLabel="Mesh is empty." translation="Полигональная сетка пуста." />
+<label commandName="ParaMeshStatusNegativeVolume" devLabel="Mesh does not have positive volume." translation="Полигональная сетка не имеет положительного объема." />
+<label commandName="ParaMeshStatusNotClosed" devLabel="Mesh is not closed." translation="Полигональная сетка не замкнута." />
+<label commandName="ParaMeshStatusNotOriented" devLabel="Mesh is not oriented." translation="Полигональная сетка не ориентирована." />
+</Resource>

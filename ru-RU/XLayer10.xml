@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="APIAddInStartupSkipped" devLabel="The add-in &quot;%1%&quot; failed to run the last time Fusion was started and was skipped this time. If this problem continues, you should set the add-in so that it does not load on startup." translation="The add-in &quot;%1%&quot; failed to run the last time Fusion was started and was skipped this time. If this problem continues, you should set the add-in so that it does not load on startup." />
+	<label commandName="APIAddInStartupSkippedLink" devLabel="Manage Add-Ins" translation="Управление надстройками" />
+	<label commandName="APIAddInStartupSkippedTitle" devLabel="Add-In Failed to Start" translation="Не удалось запустить надстройку" />
+	<label commandName="APIDefaultCancelSaveReason" devLabel="Cancelled from API" translation="Отменено из API" />
+	<label commandName="CopyManifestError" devLabel="Unable to copy the manifest!" translation="Невозможно скопировать манифест!" />
+	<label commandName="CopyScriptError" devLabel="Script with same name already exists!" translation="Скрипт с таким названием уже существует!" />
+	<label commandName="DefaultManifestFormatError" devLabel="Default manifest is not JSON format!" translation="Манифест по умолчанию не имеет формата JSON!" />
+	<label commandName="DefaultManifestNotFound" devLabel="Unable to find default manifest!" translation="Не удалось найти манифест по умолчанию!" />
+	<label commandName="DefaultManifestReadError" devLabel="Unable to read default manifest!" translation="Невозможно прочитать манифест по умолчанию!" />
+	<label commandName="EditScriptFileGeneralError" devLabel="Failed to open " translation="Не удалось открыть " />
+	<label commandName="EditScriptFileNoAssocError" devLabel="No application knows how to open" translation="Ни одно приложение не знает, как открыть" />
+	<label commandName="ManifestCreateError" devLabel="Unable to create manifest!" translation="Невозможно создать манифест!" />
+	<label commandName="ManifestExistError" devLabel="Script with same name already exists!" translation="Скрипт с таким названием уже существует!" />
+	<label commandName="ManifestWriteError" devLabel="Unable to write attributes to manifest!" translation="Невозможно записать атрибуты в манифест!" />
+	<label commandName="NewScriptFileExistsError" devLabel="Script with same name already exists!" translation="Скрипт с таким названием уже существует!" />
+	<label commandName="NewScriptFileExistsError2" devLabel="Unable to create the script!" translation="Невозможно создать скрипт!" />
+	<label commandName="NewScriptFileOpenError" devLabel="Unable to create the script!" translation="Невозможно создать скрипт!" />
+	<label commandName="NewScriptUnknownError" devLabel="Unknown error occurred. Failed to create the script!" translation="Произошла неизвестная ошибка. Не удалось создать скрипт!" />
+	<label commandName="RenameScriptError" devLabel="Script cannot be renamed!" translation="Скрипт нельзя переименовывать!" />
+</Resource>

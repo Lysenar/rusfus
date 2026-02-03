@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="3MFFileFilterDescription" devLabel="3MF Files (*.3mf)" translation="Файлы 3MF (*.3mf)" />
+	<label commandName="CollectComponentsForExport3MFError" devLabel="Autodesk Translation Services failed to translate the current document to 3mf file!" translation="Службе перевода Autodesk не удалось перевести текущий документ в файл 3mf!" />
+	<label commandName="ContextFolderTooltip" devLabel="Cached objects from a dissolved Assembly Context" translation="Кэшированные объекты из解散ленной сборки контекста" />
+</Resource>

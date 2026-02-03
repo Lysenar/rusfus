@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="Ns_couldNotAuthenticate" devLabel="User could not be authenticated." translation="Пользователь не может быть аутентифицирован." />
+	<label commandName="Ns_noDefaultEntitlement" devLabel="Entitlement id for application could not be found." translation="Не удалось найти идентификатор права для приложения." />
+	<label commandName="OxygenOptionGroupName" devLabel="Autodesk 360" translation="Автодеск 360" />
+	<label commandName="OxygenOptionGroupTooltip" devLabel="Autodesk 360 Settings" translation="Настройки Autodesk 360" />
+</Resource>

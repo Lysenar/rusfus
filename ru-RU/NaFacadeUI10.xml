@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="AppearanceInheritToolTip_1" devLabel="Inherits the Appearance from the Physical Material assigned to this object.&#xA;&#xA;If the Physical Material changes, this Appearance updates to match." translation="Übernimmt die Darstellung des diesem Objekt zugewiesenen Materials.&#xA;&#xA;Wenn sich das Material ändert, wird diese Darstellung entsprechend aktualisiert."/>
+	<label commandName="AppearanceInheritToolTip_2" devLabel="Inherits the Appearance override from the parent component that contains this object.&#xA;&#xA;If the Appearance of the parent component changes, this Appearance updates to match." translation="Übernimmt die Darstellungsüberschreibung von der übergeordneten Komponente, die dieses Objekt enthält.&#xA;&#xA;Wenn sich die Darstellung der übergeordneten Komponente ändert, wird diese Darstellung entsprechend aktualisiert."/>
+	<label commandName="AppearanceRootToolTip" devLabel="Current default Appearance override for &#xA;" translation="Aktuelle Vorgabe-Darstellungsüberschreibung für &#xA;"/>
+	<label commandName="FromParentMaterial" devLabel="From Parent" translation="Von übergeordnetem Element"/>
+	<label commandName="FromPhysicalMaterial" devLabel="From Physical Material" translation="Von Material"/>
+	<label commandName="InheritedMaterialSuffix" devLabel=" (Inherited)" translation=" (Übernommen)"/>
+	<label commandName="PhysicalMaterialInheritToolTip_1" devLabel="Inherits the Physical Material from the parent component that contains this object." translation="Übernimmt das Material von der übergeordneten Komponente, die dieses Objekt enthält."/>
+	<label commandName="PhysicalMaterialInheritToolTip_2" devLabel="If the Physical Material of the parent component changes, this updates to match." translation="Wenn sich das Material der übergeordneten Komponente ändert, wird diese entsprechend aktualisiert."/>
+	<label commandName="PhysicalMaterialRootToolTip" devLabel="Current default Physical Material for &#xA;" translation="Aktuelles Vorgabematerial für &#xA;"/>
+	<label commandName="keyAppearanceTableName" devLabel="Appearance Themes" translation="Darstellungsstile"/>
+	<label commandName="keyChildTableName" devLabel="Theme Table" translation="Stiltabelle"/>
+	<label commandName="keyPhysicalMaterialTableName" devLabel="Physical Material Themes" translation="Materialstile"/>
+	<label commandName="keyPlasticRuleTableName" devLabel="Plastic Rule Themes" translation="Kunststoffregelstile"/>
+	<label commandName="keyPrimaryTableName" devLabel="Configurations" translation="Konfigurationen"/>
+	<label commandName="keySheetMetalRuleTableName" devLabel="Sheet Metal Rule Themes" translation="Blechregelstile"/>
+</Resource>

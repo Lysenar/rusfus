@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="ExplicitSolverDataCheckReportLine1" devLabel="%1% : %2%" translation="%1% : %2%"/>
+	<label commandName="ExplicitSolverDataCheckReportLine2" devLabel="%1% : %2% %3%:%4%:%5% (dd hh::mm::ss)" translation="%1% : %2% %3%:%4%:%5% (dd hh::mm::ss)"/>
+	<label commandName="ExplicitSolverEstimatedRuntime" devLabel="Estimated Solve Time" translation="Расчетное время решения"/>
+	<label commandName="ExplicitSolverInitialCourantStabilityLimit" devLabel="Initial Courant Stability Limit" translation="Начальный предел устойчивости Куранта"/>
+	<label commandName="NotComputedMesh" devLabel="Mesh is not computed" translation="Сетка не рассчитывается"/>
+	<label commandName="SimFEACSConvergenceInvalidMode" devLabel="The mode selected for h-adaptive meshing (mode %1%) is unavailable due to the study's frequency range or mode limits. Continuing h-adaptive meshing using the last valid mode (mode %2%)." translation="The mode selected for h-adaptive meshing (mode %1%) is unavailable due to the study's frequency range or mode limits. Continuing h-adaptive meshing using the last valid mode (mode %2%)."/>
+	<label commandName="SimFEACSConvergenceRate" devLabel="Convergence rate: %1% %%" translation="Convergence rate: %1% %%"/>
+	<label commandName="SimFEACSMeshStatsReport" devLabel="%1%: %2% nodes, %3% elements" translation="%1%: %2% nodes, %3% elements"/>
+	<label commandName="SimFEACSMeshingStatsBaseMesh" devLabel="Base mesh" translation="Базовая сетка"/>
+	<label commandName="SimFEACSMeshingStatsHRef" devLabel="h refinement #%1%" translation="h refinement #%1%"/>
+	<label commandName="SimFEACSMeshingStatsSolverMesh" devLabel="Solver mesh" translation="Решающая сетка"/>
+	<label commandName="SimFEACSMissingError" devLabel="Solve module not found." translation="Модуль решения не найден."/>
+	<label commandName="SimFEACSNoConvergenceData" devLabel="Solve did not produce any convergence data for h-adaptivity for refinement %1%" translation="Solve did not produce any convergence data for h-adaptivity for refinement %1%"/>
+	<label commandName="SimFEACSProblemConverged" devLabel="Problem converged" translation="Проблема сошлась"/>
+	<label commandName="SimFEACSReachedNumberOfRefinements" devLabel="Reached the total number of h refinements" translation="Достигнуто общее количество уточнений: h."/>
+	<label commandName="SimFEACSSpawnError" devLabel="Error invoking solve module, Error: %1%" translation="Error invoking solve module, Error: %1%"/>
+	<label commandName="SimFailureWhileCancel" devLabel="Solve module failure while cancelling, Error: %1%" translation="Solve module failure while cancelling, Error: %1%"/>
+	<label commandName="SimGenerativeAdditiveMethodGroup" devLabel="Additive" translation="Аддитивное производство"/>
+	<label commandName="SimGenerativeAllMethodssGroup" devLabel="All methods" translation="Все методы"/>
+	<label commandName="SimGenerativeCuttingMethodGroup" devLabel="2-axis Cutting" translation="2"/>
+	<label commandName="SimGenerativeDieCastingMethodGroup" devLabel="Casting" translation="Кастинг"/>
+	<label commandName="SimGenerativeMillingMethodGroup" devLabel="Milling" translation="Фрезерование"/>
+	<label commandName="SimGenerativeUnrestrictedMethodGroup" devLabel="Unrestricted" translation="Неограниченный"/>
+	<label commandName="SimJobLimitElementCountMeshSizeExceeded" devLabel="The current maximum mesh size of %1% elements has been exceeded." translation="The current maximum mesh size of %1% elements has been exceeded."/>
+	<label commandName="SimJobLimitGenericMeshSizeExceeded" devLabel="The current maximum mesh size has been exceeded." translation="Превышен текущий максимальный размер сетки."/>
+	<label commandName="SimJobLimitGenericMeshSizeExceededRectification" devLabel="Please increase the average element size and/or simplify the model and try solving again." translation="Пожалуйста, увеличьте средний размер элемента и/или упростите модель и попробуйте решить еще раз."/>
+	<label commandName="SimJobLimitModalMeshSizeExceededRectification" devLabel="Please increase the average element size, decrease the number of modes and/or simplify the model and try solving again." translation="Пожалуйста, увеличьте средний размер элемента, уменьшите количество режимов и/или упростите модель и попробуйте решить еще раз."/>
+	<label commandName="SimLocalSolveModuleFailure" devLabel="Solve module failure, Error: %1%" translation="Solve module failure, Error: %1%"/>
+	<label commandName="SimMinMassTargetForTOEx" devLabel="It’s not possible to reduce the mass to %1$.3f%% of the original mass, as specified in &amp;#10;             the study setup. The model geometry can only be reduced to %2$.3f%% &amp;#10;             of the original mass. &amp;#10;&amp;#10;Causes: The combination of the shape optimization criteria, mesh size, and preserve &amp;#10;            regions in the study setup restrict how much the model geometry can be &amp;#10;            reduced. &amp;#10;&amp;#10;Action: If the achievable target mass is close to the specified target mass, &amp;#10;            try decreasing the mesh size and relaunching the analysis. &amp;#10;            Otherwise, try &amp;#10;            - increasing the Target Mass, for example, if you have accepted &amp;#10;                the default (60%% of original mass), or &amp;#10;            - unchecking ‘Preserve Entities with Loads and Constraints’ in &amp;#10;                the Shape Optimization Criteria dialog, and then relaunch &amp;#10;                the analysis.&amp;#10;" translation="Невозможно уменьшить массу до %1$.3f%% от исходной массы, как указано в 
+             установка исследования. Геометрию модели можно уменьшить только до %2$.3f%% 
+             исходной массы. 
+
+Причины: Сочетание критериев оптимизации формы, размера сетки и сохранения 
+            регионы в настройке исследования ограничивают степень изменения геометрии модели. 
+            уменьшено. 
+
+Действие: Если достижимая целевая масса близка к указанной целевой массе, 
+            попробуйте уменьшить размер сетки и перезапустить анализ. 
+            В противном случае попробуйте 
+            - увеличение целевой массы, например, если вы приняли 
+                по умолчанию (60%% от исходной массы) или 
+            - снимаем флажок &#171;Сохранять объекты с нагрузками и ограничениями&#187; в 
+                диалоговое окно &#171;Критерии оптимизации формы&#187;, а затем перезапустите 
+                анализ."/>
+</Resource>

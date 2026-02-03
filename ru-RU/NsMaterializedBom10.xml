@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="Download_File" devLabel="Download file" translation="Загрузка файла" />
+	<label commandName="Export_Complete_Notification_Heading" devLabel="Export" translation="Экспорт" />
+	<label commandName="Export_Complete_Notification_Message" devLabel="has been exported to .%1% format." translation="has been exported to .%1% format." />
+	<label commandName="Export_Failed_Notification_Heading" devLabel="Export" translation="Экспорт" />
+	<label commandName="Export_Failed_Notification_Message" devLabel="Could not export this file. Please try again." translation="Could not export this file. Please try again." />
+</Resource>

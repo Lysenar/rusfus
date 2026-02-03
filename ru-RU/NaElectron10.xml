@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="CloseUnsavedFile" devLabel="Close File" translation="Закрыть файл"/>
+	<label commandName="CopyToDesktopCmdCaption" devLabel="Export Archive" translation="Экспортировать архив"/>
+	<label commandName="DefaultLibraryName" devLabel="Library" translation="Библиотека"/>
+	<label commandName="DefaultPCBName" devLabel="PCB" translation="ПП"/>
+	<label commandName="DefaultSchematicName" devLabel="Schematic" translation="Схема"/>
+	<label commandName="ElectronComponentRootDefaultUserName" devLabel="ElectronComponent" translation="Электронный Компонент"/>
+	<label commandName="ElectronDocumentTypeNameBrd" devLabel="The board file" translation="Файл платы"/>
+	<label commandName="ElectronDocumentTypeNameDefault" devLabel="The file" translation="Файл"/>
+	<label commandName="ElectronDocumentTypeNameLbr" devLabel="The library file" translation="Файл библиотеки"/>
+	<label commandName="ElectronDocumentTypeNameSch" devLabel="The schematic file" translation="Файл схемы"/>
+	<label commandName="ElectronExtFileBlobSerializer" devLabel="Electron failed to generate a small thumbnail." translation="Electron не удалось создать маленькую миниатюру."/>
+	<label commandName="ElectronFileExportFailurePrompt1" devLabel=" has errors and cannot be exported. Save the file before exporting." translation="содержит ошибки и не может быть экспортирован. Сохраните файл перед экспортом."/>
+	<label commandName="ElectronFileLoadFailureExportMsg" devLabel="Click Export to save a copy of the file and error logs as a ZIP file to send to support. &lt;a href=&quot;https://knowledge.autodesk.com/contact-support&quot;&gt;Contact support&lt;/a&gt;" translation="Нажмите &#171;Экспорт&#187;, чтобы сохранить копию файла и журналов ошибок в виде ZIP-файла для отправки в службу поддержки. &lt;a href=&quot;https://knowledge.autodesk.com/contact-support&quot;&gt;Обратиться в службу поддержки&lt;/a&gt;"/>
+	<label commandName="ElectronFileLoadFailurePrompt" devLabel=" has errors and cannot be opened." translation="имеет ошибки и не может быть открыт."/>
+	<label commandName="ElectronFileLoadWarningExportMsg" devLabel="Click OK to open the file with warnings or click Export to save a copy of the file and error logs as a ZIP file to send to support. &lt;a href=&quot;https://knowledge.autodesk.com/contact-support&quot;&gt;Contact support&lt;/a&gt;" translation="Нажмите &#171;ОК&#187;, чтобы открыть файл с предупреждениями, или нажмите &#171;Экспорт&#187;, чтобы сохранить копию файла и журналов ошибок в виде ZIP-файла для отправки в службу поддержки. &lt;a href=&quot;https://knowledge.autodesk.com/contact-support&quot;&gt;Обратиться в службу поддержки&lt;/a&gt;"/>
+	<label commandName="ElectronFileLoadWarningPrompt" devLabel=" has errors and will be opened with warnings." translation="содержит ошибки и будет открыт с предупреждениями."/>
+	<label commandName="ElectronFileSaveFailureExportMsg" devLabel="Do one of the following:&lt;ul&gt;&lt;li&gt;Select Close File to discard changes and revert to the last saved version.&lt;/li&gt;&lt;li&gt;Click Cancel to continue working on the file to resolve the errors.&lt;/li&gt;&lt;li&gt;Select Export &amp; Close File to save a copy of the file with the latest unsaved changes and error logs as a ZIP file to send to support. &lt;a href=&quot;https://knowledge.autodesk.com/contact-support&quot;&gt;Contact support&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;" translation="Выполните одно из следующих действий:&lt;ul&gt;&lt;li&gt;Выберите &#171;Закрыть файл&#187;, чтобы отменить изменения и вернуться к последней сохраненной версии.&lt;/li&gt;&lt;li&gt;Нажмите &#171;Отмена&#187;, чтобы продолжить работу с файлом и устранить ошибки.&lt;/li&gt;&lt;li&gt;Выберите &#171;Экспортировать и закрыть файл&#187;, чтобы сохранить копию файла с последними несохраненными изменениями и журналами ошибок в виде ZIP-файла для отправки в службу поддержки. &lt;a href=&quot;https://knowledge.autodesk.com/contact-support&quot;&gt;Обратиться в службу поддержки&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;"/>
+	<label commandName="ElectronFileSaveFailureExportMsg_ccy" devLabel="Do one of the following:&lt;ul&gt;&lt;li&gt;Select Close File to discard changes and revert to the last saved change.&lt;/li&gt;&lt;li&gt;Click Cancel to continue working on the file to resolve the errors manually.&lt;/li&gt;&lt;li&gt;Select Export &amp; Close File to save a copy of the file with the latest unsaved changes and error logs as a ZIP file to send to Support. &lt;a href=&quot;https://knowledge.autodesk.com/contact-support&quot;&gt;Contact Support&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;" translation="Выполните одно из следующих действий:&lt;ul&gt;&lt;li&gt;Выберите &#171;Закрыть файл&#187;, чтобы отменить изменения и вернуться к последнему сохраненному изменению.&lt;/li&gt;&lt;li&gt;Нажмите &#171;Отмена&#187;, чтобы продолжить работу с файлом и устранить ошибки вручную.&lt;/li&gt;&lt;li&gt;Выберите &#171;Экспортировать и закрыть файл&#187;, чтобы сохранить копию файла с последними несохраненными изменениями и журналами ошибок в виде ZIP-файла для отправки в службу поддержки. &lt;a href=&quot;https://knowledge.autodesk.com/contact-support&quot;&gt;Обратиться в службу поддержки&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;"/>
+	<label commandName="ElectronFileSaveFailureMode1" devLabel=" could not be autosaved." translation="не удалось сохранить автосохранение."/>
+	<label commandName="ElectronFileSaveFailureMode2" devLabel=" cannot be saved." translation="спасти невозможно."/>
+	<label commandName="ElectronFileSaveFailurePrompt1" devLabel=" has errors and" translation="есть ошибки и"/>
+	<label commandName="ElectronLbrDocAssetType" devLabel="Library Document Asset" translation="Библиотечный документ-актив"/>
+	<label commandName="ElectronLoadFailureStatus1" devLabel="Attempt to load the design file failed due to potential corruption.&lt;br/&gt;" translation="Попытка загрузить файл дизайна не удалась из-за возможного повреждения.&lt;br/&gt;"/>
+	<label commandName="ElectronOptionGroupUserName" devLabel="ECAD" translation="Э"/>
+	<label commandName="ElectronPcbDocAssetType" devLabel="PCB Document Asset" translation="Актив документа печатной платы"/>
+	<label commandName="ElectronProjectDocAssetType" devLabel="Electronics Design Document Asset" translation="Актив проектной документации электроники"/>
+	<label commandName="ElectronSaveFailureArticleMessage" devLabel="&lt;a href=&quot;http://knowledge.autodesk.com&quot;&gt;Learn how to fix potential data corruption issues&lt;/a&gt;" translation="&lt;"/>
+	<label commandName="ElectronSaveFailureStatus2" devLabel=" has errors and cannot be saved.&lt;br/&gt;" translation="содержит ошибки и не может быть сохранен.&lt;br/&gt;"/>
+	<label commandName="ElectronSchDocAssetType" devLabel="Schematic Document Asset" translation="Актив документа схемы"/>
+	<label commandName="ElectronicsDesignDefaultName" devLabel="Electronics Design" translation="Электронный дизайн"/>
+	<label commandName="ExportUnloadedFile" devLabel="Export" translation="Экспорт"/>
+	<label commandName="ExportUnsavedFiles" devLabel="Export &amp;&amp; Close File" translation="Экспортировать &amp;&amp; Закрыть файл"/>
+	<label commandName="FolderIsNotAccessible" devLabel="The selected folder: &quot;%1%&quot; is not accessible." translation="Выбранная папка: &quot;%1%&quot; недоступна."/>
+	<label commandName="PCB2dUpdateToLatestConfirm" devLabel="The linked PCB2d file has new version(s).&#xA;Do you want to load the latest version?" translation="Связанный файл PCB2d имеет новые версии.
+Хотите загрузить последнюю версию?"/>
+	<label commandName="PCB2dUpdateToLatestConfirm_ccy" devLabel="The linked PCB2d file has at least one new change.&#xA;Do you want to load the latest changes?" translation="В связанном файле PCB2d есть как минимум одно новое изменение.
+Хотите загрузить последние изменения?"/>
+	<label commandName="PCB3dUpdateToLatestConfirm" devLabel="The linked PCB3d file has new version(s).&#xA;Do you want to load the latest version?" translation="Связанный файл PCB3d имеет новые версии.
+Хотите загрузить последнюю версию?"/>
+	<label commandName="PCB3dUpdateToLatestConfirm_ccy" devLabel="The linked PCB3d file has at least one new change.&#xA;Do you want to load the latest changes?" translation="В связанном файле PCB3d есть как минимум одно новое изменение.
+Хотите загрузить последние изменения?"/>
+	<label commandName="PCBUpdateToLatestConfirm" devLabel="The linked PCB file has new version(s).&#xA;Do you want to load the latest version?" translation="Связанный файл платы имеет новые версии.
+Хотите загрузить последнюю версию?"/>
+	<label commandName="PCBUpdateToLatestConfirm_ccy" devLabel="The linked PCB file has at least one new change.&#xA;Do you want to load the latest changes?" translation="В связанном файле платы имеется как минимум одно новое изменение.
+Хотите загрузить последние изменения?"/>
+	<label commandName="SCHUpdateToLatestConfirm" devLabel="The linked Schematic file has new version(s).&#xA;Do you want to load the latest version?" translation="Связанный файл схемы имеет новые версии.
+Хотите загрузить последнюю версию?"/>
+	<label commandName="SCHUpdateToLatestConfirm_ccy" devLabel="The linked schematic has at least one new change.&#xA;Do you want to load the latest changes?" translation="В связанной схеме есть как минимум одно новое изменение.
+Хотите загрузить последние изменения?"/>
+	<label commandName="UnsavedDocumentLabel" devLabel="(Unsaved)" translation="(Не сохранено)"/>
+	<label commandName="UpdateToLatestConfirm" devLabel="The linked file has new version(s).&#xA;Do you want to load the latest version?" translation="Связанный файл имеет новые версии.
+Хотите загрузить последнюю версию?"/>
+	<label commandName="UpdateToLatestConfirm_ccy" devLabel="The linked component has at least one new change.&#xA;Do you want to load the latest changes?" translation="В связанном компоненте имеется как минимум одно новое изменение.
+Хотите загрузить последние изменения?"/>
+</Resource>

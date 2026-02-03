@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><Resource>
+	<label commandName="AVKMeshBodySelectionCategory" devLabel="Volumetric Model Mesh Bodies" translation="Тела"/>
+	<label commandName="BoundaryBodyAlreadyHasModel" devLabel="The specified boundary body already has a Volumetric Model." translation="Указанное граничное тело уже имеет объемную модель."/>
+	<label commandName="BoundaryBodyNotFound" devLabel="The boundary body of this Volumetric Model was not found." translation="Граничное тело этой Объемной Модели не найдено."/>
+	<label commandName="ComputeSuspendedEditToUpdate" devLabel="Model to mesh feature set to not automatically recompute. Edit the feature to compute." translation="Набор функций «Модель для сетки» не требует автоматического перерасчета. Отредактируйте объект для вычисления."/>
+	<label commandName="ElementSizeOutOfRange" devLabel="Element size is out of range." translation="Размер элемента выходит за пределы допустимого диапазона."/>
+	<label commandName="FailedAddingClearances" devLabel="Failed to add clearances to Volumetric Model." translation="Не удалось добавить зазоры в объемную модель."/>
+	<label commandName="FailedAddingOffsets" devLabel="Failed to add Offsets to Volumetric Model." translation="Не удалось добавить смещения к объемной модели."/>
+	<label commandName="FailedToAddGradientDensity" devLabel="Failed to add Gradient Density to Volumetric Model." translation="Не удалось добавить градиентную плотность к объемной модели."/>
+	<label commandName="FailedToCreateLattice" devLabel="Failed to create the Lattice." translation="Не удалось создать решетку."/>
+	<label commandName="FailedToCreateTexture" devLabel="Failed to create the Texture." translation="Не удалось создать текстуру."/>
+	<label commandName="FailedToCreateVolFieldModel" devLabel="Failed to create the Volumetric Model." translation="Не удалось создать объемную модель."/>
+	<label commandName="FailedToReinitializeVolFieldModel" devLabel="Failed to reinitialize the Volumetric Model." translation="Не удалось повторно инициализировать объемную модель."/>
+	<label commandName="FeatureVolumetricCreateLattice" devLabel="Create Volumetric Lattice" translation="Создайте объемную решетку"/>
+	<label commandName="FeatureVolumetricModelBase" devLabel="Volumetric Model Base Feature" translation="Базовый элемент объемной модели"/>
+	<label commandName="FeatureVolumetricModelCustom" devLabel="Custom Volumetric Model Feature" translation="Пользовательская объемная модель"/>
+	<label commandName="FeatureVolumetricModelToMesh" devLabel="Volumetric Model To Mesh" translation="Объемная модель в сетке"/>
+	<label commandName="FeatureVolumetricModifyModel" devLabel="Modify Volumetric Lattice" translation="Изменить объемную решетку"/>
+	<label commandName="FeatureVolumetricRemoveModel" devLabel="Remove Volumetric Model" translation="Удалить объемную модель"/>
+	<label commandName="FeatureVolumetricTexture" devLabel="Volumetric Texture" translation="Объемная текстура"/>
+	<label commandName="GeneralRangeCheckError" devLabel="General Range Check Error." translation="Общая ошибка проверки диапазона."/>
+	<label commandName="LatticeDefaultUserName" devLabel="Volumetric Model" translation="Объемная модель"/>
+	<label commandName="MeshBodyParentMismatch" devLabel="The parent component of the mesh body does not match the parent component of the Volumetric Model." translation="Родительский компонент тела сетки не соответствует родительскому компоненту объемной модели."/>
+	<label commandName="SmallMeshRemovalMadeEmptyMesh" devLabel="Volumetric Model small mesh shell removal resulted in an empty mesh. Try reducing the threshold size." translation="Удаление оболочки с мелкой сеткой объемной модели привело к образованию пустой сетки. Попробуйте уменьшить размер порога."/>
+	<label commandName="VF_MODEL_BAD_BOUNDARY_BODY" devLabel="Inconsistency in the boundary body of the Volumetric Model." translation="Несогласованность граничного тела Объемной Модели."/>
+	<label commandName="VF_MODEL_BAD_COMPONENT" devLabel="Error in determining the component holding the Volumetric Model." translation="Ошибка в определении компонента, содержащего объемную модель."/>
+	<label commandName="VF_MODEL_BAD_INTERNAL_STATE" devLabel="The Volumetric Model is in an invalid internal state." translation="Объемная модель находится в недопустимом внутреннем состоянии."/>
+	<label commandName="VF_MODEL_NO_ROOT_PARENT" devLabel="Failed to find the path to the root Volumetric Models." translation="Не удалось найти путь к корневым объемным моделям."/>
+	<label commandName="VF_MODEL_NO_SCENE_NODE" devLabel="The scene node for the Volumetric Model is not created. Toggling the visibility may solve this issue." translation="Узел сцены для объемной модели не создан. Переключение видимости может решить эту проблему."/>
+	<label commandName="VolConfigBaseModelDensity" devLabel="Solidity (Uniform)" translation="Солидность (Равномерность)"/>
+	<label commandName="VolConfigBaseModelScaleX" devLabel="Cell Size X Direction" translation="Размер ячейки X Направление"/>
+	<label commandName="VolConfigBaseModelScaleY" devLabel="Cell Size Y Direction" translation="Размер ячейки Направление Y"/>
+	<label commandName="VolConfigBaseModelScaleZ" devLabel="Cell Size Z Direction" translation="Размер ячейки Z-направление"/>
+	<label commandName="VolConfigCreateLatticeBaseModel" devLabel="Setup" translation="Настройки"/>
+	<label commandName="VolConfigCreateLatticeDensityAlongCurve" devLabel="Solidity (Gradient Along Path)" translation="Сплошность (градиент вдоль пути)"/>
+	<label commandName="VolConfigCreateLatticeDensityOffsetHeading" devLabel="Selection Set " translation="Набор выбора "/>
+	<label commandName="VolConfigCreateLatticeDensityOffsetTrailing" devLabel=" (Offset)" translation=" ("/>
+	<label commandName="VolConfigDensityAlongCurvePositionEnd" devLabel="End Point Position" translation="Положение конечной точки"/>
+	<label commandName="VolConfigDensityAlongCurvePositionStart" devLabel="Start Point Position" translation="Положение начальной точки"/>
+	<label commandName="VolConfigDensityAlongCurveValueEnd" devLabel="End Point Solidity" translation="Конечная точка твердости"/>
+	<label commandName="VolConfigDensityAlongCurveValueStart" devLabel="Start Point Solidity" translation="Начальная точка твердости"/>
+	<label commandName="VolConfigDensityOffsetBaseOffset" devLabel="Thickness" translation="Толщина"/>
+	<label commandName="VolConfigDensityOffsetBlendOffset" devLabel="Blend Distance" translation="Расстояние смешивания"/>
+	<label commandName="VolConfigDensityOffsetPeakDensity" devLabel="Solidity" translation="Солидность"/>
+	<label commandName="VolFieldBodySelectionCategory" devLabel="Volumetric Model Bodies" translation="Объемные модели тел"/>
+	<label commandName="VolFieldFeatureSelectionId" devLabel="Volumetric Feature" translation="Объемная особенность"/>
+	<label commandName="VolFieldFeatureSelectionsId" devLabel="Volumetric Features" translation="Объемные особенности"/>
+	<label commandName="VolFieldModelBrowserEntry" devLabel="Volumetric Model" translation="Объемная модель"/>
+	<label commandName="VolFieldModelSelectionId" devLabel="Volumetric Model" translation="Объемная модель"/>
+	<label commandName="VolFieldModelToMeshPostfix" devLabel="Mesh" translation="Сетка"/>
+	<label commandName="VolFieldModelsRootBrowserEntry" devLabel="Volumetric Models" translation="Объемные модели"/>
+	<label commandName="VolFieldModelsRootSelectionId" devLabel="Volumetric Models Root" translation="Объемные модели Корень"/>
+	<label commandName="VolFieldModelsRootSelectionsId" devLabel="Volumetric Models Root" translation="Объемные модели Корень"/>
+	<label commandName="VolFieldModelsSelectionId" devLabel="Volumetric Models" translation="Объемные модели"/>
+	<label commandName="VolFieldUnknownError" devLabel="Volumetric modeling operation failed." translation="Операция объемного моделирования не удалась."/>
+	<label commandName="VolMeshFailedToRemoveSmallMeshes" devLabel="Volumetric Model meshing failed to remove small mesh shells." translation="При создании сетки объемной модели не удалось удалить мелкие оболочки сетки."/>
+	<label commandName="VolumetricModelConvertToMeshFailed" devLabel="Volumetric Model to mesh conversion failed." translation="Не удалось преобразовать объемную модель в сетку."/>
+	<label commandName="VolumetricModelNotFound" devLabel="The Volumetric Model was not found." translation="Объемная модель не найдена."/>
+	<label commandName="VolumetricModelToMeshNotFound" devLabel="Volumetric Model to be meshed was not found." translation="Объемная модель для построения сетки не найдена."/>
+	<label commandName="VolumetricModelToMeshNotVald" devLabel="Volumetric Model to be meshed is not valid." translation="Объемная модель для построения сетки недействительна."/>
+	<label commandName="VolumetricModifyLatticeDensityOffsetConfigSectionTitle" devLabel="Density Offset" translation="Смещение плотности"/>
+	<label commandName="VolumetricTextureBaseModelConfigSectionTitle" devLabel="Texture Setup" translation="Настройка текстур"/>
+	<label commandName="VolumetricTextureClearancesConfigSectionTitle" devLabel="Clearances" translation="Зазоры"/>
+	<label commandName="VolumetricTextureDepth" devLabel="Depth" translation="Глубина"/>
+	<label commandName="VolumetricTextureScaleX" devLabel="SizeX" translation="РазмерX"/>
+	<label commandName="VolumetricTextureScaleY" devLabel="SizeY" translation="РазмерY"/>
+	<label commandName="VolumetricTextureScaleZ" devLabel="SizeZ" translation="РазмерZ"/>
+</Resource>

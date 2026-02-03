@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="QSimStudyDialog__IWantToThermalStress" devLabel="Will my design deform excessively, or fail, when physical loads are applied to it while it is heated or cooled?" translation="Будет ли моя конструкция чрезмерно деформироваться или выйдет из строя при приложении к ней физических нагрузок во время нагрева или охлаждения?" />
+	<label commandName="ResultsCommand" devLabel="Simulation Results" translation="Результаты моделирования" />
+	<label commandName="Sim1stPrincipalStress" devLabel="1st Principal Stress" translation="1-е главное напряжение" />
+	<label commandName="Sim3rdPrincipalStress" devLabel="3rd Principal Stress" translation="3-е главное напряжение" />
+	<label commandName="SimAllSupportedFiles" devLabel="All supported files ( %1% ) ;;" translation="Все поддерживаемые файлы (%1%) ;;" />
+	<label commandName="SimAutoRefinementsControlCustomLabel" devLabel="Custom" translation="Пользовательский" />
+	<label commandName="SimAutoRefinementsControlHighLabel" devLabel="High" translation="Высокая" />
+	<label commandName="SimAutoRefinementsControlLowLabel" devLabel="Low" translation="Низкая" />
+	<label commandName="SimAutoRefinementsControlMediumLabel" devLabel="Medium" translation="Средний" />
+	<label commandName="SimAutoRefinementsControlNoneLabel" devLabel="None" translation="Нет" />
+	<label commandName="SimAutoRefinementsControlRefinementControlLabel" devLabel="Refinement Control" translation="Контроль уточнения" />
+	<label commandName="SimAverageElementSizeLabel" devLabel="Average Element Size (% of model size)" translation="Средний размер элемента (% от размера модели)" />
+	<label commandName="SimAverageElementSizeTooltip" devLabel="Average element length relative to the diagonal measurement of the model bounding box. 5% to 10% recommended." translation="Средняя длина элемента относительно диагонального измерения ограничивающей рамки модели. Рекомендуется от 5% до 10%." />
+	<label commandName="SimCFDFilter" devLabel="Fluid export Files (*.cfdpkg)" translation="Файлы экспорта жидкости (*.cfdpkg)" />
+	<label commandName="SimCaseName" devLabel="Name" translation="Имя" />
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Переопределить систему единиц" />
+	<label commandName="SimConvergenceSectionLabel" devLabel="Adaptive Mesh Refinement" translation="Адаптивное уточнение сетки" />
+	<label commandName="SimConvergenceTargetLabel" devLabel="Results Convergence Tolerance (%)" translation="Допуск сходимости результатов (%)" />
+	<label commandName="SimConvergenceTargetTooltip" devLabel="The % difference between consecutive iteration results that will trigger the refinement process to stop." translation="Разница в % между результатами последовательных итераций, которая приведет к остановке процесса уточнения." />
+	<label commandName="SimCreateImportedCFDCaseFailed" devLabel="Create Imported CFD study failed." translation="Не удалось создать импортированное исследование CFD." />
+	<label commandName="SimCreateImportedCFDCaseImportingDataFailed" devLabel="Failed to import this CFD package." translation="Не удалось импортировать этот пакет CFD." />
+	<label commandName="SimCreateImportedCFDCaseImportingDataFailedMsg" devLabel="Failed to open the selected CFD package." translation="Не удалось открыть выбранный пакет CFD." />
+	<label commandName="SimCreateImportedCFDCaseNoSolidPartFailed" devLabel="No any solid part in the CFD package." translation="В пакете CFD нет какой-либо солидной части." />
+	<label commandName="SimCreateImportedCFDCaseNoSolidPartFailedMsg" devLabel="The study can't be created because there is no solid part in the CFD package." translation="Невозможно создать исследование, поскольку в пакете CFD нет твердой части." />
+	<label commandName="SimCurvedMeshElementsCheckBox" devLabel="Create Curved Mesh Elements" translation="Создайте изогнутые элементы сетки" />
+	<label commandName="SimCurvedMeshElementsTooltip" devLabel="Elements shapes will better follow curved and rounded faces." translation="Формы элементов будут лучше повторять изогнутые и закругленные грани." />
+	<label commandName="SimDisplayResultsCommmand" devLabel="Display model using calculated results." translation="Отображение модели с использованием вычисленных результатов." />
+	<label commandName="SimEmptyStudyName" devLabel="Name of Study is empty" translation="Название исследования пусто" />
+	<label commandName="SimGeneralSectionLabel" devLabel="General" translation="Общие" />
+	<label commandName="SimGradingFactorLabel" devLabel="Adjacent Elements Size Ratio" translation="Соотношение размеров соседних элементов" />
+	<label commandName="SimGradingFactorTooltip" devLabel="Maximum length ratio between adjacent elements. It effects transition between fine and coarse mesh. 1.5 to 3.0 recommended." translation="Максимальное соотношение длин между соседними элементами. Это влияет на переход между мелкой и крупной сеткой. Рекомендуется от 1,5 до 3,0." />
+	<label commandName="SimHeatFlux" devLabel="Heat Flux" translation="Тепловой поток" />
+	<label commandName="SimImportedCFD" devLabel="Imported CFD" translation="Импортированный CFD" />
+	<label commandName="SimImportedCFDDesc" devLabel="Shows the model and its temperature distribution which are imported from CFD thermal analysis." translation="Показывает модель и распределение ее температуры, импортированные из термического анализа CFD." />
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="Американская система (дюймы)" />
+	<label commandName="SimInvalidValue" devLabel="There are some invalid values!" translation="Есть некоторые недопустимые значения!" />
+	<label commandName="SimLSSAutoContactType" devLabel="Default Contact Type" translation="Тип контакта по умолчанию" />
+	<label commandName="SimLSSAutoContactTypeTooltip" devLabel="Default contact type." translation="Тип контакта по умолчанию." />
+	<label commandName="SimLSSAverageElementSizeShellLabel" devLabel="Shells" translation="Ракушки" />
+	<label commandName="SimLSSAverageElementSizeSolidLabel" devLabel="Solids" translation="Твердые вещества" />
+	<label commandName="SimLSSContactGeneration" devLabel="Contacts" translation="Контакты" />
+	<label commandName="SimLSSGenerateAutoContacts" devLabel="Enable Solver Contacts" translation="Включить контакты решателя" />
+	<label commandName="SimLSSGenerateAutoContactsTooltip" devLabel="Generate automatic contacts during solve." translation="Генерируйте автоматические контакты во время решения." />
+	<label commandName="SimLSSResultsToConvergeLabel" devLabel="Results for Baseline Accuracy" translation="Результаты базовой точности" />
+	<label commandName="SimLSSResultsToConvergeTooltip" devLabel="Which result type to use for calculating convergence criteria." translation="Какой тип результата использовать для расчета критериев сходимости." />
+	<label commandName="SimLinkedFrom" devLabel="Linked from: " translation="Связано с:" />
+	<label commandName="SimLockedSettings" devLabel="These settings are blocked because they are linked from another Study." translation="Эти настройки заблокированы, поскольку они связаны с другим исследованием." />
+	<label commandName="SimMaximumRefinementsLabel" devLabel="Maximum Number of Mesh Refinements" translation="Максимальное количество уточнений сетки" />
+	<label commandName="SimMaximumRefinementsTooltip" devLabel="The number of iterative h and p refinements made to attempt results convergence." translation="Число итеративных уточнений h и p, предпринятых для попытки сходимости результатов." />
+	<label commandName="SimMaximumTurnAngleLabel" devLabel="Maximum Element Angle on Curves" translation="Максимальный угол элемента на кривых" />
+	<label commandName="SimMaximumTurnAngleTooltip" devLabel="The smaller the angle, the more elements will be generated on curves and radii. 30 to 60 deg recommended." translation="Чем меньше угол, тем больше элементов будет создано на кривых и радиусах. Рекомендуется от 30 до 60 градусов." />
+	<label commandName="SimMeshSectionLabel" devLabel="Mesh" translation="Сетка" />
+	<label commandName="SimNastranAutoContactCAPTOL" devLabel="Tolerance" translation="Допуск" />
+	<label commandName="SimNastranAutoContactCAPTOLTooltip" devLabel="Tolerance." translation="Толерантность." />
+	<label commandName="SimNastranAutoContactFSTIF" devLabel="Frictional Stiffness for Stick" translation="Фрикционная жесткость для палки" />
+	<label commandName="SimNastranAutoContactFSTIFTooltip" devLabel="Frictional Stiffness for Stick" translation="Фрикционная жесткость для палки" />
+	<label commandName="SimNastranAutoContactMAXAD" devLabel="Max. Allowable Penetration" translation="Макс. Допустимое проникновение" />
+	<label commandName="SimNastranAutoContactMAXADTooltip" devLabel="Max. Allowable Penetration." translation="Макс. Допустимое проникновение." />
+	<label commandName="SimNastranAutoContactMU" devLabel="Coefficient of Friction" translation="Коэффициент трения" />
+	<label commandName="SimNastranAutoContactMUTooltip" devLabel="Coefficient of Friction." translation="Коэффициент трения." />
+	<label commandName="SimNastranAutoContactSFACT" devLabel="Stiffness Factor" translation="Коэффициент жесткости" />
+	<label commandName="SimNastranAutoContactSFACTTooltip" devLabel="Stiffness Factor." translation="Коэффициент жесткости." />
+	<label commandName="SimNastranPenetrationSurfaceOffset" devLabel="Penetration surface offset" translation="Смещение поверхности проникновения" />
+	<label commandName="SimNastranPenetrationSurfaceOffsetTooltip" devLabel="Penetration surface offset." translation="Смещение поверхности проникновения." />
+	<label commandName="SimRefinementTresholdLabel" devLabel="Portion of Elements to Refine (%)" translation="Доля элементов для уточнения (%)" />
+	<label commandName="SimRefinementTresholdTooltip" devLabel="Only areas of the model within this percentage of the maximum result will be refined and iterated." translation="Только области модели в пределах этого процента от максимального результата будут уточняться и повторяться." />
+	<label commandName="SimRemoveRBMTooltip" devLabel="Soft springs will be added when the model is not fully constrained but is in Static Equilibrium." translation="Мягкие пружины будут добавлены, когда модель не полностью закреплена, но находится в статическом равновесии." />
+	<label commandName="SimReportJobFailed" devLabel="Job has failed. Import cannot continue." translation="Работа не удалась. Импорт не может быть продолжен." />
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Пользовательский" />
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Метрическая система (СИ)" />
+	<label commandName="SimSmallMeshSize" devLabel="An overly fine mesh (&lt;3%) leads to high memory consumption computation with no guarantee of better results. Instead, you may be interested in using Adaptive Mesh Refinement to refine the mesh only in critical areas. &#10;&#10;Do you want to continue?" translation="Слишком мелкая сетка (&lt;3%) приводит к большому расходу памяти при вычислениях без гарантии лучших результатов. Вместо этого вас может заинтересовать использование адаптивного уточнения сетки для уточнения сетки только в критических областях. 
+
+Хотите продолжить?" />
+	<label commandName="SimSmallMeshSize1" devLabel="Overly fine mesh (&lt;3%) leads to high memory consumption computation with no guarantee of better results. Instead, you may want to use a coarser mesh by increasing the mesh size." translation="Слишком мелкая сетка (&lt;3%) приводит к большому расходу памяти при вычислениях без гарантии лучших результатов. Вместо этого вы можете использовать более грубую сетку, увеличив ее размер." />
+	<label commandName="SimSmallMeshSize2" devLabel="An overly fine mesh(&lt;3%) leads to high memory consumption computation with no guarantee of better results. Instead, you may want to use a coarser mesh by increasing the mesh size. &#10;&#10;Do you want to continue?" translation="Слишком мелкая сетка (&lt;3%) приводит к большому расходу памяти при вычислениях без гарантии лучших результатов. Вместо этого вы можете использовать более грубую сетку, увеличив ее размер. 
+
+Хотите продолжить?" />
+	<label commandName="SimTImportedCFDMeshSectionLabel" devLabel="Mesh" translation="Сетка" />
+	<label commandName="SimTImportedCFDRemoveRBMCheckBox" devLabel="Remove Rigid Body Modes" translation="Удалить режимы твердого тела" />
+	<label commandName="SimTImportedCFDUGeneralSectionLabel" devLabel="General" translation="Общие" />
+	<label commandName="SimTStressAverageElementSizeAftText" devLabel=" % of model size" translation=" %" />
+	<label commandName="SimTStressAverageElementSizeText" devLabel="Average Element Size is " translation="Средний размер элемента" />
+	<label commandName="SimTStressReferenceTemperatureLabel" devLabel="Global Stress-free Temperature" translation="Глобальная температура без стресса" />
+	<label commandName="SimTStressReferenceTemperatureTooltip" devLabel="The reference temperature for the temperature-induced stress for all components in the Study." translation="Эталонная температура для температурного напряжения для всех компонентов исследования." />
+	<label commandName="SimTStressUMeshSectionLabel" devLabel="Mesh" translation="Сетка" />
+	<label commandName="SimTemperature" devLabel="Temperature" translation="Температура" />
+	<label commandName="SimThermalStress" devLabel="Thermal Stress" translation="Термический стресс" />
+	<label commandName="SimThermalStressDesc" devLabel="Determine temperatures and stress distributions on the model resulting from both thermal and structural loads.&lt;br&gt;&lt;br&gt;The stress-free reference temperature is defined in the Study Settings." translation="Определите температуры и распределения напряжений на модели, возникающие как в результате термических, так и структурных нагрузок.&lt;br&gt;&lt;br&gt;Опорная температура без напряжений определяется в настройках исследования." />
+	<label commandName="SimThermalStressReferenceTemperature" devLabel="Stress-free Temperatures" translation="Температура без стресса" />
+	<label commandName="SimThermalStressReferenceTemperatureDesc1" devLabel="Define stress-free temperature of components. Default temperature comes from general settings." translation="Определить температуру компонентов без напряжений. Температура по умолчанию берется из общих настроек." />
+	<label commandName="SimThermalStressReferenceTemperatureDlgDefaultReferenceTemperature" devLabel="Use Default" translation="Использовать по умолчанию" />
+	<label commandName="SimThermalStressReferenceTemperatureDlgPart" devLabel="Component" translation="Компонент" />
+	<label commandName="SimThermalStressReferenceTemperatureDlgReferenceTemperature" devLabel="Stress-free Temperature" translation="Температура без стресса" />
+	<label commandName="SimThermalStressReferenceTemperatureDlgSelectAll" devLabel="Select All" translation="Выбрать все" />
+	<label commandName="SimThermalStressReferenceTemperatureDlgWindowTitle" devLabel="Stress-free Temperatures" translation="Температура без стресса" />
+	<label commandName="SimTotalDisplacement" devLabel="Displacement, Total" translation="Водоизмещение, общее" />
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Процент" />
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Штуки" />
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Ускорение" />
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Угол" />
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Ток" />
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Электрическое сопротивление" />
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Энергия" />
+	<label commandName="SimUnitsForce" devLabel="Force" translation="Сила" />
+	<label commandName="SimUnitsLength" devLabel="Length" translation="Длина" />
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="Масса" />
+	<label commandName="SimUnitsPower" devLabel="Power" translation="Мощность" />
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Давление" />
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Температура" />
+	<label commandName="SimUnitsTime" devLabel="Time" translation="Время" />
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Скорость" />
+	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Вязкость" />
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Напряжение" />
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Расход" />
+	<label commandName="SimUsePartBasedMeasureForAsmMeshCheckBox" devLabel="Use Part Based Measure for Assembly Mesh" translation="Использование измерения на основе детали для сетки сборки" />
+	<label commandName="SimUsePartBasedMeasureForAsmMeshTooltip" devLabel="Element length is relative to each part bounding box rather than the assembly bounding box." translation="Длина элемента определяется относительно ограничивающей рамки каждой детали, а не ограничивающей рамки сборки." />
+	<label commandName="SimVonMisesStress" devLabel="von Mises Stress" translation="фон Мизес Стресс" />
+	<label commandName="SimusedStudyName" devLabel="Name of Study is already used!" translation="Название исследования уже использовано!" />
+</Resource>

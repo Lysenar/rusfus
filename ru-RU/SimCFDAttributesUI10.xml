@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<label commandName="SimCFDEmptyLoadCmdType" devLabel="Empty" translation="Leer"/>
+	<label commandName="SimCFDLoadsCmd" devLabel="CFD Loads" translation="CFD-Lasten"/>
+	<label commandName="SimCFDLoadsDescription" devLabel="Applies CFD loads to selected geometry." translation="Wendet CFD-Lasten auf ausgewählte Geometrie an."/>
+	<label commandName="SimCFDLoadsEditCmd" devLabel="Edit CFD Loads" translation="CFD-Lasten bearbeiten"/>
+	<label commandName="SimCFDLoadsLoadTypeCombo" devLabel="Load Type" translation="Lasttyp"/>
+	<label commandName="SimCFDLoadsLoadTypeEmptyDescription" devLabel="SimCFDLoadsLoadTypeEmptyDescription" translation="SimCFDLoadsLoadTypeEmptyDescription"/>
+	<label commandName="SimCFDLoadsLoadTypeEmptyText" devLabel="Empty" translation="Leer"/>
+	<label commandName="SimCFDLoadsLoadTypePressureDescription" devLabel="SimCFDLoadsLoadTypePressureDescription" translation="SimCFDLoadsLoadTypePressureDescription"/>
+	<label commandName="SimCFDLoadsLoadTypePressureText" devLabel="Pressure" translation="Druck"/>
+	<label commandName="SimCFDLoadsLoadTypeSlipSymmetryDescription" devLabel="SimCFDLoadsLoadTypeSlipSymmetryDescription" translation="SimCFDLoadsLoadTypeSlipSymmetryDescription"/>
+	<label commandName="SimCFDLoadsLoadTypeSlipSymmetryText" devLabel="Slip/Symmetry" translation="Gleiten/Symmetrie"/>
+	<label commandName="SimCFDLoadsLoadTypeTemperatureDescription" devLabel="SimCFDLoadsLoadTypeTemperatureDescription" translation="SimCFDLoadsLoadTypeTemperatureDescription"/>
+	<label commandName="SimCFDLoadsLoadTypeTemperatureText" devLabel="Temperature" translation="Temperatur"/>
+	<label commandName="SimCFDLoadsLoadTypeTotalHeatFluxDescription" devLabel="SimCFDLoadsLoadTypeTotalHeatFluxDescription" translation="SimCFDLoadsLoadTypeTotalHeatFluxDescription"/>
+	<label commandName="SimCFDLoadsLoadTypeTotalHeatFluxText" devLabel="Total Heat Flux" translation="Gesamtwärmestrom"/>
+	<label commandName="SimCFDLoadsLoadTypeVelocityDescription" devLabel="SimCFDLoadsLoadTypeVelocityDescription" translation="SimCFDLoadsLoadTypeVelocityDescription"/>
+	<label commandName="SimCFDLoadsLoadTypeVelocityText" devLabel="Velocity" translation="Geschwindigkeit"/>
+	<label commandName="SimCFDLoadsLoadTypeVolumeFlowRateDescription" devLabel="SimCFDLoadsLoadTypeVolumeFlowRateDescription" translation="SimCFDLoadsLoadTypeVolumeFlowRateDescription"/>
+	<label commandName="SimCFDLoadsLoadTypeVolumeFlowRateText" devLabel="Volume Flow Rate" translation="Volumenstrom"/>
+	<label commandName="SimCFDLoadsPressureCmd" devLabel="Pressure" translation="Druck"/>
+	<label commandName="SimCFDLoadsSelection" devLabel="Selection" translation="Auswahl"/>
+	<label commandName="SimCFDLoadsSlipSymmetryCmd" devLabel="Slip/Symmetry" translation="Gleiten/Symmetrie"/>
+	<label commandName="SimCFDLoadsText" devLabel="CFD Loads" translation="CFD-Lasten"/>
+	<label commandName="SimCFDLoadsVFRCmd" devLabel="Volume Flow Rate" translation="Volumenstrom"/>
+	<label commandName="SimCFDLoadsVelocityCmd" devLabel="Velocity" translation="Geschwindigkeit"/>
+	<label commandName="SimCFDPressureLoadCmdType" devLabel="Pressure" translation="Druck"/>
+	<label commandName="SimCFDPressureLoadOverridenUnitEnabler" devLabel="Change Units" translation="Einheiten ändern"/>
+	<label commandName="SimCFDPressureLoadOverridenUnitSwitcher" devLabel="Units" translation="Einheiten"/>
+	<label commandName="SimCFDPressureLoadType" devLabel="Type" translation="Typ"/>
+	<label commandName="SimCFDPressureLoadTypeAbsolute" devLabel="Absolute" translation="Absolut"/>
+	<label commandName="SimCFDPressureLoadTypeGage" devLabel="Gage" translation="Abstand"/>
+	<label commandName="SimCFDPressureLoadValue" devLabel="Value" translation="Wert"/>
+	<label commandName="SimCFDSlipSymmetryLoadCmdType" devLabel="Slip/Symmetry" translation="Gleiten/Symmetrie"/>
+	<label commandName="SimCFDTemperatureLoadCmdType" devLabel="Temperature" translation="Temperatur"/>
+	<label commandName="SimCFDTemperatureLoadOverridenUnitEnabler" devLabel="Change Units" translation="Einheiten ändern"/>
+	<label commandName="SimCFDTemperatureLoadOverridenUnitSwitcher" devLabel="Units" translation="Einheiten"/>
+	<label commandName="SimCFDTemperatureLoadValue" devLabel="Value" translation="Wert"/>
+	<label commandName="SimCFDTotalHeatFluxLoadCmdType" devLabel="Total Heat Flux" translation="Gesamtwärmestrom"/>
+	<label commandName="SimCFDTotalHeatFluxLoadOverridenUnitEnabler" devLabel="Change Units" translation="Einheiten ändern"/>
+	<label commandName="SimCFDTotalHeatFluxLoadOverridenUnitSwitcher" devLabel="Units" translation="Einheiten"/>
+	<label commandName="SimCFDTotalHeatFluxLoadValue" devLabel="Value" translation="Wert"/>
+	<label commandName="SimCFDVelocityLoadCmdType" devLabel="Velocity" translation="Geschwindigkeit"/>
+	<label commandName="SimCFDVelocityLoadDirection" devLabel="Flip Direction" translation="Richtung umkehren"/>
+	<label commandName="SimCFDVelocityLoadFullyDeveloped" devLabel="Fully Developed" translation="Vollentwickelt"/>
+	<label commandName="SimCFDVelocityLoadOverridenUnitEnabler" devLabel="Change Units" translation="Einheiten ändern"/>
+	<label commandName="SimCFDVelocityLoadOverridenUnitSwitcher" devLabel="Units" translation="Einheiten"/>
+	<label commandName="SimCFDVelocityLoadValue" devLabel="Value" translation="Wert"/>
+	<label commandName="SimCFDVolumeFlowRateLoadCmdType" devLabel="Volume Flow Rate" translation="Volumenstrom"/>
+	<label commandName="SimCFDVolumeFlowRateLoadDirection" devLabel="Flip Direction" translation="Richtung umkehren"/>
+	<label commandName="SimCFDVolumeFlowRateLoadFullyDeveloped" devLabel="Fully Developed" translation="Vollentwickelt"/>
+	<label commandName="SimCFDVolumeFlowRateLoadOverridenUnitEnabler" devLabel="Change Units" translation="Einheiten ändern"/>
+	<label commandName="SimCFDVolumeFlowRateLoadOverridenUnitSwitcher" devLabel="Units" translation="Einheiten"/>
+	<label commandName="SimCFDVolumeFlowRateLoadValue" devLabel="Value" translation="Wert"/>
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Einheitensystem überschreiben"/>
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="USA (in)"/>
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Benutzerdefiniert"/>
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Metrisch (SI)"/>
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Prozentsatz"/>
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Teile"/>
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Beschleunigung"/>
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Winkel"/>
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Aktuell"/>
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Elektrischer Widerstand"/>
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Energie"/>
+	<label commandName="SimUnitsForce" devLabel="Force" translation="Kraft"/>
+	<label commandName="SimUnitsLength" devLabel="Length" translation="Länge"/>
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="Masse"/>
+	<label commandName="SimUnitsPower" devLabel="Power" translation="Leistung"/>
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Druck"/>
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Temperatur"/>
+	<label commandName="SimUnitsTime" devLabel="Time" translation="Zeit"/>
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Geschwindigkeit"/>
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Spannung"/>
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Volumenstrom"/>
+	<label commandName="lclzSimCFDLoadsDesc" devLabel="Applies CFD loads to selected geometry." translation="Wendet CFD-Lasten auf ausgewählte Geometrie an."/>
+	<label commandName="lclzSimCFDLoadsPressureDesc1" devLabel="Assign a flow pressure at an opening." translation="Weisen Sie einen Fließdruck an einer Öffnung zu."/>
+	<label commandName="lclzSimCFDLoadsPressureDesc2" devLabel="To define an outlet, assign a pressure condition of 0 gage." translation="Um einen Auslass zu definieren, weisen Sie eine Druckbedingung von 0 Überdruck zu."/>
+	<label commandName="lclzSimCFDLoadsPressureDesc3" devLabel="To simulate a pressure drop across a device, assign the known pressure drop at the inlet (as a gage pressure), and a pressure value of 0 at the outlet." translation="Um einen Druckverlust in einem Gerät zu simulieren, weisen Sie den bekannten Druckverlust am Einlass (als Überdruck) und einen Druckwert von 0 am Auslass zu."/>
+	<label commandName="lclzSimCFDLoadsVelocityDesc1" devLabel="Assign a flow velocity at an opening." translation="Weisen Sie eine Fließgeschwindigkeit in einer Öffnung zu."/>
+	<label commandName="lclzSimCFDLoadsVelocityDesc2" devLabel="Velocity is primarily used at inlets, and must be assigned to planar surfaces." translation="Die Geschwindigkeit wird in erster Linie bei Einlässen verwendet und muss planaren Flächen zugewiesen werden."/>
+	<label commandName="lclzSimCFDLoadsVolumeFlowRateDesc1" devLabel="Assign a constant volumetric flow rate at an opening." translation="Weisen Sie einen konstanten Volumenstrom an einer Öffnung zu."/>
+	<label commandName="lclzSimCFDLoadsVolumeFlowRateDesc2" devLabel="Volume Flow Rate is primarily used at inlets, and must be applied to planar surfaces. It is particularly useful for constant density flow simulations." translation="Der Volumenstrom wird in der Regel bei Einlässen verwendet und muss auf planare Flächen angewendet werden. Dies ist besonders nützlich für konstante Dichtestromsimulationen."/>
+</Resource>

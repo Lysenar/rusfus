@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="BoltConnectoBoltLength" devLabel="Bolt Length" translation="Длина болта"/>
+	<label commandName="BoltConnectorAxial" devLabel="Axial" translation="Осевой"/>
+	<label commandName="BoltConnectorBoltDiameter" devLabel="Bolt Diameter" translation="Диаметр болта"/>
+	<label commandName="BoltConnectorBoltSubtype" devLabel="Bolt Subtype" translation="Подтип болта"/>
+	<label commandName="BoltConnectorDensity" devLabel="Density" translation="Плотность"/>
+	<label commandName="BoltConnectorElasticModulus" devLabel="Elastic Modulus" translation="Модуль упругости"/>
+	<label commandName="BoltConnectorHeadWasher" devLabel="Head Washer" translation="Мойка головы"/>
+	<label commandName="BoltConnectorHeadWasherHeight" devLabel="Height" translation="Высота"/>
+	<label commandName="BoltConnectorLocationForBoltHead" devLabel="Location for Bolt Head" translation="Место для головки болта"/>
+	<label commandName="BoltConnectorLocationForNut" devLabel="Location for Nut" translation="Место для Гайки"/>
+	<label commandName="BoltConnectorLocationForThreads" devLabel="Location for Threads" translation="Место для тем"/>
+	<label commandName="BoltConnectorMaterial" devLabel="Material" translation="Материал"/>
+	<label commandName="BoltConnectorNutWasher" devLabel="Nut Washer" translation="Гайка Шайба"/>
+	<label commandName="BoltConnectorNutWasherHeight" devLabel="Height" translation="Высота"/>
+	<label commandName="BoltConnectorPoissonsRatio" devLabel="Poisson's Ratio" translation="Коэффициент Пуассона"/>
+	<label commandName="BoltConnectorPreload" devLabel="Preload" translation="Предварительная загрузка"/>
+	<label commandName="BoltConnectorPreloadType" devLabel="Preload Type" translation="Тип предварительной загрузки"/>
+	<label commandName="BoltConnectorPreloadValue" devLabel="Preload Value" translation="Значение предварительной загрузки"/>
+	<label commandName="BoltConnectorThermalExpansionCoefficient" devLabel="Thermal Expansion Coefficient" translation="Коэффициент теплового расширения"/>
+	<label commandName="BoltConnectorThreadedHole" devLabel="Threaded Hole" translation="Резьбовое отверстие"/>
+	<label commandName="BoltConnectorTorque" devLabel="Torque" translation="Крутящий момент"/>
+	<label commandName="BoltConnectorTorqueCoefficient" devLabel="Torque Coefficient" translation="Коэффициент крутящего момента"/>
+	<label commandName="BoltConnectorUsableThreadLength" devLabel="Usable Thread Length" translation="Полезная длина резьбы"/>
+	<label commandName="BoltConnectorWithNut" devLabel="With Nut" translation="С гайкой"/>
+	<label commandName="ConnectorMaterialProperties" devLabel="Material Properties" translation="Свойства материала"/>
+	<label commandName="ConnectorUserDefined" devLabel="User Defined" translation="Определено пользователем"/>
+	<label commandName="DefaultSelectionInputText" devLabel="no selection" translation="Выбрать"/>
+	<label commandName="ExplicitInitialAngularDuplicatedBodyLoad" devLabel="An initial angular load already exists for the selected body. Please choose a different body, or edit the existing load" translation="Для выбранного тела уже существует начальная угловая нагрузка. Пожалуйста, выберите другой кузов или отредактируйте существующую нагрузку."/>
+	<label commandName="GenAngularBodyLoadDesc1" devLabel="Applies an angular velocity and/or acceleration to a generative model." translation="Применяет угловую скорость и/или ускорение к генеративной модели."/>
+	<label commandName="GenAngularBodyLoadDesc2" devLabel="Use this load to simulate centrifugal and tangential forces like those in a spinning wheel. Select faces, edges, or vertices on the preserve geometries to define the load settings." translation="Используйте эту нагрузку для моделирования центробежных и тангенциальных сил, например, во вращающемся колесе. Выберите грани, ребра или вершины на сохраняемой геометрии, чтобы определить параметры нагрузки."/>
+	<label commandName="GenAngularBodyLoadTipsAndTricksDesc" devLabel="" translation=""/>
+	<label commandName="GenAngularBodyLoadTipsAndTricksTips" devLabel="Start by selecting the components on which the angular load acts. Specify the angular velocity and angular acceleration components. Set the location by selecting a surface to be the Location Reference. Set the direction by setting the direction reference. Click the arrow in the desired direction, and drag it into position." translation="Начните с выбора компонентов, на которые действует угловая нагрузка. Задайте компоненты угловой скорости и углового ускорения. Задайте местоположение, выбрав поверхность в качестве привязки местоположения. Задайте направление, установив ссылку направления. Щелкните стрелку в нужном направлении и перетащите ее на место."/>
+	<label commandName="GenAngularBodyLoadTipsAndTricksTitle" devLabel="Angular Global Load Information" translation="Информация об угловой глобальной нагрузке"/>
+	<label commandName="GenEditConstraintCmd" devLabel="Edit Structural Constraint" translation="Редактировать структурные ограничения"/>
+	<label commandName="GenEditFluidFlowPressureCommand" devLabel="Edit Fluid Pressures" translation="Редактировать давление жидкости"/>
+	<label commandName="GenEditFluidFlowSourceCommand" devLabel="Edit Flow Sources" translation="Редактировать источники потока"/>
+	<label commandName="GenEditManualPointMass" devLabel="Edit Point Mass (Manual)" translation="Редактировать точечную массу (вручную)"/>
+	<label commandName="GenEditStructuralLoad" devLabel="Edit Structural Load" translation="Редактировать структурную нагрузку"/>
+	<label commandName="GenFluidFlowInletCmdFaces" devLabel="Faces" translation="Поверхности"/>
+	<label commandName="GenFluidFlowOpeningCommand" devLabel="Flow Openings" translation="Отверстия для потока"/>
+	<label commandName="GenFluidFlowOpeningCommandDesc1" devLabel="Applies flow openings to the selected faces of preserve geometry." translation="Применяет отверстия для потока к выбранным граням сохранения геометрии."/>
+	<label commandName="GenFluidFlowOpeningCommandDesc2" devLabel="Apply flow openings at the flow path entry/exit to simulate the flow behavior excluding atmospheric pressure. These faces display in purple on the canvas with the zero-pressure indicator." translation="Примените отверстия для потока на входе/выходе пути потока, чтобы имитировать поведение потока без учета атмосферного давления. Эти лица отображаются на холсте фиолетовым цветом с индикатором нулевого давления."/>
+	<label commandName="GenFluidFlowPressureCommand" devLabel="Fluid Pressures" translation="Давление жидкости"/>
+	<label commandName="GenFluidFlowPressureCommandDesc1" devLabel="Applies fluid pressures to the selected faces of preserve geometry." translation="Применяет давление жидкости к выбранным граням сохранения геометрии."/>
+	<label commandName="GenFluidFlowPressureCommandDesc2" devLabel="Apply fluid pressures at the flow path entry/exit to simulate the fluid behavior due to pressure. These faces display in purple on the canvas with the pressure indicator." translation="Примените давление жидкости на входе/выходе потока, чтобы смоделировать поведение жидкости под действием давления. Эти лица отображаются фиолетовым цветом на холсте с индикатором давления."/>
+	<label commandName="GenFluidFlowSourceCmdFaces" devLabel="Faces" translation="Поверхности"/>
+	<label commandName="GenFluidFlowSourceCommand" devLabel="Flow Sources" translation="Источники потока"/>
+	<label commandName="GenFluidFlowSourceCommandDesc1" devLabel="Applies flow sources to the selected faces of preserve geometry." translation="Применяет источники потока к выбранным граням сохранения геометрии."/>
+	<label commandName="GenFluidFlowSourceCommandDesc2" devLabel="Apply flow sources at the flow path entry/exit to simulate the fluid behavior due to flow rate or velocity. These faces display in cyan on the canvas." translation="Примените источники потока на входе/выходе пути потока, чтобы смоделировать поведение жидкости в зависимости от расхода или скорости. Эти лица отображаются на холсте голубым цветом."/>
+	<label commandName="GenFluidsShowAttributesCommandDesc1" devLabel="Displays a list of flow sources, such as flow rate or velocity, and the defined pressures for the active study." translation="Отображает список источников потока, таких как расход или скорость, а также определенные давления для активного исследования."/>
+	<label commandName="GenFluidsShowAttributesCommandDesc2" devLabel="You can edit all fluid attributes simultaneously in one dialog." translation="Вы можете редактировать все атрибуты жидкости одновременно в одном диалоговом окне."/>
+	<label commandName="GenFluidsShowAttributesDlg" devLabel="Fluid Attributes" translation="Атрибуты жидкости"/>
+	<label commandName="GenGravityCommand" devLabel="Edit Gravity" translation="Редактировать гравитацию"/>
+	<label commandName="GenGravityDesc1" devLabel="Modifies the magnitude and direction of the applied gravity." translation="Изменяет величину и направление приложенной силы тяжести."/>
+	<label commandName="GenGravityDesc2" devLabel="Use as an alternative to realigning your model with the global coordinate system, when your model is not imported in the correct orientation." translation="Используйте в качестве альтернативы выравниванию модели по глобальной системе координат, если ваша модель импортирована с неправильной ориентацией."/>
+	<label commandName="GenGravityTipsAndTricksDesc" devLabel="To edit the gravity direction, specify the vector in X, Y, and Z direction, or select the target geometry (face, edge, or vertex). &lt;br&gt; &lt;br&gt; An Angle option is available in the Direction Type drop-down once you select a target geometry." translation="Чтобы изменить направление силы тяжести, укажите вектор в направлении X, Y и Z или выберите целевую геометрию (грань, ребро или вершину). &lt;br&gt; &lt;br&gt; Параметр &#171;Угол&#187; доступен в раскрывающемся списке &#171;Тип направления&#187; после выбора целевой геометрии."/>
+	<label commandName="GenGravityTipsAndTricksTips" devLabel="By default, gravity is applied in the negative Y-axis direction and displays a glyph at the origin." translation="По умолчанию сила тяжести применяется в отрицательном направлении оси Y, а в начале координат отображается глиф."/>
+	<label commandName="GenGravityTipsAndTricksTitle" devLabel="Gravity Information" translation="Информация о гравитации"/>
+	<label commandName="GenLinearBodyLoadDesc1" devLabel="Applies a linear acceleration to a generative model." translation="Применяет линейное ускорение к генеративной модели."/>
+	<label commandName="GenLinearBodyLoadDesc2" devLabel="Use this load to simulate a force acting on a mass experiencing linear acceleration (speed increasing) or deceleration (speed decreasing). Select faces or edges on the preserve geometries to define the load settings." translation="Используйте эту нагрузку для моделирования силы, действующей на массу, испытывающую линейное ускорение (увеличение скорости) или замедление (уменьшение скорости). Выберите грани или ребра на сохраняемой геометрии, чтобы определить параметры нагрузки."/>
+	<label commandName="GenLinearBodyLoadTipsAndTricksDesc" devLabel="" translation=""/>
+	<label commandName="GenLinearBodyLoadTipsAndTricksTips" devLabel="Start by selecting the components on which the load acts. Set the direction by selecting a reference face or edge normal to the force direction. Specify the magnitude or components." translation="Начните с выбора компонентов, на которые действует нагрузка. Задайте направление, выбрав опорную грань или кромку, нормальную к направлению силы. Укажите величину или компоненты."/>
+	<label commandName="GenLinearBodyLoadTipsAndTricksTitle" devLabel="Linear Global Load Information" translation="Информация о линейной глобальной нагрузке"/>
+	<label commandName="GenLoadsDesc1" devLabel="Applies structural loads to the selected geometry." translation="Применяет структурные нагрузки к выбранной геометрии."/>
+	<label commandName="GenLoadsDesc2" devLabel="Use loads to simulate pushing, pulling, and twisting forces that your design should withstand. You can apply loads to multiple objects. Depending on the load type, you can select faces, edges, or vertices." translation="Используйте нагрузки для моделирования толкающих, тянущих и скручивающих сил, которым должна противостоять ваша конструкция. Вы можете применять нагрузки к нескольким объектам. В зависимости от типа нагрузки можно выбрать грани, ребра или вершины."/>
+	<label commandName="GenManualPointMass" devLabel="Point Mass (Manual)" translation="Точечная масса (вручную)"/>
+	<label commandName="GenManualPointMassDesc1" devLabel="Applies a point mass load to the selected geometry." translation="Применяет точечную массовую нагрузку к выбранной геометрии."/>
+	<label commandName="GenManualPointMassDesc2" devLabel="Use the point mass to simulate the effects of an external component attached to the generative model.&lt;br&gt;&lt;br&gt;Select the preserve geometry to which the component is attached and then specify a mass value." translation="Используйте точечную массу для имитации воздействия внешнего компонента, прикрепленного к генеративной модели.&lt;br&gt;&lt;br&gt;Выберите сохраняемую геометрию, к которой прикреплен компонент, а затем укажите значение массы."/>
+	<label commandName="GenManualPointMassTipsAndTricksDesc" devLabel="There are two ways to define the location of the point mass:&lt;br&gt;Use &lt;b&gt;Reference&lt;/b&gt; to position it relative to the preserve geometry. You can select a face, edge, or vertex.&lt;br&gt;Use &lt;b&gt;Absolute&lt;/b&gt; to define the position relative to the model origin. You can select a face or edge." translation="Существует два способа определить местоположение точечной массы:&lt;br&gt;Используйте &lt;b&gt;Ссылку&lt;/b&gt;, чтобы расположить ее относительно сохраняемой геометрии. Вы можете выбрать грань, ребро или вершину.&lt;br&gt;Используйте &lt;b&gt;Абсолют&lt;/b&gt;, чтобы определить положение относительно начала координат модели. Вы можете выбрать грань или ребро."/>
+	<label commandName="GenManualPointMassTipsAndTricksTips" devLabel="Define the location of the center of mass of the attached component and the preserve geometry it connects to in your model. Next, specify a mass value.&lt;br&gt;&lt;br&gt;Such a component should have very little effect on the model stiffness." translation="Определите местоположение центра масс присоединенного компонента и сохраните геометрию, с которой он соединяется, в вашей модели. Далее укажите значение массы.&lt;br&gt;&lt;br&gt;Такой компонент не должен сильно влиять на жесткость модели."/>
+	<label commandName="GenManualPointMassTipsAndTricksTitle" devLabel="Point Mass (Manual) Information" translation="Информация о точечной массе (вручную)"/>
+	<label commandName="GenNewConstraintCmd" devLabel="Structural Constraints" translation="Структурные ограничения"/>
+	<label commandName="GenNewConstraintDesc1" devLabel="Applies fixed, pin, or frictionless constraints to the selected geometry." translation="Применяет фиксированные, штифтовые или бесконтактные зависимости к выбранной геометрии."/>
+	<label commandName="GenNewConstraintDesc2" devLabel="Use constraints to define interfaces between your design and the surrounding environment. You can apply constraints to multiple objects. Depending on the constraint type, you can apply them to faces, edges, or vertices." translation="Используйте ограничения, чтобы определить интерфейсы между вашим проектом и окружающей средой. Вы можете применять ограничения к нескольким объектам. В зависимости от типа ограничений вы можете применять их к граням, ребрам или вершинам."/>
+	<label commandName="GenPointMassEntities" devLabel="Select the preserve geometry on which the point mass acts (only faces)." translation="Выберите сохраняемую геометрию, на которую действует точечная масса (только грани)."/>
+	<label commandName="GenPointMassReference" devLabel="Select the preserve geometry to use as a reference (face, edge, or vertex)." translation="Выберите сохраняемую геометрию, которая будет использоваться в качестве ссылки (грань, ребро или вершина)."/>
+	<label commandName="GenShowAttributesCommandDesc1" devLabel="Shows the location, magnitude, and direction of all Items in the study load case, in one place, for easy access." translation="Показывает расположение, величину и направление всех элементов в исследуемом варианте нагрузки в одном месте для быстрого доступа."/>
+	<label commandName="GenShowAttributesCommandDesc2" devLabel="Where applicable, the load case includes the loads, constraints, and gravity settings that you define." translation="Там, где это применимо, вариант нагрузки включает в себя определенные вами нагрузки, ограничения и настройки силы тяжести."/>
+	<label commandName="GenShowAttributesDlg" devLabel="Load Case Attributes" translation="Атрибуты случая нагрузки"/>
+	<label commandName="GenStructuralConstraintTextTipsAndTricksDesc" devLabel="You can apply constraints to preserve geometries." translation="Вы можете применять ограничения для сохранения геометрии."/>
+	<label commandName="GenStructuralConstraintTextTipsAndTricksTips" devLabel="Select a constraint type, and next, select the constraining geometry that defines the degree of freedom of the object." translation="Выберите тип ограничения, а затем выберите ограничивающую геометрию, которая определяет степень свободы объекта."/>
+	<label commandName="GenStructuralConstraintTextTipsAndTricksTitle" devLabel="Structural Constraints Information" translation="Информация о структурных ограничениях"/>
+	<label commandName="GenStructuralLoad" devLabel="Structural Loads" translation="Структурные нагрузки"/>
+	<label commandName="GenStructuralLoadTipsAndTricksDesc" devLabel="You can apply loads to preserve geometries. Some load types apply only to certain geometry types; for example, bearing loads only apply to cylindrical faces." translation="Вы можете применять нагрузки для сохранения геометрии. Некоторые типы нагрузок применимы только к определенным типам геометрии; например, подшипниковые нагрузки применяются только к цилиндрическим граням."/>
+	<label commandName="GenStructuralLoadTipsAndTricksTips" devLabel="Select the load type, and then select the geometry to apply the load. Next, specify the load magnitude and direction." translation="Выберите тип нагрузки, а затем выберите геометрию для приложения нагрузки. Далее укажите величину и направление нагрузки."/>
+	<label commandName="GenStructuralLoadTipsAndTricksTitle" devLabel="Structural Loads Information" translation="Информация о структурных нагрузках"/>
+	<label commandName="HarmonicAngularDuplicatedBodyLoad" devLabel="A harmonic angular global load already exists for the selected body. Please choose a different body, or edit the existing load" translation="Для выбранного тела уже существует гармоническая угловая глобальная нагрузка. Пожалуйста, выберите другой кузов или отредактируйте существующую нагрузку."/>
+	<label commandName="HarmonicLinearDuplicatedBodyLoad" devLabel="A harmonic linear global load already exists for the selected body. Please choose a different body, or edit the existing load" translation="Для выбранного тела уже существует гармоническая линейная глобальная нагрузка. Пожалуйста, выберите другой кузов или отредактируйте существующую нагрузку."/>
+	<label commandName="InletFlowRateDuplicatedBodyLoad" devLabel="A forced flow load already exists for the selected body. Please choose a different body, or edit the existing load" translation="Для выбранного тела уже существует вынужденная потоковая нагрузка. Пожалуйста, выберите другой кузов или отредактируйте существующую нагрузку."/>
+	<label commandName="InletFlowVelocityDuplicatedBodyLoad" devLabel="A forced flow load already exists for the selected body. Please choose a different body, or edit the existing load" translation="Для выбранного тела уже существует вынужденная потоковая нагрузка. Пожалуйста, выберите другой кузов или отредактируйте существующую нагрузку."/>
+	<label commandName="Origin" devLabel="Origin" translation="Индикатор начала координат"/>
+	<label commandName="RigidBodyAnchor" devLabel="Anchor Point" translation="Якорная точка"/>
+	<label commandName="RigidBodyDependEntities" devLabel="Dependent Entities" translation="Зависимые сущности"/>
+	<label commandName="RigidBodyEntitiesToAverage" devLabel="Entities To Average" translation="Сущности для усреднения"/>
+	<label commandName="RigidBodyFixRotation" devLabel="Fix Rotation" translation="Исправить вращение"/>
+	<label commandName="RigidBodyFixTranslation" devLabel="Fix Translation" translation="Исправить перевод"/>
+	<label commandName="RigidBodyReferencePoint" devLabel="Reference Point" translation="Ориентир"/>
+	<label commandName="RigidBodyRx" devLabel="Rx" translation="п"/>
+	<label commandName="RigidBodyRy" devLabel="Ry" translation="Р"/>
+	<label commandName="RigidBodyRz" devLabel="Rz" translation="Р"/>
+	<label commandName="RigidBodySubtype" devLabel="Subtype" translation="Подтип"/>
+	<label commandName="RigidBodyUx" devLabel="Ux" translation="У"/>
+	<label commandName="RigidBodyUy" devLabel="Uy" translation="У"/>
+	<label commandName="RigidBodyUz" devLabel="Uz" translation="У"/>
+	<label commandName="Select Bolt Head" devLabel="Select location of bolt head (circular edge)" translation="Выберите расположение головки болта (круглая кромка)"/>
+	<label commandName="Select End Point" devLabel="Select End Point" translation="Укажите конечную точку"/>
+	<label commandName="Select Nut" devLabel="Select location of nut (circular edge or planar face)" translation="Выберите расположение гайки (круглая кромка или плоская грань)"/>
+	<label commandName="Select Threads" devLabel="Select location of threads (only cylindrical face)" translation="Выберите расположение резьбы (только цилиндрическая грань)"/>
+	<label commandName="SelectionInputSimpleStyleTail" devLabel="selected" translation="выбрано"/>
+	<label commandName="SimAccelerationComponentsGroup" devLabel="Acceleration Components" translation="Компоненты ускорения"/>
+	<label commandName="SimAngularAccelUnitsSwitcher" devLabel="Change Units" translation="Изменить единицы"/>
+	<label commandName="SimAngularAccelUnitsType" devLabel="Units" translation="ЕДИНИЦЫ"/>
+	<label commandName="SimAngularAccelerationBodyLoadMagnitude" devLabel="Magnitude" translation="Величина"/>
+	<label commandName="SimAngularAccelerationBodyLoadType" devLabel="Acceleration" translation="Ускорение"/>
+	<label commandName="SimAngularBodyLoad" devLabel="Angular Global Load" translation="Угловая глобальная нагрузка"/>
+	<label commandName="SimAngularBodyLoadAxisLocationRef" devLabel="Select geometry to define both the direction and location (linear edge, cylindrical face)." translation="Выберите геометрию, чтобы определить направление и местоположение (линейное ребро, цилиндрическая грань)."/>
+	<label commandName="SimAngularBodyLoadComp" devLabel="Select parts/bodies to add angular body load" translation="Выберите детали/тела для добавления угловой нагрузки на тело."/>
+	<label commandName="SimAngularBodyLoadDesc1" devLabel="Applies an angular velocity and/or acceleration to the entire model, to represent centrifugal and tangential forces such as those experienced by a spinning wheel." translation="Применяет угловую скорость и/или ускорение ко всей модели для представления центробежных и тангенциальных сил, например тех, которые испытывают вращающееся колесо."/>
+	<label commandName="SimAngularBodyLoadDesc2" devLabel="Select faces or edges to define the direction and location references of the applied load." translation="Выберите грани или кромки, чтобы определить привязки направления и местоположения приложенной нагрузки."/>
+	<label commandName="SimAngularBodyLoadEdit" devLabel="Edit Angular Global Load" translation="Редактировать глобальную нагрузку Angular"/>
+	<label commandName="SimAngularBodyLoadNormalLocationRef" devLabel="Select geometry to specify the location (planar face, edge or vertex)." translation="Выберите геометрию, чтобы указать местоположение (плоская грань, ребро или вершина)."/>
+	<label commandName="SimAngularBodyLoadTipsAndTricksDesc" devLabel="" translation=""/>
+	<label commandName="SimAngularBodyLoadTipsAndTricksTips" devLabel="Start by selecting the components on which the angular load acts. Specify the angular velocity and angular acceleration components. Set the location by selecting a surface to be the Location Reference. Set the direction by setting the direction reference. Click the arrow in the desired direction, and drag it into position." translation="Начните с выбора компонентов, на которые действует угловая нагрузка. Задайте компоненты угловой скорости и углового ускорения. Задайте местоположение, выбрав поверхность в качестве привязки местоположения. Задайте направление, установив ссылку направления. Щелкните стрелку в нужном направлении и перетащите ее на место."/>
+	<label commandName="SimAngularBodyLoadTipsAndTricksTitle" devLabel="Angular Global Load Information" translation="Информация об угловой глобальной нагрузке"/>
+	<label commandName="SimAngularBodyLoadX" devLabel="X" translation="X"/>
+	<label commandName="SimAngularBodyLoadY" devLabel="Y" translation="Y"/>
+	<label commandName="SimAngularBodyLoadZ" devLabel="Z" translation="Z"/>
+	<label commandName="SimAngularGlobalLoad" devLabel="Angular Global Load" translation="Угловая глобальная нагрузка"/>
+	<label commandName="SimAngularGlobalLoadEdit" devLabel="Edit Angular Global Load" translation="Редактировать глобальную нагрузку Angular"/>
+	<label commandName="SimAngularGlobalLoadNormalDirectionRef" devLabel="Select planar face to specify the direction of global load" translation="Выберите плоскую грань, чтобы указать направление глобальной нагрузки."/>
+	<label commandName="SimAngularVelocityBodyLoadMagnitude" devLabel="Magnitude" translation="Величина"/>
+	<label commandName="SimAngularVelocityBodyLoadType" devLabel="Velocity" translation="Скорость"/>
+	<label commandName="SimAngularVelocityUnitsSwitcher" devLabel="Change Units" translation="Изменить единицы"/>
+	<label commandName="SimAttributesEditItem" devLabel="Edit" translation="Редактировать"/>
+	<label commandName="SimAutoPointMassDesc1" devLabel="Use Auto Point Mass to represent the effects of an existing component in the simulation model. This is useful for simplifying the simulation model." translation="Используйте Auto Point Mass, чтобы представить влияние существующего компонента в имитационной модели. Это полезно для упрощения имитационной модели."/>
+	<label commandName="SimAutoPointMassDesc2" devLabel="To assign a point mass, select the geometric item on which the point mass acts." translation="Чтобы назначить точечную массу, выберите геометрический элемент, на который действует точечная масса."/>
+	<label commandName="SimAutoPointMassTipsAndTricksDesc" devLabel="Uncheck the &lt;b&gt;Hide Parts/Bodies&lt;/b&gt; to be able to un-select the selected &lt;b&gt;Parts/Bodies&lt;/b&gt;." translation="Снимите флажок &lt;b&gt;Скрыть детали/тела&lt;/b&gt;, чтобы иметь возможность отменить выбор выбранных &lt;b&gt;деталей/тел&lt;/b&gt;."/>
+	<label commandName="SimAutoPointMassTipsAndTricksTips" devLabel="To assign a point mass, select the geometric item on which the point mass acts. Select either a geometry (face or edge), or select whole parts/bodies." translation="Чтобы назначить точечную массу, выберите геометрический элемент, на который действует точечная масса. Выберите либо геометрию (грань или ребро), либо целые детали/тела."/>
+	<label commandName="SimAutoPointMassTipsAndTricksTitle" devLabel="Point Mass (auto) Information" translation="Информация о точечной массе (авто)"/>
+	<label commandName="SimAxialUnitsSwitcher" devLabel="Change Units" translation="Изменить единицы"/>
+	<label commandName="SimAxisAngleGroup" devLabel="Axis Angle" translation="Угол оси"/>
+	<label commandName="SimAxisLocationGroup" devLabel="Axis Location" translation="Расположение оси"/>
+	<label commandName="SimBaseExcitationBodiesSelection" devLabel="Bodies" translation="Тела"/>
+	<label commandName="SimBaseExcitationDirection" devLabel="Flip Direction" translation="Перевернуть направление"/>
+	<label commandName="SimBaseExcitationFlipSide" devLabel="Flip Side" translation="Отразить сторону"/>
+	<label commandName="SimBaseExcitationMagnitude" devLabel="Magnitude" translation="Величина"/>
+	<label commandName="SimBaseExcitationMagnitudeCurve" devLabel="Magnitude Curve" translation="Кривая величины"/>
+	<label commandName="SimBaseExcitationMultiplier" devLabel="Multiplier curve" translation="Кривая множителя"/>
+	<label commandName="SimBaseExcitationPhase" devLabel="Phase" translation="Фаза"/>
+	<label commandName="SimBaseExcitationReferenceInput" devLabel="Reference" translation="Ссылка"/>
+	<label commandName="SimBaseExcitationSelection" devLabel="Selection" translation="Выбор"/>
+	<label commandName="SimBaseExcitationTimeDep" devLabel="Time Dependent" translation="Зависит от времени"/>
+	<label commandName="SimBaseExcitationTransformInput" devLabel="Direction" translation="Направление"/>
+	<label commandName="SimBearingLoadCommand" devLabel="Bearing Load" translation="Несущая нагрузка"/>
+	<label commandName="SimBearingLoadDesc1" devLabel="Use a Bearing load to simulate the compressive load distribution between a shaft and bearing bushings." translation="Используйте Нагрузку подшипника, чтобы моделировать распределение сжимающей нагрузки между валом и втулками подшипника."/>
+	<label commandName="SimBearingLoadDesc2" devLabel="A Bearing load employs a parabolic load distribution, which is different from the uniform distribution used in a Force load." translation="Несущая нагрузка использует параболическое распределение нагрузки, которое отличается от равномерного распределения, используемого в силовой нагрузке."/>
+	<label commandName="SimBearingLoadDesc3" devLabel="Note that Bearing loads can only be applied to cylindrical faces." translation="Обратите внимание, что подшипниковые нагрузки могут применяться только к цилиндрическим граням."/>
+	<label commandName="SimBearingMagnitudeCurve" devLabel="Magnitude Curve" translation="Кривая величины"/>
+	<label commandName="SimBearingMultiplierCurve" devLabel="Multiplier Curve" translation="Кривая множителя"/>
+	<label commandName="SimBearingPhase" devLabel="Phase" translation="Фаза"/>
+	<label commandName="SimBearingTransformInput" devLabel="Direction" translation="Направление"/>
+	<label commandName="SimBodyLoadAlreadyExistsWarning" devLabel="WARNING: The %1% already contains %2%. Only one %2% is allowed." translation="WARNING: The %1% already contains %2%. Only one %2% is allowed."/>
+	<label commandName="SimBodyLoadComponentsInput" devLabel="Bodies" translation="Тела"/>
+	<label commandName="SimBodyLoadDirectionReferenceInput" devLabel="Direction Reference" translation="Ссылка на направление"/>
+	<label commandName="SimBodyLoadDirectionType" devLabel="Direction Type" translation="Тип направления"/>
+	<label commandName="SimBodyLoadEntities" devLabel="Select face or edge to specify the direction of global load" translation="Выберите грань или ребро, чтобы указать направление глобальной нагрузки."/>
+	<label commandName="SimBodyLoadEntitiesInput" devLabel="Reference" translation="Ссылка"/>
+	<label commandName="SimBodyLoadLocationReferenceInput" devLabel="Location Reference" translation="Ссылка на местоположение"/>
+	<label commandName="SimBodyLoadRotationTransformCommandInput" devLabel="Rotation" translation="Вращение"/>
+	<label commandName="SimBodyLoadTransformInput" devLabel="Direction" translation="Направление"/>
+	<label commandName="SimBodyLoadTranslationTransformCommandInput" devLabel="Translation" translation="Сдвиг"/>
+	<label commandName="SimBodyloadGraph" devLabel="Multiplier" translation="Множитель"/>
+	<label commandName="SimBodyloadTimeDep" devLabel="Time Dependent" translation="Зависит от времени"/>
+	<label commandName="SimBoltConnector" devLabel="Bolt Connector" translation="Болтовой соединитель"/>
+	<label commandName="SimBoundarySizeGroup" devLabel="Boundary Size" translation="Размер границы"/>
+	<label commandName="SimCentroidLocation" devLabel="Centroid Location" translation="Местоположение центроида"/>
+	<label commandName="SimCentroidOffsetGroup" devLabel="Centroid Offset" translation="Смещение центроида"/>
+	<label commandName="SimCentroidOffsetInputX" devLabel="X-Axis" translation="ось X"/>
+	<label commandName="SimCentroidOffsetInputY" devLabel="Y-Axis" translation="ось Y"/>
+	<label commandName="SimCentroidOffsetInputZ" devLabel="Z-Axis" translation="ось Z"/>
+	<label commandName="SimCentroidPointInput" devLabel="Centroid Point" translation="Центроидная точка"/>
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Переопределить систему единиц"/>
+	<label commandName="SimConnectorBoltDesc1" devLabel="Characterizes a bolted connection between two bodies." translation="Характеризует болтовое соединение двух тел."/>
+	<label commandName="SimConnectorBoltDesc2" devLabel="Use bolt connectors to mathematically represent threaded fasteners that hold together an assembly. Avoid spending time and effort to produce, mesh, and solve solid models of fastener parts." translation="Используйте болтовые соединители для математического представления резьбовых соединений, скрепляющих сборку. Не тратьте время и усилия на создание, создание сетки и решение твердотельных моделей деталей крепежа."/>
+	<label commandName="SimConnectorBoltDesc3" devLabel="Specify the subtype as a nut or threaded hole bolt type of connection. You can include an optional washer at either end. Enter the size, preload and material of the bolt to ensure accurate representation of the connection." translation="Укажите подтип как тип соединения «гайка» или «болт с резьбовым отверстием». Вы можете установить дополнительную шайбу на любом конце. Введите размер, предварительную нагрузку и материал болта, чтобы обеспечить точное представление соединения."/>
+	<label commandName="SimConnectorBoltTipsAndTricksDesc" devLabel="The amount of elements required to accurately capture threads and the modeling time to align bolt threads to hole threads can all be avoided by using Bolt Connectors." translation="Используя болтовые соединители, можно избежать количества элементов, необходимых для точного захвата резьбы, и времени моделирования для совмещения резьбы болтов с резьбой отверстий."/>
+	<label commandName="SimConnectorBoltTipsAndTricksTips" devLabel="Head and nut locations can only be applied to circular edges. Select a cylindrical surface to indicate thread location." translation="Положения головки и гаек можно применять только к круглым кромкам. Выберите цилиндрическую поверхность, чтобы указать расположение резьбы."/>
+	<label commandName="SimConnectorBoltTipsAndTricksTitle" devLabel="Bolt Connector Information" translation="Информация о болтовом соединителе"/>
+	<label commandName="SimConnectorRigidBodyDesc1" devLabel="Rigidly connect a vertex on a body to faces, edges or vertices on another body" translation="Жестко соедините вершину тела с гранями, ребрами или вершинами другого тела."/>
+	<label commandName="SimConnectorRigidBodyDesc2" devLabel="There are two subtypes of rigid body connectors, this should be specified first. The second selection will be a vertex. The third selection can include one or more faces, edges, or vertices:" translation="Существует два подтипа соединителей жесткого корпуса, их следует указать в первую очередь. Второе выделение будет вершиной. Третий выбор может включать одну или несколько граней, ребер или вершин:"/>
+	<label commandName="SimConnectorRigidBodyDesc3" devLabel="Rigid body: The first vertex selected is the Anchor Point, which is the independent vertex. The motion of the entities in the second set is dependent on the motion of the Anchor Point. The dependent entities move exactly as the independent vertex moves." translation="Твердое тело: первая выбранная вершина — это опорная точка, которая является независимой вершиной. Движение сущностей во втором наборе зависит от движения опорной точки. Зависимые объекты движутся точно так же, как движется независимая вершина."/>
+	<label commandName="SimConnectorRigidBodyDesc4" devLabel="Interpolation: The first vertex you select is a Reference Point. The items in the second selection are independent entities to average. In this case, the Reference Point is the dependent entity (its motion is controlled by the motion of the independent entities). The weighted average of the displacement of the independent entitites is applied to the reference point." translation="Интерполяция: первая выбранная вами вершина является контрольной точкой. Элементы второго выбора являются независимыми объектами для усреднения. В этом случае Ориентиром является зависимая сущность (ее движение контролируется движением независимых сущностей). К контрольной точке применяется средневзвешенное значение смещения независимых объектов."/>
+	<label commandName="SimConnectorRigidBodyTipsAndTricksDesc" devLabel="Vertices must be specified on a 3D object. Creating a small cone or block can be useful to further reduce the complexity of your model." translation="Вершины должны быть указаны на 3D-объекте. Создание небольшого конуса или блока может быть полезно для дальнейшего снижения сложности вашей модели."/>
+	<label commandName="SimConnectorRigidBodyTipsAndTricksTips" devLabel="Note: You can connect an Anchor Point or Reference point on a body to a set of faces, edges, or vertices on the same body (for example to represent a brace or strut that reinforces the body." translation="Прим.: Опорную точку или опорную точку на теле можно соединить с набором граней, ребер или вершин того же тела (например, чтобы представить раскос или стойку, усиливающую тело)."/>
+	<label commandName="SimConnectorRigidBodyTipsAndTricksTitle" devLabel="Rigid Body Connector Information" translation="Информация о разъеме для жесткого корпуса"/>
+	<label commandName="SimConnectorSpringDesc1" devLabel="Provides an elastic connection between two vertices." translation="Обеспечивает упругое соединение между двумя вершинами."/>
+	<label commandName="SimConnectorSpringDesc2" devLabel="A spring can connect two vertices on the same part or two different parts." translation="Пружина может соединять две вершины одной детали или две разные детали."/>
+	<label commandName="SimConnectorSpringTipsAndTricksDesc" devLabel="The amount of elements required to accurately capture the long thin helical geometry of a spring can be avoided by using a Spring Connector." translation="Количество элементов, необходимых для точного захвата длинной и тонкой спиральной геометрии пружины, можно избежать, используя пружинный соединитель."/>
+	<label commandName="SimConnectorSpringTipsAndTricksTips" devLabel="Select the two vertices that would be the spring endpoints then add the performance criteria of the spring." translation="Выберите две вершины, которые будут конечными точками пружины, затем добавьте критерии производительности пружины."/>
+	<label commandName="SimConnectorSpringTipsAndTricksTitle" devLabel="Spring Connector Information" translation="Информация о пружинном соединителе"/>
+	<label commandName="SimConnectorTypeBoltItem" devLabel="Bolt" translation="Болт"/>
+	<label commandName="SimConnectorTypeRigidBodyItem" devLabel="RigidBody" translation="R"/>
+	<label commandName="SimConnectorTypeSpringItem" devLabel="Spring" translation="Весна"/>
+	<label commandName="SimConnectorsTypeDropDownInput" devLabel="Connector Type" translation="Тип разъема"/>
+	<label commandName="SimConstrainDirectionAngle" devLabel="Angle (user input)" translation="Угол (ввод пользователя)"/>
+	<label commandName="SimConstrainDirectionNormal" devLabel="Normal" translation="Нормальный"/>
+	<label commandName="SimConstrainDirectionReference" devLabel="Reference" translation="Ссылка"/>
+	<label commandName="SimConstrainDirectionType" devLabel="Direction Type" translation="Тип направления"/>
+	<label commandName="SimConstrainXYZDirectionComponents" devLabel="Components (x, y, z)" translation="Компоненты (x, y, z)"/>
+	<label commandName="SimConstraintAlphaX" devLabel="AlphaX" translation="АльфаХ"/>
+	<label commandName="SimConstraintAlphaY" devLabel="AlphaY" translation="АльфаY"/>
+	<label commandName="SimConstraintAlphaZ" devLabel="AlphaZ" translation="АльфаZ"/>
+	<label commandName="SimConstraintAx" devLabel="Axial" translation="Осевой"/>
+	<label commandName="SimConstraintFixedDesc1" devLabel="Prevent displacement of one or more entities." translation="Предотвратить перемещение одного или нескольких объектов."/>
+	<label commandName="SimConstraintFixedDesc2" devLabel="By default, a Fixed constraint prevents movement in all directions. Use the Axis buttons to allow movement in specified directions." translation="По умолчанию фиксированное ограничение предотвращает движение во всех направлениях. Используйте кнопки оси, чтобы разрешить движение в определенных направлениях."/>
+	<label commandName="SimConstraintFrictionlessDesc1" devLabel="Prevent displacement normal to the selected face or faces." translation="Запретить смещение по нормали к выбранной грани или граням."/>
+	<label commandName="SimConstraintFrictionlessDesc2" devLabel="Use Frictionless Constraints to allow movement in the plane of the assigned constraint, but not away from or into it." translation="Используйте ограничения без трения, чтобы разрешить перемещение в плоскости назначенного ограничения, но не от него или внутрь него."/>
+	<label commandName="SimConstraintFrictionlessDesc3" devLabel="An example is an object on a track. The object can move along the track, but cannot separate from the track." translation="Примером является объект на дорожке. Объект может двигаться по трассе, но не может отделиться от трассы."/>
+	<label commandName="SimConstraintMagUnitsSwitcher" devLabel="Change Units" translation="Изменить единицы"/>
+	<label commandName="SimConstraintMagUnitsType" devLabel="Units" translation="ЕДИНИЦЫ"/>
+	<label commandName="SimConstraintOmegaX" devLabel="OmegaX" translation="ОмегаХ"/>
+	<label commandName="SimConstraintOmegaY" devLabel="OmegaY" translation="ОмегаY"/>
+	<label commandName="SimConstraintOmegaZ" devLabel="OmegaZ" translation="ОмегаZ"/>
+	<label commandName="SimConstraintPinnedDesc1" devLabel="Prevent displacement of one or more cylindrical surfaces." translation="Предотвратите смещение одной или нескольких цилиндрических поверхностей."/>
+	<label commandName="SimConstraintPinnedDesc2" devLabel="Use Pinned Constraints to prevent radial, axial, and/or tangential displacement of cylindrical surfaces." translation="Используйте закрепленные ограничения, чтобы предотвратить радиальное, осевое и/или тангенциальное смещение цилиндрических поверхностей."/>
+	<label commandName="SimConstraintPinnedDesc3" devLabel="Radial pin constraints prevent the surface from colliding with or separating from the pin." translation="Ограничения радиального штифта предотвращают столкновение поверхности со штифтом или отделение от него."/>
+	<label commandName="SimConstraintPinnedDesc4" devLabel="Axial pin constraints prevent the surface from moving along the length of the pin." translation="Осевые ограничения штифта предотвращают перемещение поверхности по длине штифта."/>
+	<label commandName="SimConstraintPinnedDesc5" devLabel="Tangential pin constraints prevent rotation about the circumference of the pin." translation="Тангенциальные ограничения штифта предотвращают вращение вокруг штифта."/>
+	<label commandName="SimConstraintPrescribedDisplacementDesc1" devLabel="Define specified displacement in selected directions." translation="Определите заданное смещение в выбранных направлениях."/>
+	<label commandName="SimConstraintPrescribedDisplacementDesc2" devLabel="Use Prescribed Displacements to define exact displacement of one or more entities in certain directions. This is equivalent to the load pushing or pulling given entity by exactly same displacement." translation="Используйте заданные смещения, чтобы определить точное смещение одного или нескольких объектов в определенных направлениях. Это эквивалентно тому, что нагрузка толкает или тянет данный объект с точно таким же смещением."/>
+	<label commandName="SimConstraintRad" devLabel="Radial" translation="Радиально"/>
+	<label commandName="SimConstraintRx" devLabel="Rx" translation="п"/>
+	<label commandName="SimConstraintRxVal" devLabel="Rx" translation="п"/>
+	<label commandName="SimConstraintRy" devLabel="Ry" translation="Р"/>
+	<label commandName="SimConstraintRyVal" devLabel="Ry" translation="Р"/>
+	<label commandName="SimConstraintRz" devLabel="Rz" translation="Р"/>
+	<label commandName="SimConstraintRzVal" devLabel="Rz" translation="Р"/>
+	<label commandName="SimConstraintTan" devLabel="Tangential" translation="Тангенциальный"/>
+	<label commandName="SimConstraintTx" devLabel="Ux" translation="У"/>
+	<label commandName="SimConstraintTxVal" devLabel="Ux" translation="У"/>
+	<label commandName="SimConstraintTy" devLabel="Uy" translation="У"/>
+	<label commandName="SimConstraintTyVal" devLabel="Uy" translation="У"/>
+	<label commandName="SimConstraintType" devLabel="Type" translation="Тип"/>
+	<label commandName="SimConstraintTypeFixed" devLabel="Fixed" translation="Постоянный"/>
+	<label commandName="SimConstraintTypeFrictionless" devLabel="Frictionless" translation="без трения"/>
+	<label commandName="SimConstraintTypePinned" devLabel="Pin" translation="Вывод"/>
+	<label commandName="SimConstraintTypePrescribedDisplacement" devLabel="Prescribed Displacement" translation="Предписанное смещение"/>
+	<label commandName="SimConstraintTypeRemote" devLabel="Remote" translation="Удаленный"/>
+	<label commandName="SimConstraintTz" devLabel="Uz" translation="У"/>
+	<label commandName="SimConstraintTzVal" devLabel="Uz" translation="У"/>
+	<label commandName="SimConstraintUnitsSwitcher" devLabel="Change Units" translation="Изменить единицы"/>
+	<label commandName="SimConstraintUnitsType" devLabel="Units" translation="ЕДИНИЦЫ"/>
+	<label commandName="SimDefaultSelectionInputText" devLabel="Select" translation="Выбрать"/>
+	<label commandName="SimDirectionOffsetDistanceInput" devLabel="Offset Distance" translation="Расстояние смещения"/>
+	<label commandName="SimDirectionReferenceInput" devLabel="Reference" translation="Ссылка"/>
+	<label commandName="SimDirectionRotateInput" devLabel="Direction" translation="Направление"/>
+	<label commandName="SimDisplacementConstraintCmd" devLabel="Prescribed Displacement" translation="Предписанное смещение"/>
+	<label commandName="SimDropTestDirectionTypeStart" devLabel="Direction" translation="Направление"/>
+	<label commandName="SimDropTestFloorCustom" devLabel="Custom" translation="Пользовательский"/>
+	<label commandName="SimDropTestFloorRigid" devLabel="Rigid" translation="Неподвижно"/>
+	<label commandName="SimDropTestHeight" devLabel="Height" translation="Высота"/>
+	<label commandName="SimDropTestHeightStart" devLabel="Drop Height" translation="Высота падения"/>
+	<label commandName="SimDropTestLeftAngleO" devLabel="Left Angle" translation="Левый угол"/>
+	<label commandName="SimDropTestModelPositionCommand" devLabel="Position" translation="Позиция"/>
+	<label commandName="SimDropTestPlanarPlane" devLabel="Planar" translation="Плоский"/>
+	<label commandName="SimDropTestPlaneCommand" devLabel="Floor" translation="Пол"/>
+	<label commandName="SimDropTestPlaneLeftDistance" devLabel="Left Distance" translation="Левое расстояние"/>
+	<label commandName="SimDropTestPlaneRightDistance" devLabel="Right Distance" translation="Правильное расстояние"/>
+	<label commandName="SimDropTestRightAngle" devLabel="Right Angle" translation="Прямой угол"/>
+	<label commandName="SimDropTestVPlane" devLabel="Three Segment" translation="Пол"/>
+	<label commandName="SimEdit BoltConnector" devLabel="Edit Bolt Connector" translation="Редактировать болт-соединитель"/>
+	<label commandName="SimEditAngularBodyLoad" devLabel="Edit Angular Load" translation="Редактировать угловую нагрузку"/>
+	<label commandName="SimEditConstraintCmd" devLabel="Edit Structural Constraint" translation="Редактировать структурные ограничения"/>
+	<label commandName="SimEditDropTestModelPositionCommand" devLabel="Position" translation="Позиция"/>
+	<label commandName="SimEditDropTestPlaneCommand" devLabel="Edit Floor" translation="Редактировать этаж"/>
+	<label commandName="SimEditFlowVelocityCommand" devLabel="Edit Flow Velocity" translation="Редактировать скорость потока"/>
+	<label commandName="SimEditHarmonicLoad" devLabel="Edit Harmonic Load" translation="Редактировать гармоническую нагрузку"/>
+	<label commandName="SimEditInletFlowRateCommand" devLabel="Edit Flow Rate" translation="Редактировать расход"/>
+	<label commandName="SimEditLinearBodyLoad" devLabel="Edit Linear Global Load" translation="Редактировать линейную глобальную нагрузку"/>
+	<label commandName="SimEditPointAutoMass" devLabel="Edit Point Mass" translation="Изменить точечную массу"/>
+	<label commandName="SimEditPointMassManual" devLabel="Edit Point Mass" translation="Изменить точечную массу"/>
+	<label commandName="SimEditPreserveBoundaryCmd" devLabel="Edit Preserved Region" translation="Редактировать сохраненный регион"/>
+	<label commandName="SimEditRigidBodyConnector" devLabel="Edit Rigid Body Connector" translation="Редактирование соединителя жесткого тела"/>
+	<label commandName="SimEditSpringConnector" devLabel="Edit Spring Connector" translation="Редактировать пружинный соединитель"/>
+	<label commandName="SimEditStructuralLoad" devLabel="Edit Structural Load" translation="Редактировать структурную нагрузку"/>
+	<label commandName="SimEditSymmetryPlaneCmd" devLabel="Edit Symmetry Plane" translation="Редактировать плоскость симметрии"/>
+	<label commandName="SimEditTransientStructuralLoad" devLabel="Edit Transient Structural Load" translation="Редактировать переходную структурную нагрузку"/>
+	<label commandName="SimEnclosureAligned" devLabel="Aligned" translation="Выровненный"/>
+	<label commandName="SimEnclosureBoundaryShapeInput" devLabel="Boundary Shape" translation="Форма конверта"/>
+	<label commandName="SimEnclosureBox" devLabel="Box" translation="Квадрат"/>
+	<label commandName="SimEnclosureCylinder" devLabel="Cylinder" translation="Цилиндр"/>
+	<label commandName="SimEnclosureShapeDirectionInput" devLabel="Shape Direction" translation="Направление формы"/>
+	<label commandName="SimEnclosureSizeInputX" devLabel="X-Axis" translation="ось X"/>
+	<label commandName="SimEnclosureSizeInputY" devLabel="Y-Axis" translation="ось Y"/>
+	<label commandName="SimEnclosureSizeInputZ" devLabel="Z-Axis" translation="ось Z"/>
+	<label commandName="SimEnclosureSizeRadius" devLabel="Radius" translation="Радиус"/>
+	<label commandName="SimEnclosureSphere" devLabel="Sphere" translation="Сфера"/>
+	<label commandName="SimEnclosureXAxis" devLabel="X-Axis" translation="ось X"/>
+	<label commandName="SimEnclosureYAxis" devLabel="Y-Axis" translation="ось Y"/>
+	<label commandName="SimEnclosureZAxis" devLabel="Z-Axis" translation="ось Z"/>
+	<label commandName="SimExplicitInitialAngularBodyLoad" devLabel="Initial Angular Velocity" translation="Начальная угловая скорость"/>
+	<label commandName="SimExplicitInitialAngularBodyLoadComp" devLabel="Select parts/bodies to add initial angular velocity" translation="Выберите детали/тела для добавления начальной угловой скорости."/>
+	<label commandName="SimExplicitInitialAngularBodyLoadDesc1" devLabel="Apply rotational motion to a body at the start of the analysis" translation="Примените вращательное движение к телу в начале анализа."/>
+	<label commandName="SimExplicitInitialAngularBodyLoadDirCompInput" devLabel="Direction Components" translation="Компоненты направления"/>
+	<label commandName="SimExplicitInitialAngularBodyLoadDirCompX" devLabel="X" translation="X"/>
+	<label commandName="SimExplicitInitialAngularBodyLoadDirCompY" devLabel="Y" translation="Y"/>
+	<label commandName="SimExplicitInitialAngularBodyLoadDirCompZ" devLabel="Z" translation="Z"/>
+	<label commandName="SimExplicitInitialAngularBodyLoadEdit" devLabel="Edit Initial Angular Velocity" translation="Редактировать начальную угловую скорость"/>
+	<label commandName="SimExplicitInitialAngularBodyLoadNormalDirectionRef" devLabel="Select planar face to specify the direction of initial angular velocity" translation="Выберите плоскую грань, чтобы указать направление начальной угловой скорости."/>
+	<label commandName="SimExplicitInitialAngularBodyLoadTipsAndTricksTips" devLabel="Start by selecting the bodies on which the load acts. Specify the magnitude and set the direction either by direction components through vectors option or by selecting a face, edge or vertex as a location reference and a face as a direction reference through Normal option or by selecting an edge as a location reference through the Axis option." translation="Начните с выбора тел, на которые действует нагрузка. Укажите величину и задайте направление либо с помощью компонентов направления с помощью параметра &#171;Векторы&#187;, либо выбрав грань, ребро или вершину в качестве привязки местоположения и грань в качестве привязки направления с помощью параметра &#171;Обычный&#187;, либо выбрав ребро в качестве привязки местоположения с помощью параметра &#171;Ось&#187;."/>
+	<label commandName="SimExplicitInitialAngularBodyLoadTipsAndTricksTitle" devLabel="Initial Angular Velocity Information" translation="Начальная информация об угловой скорости"/>
+	<label commandName="SimFixedConstraintCmd" devLabel="Fixed" translation="Постоянный"/>
+	<label commandName="SimFloorMaterialGroup" devLabel="Floor Material" translation="Материал пола"/>
+	<label commandName="SimFloorStyleGroup" devLabel="Floor Type" translation="Тип этажа"/>
+	<label commandName="SimFlowRate" devLabel="Flow Rate" translation="Расход"/>
+	<label commandName="SimFlowRateCommand" devLabel="Flow rate" translation="Расход"/>
+	<label commandName="SimFlowRateLoadPerEntity" devLabel="Load Per Entity" translation="Загрузка на объект"/>
+	<label commandName="SimFlowRateSelectLocationForLoad" devLabel="Select location for load (planar face)." translation="Выберите место для нагрузки (плоская грань)."/>
+	<label commandName="SimFlowSourceLocation" devLabel="Select location for flow source (only planar faces)." translation="Выберите местоположение источника потока (только плоские грани)."/>
+	<label commandName="SimFlowVelocity" devLabel="Flow Velocity" translation="Скорость потока"/>
+	<label commandName="SimFlowVelocityCommand" devLabel="Flow Velocity" translation="Скорость потока"/>
+	<label commandName="SimFlowVelocityCurveMagnitude" devLabel="Curve Magnitude" translation="Кривая Величина"/>
+	<label commandName="SimFlowVelocityDirection" devLabel="Flip Direction" translation="Перевернуть направление"/>
+	<label commandName="SimFlowVelocityFlipSide" devLabel="Flip Side" translation="Отразить сторону"/>
+	<label commandName="SimFlowVelocityMagnitude" devLabel="Magnitude" translation="Величина"/>
+	<label commandName="SimFlowVelocitySelectLocationForLoad" devLabel="Select location for load (planar face)." translation="Выберите место для нагрузки (плоская грань)."/>
+	<label commandName="SimFlowVelocityUnitsType" devLabel="Units" translation="ЕДИНИЦЫ"/>
+	<label commandName="SimFlowVelocitysUnitsSwitcher" devLabel="Change Units" translation="Изменить единицы"/>
+	<label commandName="SimFluidCustom" devLabel="Custom" translation="Пользовательский"/>
+	<label commandName="SimFluidDensity" devLabel="Density" translation="Плотность"/>
+	<label commandName="SimFluidDensityUnitsEnabler" devLabel="Change Units" translation="Изменить единицы"/>
+	<label commandName="SimFluidDensityUnitsType" devLabel="Units" translation="ЕДИНИЦЫ"/>
+	<label commandName="SimFluidDirectionAngle" devLabel="Angle(user input)" translation="Угол (ввод пользователя)"/>
+	<label commandName="SimFluidDirectionDropDownInput" devLabel="Direction Options" translation="Варианты направления"/>
+	<label commandName="SimFluidDirectionGravity" devLabel="Align to Gravity" translation="Выровняйтесь по гравитации"/>
+	<label commandName="SimFluidDirectionReference" devLabel="Reference" translation="Ссылка"/>
+	<label commandName="SimFluidDirectionVectors" devLabel="Vectors" translation="Векторы"/>
+	<label commandName="SimFluidFlowOpeningLocation" devLabel="Select location for flow opening (only planar faces)." translation="Выберите место для отверстия потока (только плоские грани)."/>
+	<label commandName="SimFluidFlowPressureLocation" devLabel="Select location for fluid pressure (only planar faces)." translation="Выберите место для давления жидкости (только плоские грани)."/>
+	<label commandName="SimFluidFuel" devLabel="Fuel" translation="Топливо"/>
+	<label commandName="SimFluidOil" devLabel="Oil" translation="Масло"/>
+	<label commandName="SimFluidSeaWater" devLabel="Sea Water" translation="Морская вода"/>
+	<label commandName="SimFluidTypeDropDownInput" devLabel="Fluid Type" translation="Тип жидкости"/>
+	<label commandName="SimFluidWater" devLabel="Water" translation="Вода"/>
+	<label commandName="SimForceCurveMagnitude" devLabel="Curve Magnitude" translation="Кривая Величина"/>
+	<label commandName="SimForceDirection" devLabel="Flip Direction" translation="Перевернуть направление"/>
+	<label commandName="SimForceDirectionType" devLabel="Direction Type" translation="Тип направления"/>
+	<label commandName="SimForceLoadCommand" devLabel="Force" translation="Сила"/>
+	<label commandName="SimForceLoadDesc1" devLabel="Use a Force load to push or pull on an object. Forces can cause stress and deformation." translation="Используйте Силовую нагрузку, чтобы толкать или тянуть объект. Силы могут вызвать напряжение и деформацию."/>
+	<label commandName="SimForceLoadDesc2" devLabel="Individually or multi-select faces, edges, or vertices and specify the load magnitude and direction. You cannot mix geometry types in your selection set. When you apply a Force load to multiple entities, the total magnitude of the force is distributed across the selected entities." translation="Индивидуально или несколько выберите грани, ребра или вершины и укажите величину и направление нагрузки. Вы не можете смешивать типы геометрии в своем наборе объектов. Когда вы применяете Силовую нагрузку к нескольким объектам, общая величина силы распределяется по выбранным объектам."/>
+	<label commandName="SimForceLoadDesc3" devLabel="To load a face involved in a contact, use a Pressure instead of a Force." translation="Чтобы загрузить грань, участвующую в контакте, используйте Давление вместо Силы."/>
+	<label commandName="SimForceLoadPerEntity" devLabel="Force Per Entity" translation="Сила на объект"/>
+	<label commandName="SimForceMagnitude" devLabel="Magnitude" translation="Величина"/>
+	<label commandName="SimForcePhase" devLabel="Phase" translation="Фаза"/>
+	<label commandName="SimForcePositionTransformInput" devLabel="Position" translation="Позиция"/>
+	<label commandName="SimForceTransformInput" devLabel="Direction" translation="Направление"/>
+	<label commandName="SimFrictionlessConstraintCmd" devLabel="Frictionless" translation="без трения"/>
+	<label commandName="SimGenerativeBoundarySelectionInput" devLabel="Bodies" translation="Тела"/>
+	<label commandName="SimGenerativeBoundarySelectionInputPrompt" devLabel="Select Bodies" translation="Выберите Тела"/>
+	<label commandName="SimGenerativeEditObstacleOffsetCmdDef" devLabel="Edit Obstacle Offset" translation="Редактировать смещение препятствий"/>
+	<label commandName="SimGenerativeFluidSimCaseWithoutKeepin" devLabel="&lt;b&gt;No Fluid Preserve Geometry assigned&lt;/b&gt;&lt;br&gt;&lt;br&gt;Fluid Conditions can only be applied to Preserve Geometry bodies representing the minimum fluid volume that you need in the final shape of your fluid path.&lt;br&gt;&lt;br&gt;To assign a body as Fluid Preserve Geometry, click &lt;b&gt;OK&lt;/b&gt; and select a body in your model. You can then apply Fluid Conditions to that body.&lt;br&gt;&lt;br&gt;&lt;a href='%1%'&gt;Learn more&lt;/a&gt;" translation="&lt;b&gt;No Fluid Preserve Geometry assigned&lt;/b&gt;&lt;br&gt;&lt;br&gt;Fluid Conditions can only be applied to Preserve Geometry bodies representing the minimum fluid volume that you need in the final shape of your fluid path.&lt;br&gt;&lt;br&gt;To assign a body as Fluid Preserve Geometry, click &lt;b&gt;OK&lt;/b&gt; and select a body in your model. You can then apply Fluid Conditions to that body.&lt;br&gt;&lt;br&gt;&lt;a href='%1%'&gt;Learn more&lt;/a&gt;"/>
+	<label commandName="SimGenerativeKeepBoundaryCmdDef" devLabel="Preserve Geometry" translation="Сохранить геометрию"/>
+	<label commandName="SimGenerativeKeepBoundaryCommandDesc1" devLabel="Assigns a preserve geometry to the selected body or bodies." translation="Назначает сохранение геометрии выбранному телу или телам."/>
+	<label commandName="SimGenerativeKeepBoundaryCommandDesc2" devLabel="Assign a preserve geometry to incorporate bodies in the final shape of the design. These bodies don't change during the generation of outcomes. They display in green on the canvas." translation="Назначьте сохранение геометрии, чтобы включить тела в окончательную форму конструкции. Эти тела не меняются во время генерации результатов. Они отображаются на холсте зеленым цветом."/>
+	<label commandName="SimGenerativeKeepBoundaryFluidsCmdDef" devLabel="Fluid Preserve Geometry" translation="Жидкость сохраняет геометрию"/>
+	<label commandName="SimGenerativeKeepBoundaryFluidsCommandDesc1" devLabel="Assigns a preserve geometry to the selected body or bodies." translation="Назначает сохранение геометрии выбранному телу или телам."/>
+	<label commandName="SimGenerativeKeepBoundaryFluidsCommandDesc2" devLabel="Assign a preserve geometry to incorporate bodies in the final shape of the design. These bodies don't change during the generation of outcomes. They display in green on the canvas." translation="Назначьте сохранение геометрии, чтобы включить тела в окончательную форму конструкции. Эти тела не меняются во время генерации результатов. Они отображаются на холсте зеленым цветом."/>
+	<label commandName="SimGenerativeObstacleBoundaryCmdDef" devLabel="Obstacle Geometry" translation="Геометрия препятствий"/>
+	<label commandName="SimGenerativeObstacleBoundaryCommandDesc1" devLabel="Assigns an obstacle geometry to the selected body or bodies." translation="Назначает геометрию препятствия выбранному телу или телам."/>
+	<label commandName="SimGenerativeObstacleBoundaryCommandDesc2" devLabel="Assign an obstacle geometry to bodies that represent empty spaces where material isn't placed during the generation of outcomes. These bodies display in red on the canvas." translation="Назначьте геометрию препятствий телам, которые представляют собой пустые пространства, куда материал не помещается во время генерации результатов. Эти тела отображаются на холсте красным цветом."/>
+	<label commandName="SimGenerativeObstacleBoundaryFluidsCmdDef" devLabel="Solid Obstacle Geometry" translation="Твердая геометрия препятствий"/>
+	<label commandName="SimGenerativeObstacleBoundaryFluidsCommandDesc1" devLabel="Assigns an obstacle geometry to the selected body or bodies." translation="Назначает геометрию препятствия выбранному телу или телам."/>
+	<label commandName="SimGenerativeObstacleBoundaryFluidsCommandDesc2" devLabel="Assign an obstacle geometry to bodies that represent empty spaces where fluid is not placed during the generation of an outcome(s). These bodies display in red on the canvas." translation="Назначьте геометрию препятствия телам, которые представляют собой пустые пространства, куда не помещается жидкость во время генерации результата(ов). Эти тела отображаются на холсте красным цветом."/>
+	<label commandName="SimGenerativeObstacleInterferesPreserveHighlightCmd" devLabel="Highlight Obstacle Interferes Preserve." translation="Выделите Препятствие, мешающее заповеднику."/>
+	<label commandName="SimGenerativeObstacleOffsetCmdDef" devLabel="Obstacle Offset" translation="Смещение препятствий"/>
+	<label commandName="SimGenerativeObstacleOffsetCommandDesc1" devLabel="Applies an obstacle offset to the selected body or bodies." translation="Применяет смещение препятствия к выбранному телу или телам."/>
+	<label commandName="SimGenerativeObstacleOffsetCommandDesc2" devLabel="Use offsets to increase the size of obstacle geometry bodies without modifying the model geometry. You can apply one offset to a body." translation="Используйте смещения, чтобы увеличить размер тел геометрии препятствий без изменения геометрии модели. К телу можно применить одно смещение."/>
+	<label commandName="SimGenerativeObstacleOffsetFluidsCmdDef" devLabel="Solid Obstacle Offset" translation="Смещение твердого препятствия"/>
+	<label commandName="SimGenerativeObstacleOffsetFluidsCommandDesc1" devLabel="Applies an obstacle offset to the selected body or bodies." translation="Применяет смещение препятствия к выбранному телу или телам."/>
+	<label commandName="SimGenerativeObstacleOffsetFluidsCommandDesc2" devLabel="Use offsets to increase the size of obstacle geometry bodies without modifying the model geometry. You can apply one offset to a body." translation="Используйте смещения, чтобы увеличить размер тел геометрии препятствий без изменения геометрии модели. К телу можно применить одно смещение."/>
+	<label commandName="SimGenerativeObstacleOffsetSelectionInput" devLabel="Bodies" translation="Тела"/>
+	<label commandName="SimGenerativeObstacleOffsetValue" devLabel="Distance" translation="Расстояние"/>
+	<label commandName="SimGenerativeObstacleOffsetValueInputPrompt" devLabel="Select Obstacles" translation="Выберите препятствия"/>
+	<label commandName="SimGenerativeSeedAddRemoveMaterial" devLabel="Add/Remove Material" translation="Добавить/удалить материал"/>
+	<label commandName="SimGenerativeSeedAddRemoveMaterialTooltip" devLabel="Use when you have the flexibility to allow the material to leave the boundary of the starting shape. The generated design may contain areas that are smaller or larger than your starting shape." translation="Используйте его, когда у вас есть возможность позволить материалу покинуть границу начальной формы. Сгенерированный дизайн может содержать области меньше или больше исходной формы."/>
+	<label commandName="SimGenerativeSeedGeometryGroup" devLabel="Geometry" translation="Геометрия"/>
+	<label commandName="SimGenerativeSeedOnlyRemoveMaterial" devLabel="Remove Material" translation="Удалить материал"/>
+	<label commandName="SimGenerativeSeedOnlyRemoveMaterialTooltip" devLabel="Use when the starting shape represents an existing design or boundary that can only be reduced. The generated design will not extend beyond the boundary of your starting shape." translation="Используйте, когда начальная фигура представляет собой существующий дизайн или границу, которую можно только уменьшить. Сгенерированный дизайн не будет выходить за границы исходной фигуры."/>
+	<label commandName="SimGenerativeSeedOptionsGroup" devLabel="Options" translation="Опции"/>
+	<label commandName="SimGenerativeSeedTargetCmdDef" devLabel="Starting Shape" translation="Начальная форма"/>
+	<label commandName="SimGenerativeSeedTargetCmdFluidsDef" devLabel="Fluid Starting Shape" translation="Гибкая начальная форма"/>
+	<label commandName="SimGenerativeSeedTargetCommandDesc1" devLabel="Assigns a starting shape to the selected body." translation="Назначает начальную форму выбранному телу."/>
+	<label commandName="SimGenerativeSeedTargetCommandDesc2" devLabel="Assign a starting shape to treat a body as the initial shape from which the application generates outcomes. A starting shape is optional. The body displays in yellow on the canvas." translation="Назначьте начальную форму, чтобы тело рассматривалось как исходная форма, на основе которой приложение генерирует результаты. Начальная форма не является обязательной. Тело отображается на холсте желтым цветом."/>
+	<label commandName="SimGenerativeSeedTargetFluidsCommandDesc1" devLabel="Assigns a starting shape to the selected body." translation="Назначает начальную форму выбранному телу."/>
+	<label commandName="SimGenerativeSeedTargetFluidsCommandDesc2" devLabel="Assign a starting shape to treat a body as the initial shape from which the application generates an outcome(s). Using a starting shape is recommended. The body displays in yellow on the canvas." translation="Назначьте начальную форму, чтобы рассматривать тело как начальную форму, на основе которой приложение генерирует результат(ы). Рекомендуется использовать начальную форму. Тело отображается на холсте желтым цветом."/>
+	<label commandName="SimGenerativeSeedTargetSelectionInput" devLabel="Body" translation="Тело"/>
+	<label commandName="SimGenerativeSeedTargetSelectionInputPrompt" devLabel="Select Body" translation="Выберите тело"/>
+	<label commandName="SimGenerativeSimCaseWithoutKeepin" devLabel="&lt;b&gt;No Preserve Geometry assigned&lt;/b&gt;&lt;br&gt;&lt;br&gt;Design Conditions can only be applied to Preserve Geometry bodies representing the minimum geometry that you need in the final shape&lt;br&gt;of your design.&lt;br&gt;&lt;br&gt;To assign a body as Preserve Geometry, click &lt;b&gt;OK&lt;/b&gt; and select a body in your model. You can then apply Design Conditions to that body.&lt;br&gt;&lt;br&gt;&lt;a href='%1%'&gt;Learn more&lt;/a&gt;" translation="&lt;b&gt;No Preserve Geometry assigned&lt;/b&gt;&lt;br&gt;&lt;br&gt;Design Conditions can only be applied to Preserve Geometry bodies representing the minimum geometry that you need in the final shape&lt;br&gt;of your design.&lt;br&gt;&lt;br&gt;To assign a body as Preserve Geometry, click &lt;b&gt;OK&lt;/b&gt; and select a body in your model. You can then apply Design Conditions to that body.&lt;br&gt;&lt;br&gt;&lt;a href='%1%'&gt;Learn more&lt;/a&gt;"/>
+	<label commandName="SimGenerativeSymmetryObstaclePlanesHighlightCmd" devLabel="Highlight invalid planes" translation="Выделить недопустимые самолеты"/>
+	<label commandName="SimGenerativeSymmetryPlaneTargetCommandDesc1" devLabel="Defines a symmetry plane to generate symmetrical outcomes." translation="Определяет плоскость симметрии для получения симметричных результатов."/>
+	<label commandName="SimGenerativeSymmetryPlaneTargetCommandDesc2" devLabel="Select a construction plane to define it as the symmetry plane. You can define one or more symmetry planes. It requires preserve and obstacle geometries to be symmetrical about the plane(s)." translation="Выберите вспомогательную плоскость, чтобы определить ее как плоскость симметрии. Вы можете определить одну или несколько плоскостей симметрии. Для этого требуется, чтобы геометрия заповедника и препятствий была симметричной относительно плоскости(ов)."/>
+	<label commandName="SimGenerativeSymmetryPlanesBoundaryCmdDef" devLabel="Symmetry Plane" translation="Плоскость симметрии"/>
+	<label commandName="SimGenerativeSymmetryPlanesBoundarySelectionInput" devLabel="Planes" translation="Плоскости"/>
+	<label commandName="SimGenerativeSymmetryPlanesSelectionInputPrompt" devLabel="Select Planes" translation="Выберите самолеты"/>
+	<label commandName="SimGenerativeSymmetryPreservePlanesHighlightCmd" devLabel="Highlight invalid planes" translation="Выделить недопустимые самолеты"/>
+	<label commandName="SimGenerativeSymmetryTopologyPlanesHighlightCmd" devLabel="Highlight invalid planes" translation="Выделить недопустимые самолеты"/>
+	<label commandName="SimGraphStep" devLabel="Step" translation="Время (S)"/>
+	<label commandName="SimGraphTime" devLabel="Time" translation="Время"/>
+	<label commandName="SimGravityActivateCommand" devLabel="Toggle Gravity On" translation="Включить гравитацию"/>
+	<label commandName="SimGravityActivateDesc1" devLabel="Enables you to unsuppress the gravity load." translation="Позволяет отключить гравитационную нагрузку."/>
+	<label commandName="SimGravityActivateDesc2" devLabel="By default, gravity acts in the negative Y direction. A symbol at the model origin indicates the direction of gravity. To modify the gravity magnitude or direction, use the &lt;b&gt;Edit Gravity&lt;/b&gt; command." translation="По умолчанию гравитация действует в отрицательном направлении Y. Символ в начале координат модели указывает направление силы тяжести. Чтобы изменить величину или направление силы тяжести, используйте команду &lt;b&gt;Редактировать гравитацию&lt;/b&gt;."/>
+	<label commandName="SimGravityCommand" devLabel="Edit Gravity" translation="Редактировать гравитацию"/>
+	<label commandName="SimGravityDeactivateCommand" devLabel="Toggle Gravity Off" translation="Выключить гравитацию"/>
+	<label commandName="SimGravityDeactivateDesc1" devLabel="Enables you to suppress the gravity load." translation="Позволяет подавить гравитационную нагрузку."/>
+	<label commandName="SimGravityDeactivateDesc2" devLabel="By default, gravity acts in the negative Y direction. A symbol at the model origin indicates the direction of gravity. To modify the gravity magnitude or direction, use the &lt;b&gt;Edit Gravity&lt;/b&gt; command." translation="По умолчанию гравитация действует в отрицательном направлении Y. Символ в начале координат модели указывает направление силы тяжести. Чтобы изменить величину или направление силы тяжести, используйте команду &lt;b&gt;Редактировать гравитацию&lt;/b&gt;."/>
+	<label commandName="SimGravityDesc1" devLabel="Modifies the magnitude and direction of the applied gravity." translation="Изменяет величину и направление приложенной силы тяжести."/>
+	<label commandName="SimGravityDesc2" devLabel="Use as an alternative to realigning your model with the global coordinate system, when your model is not imported in the correct orientation." translation="Используйте в качестве альтернативы выравниванию модели по глобальной системе координат, если ваша модель импортирована с неправильной ориентацией."/>
+	<label commandName="SimGravityTipsAndTricksDesc" devLabel="To edit the gravity direction, specify the vector in X, Y, and Z direction, or select the target geometry (face, edge, or vertex). &lt;br&gt; &lt;br&gt; An Angle option is available in the Direction Type drop-down once you select a target geometry." translation="Чтобы изменить направление силы тяжести, укажите вектор в направлении X, Y и Z или выберите целевую геометрию (грань, ребро или вершину). &lt;br&gt; &lt;br&gt; Параметр &#171;Угол&#187; доступен в раскрывающемся списке &#171;Тип направления&#187; после выбора целевой геометрии."/>
+	<label commandName="SimGravityTipsAndTricksTips" devLabel="By default, gravity is applied in the negative Y-axis direction and displays a glyph at the origin." translation="По умолчанию сила тяжести применяется в отрицательном направлении оси Y, а в начале координат отображается глиф."/>
+	<label commandName="SimGravityTipsAndTricksTitle" devLabel="Gravity Information" translation="Информация о гравитации"/>
+	<label commandName="SimGravityTransformInput" devLabel="Direction" translation="Направление"/>
+	<label commandName="SimHPFlipSide" devLabel="Flip Side" translation="Отразить сторону"/>
+	<label commandName="SimHarmonicBaseExcitationCmd" devLabel="Base Excitation" translation="Базовое возбуждение"/>
+	<label commandName="SimHarmonicBearingLoadCommand" devLabel="Harmonic Bearing" translation="Гармонический подшипник"/>
+	<label commandName="SimHarmonicEditBaseExcitationCmd" devLabel="Edit Base Excitation" translation="Редактировать базовое возбуждение"/>
+	<label commandName="SimHarmonicForceLoadCommand" devLabel="Harmonic Force" translation="Гармоническая сила"/>
+	<label commandName="SimHarmonicLoads" devLabel="Harmonic Loads" translation="Гармонические нагрузки"/>
+	<label commandName="SimHarmonicMomentLoadCommand" devLabel="Harmonic Moment" translation="Гармонический момент"/>
+	<label commandName="SimHarmonicPressureLoadCommand" devLabel="Harmonic Pressure" translation="Гармоническое давление"/>
+	<label commandName="SimHarmonicRemoteForceLoadCommand" devLabel="Harmonic Remote Force" translation="Гармоническая дистанционная сила"/>
+	<label commandName="SimHydrostaticPressureLoad" devLabel="Hydrostatic Pressure" translation="Гидростатическое давление"/>
+	<label commandName="SimHydrostaticPressureLoadDlgGravityCheck" devLabel="Hydrostatic Pressure requires Gravity to be on, so it will be turned on." translation="Гидростатическое давление требует, чтобы гравитация была включена, поэтому она будет включена."/>
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="Американская система (дюймы)"/>
+	<label commandName="SimInfoAngularAccelerationBodyLoadTypeLabel" devLabel="Acceleration" translation="Ускорение"/>
+	<label commandName="SimInfoAngularBodyLoadAngleLabel" devLabel="Angle" translation="Угол"/>
+	<label commandName="SimInfoAngularBodyLoadLocationLabel" devLabel="Location" translation="Позиция"/>
+	<label commandName="SimInfoAngularVelocityBodyLoadTypeLabel" devLabel="Velocity" translation="Скорость"/>
+	<label commandName="SimInfoLinearAccelerationBodyLoadTypeLabel" devLabel="Acceleration" translation="Ускорение"/>
+	<label commandName="SimInfoLinearVelocityBodyLoadTypeLabel" devLabel="Velocity" translation="Скорость"/>
+	<label commandName="SimInfoRemoteForceLocationLabel" devLabel="Location" translation="Позиция"/>
+	<label commandName="SimInfoRemoteMomentLocationLabel" devLabel="Location" translation="Позиция"/>
+	<label commandName="SimInletPressureItem" devLabel="Pressure" translation="Давление"/>
+	<label commandName="SimLimitTarget" devLabel="Limit Target" translation="Ограничить цель"/>
+	<label commandName="SimLimitedAreaSpecifyRadius" devLabel="Specify radius of circle" translation="Укажите радиус круга"/>
+	<label commandName="SimLinearAccelUnitsSwitcher" devLabel="Change Units" translation="Изменить единицы"/>
+	<label commandName="SimLinearAccelUnitsType" devLabel="Units" translation="ЕДИНИЦЫ"/>
+	<label commandName="SimLinearAccelerationBodyLoadMagnitude" devLabel="Magnitude" translation="Величина"/>
+	<label commandName="SimLinearAccelerationBodyLoadType" devLabel="Acceleration" translation="Ускорение"/>
+	<label commandName="SimLinearBodyLoad" devLabel="Linear Global Load" translation="Линейная глобальная нагрузка"/>
+	<label commandName="SimLinearBodyLoadComp" devLabel="Select parts/bodies to add linear acceleration global load" translation="Выберите детали/тела для добавления глобальной нагрузки с линейным ускорением."/>
+	<label commandName="SimLinearBodyLoadDesc1" devLabel="Applies a linear acceleration to the entire model, to represent forces such as those experienced by a mass accelerating or decelerating in a straight line." translation="Применяет линейное ускорение ко всей модели, чтобы представить силы, подобные тем, которые возникают при ускорении или замедлении массы по прямой линии."/>
+	<label commandName="SimLinearBodyLoadDesc2" devLabel="Specify the acceleration direction by selecting a face normal to the direction of the load or by specifying an angle or a vector. " translation="Укажите направление ускорения, выбрав грань, нормальную к направлению нагрузки, или задав угол или вектор."/>
+	<label commandName="SimLinearBodyLoadEdit" devLabel="Edit Linear Global Load" translation="Редактировать линейную глобальную нагрузку"/>
+	<label commandName="SimLinearBodyLoadTipsAndTricksDesc" devLabel="" translation=""/>
+	<label commandName="SimLinearBodyLoadTipsAndTricksTips" devLabel="Start by selecting the components on which the load acts. Set the direction by selecting a reference face or edge normal to the force direction. Specify the magnitude or components." translation="Начните с выбора компонентов, на которые действует нагрузка. Задайте направление, выбрав опорную грань или кромку, нормальную к направлению силы. Укажите величину или компоненты."/>
+	<label commandName="SimLinearBodyLoadTipsAndTricksTitle" devLabel="Linear Global Load Information" translation="Информация о линейной глобальной нагрузке"/>
+	<label commandName="SimLinearBodyLoadX" devLabel="X" translation="X"/>
+	<label commandName="SimLinearBodyLoadY" devLabel="Y" translation="Y"/>
+	<label commandName="SimLinearBodyLoadZ" devLabel="Z" translation="Z"/>
+	<label commandName="SimLinearGlobalBodyLoad" devLabel="Linear Global Load" translation="Линейная глобальная нагрузка"/>
+	<label commandName="SimLinearGlobalBodyLoadEdit" devLabel="Edit Linear Global Load" translation="Редактировать линейную глобальную нагрузку"/>
+	<label commandName="SimLinearVelocityBodyLoadMagnitude" devLabel="Magnitude" translation="Величина"/>
+	<label commandName="SimLinearVelocityBodyLoadType" devLabel="Velocity" translation="Скорость"/>
+	<label commandName="SimLinearVelocityUnitsSwitcher" devLabel="Change Units" translation="Изменить единицы"/>
+	<label commandName="SimLoadAxialType" devLabel="Switch Axial" translation="Переключатель осевой"/>
+	<label commandName="SimLoadCurveMagnitude" devLabel="Curve Magnitude" translation="Кривая Величина"/>
+	<label commandName="SimLoadDirection" devLabel="Flip Direction" translation="Перевернуть направление"/>
+	<label commandName="SimLoadDirectionAngle" devLabel="Angle (delta)" translation="Угол (дельта)"/>
+	<label commandName="SimLoadDirectionAxis" devLabel="Axis" translation="Ось"/>
+	<label commandName="SimLoadDirectionComponents" devLabel="Vectors (x, y, z)" translation="Векторы (x, y, z)"/>
+	<label commandName="SimLoadDirectionNormal" devLabel="Normal" translation="Нормальный"/>
+	<label commandName="SimLoadDirectionReference" devLabel="Reference" translation="Ссылка"/>
+	<label commandName="SimLoadDirectionType" devLabel="Direction Type" translation="Тип направления"/>
+	<label commandName="SimLoadFlipSide" devLabel="Flip Side" translation="Отразить сторону"/>
+	<label commandName="SimLoadFx" devLabel="Fx" translation="Ф"/>
+	<label commandName="SimLoadFy" devLabel="Fy" translation="Ф"/>
+	<label commandName="SimLoadFz" devLabel="Fz" translation="Ф"/>
+	<label commandName="SimLoadImpactPoint" devLabel="Impact Point" translation="Точка удара"/>
+	<label commandName="SimLoadMagnitude" devLabel="Magnitude" translation="Величина"/>
+	<label commandName="SimLoadPointCoordInput" devLabel="Point Coordinates" translation="Координаты точки"/>
+	<label commandName="SimLoadRefPointInput" devLabel="Select Surface Point" translation="Выберите точку поверхности"/>
+	<label commandName="SimLoadRotationCenter" devLabel="Rotation Center" translation="Центр вращения"/>
+	<label commandName="SimLoadSelectCylFacesLocation" devLabel="Select location for load (only cylindrical faces)." translation="Выберите место для нагрузки (только цилиндрические грани)."/>
+	<label commandName="SimLoadSelectEdgeLocation" devLabel="Select location(s) for load (only edges)." translation="Выберите место(а) для нагрузки (только края)."/>
+	<label commandName="SimLoadSelectFaceLocation" devLabel="Select location(s) for load (only faces)." translation="Выберите местоположение(я) для нагрузки (только грани)."/>
+	<label commandName="SimLoadSelectGeometry" devLabel="Select geometry to define direction (face, edge or vertex)." translation="Выберите геометрию, чтобы определить направление (грань, ребро или вершина)."/>
+	<label commandName="SimLoadSelectImpactPoint" devLabel="Select impact point." translation="Выберите точку удара."/>
+	<label commandName="SimLoadSelectLocation" devLabel="Select location(s) for load (face, edge or vertex)." translation="Выберите местоположение(я) для нагрузки (грань, ребро или вершина)."/>
+	<label commandName="SimLoadSelectLocationForLoad" devLabel="Select location(s) for load (face, edge or vertex)." translation="Выберите местоположение(я) для нагрузки (грань, ребро или вершина)."/>
+	<label commandName="SimLoadSelectReference" devLabel="Select reference for load (face or edge)." translation="Выберите ссылку для нагрузки (грань или кромка)."/>
+	<label commandName="SimLoadSelectReferenceForDropDirection" devLabel="Select reference for drop direction (face or edge)." translation="Выберите привязку для направления падения (грань или кромка)."/>
+	<label commandName="SimLoadSelectReferencePoint" devLabel="Select a point (vertex)." translation="Выберите точку (вершину)."/>
+	<label commandName="SimLoadSelectRotationCenter" devLabel="Select rotation center (vertex)." translation="Выберите центр вращения (вершину)."/>
+	<label commandName="SimLoadSelectShellEdgeLocation" devLabel="Select location(s) for load (only shell edges)." translation="Выберите место(а) для нагрузки (только кромки оболочки)."/>
+	<label commandName="SimLoadSelectVertexLocation" devLabel="Select location(s) for load (only vertices)." translation="Выберите местоположение(я) для загрузки (только вершины)."/>
+	<label commandName="SimLoadSelectionRef" devLabel="Reference" translation="Ссылка"/>
+	<label commandName="SimLoadSourceLocation" devLabel="Source Location" translation="Исходное местоположение"/>
+	<label commandName="SimLoadTorqueType" devLabel="Switch Torque" translation="Крутящий момент переключателя"/>
+	<label commandName="SimLoadTypeBearingLoadItem" devLabel="Bearing Load" translation="Несущая нагрузка"/>
+	<label commandName="SimLoadTypeForceItem" devLabel="Force" translation="Сила"/>
+	<label commandName="SimLoadTypeGravityItem" devLabel="Gravity" translation="Гравитация"/>
+	<label commandName="SimLoadTypeHarmonicBearingItem" devLabel="Harmonic Bearing" translation="Гармонический подшипник"/>
+	<label commandName="SimLoadTypeHarmonicForceItem" devLabel="Harmonic Force" translation="Гармоническая сила"/>
+	<label commandName="SimLoadTypeHarmonicMomentItem" devLabel="Harmonic Moment" translation="Гармонический момент"/>
+	<label commandName="SimLoadTypeHarmonicPressureItem" devLabel="Harmonic Pressure" translation="Гармоническое давление"/>
+	<label commandName="SimLoadTypeHydrostaticItem" devLabel="Hydrostatic Pressure" translation="Гидростатическое давление"/>
+	<label commandName="SimLoadTypeMomentItem" devLabel="Moment" translation="Момент"/>
+	<label commandName="SimLoadTypePressureItem" devLabel="Pressure" translation="Давление"/>
+	<label commandName="SimLoadTypeRemoteForceItem" devLabel="Remote Force" translation="Дистанционная сила"/>
+	<label commandName="SimLoadTypeRemoteMomentItem" devLabel="Remote Moment" translation="Удаленный момент"/>
+	<label commandName="SimLoadTypeTransientBearingItem" devLabel="Transient Bearing" translation="Переходный подшипник"/>
+	<label commandName="SimLoadTypeTransientForceItem" devLabel="Transient Force" translation="Переходная сила"/>
+	<label commandName="SimLoadTypeTransientMomentItem" devLabel="Transient Moment" translation="Переходный момент"/>
+	<label commandName="SimLoadTypeTransientPressureItem" devLabel="Transient Pressure" translation="Переходное давление"/>
+	<label commandName="SimLoadTypeTransientRemoteForceItem" devLabel="Transient Remote" translation="Переходный удаленный"/>
+	<label commandName="SimLoadUnitsType" devLabel="Units" translation="ЕДИНИЦЫ"/>
+	<label commandName="SimLoadX" devLabel="X" translation="X"/>
+	<label commandName="SimLoadXYZDirectionComponents" devLabel="Vectors (x, y, z)" translation="Векторы (x, y, z)"/>
+	<label commandName="SimLoadY" devLabel="Y" translation="Y"/>
+	<label commandName="SimLoadZ" devLabel="Z" translation="Z"/>
+	<label commandName="SimLoadsDesc1" devLabel="Applies structural loads to selected geometry." translation="Применяет структурные нагрузки к выбранной геометрии."/>
+	<label commandName="SimLoadsDesc2" devLabel="Individually or multi-select faces, edges, or vertices and specify the load magnitude and direction. You cannot mix geometry types in your selection set and some load types apply only to certain geometry types - for example, Moments only apply to faces." translation="Индивидуально или несколько выберите грани, ребра или вершины и укажите величину и направление нагрузки. Вы не можете смешивать типы геометрии в наборе объектов, а некоторые типы нагрузки применяются только к определенным типам геометрии — например, &#171;Моменты&#187; применяются только к граням."/>
+	<label commandName="SimLoadsReferenceInput" devLabel="Direction Reference" translation="Ссылка на направление"/>
+	<label commandName="SimLoadsTypeDropDownInput" devLabel="Type" translation="Тип"/>
+	<label commandName="SimLoadsUnitsSwitcher" devLabel="Change Units" translation="Изменить единицы"/>
+	<label commandName="SimMagnitudeConstraintAlphaxVal" devLabel="Magnitude AlphaX" translation="Величина AlphaX"/>
+	<label commandName="SimMagnitudeConstraintAlphayVal" devLabel="Magnitude AlphaY" translation="Величина AlphaY"/>
+	<label commandName="SimMagnitudeConstraintAlphazVal" devLabel="Magnitude AlphaZ" translation="Величина AlphaZ"/>
+	<label commandName="SimMagnitudeConstraintOmegaxVal" devLabel="Magnitude OmegaX" translation="Величина OmegaX"/>
+	<label commandName="SimMagnitudeConstraintOmegayVal" devLabel="Magnitude OmegaY" translation="Величина OmegaY"/>
+	<label commandName="SimMagnitudeConstraintOmegazVal" devLabel="Magnitude OmegaZ" translation="Величина OmegaZ"/>
+	<label commandName="SimMagnitudeConstraintRxVal" devLabel="Magnitude Rx" translation="Магнитуда Rx"/>
+	<label commandName="SimMagnitudeConstraintRyVal" devLabel="Magnitude Ry" translation="Магнитуда Ry"/>
+	<label commandName="SimMagnitudeConstraintRzVal" devLabel="Magnitude Rz" translation="Магнитуда Rz"/>
+	<label commandName="SimMagnitudeConstraintTxVal" devLabel="Magnitude Ux" translation="Величина Ux"/>
+	<label commandName="SimMagnitudeConstraintTyVal" devLabel="Magnitude Uy" translation="Величина Uy"/>
+	<label commandName="SimMagnitudeConstraintTzVal" devLabel="Magnitude Uz" translation="Величина Уз"/>
+	<label commandName="SimMagnitudeCurve" devLabel="Magnitude Curve" translation="Кривая величины"/>
+	<label commandName="SimManualPointMassDesc1" devLabel="Use Manual Point Mass to represent the effects of a component or mass not included in the simulation model. Such a component should have very little effect on the model stiffness. " translation="Используйте функцию &#171;Масса точки вручную&#187;, чтобы представить влияние компонента или массы, не включенных в имитационную модель. Такой компонент не должен оказывать очень незначительное влияние на жесткость модели."/>
+	<label commandName="SimManualPointMassDesc2" devLabel="After specifying the location on the model, specify its mass. Point masses are useful for reducing model complexity." translation="После указания местоположения на модели укажите ее массу. Точечные массы полезны для уменьшения сложности модели."/>
+	<label commandName="SimManualPointMassTipsAndTricksDesc" devLabel="There are two ways to define the location of a point mass:&lt;br&gt;Use &lt;b&gt;Reference&lt;/b&gt; to position it relative to existing geometry. (You can select a face, edge, or vertex.)&lt;br&gt;Use &lt;b&gt;Absolute&lt;/b&gt; to define the position relative to the model origin." translation="Существует два способа определить местоположение точечной массы:&lt;br&gt;Используйте &lt;b&gt;Ссылку&lt;/b&gt;, чтобы расположить ее относительно существующей геометрии. (Вы можете выбрать грань, ребро или вершину.)&lt;br&gt;Используйте &lt;b&gt;Абсолют&lt;/b&gt;, чтобы определить положение относительно начала координат модели."/>
+	<label commandName="SimManualPointMassTipsAndTricksTips" devLabel="After defining the location of the Point Mass, select where it is attached to the model, and specify its mass.&lt;br&gt;For stress analyses, be sure to assign a gravity value." translation="После определения местоположения точечной массы выберите место ее прикрепления к модели и укажите ее массу.&lt;br&gt;Для анализа напряжений обязательно задайте значение силы тяжести."/>
+	<label commandName="SimManualPointMassTipsAndTricksTitle" devLabel="Point Mass (Manual) Information" translation="Информация о точечной массе (вручную)"/>
+	<label commandName="SimMaterialDensityInputType" devLabel="Mass per Unit Area" translation="Масса на единицу площади"/>
+	<label commandName="SimMaterialFrictionCoeffInputType" devLabel="Friction Coefficient" translation="Коэффициент трения"/>
+	<label commandName="SimMaterialInputType" devLabel="Material" translation="Материал"/>
+	<label commandName="SimMaterialStiffnessInputType" devLabel="Stiffness" translation="Жесткость"/>
+	<label commandName="SimMaterialThicknessInputType" devLabel="Thickness" translation="Толщина"/>
+	<label commandName="SimModelPositionAngleStyle" devLabel="Angle" translation="Угол"/>
+	<label commandName="SimModelPositionImpactPointStyle" devLabel="Impact Point" translation="Точка удара"/>
+	<label commandName="SimModelPositionReferenceStyle" devLabel="Reference" translation="Ссылка"/>
+	<label commandName="SimModelPositionStyleInputType" devLabel="Direction Type" translation="Тип направления"/>
+	<label commandName="SimMomentLoadCommand" devLabel="Moment" translation="Момент"/>
+	<label commandName="SimMomentLoadDesc1" devLabel="Use a Moment to apply a torque about an axis. Select the appropriate option for defining the axis of rotation." translation="Используйте момент, чтобы применить крутящий момент вокруг оси. Выберите подходящий вариант для определения оси вращения."/>
+	<label commandName="SimMomentLoadPerEntity" devLabel="Moment Per Entity" translation="Момент на сущность"/>
+	<label commandName="SimMomentLoadSelectFaceEdgeLocation" devLabel="Select location(s) for load (any face)." translation="Выберите место(а) для нагрузки (любая грань)."/>
+	<label commandName="SimMomentLoadX" devLabel="Mx" translation="М"/>
+	<label commandName="SimMomentLoadY" devLabel="My" translation="М"/>
+	<label commandName="SimMomentLoadZ" devLabel="Mz" translation="М"/>
+	<label commandName="SimMomentMagnitudeCurve" devLabel="Magnitude Curve" translation="Кривая величины"/>
+	<label commandName="SimMomentMultiplierCurve" devLabel="Multiplier Curve" translation="Кривая множителя"/>
+	<label commandName="SimMomentPhase" devLabel="Phase" translation="Фаза"/>
+	<label commandName="SimMomentTransformInput" devLabel="Direction" translation="Направление"/>
+	<label commandName="SimMultiplierCurve" devLabel="Multiplier Curve" translation="Кривая множителя"/>
+	<label commandName="SimNewCentroidSelect" devLabel="Select any point on face to be used as boundary centroid" translation="Выберите любую точку на грани, которая будет использоваться в качестве граничного центроида."/>
+	<label commandName="SimNewConstraintCmd" devLabel="Structural Constraints" translation="Структурные ограничения"/>
+	<label commandName="SimNewConstraintCmdHintBody" devLabel="You can select more bodies." translation="Вы можете выбрать больше тел."/>
+	<label commandName="SimNewConstraintCmdHintEdge" devLabel="You can select more edges." translation="Вы можете выбрать больше ребер."/>
+	<label commandName="SimNewConstraintCmdHintFace" devLabel="You can select more faces." translation="Вы можете выбрать больше лиц."/>
+	<label commandName="SimNewConstraintCmdHintNothing" devLabel="Select at least one entity." translation="Выберите хотя бы один объект."/>
+	<label commandName="SimNewConstraintCmdHintNothingOnlyRigid" devLabel="Select at least one Rigid body." translation="Выберите хотя бы одно твердое тело."/>
+	<label commandName="SimNewConstraintCmdHintNothingWithRigid" devLabel="Select at least one entity or Rigid body." translation="Выберите хотя бы один объект или твердое тело."/>
+	<label commandName="SimNewConstraintCmdHintRigid" devLabel="You can select only one Rigid body." translation="Вы можете выбрать только одно твердое тело."/>
+	<label commandName="SimNewConstraintCmdHintRigidBody" devLabel="You can select more Rigid bodies." translation="Вы можете выбрать больше твердых тел."/>
+	<label commandName="SimNewConstraintCmdHintSelectFace" devLabel="Select at least one face." translation="Выберите хотя бы одно лицо."/>
+	<label commandName="SimNewConstraintCmdHintVertex" devLabel="You can select more vertices." translation="Вы можете выбрать больше вершин."/>
+	<label commandName="SimNewConstraintDesc1" devLabel="Applies a fixed, pinned, frictionless, prescribed displacement or remote constraint to the selected geometry." translation="Применяет фиксированное, закрепленное, без трения, заданное смещение или удаленную зависимость к выбранной геометрии."/>
+	<label commandName="SimNewConstraintDesc2" devLabel="You can apply constraints to multiple entities you select." translation="Вы можете применить ограничения к нескольким выбранным вами объектам."/>
+	<label commandName="SimNewConstraintExplicitQuasiStaticDesc1" devLabel="Applies a fixed, pinned, or frictionless to the selected geometry." translation="Применяет фиксированную, закрепленную или бесступенчатую геометрию к выбранной геометрии."/>
+	<label commandName="SimNewPreserveBoundaryCmd" devLabel="Preserve Region" translation="Заповедник региона"/>
+	<label commandName="SimNewPreserveBoundaryCmdDesc1" devLabel="Excludes region from Shape Optimization process." translation="Исключает регион из процесса оптимизации формы."/>
+	<label commandName="SimNewPreserveBoundaryCmdDesc2" devLabel="Specifies the region(s) of the model to exclude from the Shape Optimization process. Region shapes include box, cylinder, and sphere." translation="Указывает области модели, которые необходимо исключить из процесса оптимизации формы. Формы областей включают коробку, цилиндр и сферу."/>
+	<label commandName="SimNewPreserveBoundaryCmdHintEdge" devLabel="You can select more edges." translation="Вы можете выбрать больше ребер."/>
+	<label commandName="SimNewPreserveBoundaryCmdHintFace" devLabel="You can select more faces." translation="Вы можете выбрать больше лиц."/>
+	<label commandName="SimNewPreserveBoundaryCmdHintNothing" devLabel="Select at least one entity." translation="Выберите хотя бы один объект."/>
+	<label commandName="SimNewPreserveBoundaryCmdHintVertex" devLabel="You can select more vertices." translation="Вы можете выбрать больше вершин."/>
+	<label commandName="SimNewSymmetryPlaneCmdDesc1" devLabel="Creates a symmetry plane." translation="Создает плоскость симметрии."/>
+	<label commandName="SimNewSymmetryPlaneCmdDesc2" devLabel="Forces the generated shape to be symmetric about the symmetry plane(s)." translation="Заставляет сгенерированную форму быть симметричной относительно плоскости симметрии."/>
+	<label commandName="SimOffsetDistanceUnitsEnabler" devLabel="Change Units" translation="Изменить единицы"/>
+	<label commandName="SimOffsetDistanceUnitsType" devLabel="Units" translation="ЕДИНИЦЫ"/>
+	<label commandName="SimOnlyOneGravityAllowed" devLabel="This study type only supports a single active gravity load among its load cases.  All other gravity loads will be suppressed." translation="Этот тип исследования поддерживает только одну активную гравитационную нагрузку среди своих вариантов нагрузки.  Все остальные гравитационные нагрузки будут подавлены."/>
+	<label commandName="SimOriginPointInput" devLabel="Origin Point" translation="Отправная точка"/>
+	<label commandName="SimPMUnitsSwitcher" devLabel="Change Units" translation="Изменить единицы"/>
+	<label commandName="SimPMUnitsType" devLabel="Units" translation="ЕДИНИЦЫ"/>
+	<label commandName="SimPinnedConstraintCmd" devLabel="Pin" translation="Вывод"/>
+	<label commandName="SimPlaneStyleInputType" devLabel="Type" translation="Тип"/>
+	<label commandName="SimPoint" devLabel="Point" translation="Точка"/>
+	<label commandName="SimPointMassAuto" devLabel="Point Mass (Auto)" translation="Точка Масса (Авто)"/>
+	<label commandName="SimPointMassAutoBodyMaterialPrompt" devLabel="The selected body does not have the material data required to calculate the mass properties so it cannot be selected!" translation="Выбранное тело не содержит данных о материале, необходимых для расчета массовых свойств, поэтому его нельзя выбрать!"/>
+	<label commandName="SimPointMassAutoComp" devLabel="Select parts/bodies to be idealized" translation="Выберите детали/тела для идеализации"/>
+	<label commandName="SimPointMassAutoCompMaterialPrompt" devLabel="Component has no material properties!" translation="Компонент не имеет свойств материала!"/>
+	<label commandName="SimPointMassComponentsBodiesInput" devLabel="Bodies" translation="Тела"/>
+	<label commandName="SimPointMassComponentsInput" devLabel="Components" translation="Компоненты"/>
+	<label commandName="SimPointMassDlgGravityCheck" devLabel="Point Mass requires Gravity to be on, so it will be turned on." translation="P"/>
+	<label commandName="SimPointMassDropDownInput" devLabel="Position" translation="Позиция"/>
+	<label commandName="SimPointMassEntitiesFE" devLabel="Select geometry which point mass acts upon (faces only)" translation="Выберите геометрию, на которую действует точечная масса (только грани)"/>
+	<label commandName="SimPointMassEntitiesFEV" devLabel="Select geometry which point mass acts upon (faces only)" translation="Выберите геометрию, на которую действует точечная масса (только грани)"/>
+	<label commandName="SimPointMassEntitiesInput" devLabel="Geometries" translation="Геометрии"/>
+	<label commandName="SimPointMassManual" devLabel="Point Mass (Manual)" translation="Точечная масса (вручную)"/>
+	<label commandName="SimPointMassMassInput" devLabel="Mass" translation="Масса"/>
+	<label commandName="SimPointMassReference" devLabel="Select geometry to use as a reference (face, edge or vertex)" translation="Выберите геометрию для использования в качестве ссылки (грань, ребро или вершина)"/>
+	<label commandName="SimPointMassReferenceInput" devLabel="Reference" translation="Ссылка"/>
+	<label commandName="SimPointMassResetValue" devLabel="Reset" translation="Сбросить"/>
+	<label commandName="SimPointMassSelAbsoluteItem" devLabel="Absolute" translation="Абсолютный"/>
+	<label commandName="SimPointMassSelReferenceItem" devLabel="Reference" translation="Ссылка"/>
+	<label commandName="SimPointMassVisibilityToggleInput" devLabel="Hide Bodies" translation="Скрыть тела"/>
+	<label commandName="SimPointTransformInput" devLabel="Position" translation="Позиция"/>
+	<label commandName="SimPressureLoadCommand" devLabel="Pressure" translation="Давление"/>
+	<label commandName="SimPressureLoadDesc1" devLabel="Use Pressure to apply a uniformly distributed load normal to every location of the face." translation="Используйте &#171;Давление&#187;, чтобы применить равномерно распределенную нагрузку, перпендикулярную каждому участку лица."/>
+	<label commandName="SimPressureMagnitudeCurve" devLabel="Magnitude Curve" translation="Кривая величины"/>
+	<label commandName="SimPressurePhase" devLabel="Phase" translation="Фаза"/>
+	<label commandName="SimRadius" devLabel="Radius" translation="Радиус"/>
+	<label commandName="SimRemoteConstraintAnchorLocation" devLabel="Anchor Location" translation="Местоположение привязки"/>
+	<label commandName="SimRemoteConstraintCmd" devLabel="Remote" translation="Удаленный"/>
+	<label commandName="SimRemoteConstraintFixRotation" devLabel="Fix Rotation" translation="Исправить вращение"/>
+	<label commandName="SimRemoteConstraintFixTranslation" devLabel="Fix Translation" translation="Исправить перевод"/>
+	<label commandName="SimRemoteConstraintTransformPositionInput" devLabel="Position" translation="Позиция"/>
+	<label commandName="SimRemoteForceLoadCommand" devLabel="Remote Force" translation="Дистанционная сила"/>
+	<label commandName="SimRemoteForceLoadDesc1" devLabel="Use a Remote Force to apply a load to a location either on or off of the model." translation="Используйте Remote Force, чтобы применить нагрузку к месту на модели или за ее пределами."/>
+	<label commandName="SimRemoteForceLoadDesc2" devLabel="Select a face and define the remote load point. Accept the force vector or redefine using the model geometry or vector components." translation="Выберите грань и определите удаленную точку нагрузки. Примите вектор силы или переопределите его, используя геометрию модели или компоненты вектора."/>
+	<label commandName="SimRemoteForceMagnitudeCurve" devLabel="Magnitude Curve" translation="Кривая величины"/>
+	<label commandName="SimRemoteForceMultiplierCurve" devLabel="Multiplier Curve" translation="Кривая множителя"/>
+	<label commandName="SimRemoteForceReferenceInput" devLabel="Direction Reference" translation="Ссылка на направление"/>
+	<label commandName="SimRemoteMomentCurveMagnitude" devLabel="Curve Magnitude" translation="Кривая Величина"/>
+	<label commandName="SimRemoteMomentDirection" devLabel="Flip Direction" translation="Перевернуть направление"/>
+	<label commandName="SimRemoteMomentDirectionType" devLabel="Direction Type" translation="Тип направления"/>
+	<label commandName="SimRemoteMomentLoadCommand" devLabel="Remote Moment" translation="Удаленный момент"/>
+	<label commandName="SimRemoteMomentLoadDesc1" devLabel="Use a Remote Moment to apply a torque about an axis to a location either on or off of the model. Select the appropriate option for defining the axis of rotation." translation="Используйте удаленный момент, чтобы применить крутящий момент вокруг оси к местоположению внутри модели или за ее пределами. Выберите подходящий вариант для определения оси вращения."/>
+	<label commandName="SimRemoteMomentMagnitude" devLabel="Magnitude" translation="Величина"/>
+	<label commandName="SimRemoteMomentPositionTransformInput" devLabel="Position" translation="Позиция"/>
+	<label commandName="SimRemoteMomentReferenceInput" devLabel="Direction Reference" translation="Ссылка на направление"/>
+	<label commandName="SimRemoteMomentTransformInput" devLabel="Direction" translation="Направление"/>
+	<label commandName="SimRigidBodiesInput" devLabel="Target" translation="Цель"/>
+	<label commandName="SimRigidBodyCmdWarningMessage" devLabel="One or more Constraints on the selected Body are not compatible with the Rigid Body attribute and will be deleted." translation="Одна или несколько зависимостей выбранного тела несовместимы с атрибутом &#171;Жесткое тело&#187; и будут удалены."/>
+	<label commandName="SimRigidBodyConnector" devLabel="Rigid Body Connector" translation="Соединитель жесткого корпуса"/>
+	<label commandName="SimRigidBodySelectAchorPoint" devLabel="Select vertex to specify the anchor point." translation="Выберите вершину, чтобы указать точку привязки."/>
+	<label commandName="SimRigidBodySelectDependentEntities" devLabel="Select geometry to specify the dependent entities (face, edge or vertex)." translation="Выберите геометрию, чтобы указать зависимые объекты (грань, ребро или вершину)."/>
+	<label commandName="SimRigidBodySelection" devLabel="Select Rigid Body" translation="Выберите твердое тело"/>
+	<label commandName="SimRigidTargetCmd" devLabel="Rigid Bodies" translation="Твердые тела"/>
+	<label commandName="SimRigidTargetCommandDesc1" devLabel="Assigns selected bodies as Rigid to reduce computational time." translation="Назначает выбранным телам жесткие, чтобы сократить время вычислений."/>
+	<label commandName="SimRigidTargetCommandDesc2" devLabel="Rigid Bodies are included in the analysis, but no stresses or strains are calculated for them. These parts can still move and rotate, but they won't deform." translation="Твердые тела включены в анализ, но для них не рассчитываются напряжения и деформации. Эти части все еще могут двигаться и вращаться, но не деформируются."/>
+	<label commandName="SimRotateZAngle" devLabel="Angle" translation="Угол"/>
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Пользовательский"/>
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Метрическая система (СИ)"/>
+	<label commandName="SimSelectOtherOccurrencesButton" devLabel="Select other occurrences" translation="Выбрать другие случаи"/>
+	<label commandName="SimSelectRigidBodiesLocationText" devLabel="Rigid Bodies" translation="Твердые тела"/>
+	<label commandName="SimSelectRigidBodyLocationText" devLabel="Rigid Body" translation="Твердое тело"/>
+	<label commandName="SimSelectedAxis" devLabel="Axis" translation="Ось"/>
+	<label commandName="SimSelectedComponents" devLabel="Components" translation="Компоненты"/>
+	<label commandName="SimSelectionGroup" devLabel="Selection" translation="Выбор"/>
+	<label commandName="SimShowAttributesCommandDesc1" devLabel="Shows the location, magnitude, and direction of all Items in the study load case, in one place, for easy access." translation="Показывает расположение, величину и направление всех элементов в исследуемом варианте нагрузки в одном месте для быстрого доступа."/>
+	<label commandName="SimShowAttributesCommandDesc2" devLabel="Where applicable, the load case includes the loads, constraints, and gravity settings that you define." translation="Там, где это применимо, вариант нагрузки включает в себя определенные вами нагрузки, ограничения и настройки силы тяжести."/>
+	<label commandName="SimShowAttributesDlg" devLabel="Load Case Attributes" translation="Атрибуты случая нагрузки"/>
+	<label commandName="SimSimFlowRateCurveMagnitude" devLabel="Curve Magnitude" translation="Кривая Величина"/>
+	<label commandName="SimSimFlowRateDirection" devLabel="Flip Direction" translation="Перевернуть направление"/>
+	<label commandName="SimSimFlowRateFlipSide" devLabel="Flip Side" translation="Отразить сторону"/>
+	<label commandName="SimSimFlowRateMagnitude" devLabel="Magnitude" translation="Величина"/>
+	<label commandName="SimSimFlowRateUnitsType" devLabel="Units" translation="ЕДИНИЦЫ"/>
+	<label commandName="SimSimFlowRatesUnitsSwitcher" devLabel="Change Units" translation="Изменить единицы"/>
+	<label commandName="SimSpringConnector" devLabel="Spring Connector" translation="Пружинный соединитель"/>
+	<label commandName="SimStructuralConstraintTextTipsAndTricksDesc" devLabel="You can apply constraints to multiple entities you select." translation="Вы можете применить ограничения к нескольким выбранным вами объектам."/>
+	<label commandName="SimStructuralConstraintTextTipsAndTricksTips" devLabel="Select the constraining geometry that defines the degree of freedom of the object. The geometry can be edges, faces, or vertices." translation="Выберите ограничивающую геометрию, определяющую степень свободы объекта. Геометрией могут быть ребра, грани или вершины."/>
+	<label commandName="SimStructuralConstraintTextTipsAndTricksTitle" devLabel="Structural Constraints Information" translation="Информация о структурных ограничениях"/>
+	<label commandName="SimStructuralLoad" devLabel="Structural Loads" translation="Структурные нагрузки"/>
+	<label commandName="SimStructuralLoadTipsAndTricksDesc" devLabel="Define the magnitude and direction. Note that some load types allow you to edit the direction by changing the &lt;b&gt;Direction Type&lt;/b&gt;." translation="Определите величину и направление. Обратите внимание, что некоторые типы нагрузки позволяют редактировать направление, изменяя &lt;b&gt;Тип направления&lt;/b&gt;."/>
+	<label commandName="SimStructuralLoadTipsAndTricksTips" devLabel="Select the geometry where load will be placed. The geometry can be edges, faces, or vertices. You can select individual or multiple entities." translation="Выберите геометрию, на которую будет помещена нагрузка. Геометрией могут быть ребра, грани или вершины. Вы можете выбрать отдельные или несколько объектов."/>
+	<label commandName="SimStructuralLoadTipsAndTricksTitle" devLabel="Structural Loads Information" translation="Информация о структурных нагрузках"/>
+	<label commandName="SimSymmetryPlaneCmd" devLabel="Symmetry Plane" translation="Плоскость симметрии"/>
+	<label commandName="SimSymmetryPlaneCmdHintNothing" devLabel="Select at least one entity." translation="Выберите хотя бы один объект."/>
+	<label commandName="SimSymmetryPlaneCmdNotApplicableDescription" devLabel="A Shape Optimization Target must be selected before adding Symmetry Planes." translation="Перед добавлением плоскостей симметрии необходимо выбрать цель оптимизации формы."/>
+	<label commandName="SimTargetsInput" devLabel="Targets" translation="Цели"/>
+	<label commandName="SimTemplaceType" devLabel="Type" translation="Тип"/>
+	<label commandName="SimTemplateConstraints" devLabel="Constraints" translation="Ограничения"/>
+	<label commandName="SimTemplateFlowSources" devLabel="Flow Sources" translation="Источники потока"/>
+	<label commandName="SimTemplateLoads" devLabel="Loads" translation="Нагрузки"/>
+	<label commandName="SimTemplateMagnitude" devLabel="Magnitude" translation="Величина"/>
+	<label commandName="SimTemplateName" devLabel="Name" translation="Имя"/>
+	<label commandName="SimTemplatePressures" devLabel="Pressures" translation="Давление"/>
+	<label commandName="SimTemplateStatus" devLabel="Status" translation="Статус"/>
+	<label commandName="SimTopologyTargetCmd" devLabel="Target Body" translation="Целевое Тело"/>
+	<label commandName="SimTopologyTargetCommand1" devLabel="Identifies the body to optimize by the removal of surplus material, without compromising strength." translation="Определяет тело, которое необходимо оптимизировать путем удаления лишнего материала без ущерба для прочности."/>
+	<label commandName="SimTopologyTargetCommand2" devLabel="It is important to validate that the new design can withstand operational loads, using a static stress or similar study." translation="Важно подтвердить, что новая конструкция может выдерживать эксплуатационные нагрузки, используя статическое напряжение или подобное исследование."/>
+	<label commandName="SimTopologyTargetInput" devLabel="Target Body" translation="Целевое Тело"/>
+	<label commandName="SimTopologyTargetSelection" devLabel="Select Body for Shape Optimization" translation="Выберите тело для оптимизации формы"/>
+	<label commandName="SimTorqueUnitsSwitcher" devLabel="Change Units" translation="Изменить единицы"/>
+	<label commandName="SimTransformInput" devLabel="Direction" translation="Направление"/>
+	<label commandName="SimTransformPositionInput" devLabel="Position" translation="Позиция"/>
+	<label commandName="SimTransientAngularBodyLoad" devLabel="Transient Angular Global Load" translation="Переходная угловая глобальная нагрузка"/>
+	<label commandName="SimTransientAngularBodyLoadDesc1" devLabel="Applies a transient angular velocity and/or acceleration to the entire model, to represent centrifugal and tangential forces such as those experienced by a spinning wheel." translation="Применяет переходную угловую скорость и/или ускорение ко всей модели для представления центробежных и тангенциальных сил, например тех, которые испытывают вращающееся колесо."/>
+	<label commandName="SimTransientAngularBodyLoadDesc2" devLabel="Select faces or edges to define the direction and location references of the applied load." translation="Выберите грани или кромки, чтобы определить привязки направления и местоположения приложенной нагрузки."/>
+	<label commandName="SimTransientAngularBodyLoadEdit" devLabel="Edit Angular Global Load" translation="Редактировать глобальную нагрузку Angular"/>
+	<label commandName="SimTransientBaseExcitationCmd" devLabel="Base Excitation" translation="Базовое возбуждение"/>
+	<label commandName="SimTransientBaseExcitationMagnitude" devLabel="Magnitude" translation="Величина"/>
+	<label commandName="SimTransientBearingLoadCmd" devLabel="Transient Bearing" translation="Переходный подшипник"/>
+	<label commandName="SimTransientBearingLoadDesc1" devLabel="Use a Bearing load to simulate the compressive load distribution between a shaft and bearing bushings." translation="Используйте Нагрузку подшипника, чтобы моделировать распределение сжимающей нагрузки между валом и втулками подшипника."/>
+	<label commandName="SimTransientBearingLoadDesc2" devLabel="A Bearing load employs a parabolic load distribution, which is different from the uniform distribution used in a Force load." translation="Несущая нагрузка использует параболическое распределение нагрузки, которое отличается от равномерного распределения, используемого в силовой нагрузке."/>
+	<label commandName="SimTransientBearingLoadDesc3" devLabel="Note that Bearing loads can only be applied to cylindrical faces." translation="Обратите внимание, что подшипниковые нагрузки могут применяться только к цилиндрическим граням."/>
+	<label commandName="SimTransientBearingMagnitude" devLabel="Magnitude" translation="Величина"/>
+	<label commandName="SimTransientEditBaseExcitationCmd" devLabel="Edit Base Excitation" translation="Редактировать базовое возбуждение"/>
+	<label commandName="SimTransientEditPrescribedConstraintCmd" devLabel="Edit Prescribed Translation" translation="Редактировать предписанный перевод"/>
+	<label commandName="SimTransientEditPrescribedRotationCmd" devLabel="Edit Prescribed Rotation" translation="Редактировать заданное вращение"/>
+	<label commandName="SimTransientForceLoadCmd" devLabel="Transient Force" translation="Переходная сила"/>
+	<label commandName="SimTransientForceLoadDesc1" devLabel="Use a Force load to push or pull on an object. Forces can cause stress and deformation." translation="Используйте Силовую нагрузку, чтобы толкать или тянуть объект. Силы могут вызвать напряжение и деформацию."/>
+	<label commandName="SimTransientForceLoadDesc2" devLabel="Individually or multi-select faces, edges, or vertices and specify the load magnitude and direction. You cannot mix geometry types in your selection set. When you apply a Force load to multiple entities, the total magnitude of the force is distributed across the selected entities." translation="Индивидуально или несколько выберите грани, ребра или вершины и укажите величину и направление нагрузки. Вы не можете смешивать типы геометрии в своем наборе объектов. Когда вы применяете Силовую нагрузку к нескольким объектам, общая величина силы распределяется по выбранным объектам."/>
+	<label commandName="SimTransientForceMagnitude" devLabel="Magnitude" translation="Величина"/>
+	<label commandName="SimTransientInitialAngularBodyLoad" devLabel="Initial Angular Velocity" translation="Начальная угловая скорость"/>
+	<label commandName="SimTransientInitialAngularBodyLoadDesc1" devLabel="Applies an angular velocity and/or acceleration to the entire model, to represent centrifugal and tangential forces such as those experienced by a spinning wheel." translation="Применяет угловую скорость и/или ускорение ко всей модели для представления центробежных и тангенциальных сил, например тех, которые испытывают вращающееся колесо."/>
+	<label commandName="SimTransientInitialAngularBodyLoadDesc2" devLabel="Select faces or edges to define the direction and location references of the applied load." translation="Выберите грани или кромки, чтобы определить привязки направления и местоположения приложенной нагрузки."/>
+	<label commandName="SimTransientInitialAngularBodyLoadEdit" devLabel="Edit Initial Angular Global Load" translation="Редактировать начальную угловую глобальную нагрузку"/>
+	<label commandName="SimTransientInitialAngularBodyLoadTipsAndTricksDesc" devLabel="" translation=""/>
+	<label commandName="SimTransientInitialAngularBodyLoadTipsAndTricksTips" devLabel="Start by selecting the components on which the angular load acts. Specify the angular velocity and angular acceleration components. Set the location by selecting a surface to be the Location Reference. Set the direction by setting the Direction Reference. Click the arrow in the desired direction, and drag it into position." translation="Начните с выбора компонентов, на которые действует угловая нагрузка. Задайте компоненты угловой скорости и углового ускорения. Задайте местоположение, выбрав поверхность в качестве привязки местоположения. Задайте направление, установив ссылку направления. Щелкните стрелку в нужном направлении и перетащите ее на место."/>
+	<label commandName="SimTransientInitialAngularBodyLoadTipsAndTricksTitle" devLabel="Initial Angular Body Load Information" translation="Исходная информация об угловой нагрузке на кузов"/>
+	<label commandName="SimTransientInitialLinearBodyLoad" devLabel="Initial Linear Velocity" translation="Начальная линейная скорость"/>
+	<label commandName="SimTransientInitialLinearBodyLoadCommandDesc1" devLabel="Apply constant motion to a body at the start of the analysis." translation="Примените постоянное движение к телу в начале анализа."/>
+	<label commandName="SimTransientInitialLinearBodyLoadComp" devLabel="Select parts/bodies to add initial linear velocity load" translation="Выберите детали/тела для добавления начальной линейной скоростной нагрузки."/>
+	<label commandName="SimTransientInitialLinearBodyLoadEdit" devLabel="Edit Initial Linear Velocity" translation="Редактировать начальную линейную скорость"/>
+	<label commandName="SimTransientInitialLinearBodyLoadEntities" devLabel="Select face or edge to specify the direction of initial linear velocity load" translation="Выберите грань или ребро, чтобы указать направление начальной линейной скоростной нагрузки."/>
+	<label commandName="SimTransientInitialLinearBodyLoadTipsAndTricksTips" devLabel="Start by selecting the bodies on which the load acts. Set the direction by either the global velocity components, or by a selecting a Reference Face or Edge and a magnitude." translation="Начните с выбора тел, на которые действует нагрузка. Задайте направление либо с помощью глобальных компонентов скорости, либо путем выбора Справочной грани или края и величины."/>
+	<label commandName="SimTransientInitialLinearBodyLoadTipsAndTricksTitle" devLabel="Initial Linear Velocity Information" translation="Начальная информация о линейной скорости"/>
+	<label commandName="SimTransientLinearBodyLoad" devLabel="Transient Linear Global Load" translation="Переходная линейная глобальная нагрузка"/>
+	<label commandName="SimTransientLinearBodyLoadDesc1" devLabel="Applies a linear transient acceleration to the entire model, to represent forces such as those experienced by a mass accelerating or decelerating in a straight line." translation="Применяет линейное переходное ускорение ко всей модели, чтобы представить силы, подобные тем, которые испытывает масса, ускоряющаяся или замедляющаяся по прямой линии."/>
+	<label commandName="SimTransientLinearBodyLoadDesc2" devLabel="Specify the velocity or acceleration direction by selecting a face normal to the direction of the load or by specifying an angle or a vector." translation="Укажите направление скорости или ускорения, выбрав грань, нормальную к направлению нагрузки, или задав угол или вектор."/>
+	<label commandName="SimTransientLinearBodyLoadEdit" devLabel="Edit Linear Global Load" translation="Редактировать линейную глобальную нагрузку"/>
+	<label commandName="SimTransientLinearBodyLoadTipsAndTricksDesc" devLabel="" translation=""/>
+	<label commandName="SimTransientLinearBodyLoadTipsAndTricksTips" devLabel="Start by selecting the components on which the load acts. Set the direction by selecting a Reference face or edge normal to the force direction. Specify the Magnitude or components." translation="Начните с выбора компонентов, на которые действует нагрузка. Задайте направление, выбрав опорную грань или кромку, нормальную к направлению силы. Укажите величину или компоненты."/>
+	<label commandName="SimTransientLinearBodyLoadTipsAndTricksTitle" devLabel="Transient Linear Body Load Information" translation="Информация о переходной линейной нагрузке на кузов"/>
+	<label commandName="SimTransientLoadsDesc1" devLabel="Applies transient structural loads to selected geometry." translation="Применяет переходные нагрузки на конструкцию к выбранной геометрии."/>
+	<label commandName="SimTransientLoadsDesc2" devLabel="Individually or multi-select faces, edges, or vertices and specify the load magnitude and direction. You cannot mix geometry types in your selection set and some load types apply only to certain geometry types." translation="Индивидуально или несколько выберите грани, ребра или вершины и укажите величину и направление нагрузки. Вы не можете смешивать типы геометрии в наборе объектов, а некоторые типы нагрузки применяются только к определенным типам геометрии."/>
+	<label commandName="SimTransientLoadsExplicitQuasiStaticDesc2" devLabel="Individually or multi-select faces, edges, or vertices and specify the load magnitude and direction. You cannot mix geometry types in your selection set." translation="Индивидуально или несколько выберите грани, ребра или вершины и укажите величину и направление нагрузки. Вы не можете смешивать типы геометрии в своем наборе объектов."/>
+	<label commandName="SimTransientMomentLoadCmd" devLabel="Transient Moment" translation="Переходный момент"/>
+	<label commandName="SimTransientMomentLoadDesc1" devLabel="Use a Moment to apply a torque about an axis. Select the appropriate option for defining the axis of rotation." translation="Используйте момент, чтобы применить крутящий момент вокруг оси. Выберите подходящий вариант для определения оси вращения."/>
+	<label commandName="SimTransientMomentMagnitude" devLabel="Magnitude" translation="Величина"/>
+	<label commandName="SimTransientMultiplier" devLabel="Multiplier" translation="Множитель"/>
+	<label commandName="SimTransientPrescribedConstraintBodyType" devLabel="Bodies" translation="Тела"/>
+	<label commandName="SimTransientPrescribedConstraintCmd" devLabel="Prescribed Translation" translation="Предписанный перевод"/>
+	<label commandName="SimTransientPrescribedConstraintCmdDesc1" devLabel="Apply a displacement, velocity, or acceleration to the model." translation="Примените к модели смещение, скорость или ускорение."/>
+	<label commandName="SimTransientPrescribedConstraintCmdDesc2" devLabel="The constraint is applied for the duration specified by the multiplier curve." translation="Ограничение применяется в течение периода, указанного кривой множителя."/>
+	<label commandName="SimTransientPrescribedConstraintConstraintSubtype" devLabel="Constraint Type" translation="Тип привязки/ограничения"/>
+	<label commandName="SimTransientPrescribedConstraintCurveMultiplier" devLabel="Curve Multiplier" translation="Множитель кривой"/>
+	<label commandName="SimTransientPrescribedConstraintExplicitQuasiStaticCmdDesc1" devLabel="Apply a displacement to the model." translation="Примените смещение к модели."/>
+	<label commandName="SimTransientPrescribedConstraintExplicitQuasiStaticCmdDesc2" devLabel="The constraint is applied for the steps specified by the multiplier curve." translation="Ограничение применяется для шагов, заданных кривой множителя."/>
+	<label commandName="SimTransientPrescribedConstraintExplicitQuasiStaticTipsAndTricksTips" devLabel="Select at least one entity or rigid body. Choose a direction and enter a magnitude, using a negative number to flip the direction. Use the Multiplier curve to apply the magnitude in steps." translation="Выберите хотя бы один объект или твердое тело. Выберите направление и введите величину, используя отрицательное число, чтобы изменить направление. Используйте кривую множителя, чтобы поэтапно применить величину."/>
+	<label commandName="SimTransientPrescribedConstraintFaceType" devLabel="Faces" translation="Поверхности"/>
+	<label commandName="SimTransientPrescribedConstraintMultiplierCurve" devLabel="Multiplier curve" translation="Кривая множителя"/>
+	<label commandName="SimTransientPrescribedConstraintObjectType" devLabel="Object Type" translation="Тип объекта"/>
+	<label commandName="SimTransientPrescribedConstraintSubtypeAcceleration" devLabel="Acceleration" translation="Ускорение"/>
+	<label commandName="SimTransientPrescribedConstraintSubtypeDisplacement" devLabel="Displacement" translation="Смещение"/>
+	<label commandName="SimTransientPrescribedConstraintSubtypeVelocity" devLabel="Velocity" translation="Скорость"/>
+	<label commandName="SimTransientPrescribedConstraintTipsAndTricksTips" devLabel="Select at least one entity or rigid body, then select the Constraint Type from the drop down menu. Choose a direction and enter a magnitude, using a negative number to flip the direction. Use the Multiplier curve to apply the magnitude in steps." translation="Выберите хотя бы один объект или твердое тело, затем выберите тип ограничения в раскрывающемся меню. Выберите направление и введите величину, используя отрицательное число, чтобы изменить направление. Используйте кривую множителя, чтобы поэтапно применить величину."/>
+	<label commandName="SimTransientPrescribedConstraintTipsAndTricksTitle" devLabel="Prescribed Translation Information" translation="Предписанная информация о переводе"/>
+	<label commandName="SimTransientPrescribedRotationCmd" devLabel="Prescribed Rotation" translation="Предписанное вращение"/>
+	<label commandName="SimTransientPrescribedRotationCmdDesc1" devLabel="Apply an angle, rotational velocity, or rotational acceleration to the model." translation="Примените к модели угол, скорость вращения или ускорение вращения."/>
+	<label commandName="SimTransientPrescribedRotationCmdDesc2" devLabel="The constraint is applied for the duration specified by the multiplier curve." translation="Ограничение применяется в течение периода, указанного кривой множителя."/>
+	<label commandName="SimTransientPrescribedRotationExplicitQuasiStaticCmdDesc1" devLabel="Apply an angle to the model." translation="Примените угол к модели."/>
+	<label commandName="SimTransientPrescribedRotationExplicitQuasiStaticCmdDesc2" devLabel="The constraint is applied for the steps specified by the multiplier curve." translation="Ограничение применяется для шагов, заданных кривой множителя."/>
+	<label commandName="SimTransientPrescribedRotationExplicitQuasiStaticTipsAndTricksTips" devLabel="Select at least one rigid body. Choose a direction and enter a magnitude, using a negative number to flip the direction. Use the Multiplier curve to apply the magnitude in steps." translation="Выберите хотя бы одно твердое тело. Выберите направление и введите величину, используя отрицательное число, чтобы изменить направление. Используйте кривую множителя, чтобы поэтапно применить величину."/>
+	<label commandName="SimTransientPrescribedRotationMultiplierCurve" devLabel="Multiplier curve" translation="Кривая множителя"/>
+	<label commandName="SimTransientPrescribedRotationSubtype" devLabel="Constraint Type" translation="Тип привязки/ограничения"/>
+	<label commandName="SimTransientPrescribedRotationSubtypeAcceleration" devLabel="Rotational Acceleration" translation="Вращательное ускорение"/>
+	<label commandName="SimTransientPrescribedRotationSubtypeAngle" devLabel="Angle" translation="Угол"/>
+	<label commandName="SimTransientPrescribedRotationSubtypeVelocity" devLabel="Rotational Velocity" translation="Скорость вращения"/>
+	<label commandName="SimTransientPrescribedRotationTipsAndTricksTips" devLabel="Select at least one rigid body, then select the Constraint Type from the drop down menu. Choose a direction and enter a magnitude, using a negative number to flip the direction. Use the Multiplier curve to apply the magnitude in steps." translation="Выберите хотя бы одно твердое тело, затем выберите тип зависимости в раскрывающемся меню. Выберите направление и введите величину, используя отрицательное число, чтобы изменить направление. Используйте кривую множителя, чтобы поэтапно применить величину."/>
+	<label commandName="SimTransientPrescribedRotationTipsAndTricksTitle" devLabel="Prescribed Rotation Information" translation="Предписанная информация о ротации"/>
+	<label commandName="SimTransientPressureLoadCmd" devLabel="Transient Pressure" translation="Переходное давление"/>
+	<label commandName="SimTransientPressureLoadDesc1" devLabel="Use Pressure to apply a uniformly distributed load normal to every location of the face." translation="Используйте &#171;Давление&#187;, чтобы применить равномерно распределенную нагрузку, перпендикулярную каждому участку лица."/>
+	<label commandName="SimTransientPressureMagnitude" devLabel="Magnitude" translation="Величина"/>
+	<label commandName="SimTransientRemoteForceLoadCommand" devLabel="Transient Remote" translation="Переходный удаленный"/>
+	<label commandName="SimTransientRemoteForceLoadDesc1" devLabel="Use a Transient Remote Force to apply a load to a location either on or off of the model." translation="Используйте Transient Remote Force, чтобы применить нагрузку к месту на модели или за ее пределами."/>
+	<label commandName="SimTransientRemoteForceLoadDesc2" devLabel="Select a face and define the remote load point. Accept the force vector or redefine using the model geometry or vector components." translation="Выберите грань и определите удаленную точку нагрузки. Примите вектор силы или переопределите его, используя геометрию модели или компоненты вектора."/>
+	<label commandName="SimTransientRemoteForceMagnitude" devLabel="Magnitude" translation="Величина"/>
+	<label commandName="SimTransientStructuralLoadTipsAndTricksDesc" devLabel="Define the magnitude and direction. Note that some load types allow you to edit the direction by changing the &lt;b&gt;Direction Type&lt;/b&gt;." translation="Определите величину и направление. Обратите внимание, что некоторые типы нагрузки позволяют редактировать направление, изменяя &lt;b&gt;Тип направления&lt;/b&gt;."/>
+	<label commandName="SimTransientStructuralLoadTipsAndTricksTips" devLabel="Select the geometry where load will be placed. The geometry can be edges, faces, or vertices. You can select individual or multiple entities." translation="Выберите геометрию, на которую будет помещена нагрузка. Геометрией могут быть ребра, грани или вершины. Вы можете выбрать отдельные или несколько объектов."/>
+	<label commandName="SimTransientStructuralLoadTipsAndTricksTitle" devLabel="Transient Loads Information" translation="Информация о переходных нагрузках"/>
+	<label commandName="SimTransientStructuralLoads" devLabel="Transient Loads" translation="Переходные нагрузки"/>
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Процент"/>
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Штуки"/>
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Ускорение"/>
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Угол"/>
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Ток"/>
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Электрическое сопротивление"/>
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Энергия"/>
+	<label commandName="SimUnitsForce" devLabel="Force" translation="Сила"/>
+	<label commandName="SimUnitsLength" devLabel="Length" translation="Длина"/>
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="Масса"/>
+	<label commandName="SimUnitsPower" devLabel="Power" translation="Мощность"/>
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Давление"/>
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Температура"/>
+	<label commandName="SimUnitsTime" devLabel="Time" translation="Время"/>
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Скорость"/>
+	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Вязкость"/>
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Напряжение"/>
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Расход"/>
+	<label commandName="SimVelocityComponentsGroup" devLabel="Velocity Components" translation="Компоненты скорости"/>
+	<label commandName="SimloadStepDep" devLabel="Step Dependent" translation="Шаг зависимости"/>
+	<label commandName="SimloadTimeDep" devLabel="Time Dependent" translation="Зависит от времени"/>
+	<label commandName="SpringDamping" devLabel="Axial Damping" translation="Осевое демпфирование"/>
+	<label commandName="SpringDampingRotational" devLabel="Rotational Damping" translation="Демпфирование вращения"/>
+	<label commandName="SpringEndPt1" devLabel="End Point 1" translation="Конечная точка 1"/>
+	<label commandName="SpringEndPt2" devLabel="End Point 2" translation="Конечная точка 2"/>
+	<label commandName="SpringGroupStrain" devLabel="Strain Recovery Coefficients" translation="Коэффициенты восстановления деформации"/>
+	<label commandName="SpringGroupStress" devLabel="Stress Recovery Coefficients" translation="Коэффициенты восстановления после стресса"/>
+	<label commandName="SpringStiffness" devLabel="Axial Stiffness" translation="Осевая жесткость"/>
+	<label commandName="SpringStrainRotation" devLabel="Rotation" translation="Вращение"/>
+	<label commandName="SpringStrainTranslation" devLabel="Translation" translation="Сдвиг"/>
+	<label commandName="SpringStressRotation" devLabel="Rotation" translation="Вращение"/>
+	<label commandName="SpringStressTranslation" devLabel="Translation" translation="Сдвиг"/>
+	<label commandName="SubtypeInterpolation" devLabel="Interpolation" translation="Интерполяция"/>
+	<label commandName="SubtypeRigidBody" devLabel="Rigid Body" translation="Твердое тело"/>
+	<label commandName="SymmetryActivePlane" devLabel="Active Plane" translation="Активный самолет"/>
+	<label commandName="SymmetryCreatePlaneAtCentroid" devLabel="Create plane(s) at centroid of Body / Component" translation="Создайте плоскость(и) в центре тяжести тела/компонента."/>
+	<label commandName="SymmetryPlane1" devLabel="Plane 1" translation="Плоскость 1"/>
+	<label commandName="SymmetryPlane2" devLabel="Plane 2" translation="Плоскость 2"/>
+	<label commandName="SymmetryPlane3" devLabel="Plane 3" translation="Плоскость 3"/>
+	<label commandName="SymmetryPlaneSelection" devLabel="Reference" translation="Ссылка"/>
+	<label commandName="SymmetrySelectPlaneOrFeature" devLabel="Select any plane or planar face to be used as symmetry plane" translation="Выберите любую плоскость или плоскую грань, которая будет использоваться в качестве плоскости симметрии."/>
+	<label commandName="TransientInitialAngularDuplicatedBodyLoad" devLabel="An initial angular load already exists for the selected body. Please choose a different body, or edit the existing load" translation="Для выбранного тела уже существует начальная угловая нагрузка. Пожалуйста, выберите другой кузов или отредактируйте существующую нагрузку."/>
+	<label commandName="TransientInitialLinearDuplicatedBodyLoad" devLabel="An initial velocity load already exists for the selected body. Please choose a different body, or edit the existing load" translation="Для выбранного тела уже существует начальная скоростная нагрузка. Пожалуйста, выберите другой кузов или отредактируйте существующую нагрузку."/>
+	<label commandName="lclzSimGenerativeKeepBoundaryCommandTipsAndTricksDesc" devLabel="In the browser, expand the Preserve Geometry node to view the number of these bodies. You can modify them in the active study by clicking the pencil button." translation="В браузере разверните узел &#171;Сохранить геометрию&#187;, чтобы просмотреть количество этих тел. Вы можете изменить их в активном исследовании, нажав кнопку карандаша."/>
+	<label commandName="lclzSimGenerativeKeepBoundaryCommandTipsAndTricksTips" devLabel="On the canvas, select one or more bodies. Assign at least one preserve geometry to generate outcomes." translation="На холсте выберите одно или несколько тел. Назначьте хотя бы одну сохраняемую геометрию для получения результатов."/>
+	<label commandName="lclzSimGenerativeKeepBoundaryCommandTipsAndTricksTitle" devLabel="Preserve Geometry Information" translation="Сохранение информации о геометрии"/>
+	<label commandName="lclzSimGenerativeObstacleBoundaryCommandTipsAndTricksDesc" devLabel="In the browser, expand the Obstacle Geometry node to view the number of these bodies. You can modify them in the active study by clicking the pencil button." translation="В браузере разверните узел &#171;Геометрия препятствий&#187;, чтобы просмотреть количество этих тел. Вы можете изменить их в активном исследовании, нажав кнопку карандаша."/>
+	<label commandName="lclzSimGenerativeObstacleBoundaryCommandTipsAndTricksTips" devLabel="On the canvas, select one or more bodies." translation="На холсте выберите одно или несколько тел."/>
+	<label commandName="lclzSimGenerativeObstacleBoundaryCommandTipsAndTricksTitle" devLabel="Obstacle Geometry Information" translation="Информация о геометрии препятствий"/>
+	<label commandName="lclzSimGenerativeObstacleOffsetCommandTipsAndTricks" devLabel="On the canvas, select one or more obstacle geometry bodies and specify an offset distance." translation="На холсте выберите одно или несколько тел геометрии препятствия и укажите расстояние смещения."/>
+	<label commandName="lclzSimGenerativeObstacleOffsetCommandTipsAndTricksDesc" devLabel="To view the offsets, in the browser, expand the Obstacle Offset node. You can modify them in the active study by clicking the pencil button." translation="Чтобы просмотреть смещения, в браузере разверните узел &#171;Смещение препятствий&#187;. Вы можете изменить их в активном исследовании, нажав кнопку карандаша."/>
+	<label commandName="lclzSimGenerativeObstacleOffsetCommandTipsAndTricksTitle" devLabel="Obstacle Offset Information" translation="Информация о смещении препятствий"/>
+	<label commandName="lclzSimGenerativeSeedTargetCommandTipsAndTricksDesc" devLabel="In the browser, expand the Starting Shape node to view the name of the body. You can modify it in the active study by clicking on the pencil button." translation="В браузере разверните узел &#171;Начальная фигура&#187;, чтобы просмотреть имя тела. Вы можете изменить его в активном исследовании, нажав кнопку карандаша."/>
+	<label commandName="lclzSimGenerativeSeedTargetCommandTipsAndTricksTips" devLabel="On the canvas, select a body." translation="На холсте выберите тело."/>
+	<label commandName="lclzSimGenerativeSeedTargetCommandTipsAndTricksTitle" devLabel="Starting Shape Information" translation="Начальная информация о форме"/>
+	<label commandName="lclzSimGenerativeSymmetryPlaneTargetCommandTipsAndTricksDesc" devLabel="You can create a construction plane in the Edit Model contextual environment. To open it, on the toolbar, click Edit Model. Then, on the Edit Model Solid tab, use tools from the Construct panel to create the construction plane(s)." translation="Создать вспомогательную плоскость можно в контекстной среде Редактировать модель. Чтобы открыть его, на панели инструментов нажмите &#171;Редактировать модель&#187;. Затем на вкладке &#171;Редактировать тело модели&#187; используйте инструменты панели &#171;Построение&#187;, чтобы создать вспомогательную плоскость(и)."/>
+	<label commandName="lclzSimGenerativeSymmetryPlaneTargetCommandTipsAndTricksTips" devLabel="On the canvas, select one or more construction planes." translation="На холсте выберите одну или несколько вспомогательных плоскостей."/>
+	<label commandName="lclzSimGenerativeSymmetryPlaneTargetCommandTipsAndTricksTitle" devLabel="Symmetry Plane Information" translation="Информация о плоскости симметрии"/>
+</Resource>

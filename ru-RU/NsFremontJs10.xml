@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="FremontJsNotification::connectionFailure::message" devLabel="Some services are unavailable." translation="" />
+	<label commandName="FremontJsNotification::connectionFailure::title" devLabel="Connection Failure" translation="" />
+	<label commandName="FremontJsNotification::general::message" devLabel="Some services are unavailable." translation="" />
+	<label commandName="FremontJsNotification::general::title" devLabel="Connection Error" translation="" />
+	<label commandName="FremontJsNotification::healthMonitorMissing::message" devLabel="Some services are unsupervised." translation="" />
+	<label commandName="FremontJsNotification::healthMonitorMissing::title" devLabel="Risky Connection" translation="" />
+	<label commandName="FremontJsNotification::uninitialized::message" devLabel="Some services are unavailable." translation="" />
+	<label commandName="FremontJsNotification::uninitialized::title" devLabel="Connection uninitialized" translation="" />
+</Resource>

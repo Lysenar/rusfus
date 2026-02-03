@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="ExitMeshPanel" devLabel="Close" translation="Schließen"/>
+	<label commandName="ExpandToConnectedSel" devLabel="Expand to Connected" translation="Auf Verbundene erweitern"/>
+	<label commandName="ExpandToGroupSel" devLabel="Expand to Face Group" translation="Auf Flächengruppe erweitern"/>
+	<label commandName="GrowMeshSel" devLabel="Grow Selection" translation="Auswahl erweitern"/>
+	<label commandName="InvertMeshSel" devLabel="Invert Selection" translation="Auswahl invertieren"/>
+	<label commandName="Mesh Environment" devLabel="Mesh" translation="Netz"/>
+	<label commandName="MeshColorCommand" devLabel="Face Groups" translation="Flächengruppen"/>
+	<label commandName="MeshFaceGroupOffCommand" devLabel="FaceGroup Off" translation="Flächengruppe aus"/>
+	<label commandName="MeshFaceGroupOnCommand" devLabel="FaceGroup On" translation="Flächengruppe ein"/>
+	<label commandName="MeshSelectionPalette" devLabel="Mesh Palette" translation="Netzpalette"/>
+	<label commandName="MeshStyleCommand" devLabel="Mesh Display" translation="Netzanzeige"/>
+	<label commandName="ShrinkMeshSel" devLabel="Shrink Selection" translation="Auswahl verkleinern"/>
+	<label commandName="lclzMeshBaseFeatureCreationDesc1" devLabel="Enters Mesh mode and inserts a mesh feature into the timeline. Use Mesh tools to modify and repair mesh geometry." translation="Wechselt in den Netzmodus und fügt ein Netzelement auf der Zeitachse ein. Verwenden Sie die Netzwerkzeuge zum Bearbeiten und Reparieren der Netzgeometrie."/>
+	<label commandName="lclzMeshBaseFeatureCreationDesc2" devLabel="Select Finish Mesh to exit out of the mode." translation="Wählen Sie Netz fertigstellen aus, um den Modus zu beenden."/>
+	<label commandName="lclzMeshBaseFeatureStopDesc1" devLabel="Finishes the Mesh feature." translation="Schließt das Netzelement ab."/>
+	<label commandName="lclzMeshWorkspaceTitle" devLabel="Repairs mesh geometry. Access commands to remesh and repair triangulated mesh bodies." translation="Repariert Netzgeometrie. Zugriff auf Befehle zum Neuerstellen und Reparieren von Dreiecksnetzkörpern."/>
+</Resource>

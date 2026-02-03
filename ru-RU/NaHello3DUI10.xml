@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<label commandName="AllSupportedFiles" devLabel="All supported files ( %1% ) ;;" translation="Alle unterstützten Dateien (%1%) ;;"/>
+	<label commandName="DeleteFacesInput" devLabel="Faces" translation="Flächen"/>
+	<label commandName="Entry 1" devLabel="One" translation="Eins"/>
+	<label commandName="Entry 2" devLabel="Valid" translation="Gültig"/>
+	<label commandName="Entry 3" devLabel="Not Valid" translation="Nicht gültig"/>
+	<label commandName="Entry 4" devLabel="Four" translation="Vier"/>
+	<label commandName="FilletEdgesCornerOptionInput" devLabel="Corner Option" translation="Eckoption"/>
+	<label commandName="FilletEdgesEdgesInput" devLabel="Edges" translation="Kanten"/>
+	<label commandName="FilletEdgesRadiusInput" devLabel="Radius" translation="Radius"/>
+	<label commandName="FirstEnvironment" devLabel="First FOR DELETION" translation="Erste ZUM LÖSCHEN"/>
+	<label commandName="Hello3DDeleteFaces" devLabel="Delete Faces" translation="Flächen löschen"/>
+	<label commandName="Hello3DFilletEdges" devLabel="Fillet Edges" translation="Kanten abrunden"/>
+	<label commandName="Hello3DForDeletionEnvironment" devLabel="For Deletion" translation="Zum Löschen"/>
+	<label commandName="Hello3DImportCommand" devLabel="Import" translation="Importieren"/>
+	<label commandName="Hello3DMoveComponents" devLabel="Move Components" translation="Komponenten verschieben"/>
+	<label commandName="Hello3DOffsetFaces" devLabel="Offset Faces" translation="Flächen versetzen"/>
+	<label commandName="Hello3DSelectFaceForOffset" devLabel="Select face(s) to offset" translation="Zu versetzende Fläche(n) auswählen"/>
+	<label commandName="Hello3DShellBody" devLabel="Shell Body" translation="Schalenkörper"/>
+	<label commandName="Hello3DTestAngleManipulator" devLabel="Test Angle Manipulator" translation="Winkel-Manipulator testen"/>
+	<label commandName="Hello3DTestDistanceManipulator" devLabel="Test Distance Manipulator" translation="Abstandsmanipulator testen"/>
+	<label commandName="Hello3DTestMultipleSelections" devLabel="Test Multiple Selections" translation="Mehrfachauswahl testen"/>
+	<label commandName="Hello3DTestPlanarMoveManipulator" devLabel="Test Planar Move Manipulator" translation="Manipulator für ebene Verschiebung testen"/>
+	<label commandName="Hello3DTestToggleCommand" devLabel="Test Toggle Command" translation="Umschaltbefehl testen"/>
+	<label commandName="Hello3DTestToolTipCommand" devLabel="Test ToolTip" translation="QuickInfo testen"/>
+	<label commandName="Hello3DTestTweakManipulator" devLabel="Test Tweak Manipulator" translation="Positionsveränderungs-Manipulator testen"/>
+	<label commandName="Hello3DTweakFaces" devLabel="Tweak Faces" translation="Position der Flächen verändern"/>
+	<label commandName="Hello3dInternalOnlyEnvironment" devLabel="Internal Only" translation="Nur intern"/>
+	<label commandName="Modeling Environment" devLabel="Modeling" translation="Modellieren"/>
+	<label commandName="MoveComp" devLabel="Select components to move" translation="Zu verschiebende Komponenten auswählen"/>
+	<label commandName="MoveCompGrounded" devLabel="Grounded component cannot be moved" translation="Fixierte Komponente kann nicht verschoben werden"/>
+	<label commandName="MoveCompNothing" devLabel="" translation=""/>
+	<label commandName="MoveCompRoot" devLabel="Root component cannot be moved" translation="Stammkomponente kann nicht verschoben werden."/>
+	<label commandName="MoveComponentsComponentsInput" devLabel="Components" translation="Komponenten"/>
+	<label commandName="MoveComponentsTransformInput" devLabel="Distance" translation="Abstand"/>
+	<label commandName="OffsetFacesDistanceInput" devLabel="Distance" translation="Abstand"/>
+	<label commandName="OffsetFacesFacesInput" devLabel="Faces" translation="Flächen"/>
+	<label commandName="OffsetFacesTransformInput" devLabel="Distance" translation="Abstand"/>
+	<label commandName="ReblendRadiusInput" devLabel="Radius" translation="Radius"/>
+	<label commandName="SecondEnvironment" devLabel="Second FOR DELETION" translation="Zweite ZUM LÖSCHEN"/>
+	<label commandName="ShellBodyFacesInput" devLabel="Faces" translation="Flächen"/>
+	<label commandName="ShellBodyThicknessInput" devLabel="Thickness" translation="Dicke"/>
+	<label commandName="TestAngleManipulatorAngleInput" devLabel="Angle" translation="Winkel"/>
+	<label commandName="TestAngleManipulatorAngleInput2" devLabel="Angle 2 (unused)" translation="Winkel 2 (nicht verwendet)"/>
+	<label commandName="TestAngleManipulatorAngleInput3" devLabel="Angle 3 (unused)" translation="Winkel 3 (nicht verwendet)"/>
+	<label commandName="TestAngleManipulatorEdgesInput" devLabel="Edges" translation="Kanten"/>
+	<label commandName="TestAngleManipulatorGroupStart" devLabel="Angle Inputs" translation="Winkeleingaben"/>
+	<label commandName="TestDropDownInput" devLabel="DropDown" translation="DropDown"/>
+	<label commandName="TestManipulatorDistanceInput" devLabel="Distance" translation="Abstand"/>
+	<label commandName="TestManipulatorFacesInput" devLabel="Faces" translation="Flächen"/>
+	<label commandName="TestManipulatorXInput" devLabel="X" translation="X"/>
+	<label commandName="TestManipulatorYInput" devLabel="Y" translation="Y"/>
+	<label commandName="TestManipulatorsEdgesInput" devLabel="Edges" translation="Kanten"/>
+	<label commandName="TestMultipleSelectionsMultipleComponentsInput" devLabel="Multiple Components" translation="Mehrere Komponenten"/>
+	<label commandName="TestMultipleSelectionsMultipleEdgesInput" devLabel="Multiple Edges" translation="Mehrere Kanten"/>
+	<label commandName="TestMultipleSelectionsMultipleFacesInput" devLabel="Multiple Faces" translation="Mehrere Flächen"/>
+	<label commandName="TestMultipleSelectionsMultipleVerticesInput" devLabel="Multiple Vertices" translation="Mehrere Scheitelpunkte"/>
+	<label commandName="TestMultipleSelectionsSinglePlanerFaceInput" devLabel="Single Planar Face" translation="Einzelne ebene Fläche"/>
+	<label commandName="TestMultipleSelectionsSingleStraightEdgeInput" devLabel="Single Straight Edge" translation="Einzelne gerade Kante"/>
+	<label commandName="TestReorderEdgesInput" devLabel="Reorder Edges" translation="Kanten neu anordnen"/>
+	<label commandName="TestReorderFacesInput" devLabel="Reorder Faces" translation="Flächen neu anordnen"/>
+	<label commandName="TweakFacesFacesInput" devLabel="Faces" translation="Flächen"/>
+	<label commandName="VisualizationEnvironment" devLabel="Visualization (to delete)" translation="Visualisierung (zum Löschen)"/>
+	<label commandName="lclzDebug" devLabel="Debug" translation="Fehlerbehebung"/>
+	<label commandName="lclzFirst" devLabel="First" translation="Erste(r/s)"/>
+	<label commandName="lclzForDeletion" devLabel="For Deletion" translation="Zum Löschen"/>
+	<label commandName="lclzHello3DComponents1" devLabel="Transforms the selected components." translation="Wandelt die ausgewählten Komponenten um"/>
+	<label commandName="lclzHello3DComponents2" devLabel="Select the components to move then specify the distance and angle. You can undo individual steps." translation="Wählen Sie die zu verschiebenden Komponenten aus, und geben Sie dann den Abstand und Winkel an. Sie können einzelne Schritte rückgängig machen."/>
+	<label commandName="lclzHello3DImportToolTipDesc1" devLabel="Allows simple import into Hello3D to build content." translation="Ermöglicht das einfache Importieren in Hello3D zum Erstellen von Inhalten."/>
+	<label commandName="lclzHello3DOffsetFaceCommandDesc1" devLabel="Offsets the selected faces." translation="Verschiebt die ausgewählten Flächen."/>
+	<label commandName="lclzHello3DOffsetFaceCommandDesc2" devLabel="Select the faces to offset and then specify the distance." translation="Wählen Sie die zu versetzenden Flächen aus, und geben Sie dann den Abstand an."/>
+	<label commandName="lclzHello3DOffsetFaceCommandDesc3" devLabel="Sample command showing the Command Framework, preview on mouse move and undoable steps." translation="Beispielbefehl, der den Befehlsrahmen, eine Vorschau der Mausbewegung sowie Schritte anzeigt, die rückgängig gemacht werden können."/>
+	<label commandName="lclzHello3DOffsetFaceTipsAndTricksItem1" devLabel="Select the face that you want to offset." translation="Wählen Sie die Fläche aus, die Sie versetzen möchten."/>
+	<label commandName="lclzHello3DOffsetFaceTipsAndTricksItem2" devLabel="You can use the command on filleted faces too." translation="Verwenden Sie den Befehl auch für abgerundete Flächen."/>
+	<label commandName="lclzHello3DOffsetFaceTipsAndTricksTitle" devLabel="Offset Face Tips and Tricks." translation="Tipps und Tricks zum Versetzen von Flächen."/>
+	<label commandName="lclzHello3DTestDistanceManipulatorToolTipDesc1" devLabel="Shows how to use a distance manipulator outside the Command Framework." translation="Zeigt, wie Sie einen Abstandsmanipulator außerhalb des Befehlsrahmens verwenden."/>
+	<label commandName="lclzHello3DTestDistanceManipulatorToolTipDesc2" devLabel="Doesn't use the Command Framework and hence not recommended." translation="Verwendet nicht den Befehlsrahmen und wird daher nicht empfohlen."/>
+	<label commandName="lclzHello3DTestMultipleSelectionsToolTipDesc1" devLabel="Shows how to get different selections outside the Command Framework." translation="Zeigt, wie Sie verschiedene Auswahlen außerhalb des Befehlsrahmens vornehmen."/>
+	<label commandName="lclzHello3DTestMultipleSelectionsToolTipDesc2" devLabel="Doesn't use the Command Framework and hence not recommended." translation="Verwendet nicht den Befehlsrahmen und wird daher nicht empfohlen."/>
+	<label commandName="lclzHello3DTestToggleToolTipDesc1" devLabel="Shows how a command can be used as a toggle and change the behavior of other commands." translation="Zeigt, wie ein Befehl zum Umschalten und Ändern des Verhaltens anderer Befehle verwendet werden kann."/>
+	<label commandName="lclzHello3DTestToolTipDesc1" devLabel="This command intends to demonstrates the progressive tooltip and tips and tricks!" translation="Mit diesem Befehl sollen die progressiven QuickInfos sowie Tipps und Tricks demonstriert werden."/>
+	<label commandName="lclzHello3DTestToolTipDesc2" devLabel="If you execute the command, you can find tips and tricks by clicking the green button lower right." translation="Beim Ausführen des Befehls erhalten Sie Tipps und Tricks, wenn Sie auf die grüne Schaltfläche unten rechts klicken."/>
+	<label commandName="lclzHello3DTestToolTipText" devLabel="Test ToolTip" translation="QuickInfo testen"/>
+	<label commandName="lclzModeling" devLabel="Modeling" translation="Modellieren"/>
+	<label commandName="lclzSecond" devLabel="Second" translation="Zweite(r/s)"/>
+	<label commandName="lclzSelect" devLabel="Select" translation="Auswählen"/>
+	<label commandName="lclzTest" devLabel="Test" translation="Testen"/>
+	<label commandName="lclzTipsAndTricksTestItem1" devLabel="Command &lt;b&gt;Hello World&lt;/b&gt; Context Tips and Tricks" translation="Tipps und Tricks zum Kontext des Befehls &lt;b&gt;Hello World&lt;/b&gt;"/>
+	<label commandName="lclzTipsAndTricksTestItem2" devLabel="Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks." translation="Tipps und Tricks zum Befehlskontext. Tipps und Tricks zum Befehlskontext. Tipps und Tricks zum Befehlskontext. Tipps und Tricks zum Befehlskontext. Tipps und Tricks zum Befehlskontext. Tipps und Tricks zum Befehlskontext. Tipps und Tricks zum Befehlskontext. Tipps und Tricks zum Befehlskontext. Tipps und Tricks zum Befehlskontext. Tipps und Tricks zum Befehlskontext. Tipps und Tricks zum Befehlskontext."/>
+	<label commandName="lclzTipsAndTricksTestItem3" devLabel="Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks." translation="Tipps und Tricks zum Befehlskontext. Tipps und Tricks zum Befehlskontext. Tipps und Tricks zum Befehlskontext. Tipps und Tricks zum Befehlskontext. Tipps und Tricks zum Befehlskontext. Tipps und Tricks zum Befehlskontext. Tipps und Tricks zum Befehlskontext. Tipps und Tricks zum Befehlskontext. Tipps und Tricks zum Befehlskontext. Tipps und Tricks zum Befehlskontext. Tipps und Tricks zum Befehlskontext."/>
+	<label commandName="lclzTipsAndTricksTestTitle" devLabel="Command Context Tips and Tricks" translation="Tipps und Tricks zum Befehlskontext"/>
+	<label commandName="lclzVisualization" devLabel="Visualization" translation="Visualisierung"/>
+</Resource>

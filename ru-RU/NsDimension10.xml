@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="DimensionSelectionCategory" devLabel="Dimension" translation="Размер" />
+	<label commandName="DimensionSelectionId" devLabel="Dimension" translation="Размер" />
+	<label commandName="DimensionsSelectionId" devLabel="Dimensions" translation="размеры" />
+</Resource>

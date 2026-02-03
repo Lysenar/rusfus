@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="AnimationStoreboardNotFound" devLabel="Animation Storyboard not found" translation="Раскадровка анимации не найдена" />
+	<label commandName="AnnotationsBrowserLabel" devLabel="Annotations" translation="Аннотации" />
+	<label commandName="CalloutCopiedName" devLabel="(copy %1% of) " translation="(copy %1% of) " />
+	<label commandName="CalloutCopy" devLabel="copy" translation="Копировать" />
+	<label commandName="CalloutCopyOf" devLabel="(copy of) " translation="( " />
+	<label commandName="CalloutName" devLabel="Callout" translation="Выноска" />
+	<label commandName="CalloutSelectionId" devLabel="Callout" translation="Выноска" />
+	<label commandName="CalloutsBrowserLabel" devLabel="Callouts" translation="Выноски" />
+	<label commandName="CameraAction" devLabel="Camera" translation="Камера" />
+	<label commandName="IActionSelectionId" devLabel="IAction" translation="действие" />
+	<label commandName="NextValidChildStoryboardName" devLabel="Storyboard" translation="Раскадровка" />
+	<label commandName="PasteStoryboardDefaultName" devLabel="%1%-copy%2%" translation="%1%-copy%2%" />
+	<label commandName="PublisherAnnotations" devLabel="Annotations" translation="Аннотации" />
+	<label commandName="PublisherCameraNotRecord" devLabel="View is not recording" translation="Просмотр не записывается" />
+	<label commandName="PublisherComponentMotionPathAction" devLabel="Move" translation="Переместить" />
+	<label commandName="PublisherComponentRotationAction" devLabel="Rotate" translation="Повернуть" />
+	<label commandName="PublisherComponentVisibilityAction" devLabel="Visibility" translation="Видимость" />
+	<label commandName="PublisherComponentsActorDisplayName" devLabel="Components" translation="Компоненты" />
+	<label commandName="SmartObjectSelectionCategory" devLabel="SmartObject" translation="СмартОбъект" />
+	<label commandName="SmartObjectSelectionId" devLabel="SmartObject" translation="СмартОбъект" />
+	<label commandName="SmartObjectVisibilityAction" devLabel="Visibility" translation="Видимость" />
+	<label commandName="StoryboardDefaultName" devLabel="Storyboard" translation="Раскадровка" />
+	<label commandName="StoryboardSelectionId" devLabel="Storyboard" translation="Раскадровка" />
+	<label commandName="ToggleMaterialChange" devLabel="Toggle on/off appearance override" translation="Включить/выключить переопределение внешнего вида" />
+	<label commandName="TrailSelectionId" devLabel="Trail Line" translation="Линия тропы" />
+	<label commandName="ViewActorDisplayName" devLabel="View" translation="Вид" />
+</Resource>

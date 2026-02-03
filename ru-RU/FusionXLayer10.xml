@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="Add Length" devLabel="Add Length" translation="Добавить длину"/>
+	<label commandName="Add Size" devLabel="Add Size" translation="Добавить размер"/>
+	<label commandName="AppStoreAddInDownloadError" devLabel="Failed to download the add-in from app store" translation="Не удалось загрузить надстройку из магазина приложений."/>
+	<label commandName="AppStoreAddInInstallUnknownError" devLabel="Unknown error occurred. Failed to install the add-in!" translation="Произошла неизвестная ошибка. Не удалось установить надстройку!"/>
+	<label commandName="AppStoreAddInRunTimeError" devLabel="Failed to run the add-in after download" translation="Не удалось запустить надстройку после загрузки."/>
+	<label commandName="Modify Fastener" devLabel="Modify Fastener" translation="Изменить крепеж"/>
+	<label commandName="lclzInsertingDistributedDesignNotSupported" devLabel="Inserting a distributed design from another project is not currently supported." translation="Вставка распределенного проекта из другого проекта в настоящее время не поддерживается."/>
+</Resource>

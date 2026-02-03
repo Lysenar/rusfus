@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<label commandName="lclzExpirationMessage" devLabel="Licensing for this product has expired." translation="Die Lizenzierung dieses Produkts ist abgelaufen."/>
+	<label commandName="lclzSplashMessage" devLabel="Neutron Test Application" translation="Neutron-Testanwendung"/>
+</Resource>

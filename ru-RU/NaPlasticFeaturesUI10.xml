@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="Add Length" devLabel="Add Length" translation="Добавить длину"/>
+	<label commandName="Add Size" devLabel="Add Size" translation="Добавить размер"/>
+	<label commandName="AdjustSettingsForRest" devLabel="Adjust the rest settings" translation="Отрегулируйте остальные настройки"/>
+	<label commandName="AlertDTT" devLabel="Displays this alert in the canvas. If you use Design Advice to check this solid body again, this alert will be included in the results if you have not resolved it." translation="Отображает это предупреждение на холсте. Если вы воспользуетесь Design Advice для повторной проверки этого твердого тела, это предупреждение будет включено в результаты, если вы не устранили его."/>
+	<label commandName="AlertRegion" devLabel="  Region %1%" translation="  Region %1%"/>
+	<label commandName="AlertStatusDropDownOptions" devLabel="Status" translation="Статус"/>
+	<label commandName="AlertStatusErrorOption" devLabel="Alert" translation="Предупреждение"/>
+	<label commandName="AlertStatusIgnoreOption" devLabel="Ignore" translation="Игнорировать"/>
+	<label commandName="AnalyzePrompt" devLabel="Click Analyze, then review results and recommendations" translation="Нажмите &#171;Анализ&#187;, затем просмотрите результаты и рекомендации."/>
+	<label commandName="AssignedRuleName" devLabel="Rule Details: " translation="Детали правила:"/>
+	<label commandName="BCCannotCreateCloudFolder" devLabel="&lt;b&gt;Bolt folder cannot be created in offline mode.&lt;/b&gt;&lt;p&gt;Bolt component is not created.&lt;/p&gt;" translation="&lt;"/>
+	<label commandName="BodySelectionDTT" devLabel="Select a solid body to analyze." translation="Выберите твердое тело для анализа."/>
+	<label commandName="BoltConnCmdBoltCreate" devLabel="Create Component" translation="Создать компонент"/>
+	<label commandName="BoltConnCmdBoltCreateToolTip" devLabel="Creates an external component that contains the geometry of the fastener and references it into the active design.&#xA;&#xA;Identical fasteners reference the same external component." translation="Создает внешний компонент, содержащий геометрию крепежа, и ссылается на него в активную конструкцию.
+
+Идентичные крепежные детали относятся к одному и тому же внешнему компоненту."/>
+	<label commandName="BoltConnCmdBoltGroup" devLabel="Fastener" translation="Застежка"/>
+	<label commandName="BoltConnCmdDiameter" devLabel="Thread Diameter" translation="Диаметр резьбы"/>
+	<label commandName="BoltConnCmdDiameterToolTip" devLabel="Select a diameter to apply to the fastener." translation="Выберите диаметр, который будет применяться к крепежу."/>
+	<label commandName="BoltConnCmdFinish" devLabel="Surface Finish" translation="Поверхностное покрытие"/>
+	<label commandName="BoltConnCmdFinishToolTip" devLabel="Specify a surface finish to add as a text-only property to the fastener.&#xA;&#xA;Does not affect physical material or appearance." translation="Укажите шероховатость поверхности, которую нужно добавить к крепежу в качестве текстового свойства.
+
+Не влияет на физический материал или внешний вид."/>
+	<label commandName="BoltConnCmdHeadType" devLabel="Head" translation="Головка"/>
+	<label commandName="BoltConnCmdHeadTypeFlat" devLabel="Flat" translation="Плоский"/>
+	<label commandName="BoltConnCmdHeadTypeFlatToolTip" devLabel="Creates a fastener with a flat head." translation="Создает крепеж с плоской головкой."/>
+	<label commandName="BoltConnCmdHeadTypeHex" devLabel="Hex" translation="Шестигранник"/>
+	<label commandName="BoltConnCmdHeadTypeHexToolTip" devLabel="Creates a fastener with a hex head." translation="Создает крепеж с шестигранной головкой."/>
+	<label commandName="BoltConnCmdHeadTypeHexWasher" devLabel="Hex Washer" translation="Шестигранная шайба"/>
+	<label commandName="BoltConnCmdHeadTypeHexWasherToolTip" devLabel="Creates a fastener with a hex washer head." translation="Создает крепеж с шестигранной шайбой."/>
+	<label commandName="BoltConnCmdHeadTypeOval" devLabel="Oval" translation="Овальный"/>
+	<label commandName="BoltConnCmdHeadTypeOvalToolTip" devLabel="Creates a fastener with an oval head." translation="Создает застежку с овальной головкой."/>
+	<label commandName="BoltConnCmdHeadTypePan" devLabel="Pan" translation="Панорамирование"/>
+	<label commandName="BoltConnCmdHeadTypePanToolTip" devLabel="Creates a fastener with a pan head." translation="Создает застежку с цилиндрической головкой."/>
+	<label commandName="BoltConnCmdHeadTypeRound" devLabel="Round" translation="Скругление"/>
+	<label commandName="BoltConnCmdHeadTypeRoundToolTip" devLabel="Creates a fastener with a round head." translation="Создает застежку с круглой головкой."/>
+	<label commandName="BoltConnCmdHeadTypeRoundWasher" devLabel="Round Washer" translation="Круглая шайба"/>
+	<label commandName="BoltConnCmdHeadTypeRoundWasherToolTip" devLabel="Creates a fastener with a round washer head." translation="Создает застежку с круглой головкой шайбы."/>
+	<label commandName="BoltConnCmdLength" devLabel="Length" translation="Длина"/>
+	<label commandName="BoltConnCmdLengthToolTip" devLabel="Select a length to apply to the fastener." translation="Выберите длину, которую следует применить к крепежу."/>
+	<label commandName="BoltConnCmdMaterial" devLabel="Fastener Material" translation="Материал крепежа"/>
+	<label commandName="BoltConnCmdMaterialToolTip" devLabel="Specify a material to add as a text-only property to the fastener.&#xA;&#xA;Does not affect physical material or appearance." translation="Укажите материал, который необходимо добавить в качестве текстового свойства крепежа.
+
+Не влияет на физический материал или внешний вид."/>
+	<label commandName="BoltConnCmdPosition" devLabel="Position" translation="Позиция"/>
+	<label commandName="BoltConnCmdPositionToolTip" devLabel="Select a circular edge to position the feature on a body." translation="Выберите круговое ребро, чтобы разместить элемент на теле."/>
+	<label commandName="BoltConnCmdSlotType" devLabel="Drive" translation="Привод"/>
+	<label commandName="BoltConnCmdSlotTypeInternalHex" devLabel="Hex" translation="Шестигранник"/>
+	<label commandName="BoltConnCmdSlotTypeInternalHexToolTip" devLabel="Creates a hex style drive in the head of the fastener." translation="Создает шестигранный привод в головке крепежа."/>
+	<label commandName="BoltConnCmdSlotTypeNoSlot" devLabel="None" translation="Нет"/>
+	<label commandName="BoltConnCmdSlotTypeNoSlotToolTip" devLabel="Creates no drive in the head of the fastener." translation="Не создает привода в головке крепежа."/>
+	<label commandName="BoltConnCmdSlotTypePhillips" devLabel="Phillips" translation="Филлипс"/>
+	<label commandName="BoltConnCmdSlotTypePhillipsToolTip" devLabel="Creates a Phillips style drive in the head of the fastener." translation="Создает в головке крепежа крестообразную головку."/>
+	<label commandName="BoltConnCmdSlotTypePozidriv" devLabel="Pozidriv" translation="Позидрив"/>
+	<label commandName="BoltConnCmdSlotTypePozidrivToolTip" devLabel="Creates a Pozidriv style drive in the head of the fastener." translation="Создает привод в стиле Pozidriv в головке крепежа."/>
+	<label commandName="BoltConnCmdSlotTypeSecurityTorx" devLabel="Security Torx Plus" translation="Безопасность Торкс Плюс"/>
+	<label commandName="BoltConnCmdSlotTypeSecurityTorxToolTip" devLabel="Creates a Security Torx Plus style drive in the head of the fastener." translation="Создает привод типа Security Torx Plus в головке крепежа."/>
+	<label commandName="BoltConnCmdSlotTypeSlotted" devLabel="Slot" translation="Слот"/>
+	<label commandName="BoltConnCmdSlotTypeSlottedPhillips" devLabel="Slotted Phillips" translation="Филлипс с прорезями"/>
+	<label commandName="BoltConnCmdSlotTypeSlottedPhillipsToolTip" devLabel="Creates a slotted Phillips style drive in the head of the fastener." translation="Создает в головке крепежного элемента прорезь типа Phillips."/>
+	<label commandName="BoltConnCmdSlotTypeSlottedPozidriv" devLabel="Slotted Pozidriv" translation="Позидрив с прорезями"/>
+	<label commandName="BoltConnCmdSlotTypeSlottedPozidrivToolTip" devLabel="Creates a slotted Pozidriv style drive in the head of the fastener." translation="Создает прорезной привод типа Pozidriv в головке крепежа."/>
+	<label commandName="BoltConnCmdSlotTypeSlottedToolTip" devLabel="Creates a slot style drive in the head of the fastener." translation="Создает прорезь в головке крепежа."/>
+	<label commandName="BoltConnCmdSlotTypeSlottedTorxPlus" devLabel="Slotted Torx Plus" translation="Щелевой Torx Plus"/>
+	<label commandName="BoltConnCmdSlotTypeSlottedTorxPlusToolTip" devLabel="Creates a slotted Torx Plus style drive in the head of the fastener." translation="Создает прорезной привод типа Torx Plus в головке крепежа."/>
+	<label commandName="BoltConnCmdSlotTypeTorxPlus" devLabel="Torx Plus" translation="Торкс Плюс"/>
+	<label commandName="BoltConnCmdSlotTypeTorxPlusToolTip" devLabel="Creates a Torx Plus style drive in the head of the fastener." translation="Создает привод типа Torx Plus в головке крепежа."/>
+	<label commandName="BoltConnCmdThread30deg" devLabel="30°" translation="30°"/>
+	<label commandName="BoltConnCmdThread30degToolTip" devLabel="Applies a 30-degree angle to the threads on the fastener." translation="Применяет угол 30 градусов к резьбе на крепеже."/>
+	<label commandName="BoltConnCmdThread45deg" devLabel="45°" translation="45°"/>
+	<label commandName="BoltConnCmdThread45degToolTip" devLabel="Applies a 45-degree angle to the threads on the fastener." translation="Применяет угол 45 градусов к резьбе на крепеже."/>
+	<label commandName="BoltConnCmdThread60deg" devLabel="60°" translation="60°"/>
+	<label commandName="BoltConnCmdThread60degToolTip" devLabel="Applies a 60-degree angle to the threads on the fastener." translation="Применяет угол 60 градусов к резьбе на крепеже."/>
+	<label commandName="BoltConnCmdThreadType" devLabel="Thread Form" translation="Форма резьбы"/>
+	<label commandName="BoltConnCmdThreadTypeToolTip" devLabel="Select a thread form to apply to the fastener." translation="Выберите форму резьбы для крепления."/>
+	<label commandName="BoltConnCmdThreadVariant" devLabel="Thread Angle" translation="Угол резьбы"/>
+	<label commandName="BoltConnCmdThreadVariantToolTip" devLabel="Select a thread angle to apply to the fastener." translation="Выберите угол резьбы, который будет применяться к крепежу."/>
+	<label commandName="BossCannotCreateFastener" devLabel="Cannot create fastener" translation="Невозможно создать крепеж"/>
+	<label commandName="BossCannotCreateFolderOffline" devLabel="Cannot create an external component for the fastener in the boss while Fusion is in Offline Mode.&lt;br/&gt;&lt;br/&gt;Try to switch to Online Mode or continue without creating the fastener?" translation="Невозможно создать внешний компонент для крепежа в бобышке, пока Fusion находится в автономном режиме.&lt;br/&gt;&lt;br/&gt;Попробовать переключиться в онлайн-режим или продолжить, не создавая крепеж?"/>
+	<label commandName="BossCannotCreateForLocalDocument" devLabel="Cannot create an external component for the fastener in the boss until you upload the design to the cloud.&lt;br/&gt;&lt;br/&gt;Upload the design or continue without creating the fastener?" translation="Невозможно создать внешний компонент для крепежа в Boss, пока вы не загрузите проект в облако.&lt;br/&gt;&lt;br/&gt;Загрузить проект или продолжить без создания крепежа?"/>
+	<label commandName="BossCannotCreateForUnsavedDocument" devLabel="Cannot create an external component for the fastener in the boss until you save the design.&lt;br/&gt;&lt;br/&gt;Save the design or continue without creating the fastener?" translation="Невозможно создать внешний компонент для крепежа в бобышке, пока не сохраните проект.&lt;br/&gt;&lt;br/&gt;Сохранить проект или продолжить, не создавая крепеж?"/>
+	<label commandName="BossCmdBossPlasticRules" devLabel="Plastic Rules" translation="Правила пластика"/>
+	<label commandName="BossCmdBossTab" devLabel="Boss" translation="Бобышка"/>
+	<label commandName="BossCmdBossTab1A" devLabel="A₁" translation="А"/>
+	<label commandName="BossCmdBossTab1AToolTipL0" devLabel="Counterbore Diameter" translation="Диаметр зенковки"/>
+	<label commandName="BossCmdBossTab1AToolTipL1" devLabel="Specify the diameter value of the counterbore hole for Side 1 of the boss feature." translation="Укажите значение диаметра отверстия с цековкой для стороны 1 бобышки."/>
+	<label commandName="BossCmdBossTab1Alpha1ToolTipL0" devLabel="Counterbore Draft Angle" translation="Угол уклона цековки"/>
+	<label commandName="BossCmdBossTab1Alpha1ToolTipSuffix" devLabel="Specify the draft angle value of the counterbore for Side 1 of the boss feature." translation="Укажите значение угла уклона цековки для стороны 1 выступа."/>
+	<label commandName="BossCmdBossTab1Alpha2ToolTipL0" devLabel="Hole Draft Angle" translation="Угол уклона отверстия"/>
+	<label commandName="BossCmdBossTab1Alpha2ToolTipL1" devLabel="Specify the draft angle value of the hole for Side 1 of the boss feature." translation="Укажите значение угла уклона отверстия для стороны 1 выступа."/>
+	<label commandName="BossCmdBossTab1Alpha3ToolTipL0" devLabel="Step Draft Angle" translation="Шаг Угол наклона"/>
+	<label commandName="BossCmdBossTab1Alpha3ToolTipSuffix" devLabel="Specify the draft angle value of the step for Side 1 of the boss feature." translation="Укажите значение угла уклона шага для стороны 1 выступа."/>
+	<label commandName="BossCmdBossTab1Alpha4ToolTipL0" devLabel="Boss Draft Angle" translation="Угол уклона босса"/>
+	<label commandName="BossCmdBossTab1Alpha4ToolTipL1" devLabel="Specify the draft angle value of the outer boss for Side 1 of the boss feature." translation="Укажите значение угла уклона внешней бобышки для стороны 1 бобышки."/>
+	<label commandName="BossCmdBossTab1AlphaImage" devLabel="BossCmdBossTab1AlphaImage" translation="BossCmdBossTab1AlphaImage"/>
+	<label commandName="BossCmdBossTab1AlphaTable" devLabel="BossCmdBossTab1AlphaTable" translation="BossCmdBossTab1AlphaTable"/>
+	<label commandName="BossCmdBossTab1BToolTipL0" devLabel="Inner Hole Diameter" translation="Внутренний диаметр отверстия"/>
+	<label commandName="BossCmdBossTab1BToolTipL1" devLabel="Specify the diameter value of the inner hole for Side 1 of the boss feature." translation="Укажите значение диаметра внутреннего отверстия для стороны 1 выступа."/>
+	<label commandName="BossCmdBossTab1CToolTipL0" devLabel="Step Diameter" translation="Диаметр ступени"/>
+	<label commandName="BossCmdBossTab1CToolTipL1" devLabel="Specify the diameter value of the step for Side 1 of the boss feature." translation="Укажите значение диаметра ступеньки для стороны 1 выступа."/>
+	<label commandName="BossCmdBossTab1CounterSinkAngle" devLabel="Countersink Angle" translation="Угол зенковки"/>
+	<label commandName="BossCmdBossTab1CounterSinkAngleToolTipL1" devLabel="Specify the angle value for the countersink hole for Side 1 of the boss feature." translation="Укажите значение угла зенковки для стороны 1 выступа."/>
+	<label commandName="BossCmdBossTab1DToolTipL0" devLabel="Boss Diameter" translation="Диаметр босса"/>
+	<label commandName="BossCmdBossTab1DToolTipSuffix" devLabel="Specify the overall diameter value for Side 1 of the boss feature." translation="Укажите значение общего диаметра для стороны 1 выступа."/>
+	<label commandName="BossCmdBossTab1EToolTipL0" devLabel="Inner Hole Depth" translation="Внутренняя глубина отверстия"/>
+	<label commandName="BossCmdBossTab1EToolTipL1" devLabel="Specify the depth value of the inner hole for Side 1 of the boss feature." translation="Укажите значение глубины внутреннего отверстия для стороны 1 выступа."/>
+	<label commandName="BossCmdBossTab1FToolTipL0" devLabel="Step Depth" translation="Глубина шага"/>
+	<label commandName="BossCmdBossTab1FToolTipSuffix" devLabel="Specify the depth value of the step for Side 1 of the boss feature." translation="Укажите значение глубины ступени для стороны 1 выступа."/>
+	<label commandName="BossCmdBossTab1Hole" devLabel="Hole Type" translation="Тип отверстия"/>
+	<label commandName="BossCmdBossTab1HoleCommon" devLabel="Simple" translation="Простой"/>
+	<label commandName="BossCmdBossTab1HoleCommonToolTip" devLabel="Creates a simple hole for Side 1 of the boss feature." translation="Создает простое отверстие для стороны 1 выступа."/>
+	<label commandName="BossCmdBossTab1HoleCounterBore" devLabel="Counterbore" translation="Зенковка"/>
+	<label commandName="BossCmdBossTab1HoleCounterBoreToolTip" devLabel="Creates a counterbore hole for Side 1 of the boss feature." translation="Создается отверстие с цековкой для стороны 1 бобышки."/>
+	<label commandName="BossCmdBossTab1HoleCounterSink" devLabel="Countersink" translation="Зенкование"/>
+	<label commandName="BossCmdBossTab1HoleCounterSinkToolTip" devLabel="Creates a countersink hole for Side 1 of the boss feature." translation="Создается зенковка для стороны 1 бобышки."/>
+	<label commandName="BossCmdBossTab1Image" devLabel="Boss1Image" translation="Boss1Image"/>
+	<label commandName="BossCmdBossTab1OToolTipL0" devLabel="Offset Clearance" translation="Смещенный зазор"/>
+	<label commandName="BossCmdBossTab1OToolTipL1" devLabel="Specify the clearance value between the sketch plane and the inner face of the step for Side 1 of the boss feature." translation="Укажите значение зазора между плоскостью эскиза и внутренней гранью ступеньки для стороны 1 бобышки."/>
+	<label commandName="BossCmdBossTab1R1ToolTipL0" devLabel="Outer Counterbore Fillet Radius" translation="Радиус скругления внешней цековки"/>
+	<label commandName="BossCmdBossTab1R1ToolTipL1" devLabel="Specify the radius value of the outer counterbore fillet for Side 1 of the boss feature." translation="Укажите значение радиуса внешнего скругления цековки для стороны 1 бобышки."/>
+	<label commandName="BossCmdBossTab1R2ToolTipL0" devLabel="Inner Counterbore Fillet Radius" translation="Радиус скругления внутренней цековки"/>
+	<label commandName="BossCmdBossTab1R2ToolTipSuffix" devLabel="Specify the radius value of the inner counterbore fillet for Side 1 of the boss feature." translation="Укажите значение радиуса внутреннего скругления цековки для стороны 1 выступа."/>
+	<label commandName="BossCmdBossTab1R3ToolTipL0" devLabel="Upper Hole Fillet Radius" translation="Радиус скругления верхнего отверстия"/>
+	<label commandName="BossCmdBossTab1R3ToolTipL1" devLabel="Specify the radius value of the upper hole fillet for Side 1 of the boss feature." translation="Укажите значение радиуса верхнего скругления отверстия для стороны 1 бобышки."/>
+	<label commandName="BossCmdBossTab1R4ToolTipL0" devLabel="Lower Hole Fillet Radius" translation="Радиус скругления нижнего отверстия"/>
+	<label commandName="BossCmdBossTab1R4ToolTipSuffix" devLabel="Specify the radius value of the lower hole fillet for Side 1 of the boss feature." translation="Укажите значение радиуса скругления нижнего отверстия для стороны 1 бобышки."/>
+	<label commandName="BossCmdBossTab1R5ToolTipL0" devLabel="Outer Boss Fillet Radius" translation="Радиус скругления внешней бобышки"/>
+	<label commandName="BossCmdBossTab1R5ToolTipL1" devLabel="Specify the radius value of the outer boss fillet for Side 1 of the boss feature." translation="Укажите значение радиуса внешнего скругления бобышки для стороны 1 бобышки."/>
+	<label commandName="BossCmdBossTab1R6ToolTipL0" devLabel="Outer Step Fillet Radius" translation="Внешний радиус скругления шага"/>
+	<label commandName="BossCmdBossTab1R6ToolTipSuffix" devLabel="Specify the radius value of the outer step fillet for Side 1 of the boss feature." translation="Укажите значение радиуса скругления внешней ступени для стороны 1 выступа."/>
+	<label commandName="BossCmdBossTab1R7ToolTipL0" devLabel="Inner Step Fillet Radius" translation="Радиус скругления внутреннего шага"/>
+	<label commandName="BossCmdBossTab1R7ToolTipL1" devLabel="Specify the radius value of the inner step fillet for Side 1 of the boss feature." translation="Укажите значение радиуса внутреннего ступенчатого скругления для стороны 1 выступа."/>
+	<label commandName="BossCmdBossTab1RImage" devLabel="BossCmdBossTab1RImage" translation="БоссCmdBossTab1RImage"/>
+	<label commandName="BossCmdBossTab1RTable" devLabel="BossCmdBossTab1RTable" translation="БоссCmdBossTab1RTable"/>
+	<label commandName="BossCmdBossTab1RToolTipL0" devLabel="Base Fillet Radius" translation="Базовый радиус скругления"/>
+	<label commandName="BossCmdBossTab1RToolTipSuffix" devLabel="Specify the radius value of the base fillet for Side 1 of the boss feature." translation="Укажите значение радиуса базового скругления для стороны 1 выступа."/>
+	<label commandName="BossCmdBossTab1Step" devLabel="Step Type" translation="Тип шага"/>
+	<label commandName="BossCmdBossTab1StepIn" devLabel="In" translation="дюйм"/>
+	<label commandName="BossCmdBossTab1StepInToolTip" devLabel="Creates a step to the inside of Side 1 of the boss feature." translation="Создает ступеньку внутрь стороны 1 выступа."/>
+	<label commandName="BossCmdBossTab1StepNone" devLabel="None" translation="Нет"/>
+	<label commandName="BossCmdBossTab1StepNoneToolTip" devLabel="Creates no step for Side 1 of the boss feature." translation="Не создает ступени для стороны 1 элемента босса."/>
+	<label commandName="BossCmdBossTab1StepOut" devLabel="Out" translation="Выход"/>
+	<label commandName="BossCmdBossTab1StepOutToolTip" devLabel="Creates a step to the outside of Side 1 of the boss feature." translation="Создает ступеньку наружу от стороны 1 выступа."/>
+	<label commandName="BossCmdBossTab1Table" devLabel="Boss1Table" translation="Босс1Таблица"/>
+	<label commandName="BossCmdBossTab2AToolTipL0" devLabel="Counterbore Diameter" translation="Диаметр зенковки"/>
+	<label commandName="BossCmdBossTab2AToolTipSuffix" devLabel="Specify the diameter value of the counterbore hole for Side 2 of the boss feature." translation="Укажите значение диаметра отверстия с цековкой для стороны 2 элемента бобышки."/>
+	<label commandName="BossCmdBossTab2Alpha1ToolTipL0" devLabel="Counterbore Draft Angle" translation="Угол уклона цековки"/>
+	<label commandName="BossCmdBossTab2Alpha1ToolTipL1" devLabel="Specify the draft angle value of the counterbore for Side 2 of the boss feature." translation="Укажите значение угла уклона цековки для стороны 2 выступа."/>
+	<label commandName="BossCmdBossTab2Alpha2ToolTipL0" devLabel="Hole Draft Angle" translation="Угол уклона отверстия"/>
+	<label commandName="BossCmdBossTab2Alpha2ToolTipL1" devLabel="Specify the draft angle value of the hole for Side 2 of the boss feature." translation="Укажите значение угла уклона отверстия для стороны 2 выступа."/>
+	<label commandName="BossCmdBossTab2Alpha3ToolTipL0" devLabel="Step Draft Angle" translation="Шаг Угол наклона"/>
+	<label commandName="BossCmdBossTab2Alpha3ToolTipL1" devLabel="Specify the draft angle value of the step for Side 2 of the boss feature." translation="Укажите значение угла уклона шага для стороны 2 выступа."/>
+	<label commandName="BossCmdBossTab2Alpha4ToolTipL0" devLabel="Boss Draft Angle" translation="Угол уклона босса"/>
+	<label commandName="BossCmdBossTab2Alpha4ToolTipL1" devLabel="Specify the draft angle value of the outer boss for Side 2 of the boss feature." translation="Укажите значение угла уклона внешней бобышки для стороны 2 бобышки."/>
+	<label commandName="BossCmdBossTab2BToolTipL0" devLabel="Inner Hole Diameter" translation="Внутренний диаметр отверстия"/>
+	<label commandName="BossCmdBossTab2BToolTipL1" devLabel="Specify the diameter value of the inner hole for Side 2 of the boss feature." translation="Укажите значение диаметра внутреннего отверстия для стороны 2 выступа."/>
+	<label commandName="BossCmdBossTab2CToolTipL0" devLabel="Step Diameter" translation="Диаметр ступени"/>
+	<label commandName="BossCmdBossTab2CToolTipSuffix" devLabel="Specify the diameter value of the step for Side 2 of the boss feature." translation="Укажите значение диаметра ступеньки для стороны 2 выступа."/>
+	<label commandName="BossCmdBossTab2CounterSinkAngle" devLabel="Countersink Angle" translation="Угол зенковки"/>
+	<label commandName="BossCmdBossTab2CounterSinkAngleToolTipL1" devLabel="Specify the angle value for the countersink hole for Side 2 of the boss feature." translation="Укажите значение угла зенковки для стороны 2 выступа."/>
+	<label commandName="BossCmdBossTab2DToolTipL0" devLabel="Boss Diameter" translation="Диаметр босса"/>
+	<label commandName="BossCmdBossTab2DToolTipL1" devLabel="Specify the overall diameter value for Side 2 of the boss feature." translation="Укажите значение общего диаметра для стороны 2 выступа."/>
+	<label commandName="BossCmdBossTab2Depth" devLabel="Hole Depth Type" translation="Тип глубины отверстия"/>
+	<label commandName="BossCmdBossTab2DepthFromBottom" devLabel="From Bottom" translation="Снизу"/>
+	<label commandName="BossCmdBossTab2DepthFromBottomToolTip" devLabel="Measures the clearance between the exterior face of the body and the bottom of the inner hole for Side 2 of the boss feature." translation="Измеряется зазор между внешней стороной корпуса и нижней частью внутреннего отверстия для стороны 2 выступа."/>
+	<label commandName="BossCmdBossTab2DepthFromTop" devLabel="From Top" translation="От верхней"/>
+	<label commandName="BossCmdBossTab2DepthFromTopToolTip" devLabel="Measures the depth value of the inner hole from the top of Side 2 of the boss feature." translation="Измеряет значение глубины внутреннего отверстия от верха стороны 2 выступа."/>
+	<label commandName="BossCmdBossTab2DepthThroughBody" devLabel="Through Body" translation="Через тело"/>
+	<label commandName="BossCmdBossTab2DepthThroughBodyToolTip" devLabel="Extrudes the hole through the entire body for Side 2 of the boss feature." translation="Вытягивает отверстие через все тело для стороны 2 выступа."/>
+	<label commandName="BossCmdBossTab2FToolTipL0" devLabel="Step Depth" translation="Глубина шага"/>
+	<label commandName="BossCmdBossTab2FToolTipSuffix" devLabel="Specify the depth value of the step for Side 2 of the boss feature." translation="Укажите значение глубины ступени для стороны 2 выступа."/>
+	<label commandName="BossCmdBossTab2GToolTipL0" devLabel="Inner Hole Depth" translation="Внутренняя глубина отверстия"/>
+	<label commandName="BossCmdBossTab2GToolTipL1" devLabel="Specify the depth value of the inner hole for Side 2 of the boss feature." translation="Укажите значение глубины внутреннего отверстия для стороны 2 выступа."/>
+	<label commandName="BossCmdBossTab2Hole" devLabel="Hole Type" translation="Тип отверстия"/>
+	<label commandName="BossCmdBossTab2HoleCommon" devLabel="Simple" translation="Простой"/>
+	<label commandName="BossCmdBossTab2HoleCommonToolTip" devLabel="Creates a simple hole for Side 2 of the boss feature." translation="Создает простое отверстие для стороны 2 выступа."/>
+	<label commandName="BossCmdBossTab2HoleCounterBore" devLabel="Counterbore" translation="Зенковка"/>
+	<label commandName="BossCmdBossTab2HoleCounterBoreToolTip" devLabel="Creates a counterbore hole for Side 2 of the boss feature." translation="Создается отверстие с цековкой для стороны 2 бобышки."/>
+	<label commandName="BossCmdBossTab2HoleCounterSink" devLabel="Countersink" translation="Зенкование"/>
+	<label commandName="BossCmdBossTab2HoleCounterSinkToolTip" devLabel="Creates a countersink hole for Side 2 of the boss feature." translation="Создается зенковка для стороны 2 бобышки."/>
+	<label commandName="BossCmdBossTab2IToolTipL0" devLabel="Counterbore Depth" translation="Глубина зенковки"/>
+	<label commandName="BossCmdBossTab2IToolTipSuffix" devLabel="Specify the depth value of the counterbore hole for Side 2 of the boss feature." translation="Укажите значение глубины отверстия с цековкой для стороны 2 выступа."/>
+	<label commandName="BossCmdBossTab2JToolTipL0" devLabel="Inner Hole Clearance" translation="Внутренний зазор отверстия"/>
+	<label commandName="BossCmdBossTab2JToolTipL1" devLabel="Specify the clearance value between the exterior face of the body and the bottom of the inner hole for Side 2 of the boss feature." translation="Укажите значение зазора между внешней гранью корпуса и нижней частью внутреннего отверстия для стороны 2 выступа."/>
+	<label commandName="BossCmdBossTab2OToolTipL0" devLabel="Offset Clearance" translation="Смещенный зазор"/>
+	<label commandName="BossCmdBossTab2OToolTipSuffix" devLabel="Specify the clearance value between the sketch plane and the nearest face for Side 2 of the boss feature." translation="Укажите значение зазора между плоскостью эскиза и ближайшей гранью для стороны 2 выступа."/>
+	<label commandName="BossCmdBossTab2R1ToolTipL0" devLabel="Outer Hole Fillet Radius" translation="Радиус скругления наружного отверстия"/>
+	<label commandName="BossCmdBossTab2R1ToolTipSuffix" devLabel="Specify the radius value of the outer hole fillet for Side 2 of the boss feature." translation="Укажите значение радиуса скругления внешнего отверстия для стороны 2 выступа."/>
+	<label commandName="BossCmdBossTab2R2ToolTipL0" devLabel="Inner Counterbore Fillet Radius" translation="Радиус скругления внутренней цековки"/>
+	<label commandName="BossCmdBossTab2R2ToolTipL1" devLabel="Specify the radius value of the inner counterbore fillet for Side 2 of the boss feature." translation="Укажите значение радиуса внутреннего скругления цековки для стороны 2 выступа."/>
+	<label commandName="BossCmdBossTab2R3ToolTipL0" devLabel="Outer Counterbore Fillet Radius" translation="Радиус скругления внешней цековки"/>
+	<label commandName="BossCmdBossTab2R3ToolTipSuffix" devLabel="Specify the radius value of the outer counterbore fillet for Side 2 of the boss feature." translation="Укажите значение радиуса внешнего скругления цековки для стороны 2 выступа."/>
+	<label commandName="BossCmdBossTab2R4ToolTipL0" devLabel="Inner Hole Fillet Radius" translation="Радиус скругления внутреннего отверстия"/>
+	<label commandName="BossCmdBossTab2R4ToolTipL1" devLabel="Specify the radius value of the inner hole fillet for Side 2 of the boss feature." translation="Укажите значение радиуса скругления внутреннего отверстия для стороны 2 выступа."/>
+	<label commandName="BossCmdBossTab2R5ToolTipL0" devLabel="Outer Boss Fillet Radius" translation="Радиус скругления внешней бобышки"/>
+	<label commandName="BossCmdBossTab2R5ToolTipSuffix" devLabel="Specify the radius value of the outer boss fillet for Side 2 of the boss feature." translation="Укажите значение радиуса внешнего скругления бобышки для стороны 2 бобышки."/>
+	<label commandName="BossCmdBossTab2R6ToolTipL0" devLabel="Outer Step Fillet Radius" translation="Внешний радиус скругления шага"/>
+	<label commandName="BossCmdBossTab2R6ToolTipL1" devLabel="Specify the radius value of the outer step fillet for Side 2 of the boss feature." translation="Укажите значение радиуса скругления внешней ступени для стороны 2 выступа."/>
+	<label commandName="BossCmdBossTab2R7ToolTipL0" devLabel="Inner Step Fillet Radius" translation="Радиус скругления внутреннего шага"/>
+	<label commandName="BossCmdBossTab2R7ToolTipSuffix" devLabel="Specify the radius value of the inner step fillet for Side 2 of the boss feature." translation="Укажите значение радиуса внутреннего ступенчатого скругления для стороны 2 выступа."/>
+	<label commandName="BossCmdBossTab2RToolTipL0" devLabel="Base Fillet Radius" translation="Базовый радиус скругления"/>
+	<label commandName="BossCmdBossTab2RToolTipL1" devLabel="Specify the radius value of the base fillet for Side 2 of the boss feature." translation="Укажите значение радиуса базового скругления для стороны 2 выступа."/>
+	<label commandName="BossCmdBossTab2Step" devLabel="Step Type" translation="Тип шага"/>
+	<label commandName="BossCmdBossTab2StepIn" devLabel="In" translation="дюйм"/>
+	<label commandName="BossCmdBossTab2StepInToolTip" devLabel="Creates a step to the inside of Side 2 of the boss feature." translation="Создает ступеньку внутрь стороны 2 элемента босса."/>
+	<label commandName="BossCmdBossTab2StepNone" devLabel="None" translation="Нет"/>
+	<label commandName="BossCmdBossTab2StepNoneToolTip" devLabel="Creates no step for Side 2 of the boss feature." translation="Не создает ступени для стороны 2 элемента босса."/>
+	<label commandName="BossCmdBossTab2StepOut" devLabel="Out" translation="Выход"/>
+	<label commandName="BossCmdBossTab2StepOutToolTip" devLabel="Creates a step to the outside of Side 2 of the boss feature." translation="Создает ступеньку наружу от стороны 2 выступа."/>
+	<label commandName="BossCmdBossTabFlipDirection" devLabel="Flip" translation="Повернуть"/>
+	<label commandName="BossCmdBossTabFlipDirectionToolTip" devLabel="Flips boss feature over selected sketch point to switch Side 1 and Side 2 bodies." translation="Переворачивает элемент бобышки над выбранной точкой эскиза, чтобы поменять местами тела Стороны 1 и Стороны 2."/>
+	<label commandName="BossCmdBossTabOffset" devLabel="Offset Position" translation="Позиция смещения"/>
+	<label commandName="BossCmdBossTabOffsetToolTip" devLabel="Specify a distance to offset the position of the boss feature from the sketch plane." translation="Укажите расстояние для смещения положения выступа относительно плоскости эскиза."/>
+	<label commandName="BossCmdBossTabSide1" devLabel="Side 1" translation="Страница 1"/>
+	<label commandName="BossCmdBossTabSide1AO" devLabel="Advanced" translation="Передовой"/>
+	<label commandName="BossCmdBossTabSide2" devLabel="Side 2" translation="Сторона 2"/>
+	<label commandName="BossCmdBossTabSide2AO" devLabel="Advanced" translation="Передовой"/>
+	<label commandName="BossCmdBossTabSketchPoints" devLabel="Sketch Points" translation="Точки эскиза"/>
+	<label commandName="BossCmdBossTabSketchPointsToolTip" devLabel="Select a sketch point to position the boss feature on a body." translation="Выберите точку эскиза, чтобы разместить бобышку на теле."/>
+	<label commandName="BossCmdBossTabType" devLabel="Type" translation="Тип"/>
+	<label commandName="BossCmdBossTabTypePinned" devLabel="Pinned" translation="Закреплено"/>
+	<label commandName="BossCmdBossTabTypeTappedFlat" devLabel="Tapped Hole With Flat End" translation="Резьбовое отверстие с плоским концом"/>
+	<label commandName="BossCmdBossTabTypeTappedTip" devLabel="Tapped Hole With Tool Tip" translation="Резьбовое отверстие с наконечником инструмента"/>
+	<label commandName="BossCmdPreviewOpts" devLabel="Visibility" translation="Видимость"/>
+	<label commandName="BossCmdPreviewSection" devLabel="Section Analysis" translation="Анализ сечения"/>
+	<label commandName="BossCmdPreviewSectionToolTip" devLabel="Cuts a section through the center of the boss feature while you edit." translation="Вырезает сечение по центру выступа во время редактирования."/>
+	<label commandName="BossCmdRibs1Extent" devLabel="Extent/Suppress" translation="Экстент/Подавить"/>
+	<label commandName="BossCmdRibs2Extent" devLabel="Extent/Suppress" translation="Экстент/Подавить"/>
+	<label commandName="BossCmdRibsExtent1Tip" devLabel="Manage each rib" translation="Управляйте каждым ребром"/>
+	<label commandName="BossCmdRibsExtent1TipDesc" devLabel="Extent suppress or use Profile for individual rib on Side 1." translation="Подавите масштаб или используйте профиль для отдельного ребра на стороне 1."/>
+	<label commandName="BossCmdRibsExtent2Tip" devLabel="Manage each rib" translation="Управляйте каждым ребром"/>
+	<label commandName="BossCmdRibsExtent2TipDesc" devLabel="Extent suppress or use Profile for individual rib on Side 2." translation="Подавите масштаб или используйте профиль для отдельного ребра на стороне 2."/>
+	<label commandName="BossCmdRibsTab" devLabel="Ribs" translation="Ребрышки"/>
+	<label commandName="BossCmdRibsTab1AngularSpacingDescription" devLabel="Specify the angle value to distribute ribs around Side 1 of the boss feature." translation="Укажите значение угла для распределения ребер вокруг стороны 1 выступа."/>
+	<label commandName="BossCmdRibsTab1Beta1ToolTip" devLabel="Outer Draft Angle" translation="Внешний угол уклона"/>
+	<label commandName="BossCmdRibsTab1Beta1ToolTipDesc" devLabel="Specify the draft angle value for the outermost face of the ribs around Side 1 of the boss feature." translation="Укажите значение угла уклона для внешней грани ребер вокруг стороны 1 выступа."/>
+	<label commandName="BossCmdRibsTab1Beta2ToolTip" devLabel="Chamfer Angle" translation="Угол фаски"/>
+	<label commandName="BossCmdRibsTab1Beta2ToolTipDesc" devLabel="Specify the angle value of the chamfered face on the ribs for Side 1 of the boss feature." translation="Укажите значение угла скошенной грани на ребрах для стороны 1 бобышки."/>
+	<label commandName="BossCmdRibsTab1Draft" devLabel="Draft Angle" translation="Угол уклона"/>
+	<label commandName="BossCmdRibsTab1DraftTip" devLabel="Draft Angle" translation="Угол уклона"/>
+	<label commandName="BossCmdRibsTab1DraftToolTipDescription" devLabel="Specify the draft angle value for the thickness of the ribs around Side 1 of the boss feature." translation="Укажите значение угла уклона для толщины ребер вокруг стороны 1 выступа."/>
+	<label commandName="BossCmdRibsTab1KToolTipL0" devLabel="Rib Length" translation="Длина ребра"/>
+	<label commandName="BossCmdRibsTab1KToolTipL1" devLabel="Specify the distance value from the center of Side 1 of the boss feature to the nearest point on the outermost face of the rib." translation="Укажите значение расстояния от центра стороны 1 выступа до ближайшей точки на внешней грани ребра."/>
+	<label commandName="BossCmdRibsTab1LToolTip" devLabel="Step Offset" translation="Шаг смещения"/>
+	<label commandName="BossCmdRibsTab1LToolTipDesc" devLabel="Specify the distance value to offset the top of the ribs from the step on Side 1 of the boss feature." translation="Укажите значение расстояния для смещения верхней части ребер от уступа на стороне 1 выступа."/>
+	<label commandName="BossCmdRibsTab1MToolTip" devLabel="Chamfer Distance" translation="Расстояние фаски"/>
+	<label commandName="BossCmdRibsTab1MToolTipDesc" devLabel="Specify the distance value of the chamfered face on the ribs for Side 1 of the boss feature." translation="Укажите значение расстояния от фаски на ребрах для стороны 1 бобышки."/>
+	<label commandName="BossCmdRibsTab1Quantity" devLabel="Quantity" translation="Количество"/>
+	<label commandName="BossCmdRibsTab1QuantityToolTipDescription" devLabel="Specify the number of ribs to support Side 1 of the boss feature." translation="Укажите количество ребер, поддерживающих сторону 1 выступа."/>
+	<label commandName="BossCmdRibsTab1RRToolTip" devLabel="Fillet Radius" translation="Радиус скругления"/>
+	<label commandName="BossCmdRibsTab1RRToolTipDesc" devLabel="Specify the radius value of the rib fillets for Side 1 of the boss feature." translation="Укажите значение радиуса скруглений ребер для стороны 1 бобышки."/>
+	<label commandName="BossCmdRibsTab1RootR" devLabel="Base Fillet Radius" translation="Базовый радиус скругления"/>
+	<label commandName="BossCmdRibsTab1RootRTip" devLabel="Base Fillet Radius" translation="Базовый радиус скругления"/>
+	<label commandName="BossCmdRibsTab1RootRToolTipDescription" devLabel="Specify the radius value for the fillet at the base of the ribs for Side 1 of the boss feature." translation="Укажите значение радиуса скругления у основания ребер для стороны 1 выступа."/>
+	<label commandName="BossCmdRibsTab1Rotation" devLabel="Rotation Angle" translation="Угол поворота"/>
+	<label commandName="BossCmdRibsTab1RotationToolTipDescription" devLabel="Specify the rotation angle value to orient the ribs around Side 1 of the boss feature." translation="Укажите значение угла поворота, чтобы сориентировать ребра вокруг стороны 1 бобышки."/>
+	<label commandName="BossCmdRibsTab1Shape" devLabel="Profile" translation="Профиль"/>
+	<label commandName="BossCmdRibsTab1ShapeRound" devLabel="Round" translation="Скругление"/>
+	<label commandName="BossCmdRibsTab1ShapeRoundTip" devLabel="Fillet" translation="Скругление"/>
+	<label commandName="BossCmdRibsTab1ShapeRoundTipDesc" devLabel="Creates ribs with a rounded fillet profile around Side 1 of the boss feature." translation="Создает ребра со скругленным профилем скругления вокруг стороны 1 бобышки."/>
+	<label commandName="BossCmdRibsTab1ShapeSquare" devLabel="Chamfer" translation="Фаска"/>
+	<label commandName="BossCmdRibsTab1ShapeSquareTip" devLabel="Chamfer" translation="Фаска"/>
+	<label commandName="BossCmdRibsTab1ShapeSquareTipDesc" devLabel="Creates ribs with an angular chamfer profile around Side 1 of the boss feature." translation="Создает ребра с угловым профилем фаски вокруг стороны 1 бобышки."/>
+	<label commandName="BossCmdRibsTab1Thickness" devLabel="Thickness" translation="Толщина"/>
+	<label commandName="BossCmdRibsTab1ThicknessToolTipDescription" devLabel="Specify the distance value to extrude the ribs, perpendicular to the outer face of Side 1 of the boss feature." translation="Укажите значение расстояния для выдавливания ребер перпендикулярно внешней грани стороны 1 выступающего элемента."/>
+	<label commandName="BossCmdRibsTab1TipR" devLabel="Outer Fillet Radius" translation="Внешний радиус скругления"/>
+	<label commandName="BossCmdRibsTab1TipRTip" devLabel="Outer Fillet Radius" translation="Внешний радиус скругления"/>
+	<label commandName="BossCmdRibsTab1TipRToolTipDescription" devLabel="Specify the radius value for the fillet along the outer edges of the ribs for Side 1 of the boss feature." translation="Укажите значение радиуса скругления вдоль внешних кромок ребер для стороны 1 бобышки."/>
+	<label commandName="BossCmdRibsTab2Beta1ToolTip" devLabel="Outer Draft Angle" translation="Внешний угол уклона"/>
+	<label commandName="BossCmdRibsTab2Beta1ToolTipDesc" devLabel="Specify the draft angle value for the outermost face of the ribs around Side 2 of the boss feature." translation="Укажите значение угла уклона для внешней грани ребер вокруг стороны 2 выступа."/>
+	<label commandName="BossCmdRibsTab2Beta2ToolTip" devLabel="Chamfer Angle" translation="Угол фаски"/>
+	<label commandName="BossCmdRibsTab2Beta2ToolTipDesc" devLabel="Specify the angle value of the chamfered face on the ribs for Side 2 of the boss feature." translation="Укажите значение угла скошенной грани на ребрах для стороны 2 выступа."/>
+	<label commandName="BossCmdRibsTab2Draft" devLabel="Draft Angle" translation="Угол уклона"/>
+	<label commandName="BossCmdRibsTab2DraftTip" devLabel="Draft Angle" translation="Угол уклона"/>
+	<label commandName="BossCmdRibsTab2DraftToolTipDescription" devLabel="Specify the draft angle value for the thickness of the ribs around Side 2 of the boss feature." translation="Укажите значение угла уклона для толщины ребер вокруг стороны 2 выступа."/>
+	<label commandName="BossCmdRibsTab2KToolTipL0" devLabel="Rib Length" translation="Длина ребра"/>
+	<label commandName="BossCmdRibsTab2KToolTipL1" devLabel="Specify the distance value from the center of Side 2 of the boss feature to the nearest point on the outermost face of the rib." translation="Укажите значение расстояния от центра стороны 2 выступа до ближайшей точки на внешней грани ребра."/>
+	<label commandName="BossCmdRibsTab2LToolTip" devLabel="Step Offset" translation="Шаг смещения"/>
+	<label commandName="BossCmdRibsTab2LToolTipDesc" devLabel="Specify the distance value to offset the top of the ribs from the step on Side 2 of the boss feature." translation="Укажите значение расстояния для смещения верхней части ребер от уступа на стороне 2 выступа."/>
+	<label commandName="BossCmdRibsTab2MToolTip" devLabel="Chamfer Distance" translation="Расстояние фаски"/>
+	<label commandName="BossCmdRibsTab2MToolTipDesc" devLabel="Specify the distance value of the chamfered face on the ribs for Side 2 of the boss feature." translation="Укажите значение расстояния от скошенной грани на ребрах для стороны 2 выступа."/>
+	<label commandName="BossCmdRibsTab2Quantity" devLabel="Quantity" translation="Количество"/>
+	<label commandName="BossCmdRibsTab2QuantityToolTipDescription" devLabel="Specify the number of ribs to support Side 2 of the boss feature." translation="Укажите количество ребер для поддержки стороны 2 выступа."/>
+	<label commandName="BossCmdRibsTab2RRToolTip" devLabel="Fillet Radius" translation="Радиус скругления"/>
+	<label commandName="BossCmdRibsTab2RRToolTipDesc" devLabel="Specify the radius value of the rib fillets for Side 2 of the boss feature." translation="Укажите значение радиуса скруглений ребер для стороны 2 выступа."/>
+	<label commandName="BossCmdRibsTab2RootR" devLabel="Base Fillet Radius" translation="Базовый радиус скругления"/>
+	<label commandName="BossCmdRibsTab2RootRTip" devLabel="Base Fillet Radius" translation="Базовый радиус скругления"/>
+	<label commandName="BossCmdRibsTab2RootRToolTipDescription" devLabel="Specify the radius value for the fillet at the base of the ribs for Side 2 of the boss feature." translation="Укажите значение радиуса скругления у основания ребер для стороны 2 выступа."/>
+	<label commandName="BossCmdRibsTab2Rotation" devLabel="Rotation Angle" translation="Угол поворота"/>
+	<label commandName="BossCmdRibsTab2RotationDescription" devLabel="Specify the rotation angle value to orient the ribs around Side 2 of the boss feature." translation="Укажите значение угла поворота, чтобы сориентировать ребра вокруг стороны 2 выступа."/>
+	<label commandName="BossCmdRibsTab2Shape" devLabel="Profile" translation="Профиль"/>
+	<label commandName="BossCmdRibsTab2ShapeRound" devLabel="Fillet" translation="Скругление"/>
+	<label commandName="BossCmdRibsTab2ShapeRoundTip" devLabel="Fillet" translation="Скругление"/>
+	<label commandName="BossCmdRibsTab2ShapeRoundTipDesc" devLabel="Creates ribs with a rounded fillet profile around Side 2 of the boss feature." translation="Создает ребра со скругленным профилем скругления вокруг стороны 2 выступа."/>
+	<label commandName="BossCmdRibsTab2ShapeSquare" devLabel="Chamfer" translation="Фаска"/>
+	<label commandName="BossCmdRibsTab2ShapeSquareTip" devLabel="Chamfer" translation="Фаска"/>
+	<label commandName="BossCmdRibsTab2ShapeSquareTipDesc" devLabel="Creates ribs with an angular chamfer profile around Side 2 of the boss feature." translation="Создает ребра с угловым профилем фаски вокруг стороны 2 бобышки."/>
+	<label commandName="BossCmdRibsTab2Thickness" devLabel="Thickness" translation="Толщина"/>
+	<label commandName="BossCmdRibsTab2ThicknessToolTipDescription" devLabel="Specify the distance value for rib thickness, perpendicular to the outer face of Side 2 of the boss feature." translation="Укажите значение расстояния для толщины ребра перпендикулярно внешней грани стороны 2 выступа."/>
+	<label commandName="BossCmdRibsTab2TipR" devLabel="Outer Fillet Radius" translation="Внешний радиус скругления"/>
+	<label commandName="BossCmdRibsTab2TipRTip" devLabel="Outer Fillet Radius" translation="Внешний радиус скругления"/>
+	<label commandName="BossCmdRibsTab2TipRToolTipDescription" devLabel="Specify the radius value for the fillet along the outer edges of the ribs for Side 2 of the boss feature." translation="Укажите значение радиуса скругления вдоль внешних кромок ребер для стороны 2 выступа."/>
+	<label commandName="BossCmdRibsTabSide1" devLabel="Side 1" translation="Страница 1"/>
+	<label commandName="BossCmdRibsTabSide2" devLabel="Side 2" translation="Сторона 2"/>
+	<label commandName="BossCmdTabBar" devLabel="Boss Tab Bar" translation="Панель вкладок босса"/>
+	<label commandName="BossCmdTransparentSide1" devLabel="Side 1 Transparency" translation="Сторона 1 Прозрачность"/>
+	<label commandName="BossCmdTransparentSide1ToolTip" devLabel="Reduces the opacity of the Side 1 body while you edit the boss feature." translation="Уменьшает непрозрачность тела стороны 1 при редактировании элемента выступа."/>
+	<label commandName="BossCmdTransparentSide2" devLabel="Side 2 Transparency" translation="Сторона 2 Прозрачность"/>
+	<label commandName="BossCmdTransparentSide2ToolTip" devLabel="Reduces the opacity of the Side 2 body while you edit the boss feature." translation="Уменьшает непрозрачность тела стороны 2 при редактировании элемента выступа."/>
+	<label commandName="BossCmdWebTab" devLabel="Web" translation="Перемычка"/>
+	<label commandName="BossCmdWebTab1AngularSpacing" devLabel="Web1AngularSpacing" translation="Web1AngularSpacing"/>
+	<label commandName="BossCmdWebTab1AngularSpacingAngle" devLabel="Angle" translation="Угол"/>
+	<label commandName="BossCmdWebTab1AngularSpacingFull" devLabel="Full" translation="Полное"/>
+	<label commandName="BossCmdWebTab1AngularSpacingLabel" devLabel="Angular Spacing" translation="Угловое расстояние"/>
+	<label commandName="BossCmdWebTab1Depth" devLabel="Web1Depth" translation="Web1Depth"/>
+	<label commandName="BossCmdWebTab1DepthButton" devLabel="Web1DepthButton" translation="Web1DepthButton"/>
+	<label commandName="BossCmdWebTab1DepthLabel" devLabel="Depth" translation="Глубина"/>
+	<label commandName="BossCmdWebTab1DraftAngle" devLabel="Web1DraftAngle" translation="Web1DraftAngle"/>
+	<label commandName="BossCmdWebTab1DraftAngleLabel" devLabel="Draft Angle" translation="Угол уклона"/>
+	<label commandName="BossCmdWebTab1NumberOfRibs" devLabel="Web1NumberOfRibs" translation="Web1NumberOfRIBS"/>
+	<label commandName="BossCmdWebTab1NumberOfRibsCheckBox" devLabel="Web1NumberOfRibsCheckBox" translation="Web1NumberOfRibsCheckBox"/>
+	<label commandName="BossCmdWebTab1NumberOfRibsLabel" devLabel="Number of Ribs" translation="Количество ребер"/>
+	<label commandName="BossCmdWebTab1Rotation" devLabel="Web1Rotation" translation="Web1Rotation"/>
+	<label commandName="BossCmdWebTab1RotationButton" devLabel="Web1RotationButton" translation="Web1RotationButton"/>
+	<label commandName="BossCmdWebTab1RotationLabel" devLabel="Rotation" translation="Вращение"/>
+	<label commandName="BossCmdWebTab1Table" devLabel="Web1Table" translation="Web1Table"/>
+	<label commandName="BossCmdWebTab1Thickness" devLabel="Web1Thickness" translation="Web1Толщина"/>
+	<label commandName="BossCmdWebTab1ThicknessButton" devLabel="Web1ThicknessButton" translation="Web1ThicknessButton"/>
+	<label commandName="BossCmdWebTab1ThicknessLabel" devLabel="Thickness" translation="Толщина"/>
+	<label commandName="BossCmdWebTab1TotalAngle" devLabel="Web1TotalAngle" translation="Web1TotalAngle"/>
+	<label commandName="BossCmdWebTab1TotalAngleFlipButton" devLabel="Web1TotalAngleFlipButton" translation="Web1TotalAngleFlipButton"/>
+	<label commandName="BossCmdWebTab1TotalAngleLabel" devLabel="Total Angle" translation="Общий угол"/>
+	<label commandName="BossCmdWebTab2AngularSpacing" devLabel="Web2AngularSpacing" translation="Web2AngularSpacing"/>
+	<label commandName="BossCmdWebTab2AngularSpacingAngle" devLabel="Angle" translation="Угол"/>
+	<label commandName="BossCmdWebTab2AngularSpacingFull" devLabel="Full" translation="Полное"/>
+	<label commandName="BossCmdWebTab2AngularSpacingLabel" devLabel="Angular Spacing" translation="Угловое расстояние"/>
+	<label commandName="BossCmdWebTab2Depth" devLabel="Web2Depth" translation="Web2Depth"/>
+	<label commandName="BossCmdWebTab2DepthButton" devLabel="Web2DepthButton" translation="Кнопка Web2DepthButton"/>
+	<label commandName="BossCmdWebTab2DepthLabel" devLabel="Depth" translation="Глубина"/>
+	<label commandName="BossCmdWebTab2DraftAngle" devLabel="Web2DraftAngle" translation="Web2DraftAngle"/>
+	<label commandName="BossCmdWebTab2DraftAngleLabel" devLabel="Draft Angle" translation="Угол уклона"/>
+	<label commandName="BossCmdWebTab2NumberOfRibs" devLabel="Web2NumberOfRibs" translation="Web2NumberOfRIBS"/>
+	<label commandName="BossCmdWebTab2NumberOfRibsCheckBox" devLabel="Web2NumberOfRibsCheckBox" translation="Web2NumberOfRibsCheckBox"/>
+	<label commandName="BossCmdWebTab2NumberOfRibsLabel" devLabel="Number of Ribs" translation="Количество ребер"/>
+	<label commandName="BossCmdWebTab2Rotation" devLabel="Web2Rotation" translation="Web2Rotation"/>
+	<label commandName="BossCmdWebTab2RotationButton" devLabel="Web2RotationButton" translation="Кнопка Web2RotationButton"/>
+	<label commandName="BossCmdWebTab2RotationLabel" devLabel="Rotation" translation="Вращение"/>
+	<label commandName="BossCmdWebTab2Table" devLabel="Web2Table" translation="Веб2Таблица"/>
+	<label commandName="BossCmdWebTab2Thickness" devLabel="Web2Thickness" translation="Web2Толщина"/>
+	<label commandName="BossCmdWebTab2ThicknessButton" devLabel="BossWeb2ThicknessButton" translation="BossWeb2ТолщинаКнопка"/>
+	<label commandName="BossCmdWebTab2ThicknessLabel" devLabel="Thickness" translation="Толщина"/>
+	<label commandName="BossCmdWebTabSide1" devLabel="Side 1" translation="Страница 1"/>
+	<label commandName="BossCmdWebTabSide2" devLabel="Side 2" translation="Сторона 2"/>
+	<label commandName="BossCmdribsTab1AngularSpacing" devLabel="Total Angle" translation="Общий угол"/>
+	<label commandName="BossCmdribsTab2AngularSpacing" devLabel="Total Angle" translation="Общий угол"/>
+	<label commandName="BossCmdribsTab2AngularSpacingDescription" devLabel="Specify the angle value to distribute ribs around Side 2 of the boss feature." translation="Укажите значение угла для распределения ребер вокруг стороны 2 выступа."/>
+	<label commandName="BossContinue" devLabel="Continue" translation="Продолжить"/>
+	<label commandName="BossGoOnline" devLabel="Go Online" translation="Выйти в Интернет"/>
+	<label commandName="BossSave" devLabel="Save" translation="СОХРАНИТЬ"/>
+	<label commandName="ChangeBossExtentStates" devLabel="Profile/Extent/Suppress" translation="Профиль/экстент/подавить"/>
+	<label commandName="CheckDesignDTT" devLabel="Analyzes the selected solid body against the plastic rule." translation="Анализирует выбранное твердое тело на соответствие правилу пластики."/>
+	<label commandName="CheckDesignInfo" devLabel="Analyze" translation="Анализировать"/>
+	<label commandName="CreateInjectionMoldingStudy" devLabel="Create an Injection Molding Simulation Study" translation="Создайте исследование моделирования литья под давлением"/>
+	<label commandName="DAAnalyzingBody" devLabel="Analyzing Solid Body..." translation="Анализ твердого тела..."/>
+	<label commandName="DAAssignPlaticRule" devLabel="Assign Plastic Rule" translation="Назначить пластиковое правило"/>
+	<label commandName="DAContinue" devLabel="Continue" translation="Продолжить"/>
+	<label commandName="DAErrorTitle" devLabel="Cannot analyze body" translation="Не могу проанализировать тело"/>
+	<label commandName="DAFlipDirectionInputTooltip" devLabel="Flips the pull direction used to identify undercuts and insufficient draft." translation="Меняет направление вытягивания, используемое для выявления подрезов и недостаточного уклона."/>
+	<label commandName="DAFlipPullDirectionInput" devLabel="Flip Pull Direction" translation="Обратное направление наклона"/>
+	<label commandName="DAInjectionMolding" devLabel="Injection Molding" translation="Литье под давлением"/>
+	<label commandName="DAIsolateDTT" devLabel="Displays the selected alert and hides all other alerts in the canvas." translation="Отображает выбранное оповещение и скрывает все остальные оповещения на холсте."/>
+	<label commandName="DAMeshingError" devLabel="Cannot analyze %1% because the geometry cannot be used to compute the analysis." translation="Cannot analyze %1% because the geometry cannot be used to compute the analysis."/>
+	<label commandName="DAModellingErrors" devLabel="Cannot analyze %1% because it contains modeling errors that must be resolved before you can analyze it." translation="Cannot analyze %1% because it contains modeling errors that must be resolved before you can analyze it."/>
+	<label commandName="DANoPlasticRule" devLabel="The component that contains the solid body has no plastic rule assigned.&#xA;&#xA;Assign a plastic rule to %1%, or continue to Design Advice and use the default plastic rule to analyze %2% ? " translation="The component that contains the solid body has no plastic rule assigned.&#xA;&#xA;Assign a plastic rule to %1%, or continue to Design Advice and use the default plastic rule to analyze %2% ? "/>
+	<label commandName="DANoRuleAssigned" devLabel="No plastic rule assigned" translation="Пластиковое правило не назначено"/>
+	<label commandName="DAPlasticRuleRemoved" devLabel="The plastic rule has been removed from the component that contains the solid body.&#xA;&#xA;Assign a plastic rule to %1%, or continue to Design Advice and use the default plastic rule to analyze %2% ? " translation="The plastic rule has been removed from the component that contains the solid body.&#xA;&#xA;Assign a plastic rule to %1%, or continue to Design Advice and use the default plastic rule to analyze %2% ? "/>
+	<label commandName="DARuleRemoved" devLabel="Plastic rule removed" translation="Пластиковое правило удалено"/>
+	<label commandName="DAUnIsolateDTT" devLabel="Shows all alerts in the canvas." translation="Показывает все оповещения на холсте."/>
+	<label commandName="DAdvVoxelProblemSelectionName" devLabel="Voxel Problem" translation="Воксельная проблема"/>
+	<label commandName="DesignAdvice" devLabel="Design Advice" translation="Советы по дизайну"/>
+	<label commandName="DesignAdviceCmd" devLabel="Design Advice" translation="Советы по дизайну"/>
+	<label commandName="DraftAdvice1" devLabel="&lt;b&gt;Advice&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Adjust draft to meet the &lt;b&gt;Minimum Draft Angle&lt;/b&gt;." translation="&lt;"/>
+	<label commandName="DraftAdvice2" devLabel="Confirm pull direction." translation="Подтвердите направление тяги."/>
+	<label commandName="DraftAdvice3" devLabel="&lt;b&gt;Manage Plastic Rules&lt;/b&gt; to verify the &lt;b&gt;Minimum Draft Angle&lt;/b&gt; is defined correctly for the plastic material." translation="&lt;"/>
+	<label commandName="DraftAlert" devLabel="&lt;b&gt;Insufficient Draft&lt;/b&gt;: %1% %2% meet the &lt;b&gt;Minimum Draft Angle&lt;/b&gt;." translation="&lt;b&gt;Insufficient Draft&lt;/b&gt;: %1% %2% meet the &lt;b&gt;Minimum Draft Angle&lt;/b&gt;."/>
+	<label commandName="DraftAlertsInfo" devLabel="DraftAlerts" translation="Оповещения о черновиках"/>
+	<label commandName="DraftAnalysisLink" devLabel="Draft Analysis" translation="Анализ наклона стен"/>
+	<label commandName="DraftAnglesRecommendationInfo" devLabel="DraftAngleRecommendation" translation="ЧерновикУголРекомендация"/>
+	<label commandName="DraftDTTDesc" devLabel="Analyzes the solid body for faces that don't meet the &lt;b&gt;Minimum Draft Angle&lt;/b&gt; defined in the plastic rule assigned to its component." translation="Анализирует твердое тело на наличие граней, которые не соответствуют &lt;b&gt;Минимальному углу уклона&lt;/b&gt;, определенному в правиле пластики, назначенном этому компоненту."/>
+	<label commandName="DraftGroup" devLabel="Draft" translation="Фаска"/>
+	<label commandName="DraftLink" devLabel="Draft" translation="Фаска"/>
+	<label commandName="DraftProblemMessage" devLabel="&lt;b&gt;Insufficient Draft&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Faces with insufficient draft may block the ejection of the part from the injection mold.If the mold requires more ejection features, it may increase cost.Textured surfaces may also require more draft to eject the part without smearing the finish." translation="&lt;"/>
+	<label commandName="DraftRegion" devLabel="region doesn't" translation="регион не имеет"/>
+	<label commandName="DraftRegions" devLabel="regions don't" translation="регионы этого не делают"/>
+	<label commandName="DraftTab" devLabel="Draft" translation="Фаска"/>
+	<label commandName="DraftTabDTTDesc" devLabel="Displays the details of alerts for faces that don't meet the &lt;b&gt;Minimum Draft Angle&lt;/b&gt; defined in the plastic rule." translation="Отображает подробные сведения об оповещениях для граней, которые не соответствуют &lt;b&gt;Минимальному углу уклона&lt;/b&gt;, определенному в правиле пластика."/>
+	<label commandName="FusionBoss" devLabel="Boss" translation="Бобышка"/>
+	<label commandName="FusionDcBossEdit" devLabel="Edit Feature" translation="Редактировать элемент"/>
+	<label commandName="FusionDcLipEdit" devLabel="Edit Feature" translation="Редактировать элемент"/>
+	<label commandName="FusionDcRestEdit" devLabel="Edit Feature" translation="Редактировать элемент"/>
+	<label commandName="FusionDcSnapFitEdit" devLabel="Edit Feature" translation="Редактировать элемент"/>
+	<label commandName="FusionLip" devLabel="Lip" translation="Буртик"/>
+	<label commandName="FusionPlasticFeatureRemoveRule" devLabel="Remove Plastic Rule" translation="Удалить пластиковое правило"/>
+	<label commandName="FusionPlasticFeatureRules" devLabel="Manage Plastic Rules" translation="Управление правилами для пластмасс"/>
+	<label commandName="FusionPlasticFeatureSpecifyRule" devLabel="Assign Plastic Rule" translation="Назначить пластиковое правило"/>
+	<label commandName="FusionPlasticFeatureSwitchRule" devLabel="Assign Plastic Rule" translation="Назначить пластиковое правило"/>
+	<label commandName="FusionRest" devLabel="Rest" translation="Опора"/>
+	<label commandName="FusionSelectRestToObject" devLabel="Select body, face, or plane to extend to" translation="Выберите тело, грань или плоскость для расширения."/>
+	<label commandName="FusionSnapFit" devLabel="Snap Fit" translation="Snap Fit"/>
+	<label commandName="GradientDTTBase" devLabel="Full Range" translation="Полный диапазон"/>
+	<label commandName="GradientDTTDesc" devLabel="Displays the full range of thickness results as a gradient overlay on the solid body in the canvas.&#xA;&#xA;Red represents the thickest regions and dark blue represents the thinnest regions." translation="Отображает полный диапазон результатов толщины в виде градиентного наложения на твердое тело на холсте.
+
+Красный цвет представляет самые толстые области, а темно-синий — самые тонкие."/>
+	<label commandName="HoldCommandToModifySelection" devLabel="Hold Command to modify selection" translation="Удерживайте клавишу Command, чтобы изменить свой выбор."/>
+	<label commandName="HoldCtrlToModifySelection" devLabel="Hold Ctrl to modify selection" translation="Удерживайте клавишу Ctrl, чтобы изменить выделение."/>
+	<label commandName="IgnoreDTT" devLabel="Hides this alert so that it does not display in the canvas." translation="Скрывает это предупреждение, чтобы оно не отображалось на холсте."/>
+	<label commandName="InputTable" devLabel="" translation=""/>
+	<label commandName="InvisibleObjectWarningMsg" devLabel="The object that you are creating is not visible. Please toggle visibility in the browser." translation="Создаваемый объект не виден. Переключите видимость в браузере."/>
+	<label commandName="IsolateSingleAlertInfo" devLabel="Isolate Alert" translation="Изолировать оповещение"/>
+	<label commandName="KnifeEdgeAdvice1" devLabel="&lt;b&gt;Advice&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Increase space between part features to eliminate thin, sharp edges in the mold." translation="&lt;"/>
+	<label commandName="KnifeEdgeAdvice2" devLabel="Apply fillets or radii to remove thin, sharp features." translation="Примените скругления или радиусы, чтобы удалить тонкие и острые детали."/>
+	<label commandName="KnifeEdgeAdvice3" devLabel="Consult a mold designer." translation="Проконсультируйтесь с дизайнером пресс-форм."/>
+	<label commandName="KnifeEdgeAdvice4" devLabel="&lt;b&gt;Manage Plastic Rules&lt;/b&gt; to verify the &lt;b&gt;Knife Edge Threshold&lt;/b&gt; is defined correctly for the plastic material." translation="&lt;"/>
+	<label commandName="KnifeEdgeAlert" devLabel="&lt;b&gt;Knife Edges&lt;/b&gt;: %1% %2% thin gaps that fall below the &lt;b&gt;Knife Edge Threshold&lt;/b&gt;." translation="&lt;b&gt;Knife Edges&lt;/b&gt;: %1% %2% thin gaps that fall below the &lt;b&gt;Knife Edge Threshold&lt;/b&gt;."/>
+	<label commandName="KnifeEdgeDTTDesc" devLabel="Analyzes the solid body for thin gaps that fall below the &lt;b&gt;Knife Edge Threshold&lt;/b&gt; defined in the plastic rule assigned to its component." translation="Анализирует твердое тело на наличие тонких зазоров, которые находятся ниже &lt;b&gt;Порога ножевой кромки&lt;/b&gt;, определенного в правиле пластики, назначенном этому компоненту."/>
+	<label commandName="KnifeEdgeProblemMessage" devLabel="&lt;b&gt;Knife Edges&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Thin gaps in a part require a mold with thin, sharp features, sometimes called knife edges.These tend to break due to high injection pressure on the molten plastic and can cause the mold to fail prematurely." translation="&lt;"/>
+	<label commandName="KnifeEdgeRegion" devLabel="region contains" translation="регион содержит"/>
+	<label commandName="KnifeEdgeRegions" devLabel="regions contain" translation="регионы содержат"/>
+	<label commandName="KnifeEdgesAlertsInfo" devLabel="KnifeEdgesAlerts" translation="НожКрайОповещения"/>
+	<label commandName="KnifeEdgesGroup" devLabel="Knife Edges" translation="Лезвия ножа"/>
+	<label commandName="KnifeEdgesRecommendationInfo" devLabel="KnifeEdgesRecommendation" translation="НожКрайРекомендация"/>
+	<label commandName="KnifeEdgesTab" devLabel="Knife Edges" translation="Лезвия ножа"/>
+	<label commandName="KnifeEdgesTabDTTDesc" devLabel="Displays the details of alerts for thin gaps that fall below the &lt;b&gt;Knife Edge Threshold&lt;/b&gt; defined in the plastic rule." translation="Отображает подробные сведения об оповещениях о тонких зазорах, которые находятся ниже &lt;b&gt;Порога остроты&lt;/b&gt;, определенного в правиле пластика."/>
+	<label commandName="LargeVariationDTT" devLabel="Displays only the thickness alerts for regions that exceed the &lt;b&gt;Thickness Variation&lt;/b&gt; defined in the plastic rule." translation="Отображает только предупреждения о толщине для регионов, которые превышают &lt;b&gt;Отклонение толщины&lt;/b&gt;, определенное в правиле пластика."/>
+	<label commandName="LipCmdAdvancedImage" devLabel="AdvancedImage" translation="Расширенное изображение"/>
+	<label commandName="LipCmdAdvancedTab" devLabel="Advanced" translation="Передовой"/>
+	<label commandName="LipCmdAdvancedTable" devLabel="AdvancedTable" translation="Расширенная таблица"/>
+	<label commandName="LipCmdClearance" devLabel="Clearance" translation="Зазор"/>
+	<label commandName="LipCmdClearanceInput" devLabel="E" translation="Э"/>
+	<label commandName="LipCmdClearanceToolTip" devLabel="Specify the Clearance for the feature." translation="Укажите зазор для объекта."/>
+	<label commandName="LipCmdClearanceToolTip_groove" devLabel="Specify the clearance for the groove feature." translation="Укажите зазор для элемента канавки."/>
+	<label commandName="LipCmdClearanceToolTip_lipAndGroove" devLabel="Specify the clearance gap between the lip and groove. This dimension defines the offset values for the groove feature." translation="Укажите зазор между кромкой и канавкой. Этот размер определяет значения смещения для элемента канавки."/>
+	<label commandName="LipCmdDefaultSide1BodyName" devLabel="side 1 body" translation="сторона 1 корпус"/>
+	<label commandName="LipCmdDefaultSide2BodyName" devLabel="side 2 body" translation="сторона 2 кузова"/>
+	<label commandName="LipCmdExtent1" devLabel="Extent 1" translation="Экстент 1"/>
+	<label commandName="LipCmdExtent1ToolTip" devLabel="Select a point, vertex, face, or plane to extend to." translation="Выберите точку, вершину, грань или плоскость для расширения."/>
+	<label commandName="LipCmdExtent2" devLabel="Extent 2" translation="Степень 2"/>
+	<label commandName="LipCmdExtent2ToolTip" devLabel="Select a point, vertex, face, or plane to extend to." translation="Выберите точку, вершину, грань или плоскость для расширения."/>
+	<label commandName="LipCmdFeatureTab" devLabel="Feature" translation="Элемент"/>
+	<label commandName="LipCmdFlipToolTip_groove" devLabel="Flips the groove feature to " translation="Переворачивает функцию канавки на"/>
+	<label commandName="LipCmdFlipToolTip_lip" devLabel="Flips the lip feature to " translation="Переворачивает функцию губы на"/>
+	<label commandName="LipCmdFlipToolTip_lipandgroove" devLabel="Swaps the lip and groove features." translation="Меняет местами выступы и канавки."/>
+	<label commandName="LipCmdGuide" devLabel="Guide Surface" translation="Направляющая поверхность"/>
+	<label commandName="LipCmdGuideToolTip" devLabel="Select a face on either side of the selected edge to locate the lip feature." translation="Выберите грань по обе стороны от выбранного края, чтобы найти элемент кромки."/>
+	<label commandName="LipCmdHeight" devLabel="Height" translation="Высота"/>
+	<label commandName="LipCmdHeightInput" devLabel="A" translation="A"/>
+	<label commandName="LipCmdHeightToolTip" devLabel="Specify the Height of the Lip." translation="Укажите высоту губы."/>
+	<label commandName="LipCmdHeightToolTip_basegroove" devLabel="Groove Height" translation="Высота паза"/>
+	<label commandName="LipCmdHeightToolTip_baselip" devLabel="Lip Height" translation="Высота губ"/>
+	<label commandName="LipCmdHeightToolTip_baselipAndGroove" devLabel="Lip Height" translation="Высота губ"/>
+	<label commandName="LipCmdHeightToolTip_groove" devLabel="Specify the height of the groove feature." translation="Укажите высоту элемента канавки."/>
+	<label commandName="LipCmdHeightToolTip_lip" devLabel="Specify the height of the lip feature." translation="Укажите высоту выступа."/>
+	<label commandName="LipCmdHeightToolTip_lipAndGroove" devLabel="Specify the height of the Lip. Groove dimensions are calculated automatically." translation="Укажите высоту губы. Размеры паза рассчитываются автоматически."/>
+	<label commandName="LipCmdInsideAngle" devLabel="Side 1 Draft" translation="Сторона 1 Черновик"/>
+	<label commandName="LipCmdInsideAngleInput" devLabel="α1" translation="α1"/>
+	<label commandName="LipCmdInsideAngleToolTip" devLabel="Specify the draft angle for the face farther from the selected edge." translation="Укажите угол уклона для грани, расположенной дальше от выбранной кромки."/>
+	<label commandName="LipCmdLipTabPath" devLabel="Path" translation="Путь"/>
+	<label commandName="LipCmdLipTabPathTT" devLabel="Path" translation="Путь"/>
+	<label commandName="LipCmdLipTabPathToolTip" devLabel="Select an edge to place a lip feature on a solid body." translation="Выберите ребро, чтобы поместить выступ на твердое тело."/>
+	<label commandName="LipCmdOutsideAngle" devLabel="Side 2 Draft" translation="Сторона 2 Черновик"/>
+	<label commandName="LipCmdOutsideAngleInput" devLabel="α2" translation="α2"/>
+	<label commandName="LipCmdOutsideAngleToolTip" devLabel="Specify the draft angle for the face closer to the selected edge." translation="Укажите угол уклона для грани, расположенной ближе к выбранной кромке."/>
+	<label commandName="LipCmdPathToolTip_groove" devLabel="Select an edge to place a groove feature on a solid body." translation="Выберите ребро, чтобы разместить канавку на твердом теле."/>
+	<label commandName="LipCmdPathToolTip_lip" devLabel="Select an edge to place a lip feature on a solid body." translation="Выберите ребро, чтобы поместить выступ на твердое тело."/>
+	<label commandName="LipCmdPathToolTip_lipandgroove" devLabel="Select an edge to place a lip feature on a solid body. The groove feature will automatically be placed on the corresponding body." translation="Выберите ребро, чтобы поместить выступ на твердое тело. Элемент канавки будет автоматически помещен в соответствующее тело."/>
+	<label commandName="LipCmdPullDirection" devLabel="Pull Direction" translation="Направление наклона"/>
+	<label commandName="LipCmdPullDirectionToolTip" devLabel="Select a plane or face to define the pull direction." translation="Выберите плоскость или грань, чтобы определить направление наклона."/>
+	<label commandName="LipCmdRevealWidth" devLabel="Reveal Height" translation="Высота раскрытия"/>
+	<label commandName="LipCmdRevealWidthInput" devLabel="D" translation="Д"/>
+	<label commandName="LipCmdRevealWidthToolTip" devLabel="Specify the reveal height." translation="Укажите высоту раскрытия."/>
+	<label commandName="LipCmdShoulderWidth" devLabel="Shoulder Width" translation="Ширина плеч"/>
+	<label commandName="LipCmdShoulderWidthInput" devLabel="C" translation="C"/>
+	<label commandName="LipCmdShoulderWidthToolTip" devLabel="Specify the Shoulder Width for the Lip." translation="Укажите ширину плеч для губы."/>
+	<label commandName="LipCmdShoulderWidthToolTip_groove" devLabel="Specify the distance between the selected edge and the groove feature.&#xA; &#xA;This is set to 0 by default. If a plastic rule is applied and you would like to create a shoulder, this value should be equal to or higher than the rule thickness to prevent a knife edge." translation="Укажите расстояние между выбранной кромкой и канавкой.
+ 
+По умолчанию это значение равно 0. Если применяется пластиковая линейка и вы хотите создать уступ, это значение должно быть равно толщине линейки или превышать ее, чтобы предотвратить образование ножевого края."/>
+	<label commandName="LipCmdShoulderWidthToolTip_lip" devLabel="Specify the distance between the selected edge and the lip feature.&#xA; &#xA;This is set to 0 by default. If a plastic rule is applied and you would like to create a shoulder, this value should be equal to or higher than the rule thickness to prevent a knife edge." translation="Укажите расстояние между выбранным краем и выступом.
+ 
+По умолчанию это значение равно 0. Если применяется пластиковая линейка и вы хотите создать уступ, это значение должно быть равно толщине линейки или превышать ее, чтобы предотвратить образование ножевого края."/>
+	<label commandName="LipCmdShoulderWidthToolTip_lipAndGroove" devLabel="Specify the distance between the selected edge and the lip feature.&#xA; &#xA;This is set to 0 by default. If a plastic rule is applied and you would like to create a shoulder, this value should be equal to or higher than the rule thickness to prevent a knife edge." translation="Укажите расстояние между выбранным краем и выступом.
+ 
+По умолчанию это значение равно 0. Если применяется пластиковая линейка и вы хотите создать уступ, это значение должно быть равно толщине линейки или превышать ее, чтобы предотвратить образование ножевого края."/>
+	<label commandName="LipCmdTabBar" devLabel="Lip Tab Bar" translation="Панель вкладок для губ"/>
+	<label commandName="LipCmdTangentChain" devLabel="Tangent Chain" translation="Касательная цепь"/>
+	<label commandName="LipCmdTangentChainTip" devLabel="Automatically select tangent edges." translation="Автоматически выбирать касательные кромки."/>
+	<label commandName="LipCmdTransparencyOptions" devLabel="Visibility" translation="Видимость"/>
+	<label commandName="LipCmdTransparentSide1" devLabel="Side 1 Body Transparency" translation="Прозрачный корпус, сторона 1"/>
+	<label commandName="LipCmdTransparentSide1TT" devLabel="Side 1 Transparency" translation="Сторона 1 Прозрачность"/>
+	<label commandName="LipCmdTransparentSide1ToolTip" devLabel="Lowers the opacity of the side 1 body while you edit." translation="Уменьшает непрозрачность тела стороны 1 во время редактирования."/>
+	<label commandName="LipCmdTransparentSide2" devLabel="Side 2 Body Transparency" translation="Прозрачный корпус, сторона 2"/>
+	<label commandName="LipCmdTransparentSide2TT" devLabel="Side 2 Transparency" translation="Сторона 2 Прозрачность"/>
+	<label commandName="LipCmdTransparentSide2ToolTip" devLabel="Lowers the opacity of the side 2 body while you edit." translation="Уменьшает непрозрачность тела второй стороны во время редактирования."/>
+	<label commandName="LipCmdVisibilityToolTip_prefix" devLabel="Lowers the opacity of " translation="Уменьшает непрозрачность"/>
+	<label commandName="LipCmdVisibilityToolTip_suffix" devLabel=" while you edit." translation="пока вы редактируете."/>
+	<label commandName="LipCmdWidth" devLabel="Width" translation="Ширина"/>
+	<label commandName="LipCmdWidthInput" devLabel="B" translation="Б"/>
+	<label commandName="LipCmdWidthToolTip" devLabel="Specify the Width of the Lip." translation="Укажите ширину губы."/>
+	<label commandName="LipCmdWidthToolTip_basegroove" devLabel="Groove Width" translation="Ширина канавки"/>
+	<label commandName="LipCmdWidthToolTip_baselip" devLabel="Lip Width" translation="Ширина губ"/>
+	<label commandName="LipCmdWidthToolTip_baselipAndGroove" devLabel="Lip Width" translation="Ширина губ"/>
+	<label commandName="LipCmdWidthToolTip_groove" devLabel="Specify the width of the groove feature." translation="Укажите ширину канавки."/>
+	<label commandName="LipCmdWidthToolTip_lip" devLabel="Specify the width of the lip feature." translation="Укажите ширину выступа."/>
+	<label commandName="LipCmdWidthToolTip_lipAndGroove" devLabel="Specify the width of the Lip. Groove dimensions are calculated automatically." translation="Укажите ширину губы. Размеры паза рассчитываются автоматически."/>
+	<label commandName="LipCursorAdjustInputs1" devLabel="Adjust dimensions or modify edge, guide, or extent selections" translation="Отрегулируйте размеры или измените выбор кромок, направляющих или границ."/>
+	<label commandName="LipCursorAdjustInputs2" devLabel="Adjust Extent Result, dimensions, and settings or modify selections" translation="Отрегулируйте результат экстента, размеры и настройки или измените выбранные значения."/>
+	<label commandName="LipFlipDirectionInput" devLabel="Flip" translation="Повернуть"/>
+	<label commandName="LipFlipDirectionInputTooltip" devLabel="Flips lip feature to other body." translation="Переворачивает функцию губы на другое тело."/>
+	<label commandName="LipFlipSides" devLabel="Flip" translation="Повернуть"/>
+	<label commandName="LipGrooveShoulderExclude" devLabel="Exclude Groove Shoulder" translation="Исключить заплечик канавки"/>
+	<label commandName="LipGrooveShoulderExcludeToolTip" devLabel="Select to turn off Groove Shoulder." translation="Выберите, чтобы отключить &#171;Панель плеча&#187;."/>
+	<label commandName="LipGrooveShoulderInclude" devLabel="Include Groove Shoulder" translation="Включить заплечик с канавкой"/>
+	<label commandName="LipGrooveShoulderIncludeToolTip" devLabel="Select to build Groove Shoulder. Dimensions are automatically calculated based on the Shoulder Width." translation="Выберите, чтобы построить плечо с канавкой. Размеры рассчитываются автоматически на основе ширины плеч."/>
+	<label commandName="LipGrooveShoulderOption" devLabel="Groove Shoulder" translation="Плечо с канавкой"/>
+	<label commandName="LipGuideTypeFace" devLabel="Face Guide" translation="Руководство по лицу"/>
+	<label commandName="LipGuideTypeFaceToolTip" devLabel="Lets you select a face to place the lip feature." translation="Позволяет выбрать лицо для размещения элемента губы."/>
+	<label commandName="LipGuideTypeOption" devLabel="Guide Type" translation="Тип направляющей"/>
+	<label commandName="LipGuideTypePull" devLabel="Pull Direction" translation="Направление наклона"/>
+	<label commandName="LipGuideTypePullDirection" devLabel="Pull Direction" translation="Направление наклона"/>
+	<label commandName="LipGuideTypePullDirectionToolTip" devLabel="Lets you select a plane or face to define the pull direction." translation="Позволяет выбрать плоскость или грань для определения направления вытягивания."/>
+	<label commandName="LipPartialResultOption" devLabel="Extent Result" translation="Экстент Результат"/>
+	<label commandName="LipResultChoice1" devLabel="Option 1" translation="Вариант 1"/>
+	<label commandName="LipResultChoice1ToolTip" devLabel="Choose a result from the possible outcomes based on the extents that you select." translation="Выберите результат из возможных результатов на основе выбранных вами экстентов."/>
+	<label commandName="LipResultChoice2" devLabel="Option 2" translation="Вариант 2"/>
+	<label commandName="LipResultChoice2ToolTip" devLabel="Choose a result from the possible outcomes based on the extents that you select." translation="Выберите результат из возможных результатов на основе выбранных вами экстентов."/>
+	<label commandName="LipResultChoice3" devLabel="Option 3" translation="Вариант 3"/>
+	<label commandName="LipResultChoice3ToolTip" devLabel="Choose a result from the possible outcomes based on the extents that you select." translation="Выберите результат из возможных результатов на основе выбранных вами экстентов."/>
+	<label commandName="LipResultChoice4" devLabel="Option 4" translation="Вариант 4"/>
+	<label commandName="LipResultChoice4ToolTip" devLabel="Choose a result from the possible outcomes based on the extents that you select." translation="Выберите результат из возможных результатов на основе выбранных вами экстентов."/>
+	<label commandName="LipTypeOption" devLabel="Type" translation="Тип"/>
+	<label commandName="LipTypeOptionGrooveOnly" devLabel="Groove" translation="Канавка"/>
+	<label commandName="LipTypeOptionGrooveOnlyToolTip" devLabel="Creates a recessed groove feature on a solid body." translation="Создает углубленную канавку на твердом теле."/>
+	<label commandName="LipTypeOptionLipAndGroove" devLabel="Lip And Groove" translation="Губа и паз"/>
+	<label commandName="LipTypeOptionLipOnly" devLabel="Lip" translation="Буртик"/>
+	<label commandName="LipTypeOptionLipOnlyToolTip" devLabel="Creates a raised lip feature on a solid body." translation="Создает выступ на твердом теле."/>
+	<label commandName="LipTypeOptionLoopAndGrooveToolTip" devLabel="Creates a lip feature with a lip and groove on a pair of solid bodies." translation="Создает выступ с кромкой и канавкой на паре твердых тел."/>
+	<label commandName="MainTabBar" devLabel="MainTabBar" translation="ГлавнаяTabBar"/>
+	<label commandName="ManagePlasticRuleLink" devLabel="Manage Plastic Rules" translation="Управление правилами для пластмасс"/>
+	<label commandName="ManufactureMethod" devLabel="Manufacture" translation="Производство"/>
+	<label commandName="MinimumDraftInfo" devLabel="Minimum Draft Angle" translation="Минимальный угол уклона"/>
+	<label commandName="MissingLipGuideFace" devLabel="Missing Guide Face" translation="Нет направляющей поверхности"/>
+	<label commandName="MissingLipPath" devLabel="Missing Path" translation="Отсутствует путь"/>
+	<label commandName="MissingLipPullDirection" devLabel="missing pull direction" translation="нет направления экструзии"/>
+	<label commandName="MissingPlasticRuleAssignPlasticRule" devLabel="Assign Plastic Rule" translation="Назначить пластиковое правило"/>
+	<label commandName="MissingPlasticRuleCheckBox" devLabel="Do not show this again" translation="Больше не показывать"/>
+	<label commandName="MissingPlasticRuleContinue" devLabel="Continue" translation="Продолжить"/>
+	<label commandName="MissingPlasticRuleText" devLabel="The solid bodies you are modifying are contained in the following components with no plastic rules assigned:&lt;br/&gt;%1%&lt;br/&gt;&lt;br/&gt;Assign plastic rules, or continue creating a feature without assign plastic rules?" translation="The solid bodies you are modifying are contained in the following components with no plastic rules assigned:&lt;br/&gt;%1%&lt;br/&gt;&lt;br/&gt;Assign plastic rules, or continue creating a feature without assign plastic rules?"/>
+	<label commandName="MissingPlasticRuleTitle" devLabel="No plastic rule assigned" translation="Пластиковое правило не назначено"/>
+	<label commandName="MissingRestProfile" devLabel="missing profiles" translation="нет профилей"/>
+	<label commandName="MissingSnapFitRotationDirection" devLabel="Missing rotation direction" translation="Отсутствует направление вращения"/>
+	<label commandName="Modify Fastener" devLabel="Modify Fastener" translation="Изменить крепеж"/>
+	<label commandName="NoBodySelectedPrompt" devLabel="Select a solid body to analyze" translation="Выберите твердое тело для анализа"/>
+	<label commandName="NoPullDirectionSelectedPrompt" devLabel="Select a pull direction" translation="Выберите направление вытягивания"/>
+	<label commandName="PresetNotCompatibleWithEditedFeatureSettings" devLabel="The preset isn't compatible with edited feature settings." translation="Предустановка несовместима с отредактированными настройками функции."/>
+	<label commandName="PullDirection" devLabel="Pull Direction" translation="Направление наклона"/>
+	<label commandName="PullDirectionDTT" devLabel="Select a face, plane, linear edge, or axis to define the pull direction to use to identify undercuts and insufficient draft." translation="Выберите грань, плоскость, линейную кромку или ось, чтобы определить направление вытягивания, которое будет использоваться для выявления поднутрений и недостаточного уклона."/>
+	<label commandName="RecommendationsGroupInfo" devLabel="Recommendations" translation="Рекомендации"/>
+	<label commandName="Region" devLabel="region is" translation="регион"/>
+	<label commandName="RegionIcon" devLabel="" translation=""/>
+	<label commandName="RegionNumberString" devLabel="" translation=""/>
+	<label commandName="RegionValueString" devLabel="RegionValueString" translation="РегионЗначениеСтрока"/>
+	<label commandName="Regions" devLabel="regions are" translation="регионы"/>
+	<label commandName="RestAdvancedGroup" devLabel="Advanced" translation="Передовой"/>
+	<label commandName="RestBothDirectionInput" devLabel="Symmetric" translation="Симметрично"/>
+	<label commandName="RestBothDirectionTooltip" devLabel="Symmetric" translation="Симметрично"/>
+	<label commandName="RestBothDirectionTooltipDesc" devLabel="Centers the thickness on the sketch profile." translation="Центрирует толщину профиля эскиза."/>
+	<label commandName="RestCmdDraftAngleInput" devLabel="Draft Angle" translation="Угол уклона"/>
+	<label commandName="RestCmdDraftAngleInput2" devLabel="Draft Angle" translation="Угол уклона"/>
+	<label commandName="RestCmdDraftAngleTooltip" devLabel="Draft Angle" translation="Угол уклона"/>
+	<label commandName="RestCmdDraftAngleTooltip2" devLabel="Draft Angle" translation="Угол уклона"/>
+	<label commandName="RestCmdDraftAngleTooltipDesc" devLabel="Specify the draft angle for Side 1 of the rest feature." translation="Укажите угол уклона для стороны 1 остального элемента."/>
+	<label commandName="RestCmdDraftAngleTooltipDesc2" devLabel="Specify the draft angle for Side 2 of the rest feature." translation="Укажите угол уклона для стороны 2 остального элемента."/>
+	<label commandName="RestCmdLandingFaces" devLabel="Top Faces" translation="Лучшие лица"/>
+	<label commandName="RestCmdLandingFacesBodyToolTipDesc" devLabel="Select top faces of the solid body to specify areas where the rest feature will be created." translation="Выберите верхние грани твердого тела, чтобы указать области, в которых будет создан оставшийся элемент."/>
+	<label commandName="RestCmdLandingFacesToolTip" devLabel="Top Faces" translation="Лучшие лица"/>
+	<label commandName="RestCmdRestOffsetInput" devLabel="Offset Position" translation="Позиция смещения"/>
+	<label commandName="RestCmdRestOffsetTooltip" devLabel="Offset Position" translation="Позиция смещения"/>
+	<label commandName="RestCmdRestOffsetTooltipDesc" devLabel="Specify the distance to offset the position of the rest plane from the selected profile." translation="Укажите расстояние, на которое будет смещаться положение остальной плоскости относительно выбранного профиля."/>
+	<label commandName="RestCmdRestTabBody" devLabel="Body" translation="Тело"/>
+	<label commandName="RestCmdRestTabBodyToolTip" devLabel="Body" translation="Тело"/>
+	<label commandName="RestCmdRestTabBodyToolTipDesc" devLabel="Select a solid body for the rest feature." translation="Выберите твердое тело для остального элемента."/>
+	<label commandName="RestCmdRestTabSketch" devLabel="Profile" translation="Профиль"/>
+	<label commandName="RestCmdRestTabSketchToolTip" devLabel="Profiles" translation="Профили"/>
+	<label commandName="RestCmdRestTabSketchToolTipDesc" devLabel="Select closed sketch profiles to create a rest." translation="Выберите замкнутые профили эскиза, чтобы создать паузу."/>
+	<label commandName="RestCmdRestThicknessInput" devLabel="Thickness" translation="Толщина"/>
+	<label commandName="RestCmdRestThicknessTooltip" devLabel="Thickness" translation="Толщина"/>
+	<label commandName="RestCmdRestThicknessTooltipDesc" devLabel="Specify the thickness of the rest wall." translation="Укажите толщину остальной стенки."/>
+	<label commandName="RestCmdSide1Group" devLabel="Side 1" translation="Страница 1"/>
+	<label commandName="RestCmdSide2Group" devLabel="Side 2" translation="Сторона 2"/>
+	<label commandName="RestCmdTrimPlatform" devLabel="Trim" translation="Обрезать"/>
+	<label commandName="RestCmdTrimPlatformToolTipDesc" devLabel="Removes an unwanted rest area extending out of the solid body." translation="Удаляет нежелательную зону отдыха, выходящую за пределы твердого тела."/>
+	<label commandName="RestCmdTrimPlatformTooltip" devLabel="Trim" translation="Обрезать"/>
+	<label commandName="RestDirection" devLabel="Thickness Direction" translation="Направление толщины"/>
+	<label commandName="RestExtentType" devLabel="Extent Type" translation="Тип диапазона"/>
+	<label commandName="RestExtentTypeToObjectInput" devLabel="Object" translation="От объекта"/>
+	<label commandName="RestExtentTypeToObjectInput2" devLabel="Object" translation="От объекта"/>
+	<label commandName="RestExtentTypeToObjectTooltip2" devLabel="Object" translation="От объекта"/>
+	<label commandName="RestExtentTypeToObjectTooltipDesc2" devLabel="Select a body, a face, or a plane to extrude to." translation="Выберите тело, грань или плоскость для выдавливания."/>
+	<label commandName="RestFlipDirectionInput" devLabel="Flip" translation="Повернуть"/>
+	<label commandName="RestFlipDirectionInputTooltip" devLabel="Flip" translation="Повернуть"/>
+	<label commandName="RestFlipDirectionInputTooltipDesc" devLabel="Flips the rest feature over the selected sketch profile." translation="Переворачивает остальной элемент по выбранному профилю эскиза."/>
+	<label commandName="RestInsideDirectionInput" devLabel="Side 1" translation="Страница 1"/>
+	<label commandName="RestInsideDirectionTooltip" devLabel="Side 1" translation="Страница 1"/>
+	<label commandName="RestInsideDirectionTooltipDesc" devLabel="Offsets the thickness to one side of the sketch profile." translation="Смещает толщину к одной стороне профиля эскиза."/>
+	<label commandName="RestOutsideDirectionInput" devLabel="Side 2" translation="Сторона 2"/>
+	<label commandName="RestOutsideDirectionTooltip" devLabel="Side 2" translation="Сторона 2"/>
+	<label commandName="RestOutsideDirectionTooltipDesc" devLabel="Offsets the thickness to one side of the sketch profile." translation="Смещает толщину к одной стороне профиля эскиза."/>
+	<label commandName="RestSide1ToObjectSelectInfoDesc" devLabel="Select a body, a face, or a plane to extrude to." translation="Выберите тело, грань или плоскость для выдавливания."/>
+	<label commandName="RestThroughAllExtentTypeInput" devLabel="All" translation="Насквозь"/>
+	<label commandName="RestThroughAllExtentTypeInput2" devLabel="All" translation="Насквозь"/>
+	<label commandName="RestThroughAllExtentTypeTooltip" devLabel="All" translation="Насквозь"/>
+	<label commandName="RestThroughAllExtentTypeTooltip2" devLabel="All" translation="Насквозь"/>
+	<label commandName="RestThroughAllExtentTypeTooltipDesc" devLabel="Extrudes the rest through the selected body." translation="Выдавливает остальную часть через выбранное тело."/>
+	<label commandName="RestThroughAllExtentTypeTooltipDesc2" devLabel="Extrudes the rest through the selected body." translation="Выдавливает остальную часть через выбранное тело."/>
+	<label commandName="RestToObjectExtentTypeInput" devLabel="To Object" translation="До объекта"/>
+	<label commandName="RestToObjectExtentTypeInput2" devLabel="To Object" translation="До объекта"/>
+	<label commandName="RestToObjectExtentTypeTooltip" devLabel="To Object" translation="До объекта"/>
+	<label commandName="RestToObjectExtentTypeTooltip2" devLabel="To Object" translation="До объекта"/>
+	<label commandName="RestToObjectExtentTypeTooltipDesc" devLabel="Extrudes the rest from the sketch profile to a  body, a face, or a plane that you select." translation="Вытягивает остальную часть профиля эскиза в выбранное вами тело, грань или плоскость."/>
+	<label commandName="RestToObjectExtentTypeTooltipDesc2" devLabel="Extrudes the rest from the sketch profile to a  body, a face, or a plane that you select." translation="Вытягивает остальную часть профиля эскиза в выбранное вами тело, грань или плоскость."/>
+	<label commandName="RuleGroupInfo" devLabel="Rule Details" translation="Подробности правила"/>
+	<label commandName="RulesWidget" devLabel="Rules Widget" translation="Виджет правил"/>
+	<label commandName="SelectBodiesForSnapFit" devLabel="Select target body to place a snap fit" translation="Выберите целевое тело, чтобы выполнить защелкивание."/>
+	<label commandName="SelectExtentForLip" devLabel="Select a point, vertex, face, or plane to extend to" translation="Выберите точку, вершину, грань или плоскость для расширения."/>
+	<label commandName="SelectGuideFaceLip" devLabel="Select a face on either side of the selected edge to locate the lip feature" translation="Выберите грань по обе стороны от выбранного края, чтобы найти элемент кромки."/>
+	<label commandName="SelectLandingFacesForRest" devLabel="Select Landing faces for the rest feature" translation="Выберите посадочные грани для остального элемента."/>
+	<label commandName="SelectMorePathForLip" devLabel="Modify edge selection or adjust lip settings" translation="Измените выделение края или отрегулируйте настройки губ."/>
+	<label commandName="SelectMoreSketchPointsForBoss" devLabel="Select additional sketch points or adjust boss settings" translation="Выберите дополнительные точки эскиза или отрегулируйте настройки бобышки."/>
+	<label commandName="SelectMoreSketchPointsForSnapFit" devLabel="Select additional sketch points or adjust snap fit settings" translation="Выберите дополнительные точки эскиза или отрегулируйте параметры привязки."/>
+	<label commandName="SelectPathForLip" devLabel="Select an edge to place lip" translation="Выберите край для размещения губы"/>
+	<label commandName="SelectPullDirectionLip" devLabel="Select a plane or face to define the pull direction" translation="Выберите плоскость или грань, чтобы определить направление вытягивания."/>
+	<label commandName="SelectRotationDirectionForSnapFit" devLabel="Select a line, an edge, a vertex or point to define Custom alignment direction" translation="Выберите линию, край, вершину или точку, чтобы определить произвольное направление выравнивания."/>
+	<label commandName="SelectSketchForRest" devLabel="Select a closed sketch profile to place a rest feature" translation="Выберите замкнутый профиль эскиза, чтобы разместить опорный элемент."/>
+	<label commandName="SelectSketchForSnapFit" devLabel="Select sketch to place snap fit" translation="Выберите эскиз для установки привязки"/>
+	<label commandName="SelectSketchPointsForBoss" devLabel="Select sketch point to place a boss" translation="Выберите точку эскиза для размещения бобышки"/>
+	<label commandName="SelectSketchPointsForSnapFit" devLabel="Select sketch point to place a snap fit" translation="Выберите точку эскиза, чтобы выполнить привязку"/>
+	<label commandName="SelectTargetBodyForRest" devLabel="Select a solid body for the rest feature" translation="Выберите твердое тело для остального элемента."/>
+	<label commandName="SelectedCompName" devLabel="Component" translation="Компонент"/>
+	<label commandName="Separator" devLabel="" translation=""/>
+	<label commandName="SnapFitAlignmentFlipInput" devLabel="Flip" translation="Повернуть"/>
+	<label commandName="SnapFitAlignmentFlipInputToolTip" devLabel="Flips the alignment of snap fits 180 degrees relative to the selected alignment object." translation="Переворачивает выравнивание привязки на 180 градусов относительно выбранного объекта выравнивания."/>
+	<label commandName="SnapFitBottomExtentDistanceInput" devLabel="Depth" translation="Глубина"/>
+	<label commandName="SnapFitBottomExtentDistanceInputTooltip" devLabel="Specify the distance to extrude the bottom of the snap fit, in a direction parallel to the sketch plane, toward the nearest faces on a solid body." translation="Укажите расстояние, на которое необходимо выдавить нижнюю часть привязки в направлении, параллельном плоскости эскиза, к ближайшим граням твердого тела."/>
+	<label commandName="SnapFitBottomExtentOption" devLabel="Extent Type" translation="Тип диапазона"/>
+	<label commandName="SnapFitBottomExtentOptionDistance" devLabel="Distance" translation="Расстояние"/>
+	<label commandName="SnapFitBottomExtentOptionDistanceToolTip" devLabel="Extrudes the bottom of the snap fit from the sketch profile to a specified depth." translation="Вытягивает нижнюю часть привязки из профиля эскиза на заданную глубину."/>
+	<label commandName="SnapFitBottomExtentOptionToNext" devLabel="To Next" translation="До следующего"/>
+	<label commandName="SnapFitBottomExtentOptionToNextToolTip" devLabel="Extrudes the bottom of the snap fit from the sketch profile to the nearest faces on a solid body." translation="Вытягивает нижнюю часть привязки из профиля эскиза к ближайшим граням твердого тела."/>
+	<label commandName="SnapFitCmdGrooveGroup" devLabel="Groove" translation="Канавка"/>
+	<label commandName="SnapFitCmdHookGroup" devLabel="Hook" translation="Крюк"/>
+	<label commandName="SnapFitCmdHookImage" devLabel="HookImage" translation="Изображение Хука"/>
+	<label commandName="SnapFitCmdHookTable" devLabel="HookTable" translation="КрючокСтол"/>
+	<label commandName="SnapFitCmdLoopGroup" devLabel="Loop" translation="Петля"/>
+	<label commandName="SnapFitCmdLoopHookImage" devLabel="LoopHookImage" translation="LoopHookImage"/>
+	<label commandName="SnapFitCmdLoopHookTable" devLabel="LoopHookTable" translation="ПетляКрюкСтол"/>
+	<label commandName="SnapFitCmdLoopImage" devLabel="LoopImage" translation="LoopImage"/>
+	<label commandName="SnapFitCmdLoopTable" devLabel="LoopTable" translation="Таблица циклов"/>
+	<label commandName="SnapFitCmdParallelGrooveImage" devLabel="ParallelGrooveImage" translation="Изображение ParallelGroove"/>
+	<label commandName="SnapFitCmdParallelGrooveTable" devLabel="ParallelGrooveTable" translation="Таблица параллельных канавок"/>
+	<label commandName="SnapFitCmdPerpendicularGrooveImage" devLabel="PerpendicularGrooveImage" translation="ПерпендикулярнаяКанавкаИзображение"/>
+	<label commandName="SnapFitCmdPerpendicularGrooveTable" devLabel="PerpendicularGrooveTable" translation="ПерпендикулярнаяКанавкаСтол"/>
+	<label commandName="SnapFitCmdPreviewOpts" devLabel="Visibility" translation="Видимость"/>
+	<label commandName="SnapFitCmdPreviewSection" devLabel="Section Analysis" translation="Анализ сечения"/>
+	<label commandName="SnapFitCmdPreviewSectionToolTip" devLabel="Cuts a section through the center of the snap fit feature while you edit." translation="Вырезает сечение по центру элемента привязки во время редактирования."/>
+	<label commandName="SnapFitCmdSelectOption" devLabel="Selection Mode" translation="Режим выбора"/>
+	<label commandName="SnapFitCmdSelectPoints" devLabel="Manual" translation="Ручной"/>
+	<label commandName="SnapFitCmdSelectPointsToolTip" devLabel="Lets you manually select each sketch point to create snap fits." translation="Позволяет вручную выбирать каждую точку эскиза для создания привязки."/>
+	<label commandName="SnapFitCmdSelectSketch" devLabel="Automatic" translation="Автоматически"/>
+	<label commandName="SnapFitCmdSelectSketchToolTip" devLabel="Automatically selects all visible sketch points to create snap fits." translation="Автоматически выбирает все видимые точки эскиза для создания привязки."/>
+	<label commandName="SnapFitCmdTransparentSide1" devLabel="Side 1 Transparency" translation="Сторона 1 Прозрачность"/>
+	<label commandName="SnapFitCmdTransparentSide1ToolTip" devLabel="Reduces the opacity of the Side 1 body while you edit the snap fit feature." translation="Уменьшает непрозрачность тела стороны 1 при редактировании функции привязки."/>
+	<label commandName="SnapFitCmdTransparentSide2" devLabel="Side 2 Transparency" translation="Сторона 2 Прозрачность"/>
+	<label commandName="SnapFitCmdTransparentSide2ToolTip" devLabel="Reduces the opacity of the Side 2 body while you edit the snap fit feature." translation="Уменьшает непрозрачность тела стороны 2 при редактировании функции привязки."/>
+	<label commandName="SnapFitCmdUndercutGroup" devLabel="Hook Undercut" translation="Подрез крючком"/>
+	<label commandName="SnapFitCmdUndercutImage" devLabel="UndercutImage" translation="Подрезка изображения"/>
+	<label commandName="SnapFitCmdUndercutTable" devLabel="UndercutTable" translation="Стол подрезки"/>
+	<label commandName="SnapFitDummy" devLabel="Dummy" translation="манекен"/>
+	<label commandName="SnapFitFlipDirectionInput" devLabel="Flip" translation="Повернуть"/>
+	<label commandName="SnapFitHookBeamLength" devLabel="B" translation="Б"/>
+	<label commandName="SnapFitHookBeamLengthToolTipL0" devLabel="Beam Length" translation="Длина луча"/>
+	<label commandName="SnapFitHookBeamLengthToolTipL1" devLabel="Specify the length of the beam between the base and the tip of the hook." translation="Укажите длину балки между основанием и кончиком крючка."/>
+	<label commandName="SnapFitHookBeamThicknessAtRetention" devLabel="C" translation="C"/>
+	<label commandName="SnapFitHookBeamThicknessAtRetentionToolTipL0" devLabel="Transition Depth" translation="Глубина перехода"/>
+	<label commandName="SnapFitHookBeamThicknessAtRetentionToolTipL1" devLabel="Specify the depth of the hook at the transition between the beam and the tip of the hook." translation="Укажите глубину крюка в месте перехода между балкой и кончиком крюка."/>
+	<label commandName="SnapFitHookBeamThicknessAtWall" devLabel="A" translation="A"/>
+	<label commandName="SnapFitHookBeamThicknessAtWallToolTipL0" devLabel="Base Depth" translation="Базовая глубина"/>
+	<label commandName="SnapFitHookBeamThicknessAtWallToolTipL1" devLabel="Specify the depth of the beam at the base of the hook." translation="Укажите глубину бруса у основания крюка."/>
+	<label commandName="SnapFitHookBeamWidthAtRetention" devLabel="E" translation="Э"/>
+	<label commandName="SnapFitHookBeamWidthAtRetentionToolTipL0" devLabel="Transition Width" translation="Ширина перехода"/>
+	<label commandName="SnapFitHookBeamWidthAtRetentionToolTipL1" devLabel="Specify width of the hook at the transition between the beam and the tip of the hook." translation="Укажите ширину крюка в месте перехода между балкой и кончиком крюка."/>
+	<label commandName="SnapFitHookBeamWidthAtWall" devLabel="D" translation="Д"/>
+	<label commandName="SnapFitHookBeamWidthAtWallToolTipL0" devLabel="Base Width" translation="Базовая ширина"/>
+	<label commandName="SnapFitHookBeamWidthAtWallToolTipL1" devLabel="Specify the width of the beam at the base of the hook." translation="Укажите ширину балки у основания крюка."/>
+	<label commandName="SnapFitHookBody" devLabel="Body" translation="Тело"/>
+	<label commandName="SnapFitHookBodyToolTip" devLabel="Select a body for the hook side of the snap fit feature." translation="Выберите тело для стороны крючка элемента защелкивания."/>
+	<label commandName="SnapFitHookInsertionAngle" devLabel="α2" translation="α2"/>
+	<label commandName="SnapFitHookInsertionAngleToolTipL0" devLabel="Entry Angle" translation="Угол входа"/>
+	<label commandName="SnapFitHookInsertionAngleToolTipL1" devLabel="Specify the angle of the tip of the hook where it enters the groove." translation="Укажите угол кончика крючка, в котором он входит в паз."/>
+	<label commandName="SnapFitHookRetentionAngle" devLabel="α1" translation="α1"/>
+	<label commandName="SnapFitHookRetentionAngleToolTipL0" devLabel="Exit Angle" translation="Угол выхода"/>
+	<label commandName="SnapFitHookRetentionAngleToolTipL1" devLabel="Specify the angle of the tip of the hook where it exits the groove." translation="Укажите угол кончика крючка, где он выходит из паза."/>
+	<label commandName="SnapFitHookRetentionHookTip" devLabel="G" translation="Г"/>
+	<label commandName="SnapFitHookRetentionHookTipToolTipL0" devLabel="Tip Length" translation="Длина наконечника"/>
+	<label commandName="SnapFitHookRetentionHookTipToolTipL1" devLabel="Specify the length of the tip of the hook where it meets the entry angle." translation="Укажите длину кончика крючка, где он соответствует углу входа."/>
+	<label commandName="SnapFitHookRetentionLength" devLabel="H" translation="Ч"/>
+	<label commandName="SnapFitHookRetentionLengthToolTipL0" devLabel="Hook Length" translation="Длина крючка"/>
+	<label commandName="SnapFitHookRetentionLengthToolTipL1" devLabel="Specify overall length of the tip of the hook." translation="Укажите общую длину кончика крючка."/>
+	<label commandName="SnapFitHookRetentionUndercut" devLabel="F" translation="Ф"/>
+	<label commandName="SnapFitHookRetentionUndercutToolTipL0" devLabel="Hook Depth" translation="Глубина крюка"/>
+	<label commandName="SnapFitHookRetentionUndercutToolTipL1" devLabel="Specify the depth of the tip of the hook." translation="Укажите глубину кончика крючка."/>
+	<label commandName="SnapFitHorizontalDirectionInput" devLabel="Alignment Object" translation="Объект выравнивания"/>
+	<label commandName="SnapFitHorizontalDirectionInputToolTip" devLabel="Select a plane, line, or point to align snap fits." translation="Выберите плоскость, линию или точку для выравнивания привязки."/>
+	<label commandName="SnapFitIndependentRotationInput" devLabel="Rotation Angle" translation="Угол поворота"/>
+	<label commandName="SnapFitIndependentRotationInputTooltipL1" devLabel="Specify the rotation angle value to orient the snap fit around an axis perpendicular to the sketch point." translation="Укажите значение угла поворота, чтобы ориентировать привязку вокруг оси, перпендикулярной точке эскиза."/>
+	<label commandName="SnapFitIndependentRotationToolTipL0" devLabel="Independent Rotation Angle" translation="Независимый угол вращения"/>
+	<label commandName="SnapFitLoopBody" devLabel="Body" translation="Тело"/>
+	<label commandName="SnapFitLoopBodyToolTip" devLabel="Select a body for the loop side of the snap fit feature." translation="Выберите тело для стороны петли элемента защелкивания."/>
+	<label commandName="SnapFitLoopCatchLength" devLabel="E" translation="Э"/>
+	<label commandName="SnapFitLoopCatchLengthToolTipL0" devLabel="Loop Length" translation="Длина петли"/>
+	<label commandName="SnapFitLoopCatchLengthToolTipL1" devLabel="Specify the length of the opening of the loop." translation="Укажите длину открытия петли."/>
+	<label commandName="SnapFitLoopCatchWidthAtSide" devLabel="G" translation="Г"/>
+	<label commandName="SnapFitLoopCatchWidthAtSideToolTipL0" devLabel="Side Width" translation="Боковая ширина"/>
+	<label commandName="SnapFitLoopCatchWidthAtSideToolTipL1" devLabel="Specify the width of the edges on the sides of the loop." translation="Укажите ширину ребер по бокам петли."/>
+	<label commandName="SnapFitLoopCatchWidthAtTop" devLabel="F" translation="Ф"/>
+	<label commandName="SnapFitLoopCatchWidthAtTopToolTipL0" devLabel="Tip Length" translation="Длина наконечника"/>
+	<label commandName="SnapFitLoopCatchWidthAtTopToolTipL1" devLabel="Specify the length of the edge at the tip of the loop." translation="Укажите длину ребра на кончике петли."/>
+	<label commandName="SnapFitLoopClipLength" devLabel="B" translation="Б"/>
+	<label commandName="SnapFitLoopClipLengthToolTipL0" devLabel="Beam Length" translation="Длина луча"/>
+	<label commandName="SnapFitLoopClipLengthToolTipL1" devLabel="Specify the overall length of the beam for the loop." translation="Укажите общую длину балки для петли."/>
+	<label commandName="SnapFitLoopClipThicknessAtTop" devLabel="C" translation="C"/>
+	<label commandName="SnapFitLoopClipThicknessAtTopToolTipL0" devLabel="Loop Depth" translation="Глубина петли"/>
+	<label commandName="SnapFitLoopClipThicknessAtTopToolTipL1" devLabel="Specify the depth of the tip of the loop" translation="Укажите глубину кончика петли"/>
+	<label commandName="SnapFitLoopClipThicknessAtWall" devLabel="A" translation="A"/>
+	<label commandName="SnapFitLoopClipThicknessAtWallToolTipL0" devLabel="Base Depth" translation="Базовая глубина"/>
+	<label commandName="SnapFitLoopClipThicknessAtWallToolTipL1" devLabel="Specify the depth at the base of the loop." translation="Укажите глубину у основания петли."/>
+	<label commandName="SnapFitLoopClipWidth" devLabel="D" translation="Д"/>
+	<label commandName="SnapFitLoopClipWidthToolTipL0" devLabel="Base Width" translation="Базовая ширина"/>
+	<label commandName="SnapFitLoopClipWidthToolTipL1" devLabel="Specify the width at the base of the loop." translation="Укажите ширину у основания петли."/>
+	<label commandName="SnapFitLoopHookBody" devLabel="Body" translation="Тело"/>
+	<label commandName="SnapFitLoopHookBodyToolTip" devLabel="Select a body for the hook side of the snap fit feature." translation="Выберите тело для стороны крючка элемента защелкивания."/>
+	<label commandName="SnapFitLoopHookRetentionAngle" devLabel="α1" translation="α1"/>
+	<label commandName="SnapFitLoopHookRetentionAngleToolTipL0" devLabel="Entry Angle" translation="Угол входа"/>
+	<label commandName="SnapFitLoopHookRetentionAngleToolTipL1" devLabel="Specify the angle of the hook where it enters the loop." translation="Укажите угол входа крючка в петлю."/>
+	<label commandName="SnapFitLoopHookRetentionClearance" devLabel="L" translation="л"/>
+	<label commandName="SnapFitLoopHookRetentionClearanceToolTipL0" devLabel="Hook Clearance" translation="Зазор крюка"/>
+	<label commandName="SnapFitLoopHookRetentionClearanceToolTipL1" devLabel="Specify the clearance to maintain between the the hook and the edge of the loop." translation="Укажите зазор, который необходимо поддерживать между крючком и краем петли."/>
+	<label commandName="SnapFitLoopHookRetentionDepth" devLabel="J" translation="Д"/>
+	<label commandName="SnapFitLoopHookRetentionDepthToolTipL0" devLabel="Hook Depth" translation="Глубина крюка"/>
+	<label commandName="SnapFitLoopHookRetentionDepthToolTipL1" devLabel="Specify the depth of the hook, measured from the edge where it enters the loop." translation="Укажите глубину крючка, измеренную от края, где он входит в петлю."/>
+	<label commandName="SnapFitLoopHookRetentionRibThickness" devLabel="M" translation="м"/>
+	<label commandName="SnapFitLoopHookRetentionRibThicknessToolTipL0" devLabel="Rib Width" translation="Ширина ребра"/>
+	<label commandName="SnapFitLoopHookRetentionRibThicknessToolTipL1" devLabel="Specify the width of the ribs for the hook." translation="Укажите ширину ребер для крючка."/>
+	<label commandName="SnapFitLoopHookRetentionTip" devLabel="K" translation="K"/>
+	<label commandName="SnapFitLoopHookRetentionTipToolTipL0" devLabel="Hook Tip Length" translation="Длина кончика крючка"/>
+	<label commandName="SnapFitLoopHookRetentionTipToolTipL1" devLabel="Specify length of the tip of the hook." translation="Укажите длину кончика крючка."/>
+	<label commandName="SnapFitLoopHookRibsInput" devLabel="Ribs" translation="Ребрышки"/>
+	<label commandName="SnapFitLoopHookRibsInputToolTip" devLabel="Adds ribs to the hook side of the snap fit." translation="Добавляет ребра на стороне крючка застежки."/>
+	<label commandName="SnapFitParallelGrooveBackClearance" devLabel="K" translation="K"/>
+	<label commandName="SnapFitParallelGrooveBackClearanceToolTipL0" devLabel="Deflection Clearance" translation="Зазор отклонения"/>
+	<label commandName="SnapFitParallelGrooveBackClearanceToolTipL1" devLabel="Specify the clearance to maintain when the hook deflects as it snaps into the groove." translation="Укажите зазор, который должен сохраняться при отклонении крюка при защелкивании в канавке."/>
+	<label commandName="SnapFitParallelGrooveBody" devLabel="Body" translation="Тело"/>
+	<label commandName="SnapFitParallelGrooveBodyToolTip" devLabel="Select a body for the groove side of the snap fit feature." translation="Выберите тело для стороны канавки элемента защелкивания."/>
+	<label commandName="SnapFitParallelGrooveCornerRadius" devLabel="R" translation="Р"/>
+	<label commandName="SnapFitParallelGrooveCornerRadiusToolTipL0" devLabel="Corner Radius" translation="Радиус угла"/>
+	<label commandName="SnapFitParallelGrooveCornerRadiusToolTipL1" devLabel="Specify the radius at the corners of the groove." translation="Укажите радиус в углах канавки."/>
+	<label commandName="SnapFitParallelGrooveDepth" devLabel="J" translation="Д"/>
+	<label commandName="SnapFitParallelGrooveDepthToolTipL0" devLabel="Groove Depth" translation="Глубина канавки"/>
+	<label commandName="SnapFitParallelGrooveDepthToolTipL1" devLabel="Specify the depth of the groove to receive the hook, measured from the nearest face on the tip of the hook." translation="Укажите глубину канавки для установки крючка, измеренную от ближайшей стороны кончика крючка."/>
+	<label commandName="SnapFitParallelGrooveLengthClearance" devLabel="M" translation="м"/>
+	<label commandName="SnapFitParallelGrooveLengthClearanceToolTipL0" devLabel="Length Clearance" translation="Длина зазора"/>
+	<label commandName="SnapFitParallelGrooveLengthClearanceToolTipL1" devLabel="Specify the clearance to maintain between the tip of the hook and the edge of the groove." translation="Укажите зазор, который необходимо поддерживать между кончиком крючка и краем канавки."/>
+	<label commandName="SnapFitParallelGrooveWidth" devLabel="L" translation="л"/>
+	<label commandName="SnapFitParallelGrooveWidthToolTipL0" devLabel="Groove Width" translation="Ширина канавки"/>
+	<label commandName="SnapFitParallelGrooveWidthToolTipL1" devLabel="Specify the width of the groove to receive the hook." translation="Укажите ширину паза для приема крючка."/>
+	<label commandName="SnapFitPerpendicularGrooveBody" devLabel="Body" translation="Тело"/>
+	<label commandName="SnapFitPerpendicularGrooveBodyToolTip" devLabel="Select a body for the groove side of the snap fit feature." translation="Выберите тело для стороны канавки элемента защелкивания."/>
+	<label commandName="SnapFitPerpendicularGrooveHookClearance" devLabel="J" translation="Д"/>
+	<label commandName="SnapFitPerpendicularGrooveHookClearanceToolTipL0" devLabel="Beam Clearance" translation="Зазор луча"/>
+	<label commandName="SnapFitPerpendicularGrooveHookClearanceToolTipL1" devLabel="Specify the clearance to maintain between the beam of the hook and the edge of the groove." translation="Укажите зазор, который необходимо поддерживать между балкой крюка и краем канавки."/>
+	<label commandName="SnapFitPerpendicularGrooveLength" devLabel="M" translation="м"/>
+	<label commandName="SnapFitPerpendicularGrooveLengthToolTipL0" devLabel="Groove Length" translation="Длина канавки"/>
+	<label commandName="SnapFitPerpendicularGrooveLengthToolTipL1" devLabel="Specify the length of the groove to receive the hook." translation="Укажите длину паза для приема крючка."/>
+	<label commandName="SnapFitPerpendicularGrooveRadius" devLabel="R" translation="Р"/>
+	<label commandName="SnapFitPerpendicularGrooveRadiusToolTipL0" devLabel="Corner Radius" translation="Радиус угла"/>
+	<label commandName="SnapFitPerpendicularGrooveRadiusToolTipL1" devLabel="Specify the radius at the corners of the groove." translation="Укажите радиус в углах канавки."/>
+	<label commandName="SnapFitPerpendicularGrooveRampAngle" devLabel="α3" translation="α3"/>
+	<label commandName="SnapFitPerpendicularGrooveRampAngleToolTipL0" devLabel="Ramp Angle" translation="Угол рампы"/>
+	<label commandName="SnapFitPerpendicularGrooveRampAngleToolTipL1" devLabel="Specify the angle of the ramp where the hook enters the groove." translation="Укажите угол наклона, при котором крюк входит в паз."/>
+	<label commandName="SnapFitPerpendicularGrooveRampSize" devLabel="K" translation="K"/>
+	<label commandName="SnapFitPerpendicularGrooveRampSizeToolTipL0" devLabel="Ramp Depth" translation="Глубина рампы"/>
+	<label commandName="SnapFitPerpendicularGrooveRampSizeToolTipL1" devLabel="Specify the depth of the ramp, measured from the outer edge of the groove." translation="Укажите глубину ската, измеренную от внешнего края канавки."/>
+	<label commandName="SnapFitPerpendicularGrooveWidth" devLabel="L" translation="л"/>
+	<label commandName="SnapFitPerpendicularGrooveWidthToolTipL0" devLabel="Groove Width" translation="Ширина канавки"/>
+	<label commandName="SnapFitPerpendicularGrooveWidthToolTipL1" devLabel="Specify the width of the groove to receive the hook." translation="Укажите ширину паза для приема крючка."/>
+	<label commandName="SnapFitRadiusHookRoot" devLabel="Radius Hook Root" translation="Радиусный корень крюка"/>
+	<label commandName="SnapFitRadiusHookRootToolTip" devLabel="Specify the radius for the hook root." translation="Укажите радиус корня крюка."/>
+	<label commandName="SnapFitRootBlendRadiusInput" devLabel="Base Fillet Radius" translation="Базовый радиус скругления"/>
+	<label commandName="SnapFitRootBlendRadiusInputTooltip" devLabel="Specify the radius value of the fillet at the base of the hook." translation="Укажите значение радиуса скругления у основания крюка."/>
+	<label commandName="SnapFitRotationInput" devLabel="Rotation Angle" translation="Угол поворота"/>
+	<label commandName="SnapFitRotationInputTooltip" devLabel="Specify the rotation angle value to orient the snap fit around an axis perpendicular to the sketch point." translation="Укажите значение угла поворота, чтобы ориентировать привязку вокруг оси, перпендикулярной точке эскиза."/>
+	<label commandName="SnapFitRotationOption" devLabel="Rotation Type" translation="Тип вращения"/>
+	<label commandName="SnapFitRotationOptionDirection" devLabel="Aligned" translation="Выровненный"/>
+	<label commandName="SnapFitRotationOptionDirectionToolTip" devLabel="Aligns all snap fits to planar, linear, or point geometry that you select." translation="Выравнивает все привязки по выбранной вами плоской, линейной или точечной геометрии."/>
+	<label commandName="SnapFitRotationOptionIndependent" devLabel="Independent" translation="Независимый"/>
+	<label commandName="SnapFitRotationOptionIndependentToolTip" devLabel="Rotates each snap fit independently around its own sketch point." translation="Поворачивает каждую привязку независимо вокруг своей точки эскиза."/>
+	<label commandName="SnapFitRotationOptionUnified" devLabel="Uniform" translation="Однородный"/>
+	<label commandName="SnapFitRotationOptionUnifiedToolTip" devLabel="Rotates all snap fits to the same angle around their sketch points." translation="Поворачивает все привязки на один и тот же угол вокруг точек эскиза."/>
+	<label commandName="SnapFitSketchPointInput" devLabel="Sketch Points" translation="Точки эскиза"/>
+	<label commandName="SnapFitSketchPointInputToolTip" devLabel="Select a sketch point to position the snap fit feature on a body." translation="Выберите точку эскиза, чтобы разместить элемент привязки на теле."/>
+	<label commandName="SnapFitTypeOption" devLabel="Type" translation="Тип"/>
+	<label commandName="SnapFitTypeOptionLoop" devLabel="Hook And Loop" translation="Крючок и петля"/>
+	<label commandName="SnapFitTypeOptionLoopToolTip" devLabel="Creates a snap fit feature with a hook and loop on a pair of solid bodies." translation="Создает элемент привязки с помощью зацепа и петли на паре твердых тел."/>
+	<label commandName="SnapFitTypeOptionParallelHook" devLabel="Parallel Hook And Groove" translation="Параллельный крюк и паз"/>
+	<label commandName="SnapFitTypeOptionParallelHookToolTip" devLabel="Creates a snap fit feature with a hook and groove, parallel to a face on a pair of solid bodies." translation="Создает элемент защелкивания с зацепом и канавкой, параллельный грани на паре твердых тел."/>
+	<label commandName="SnapFitTypeOptionPerpendicularHook" devLabel="Perpendicular Hook And Groove" translation="Перпендикулярный крюк и паз"/>
+	<label commandName="SnapFitTypeOptionPerpendicularHookToolTip" devLabel="Creates a snap fit feature with a hook and groove, perpendicular to a face on a pair of solid bodies." translation="Создает элемент защелкивания с зацепом и канавкой, перпендикулярно грани на паре твердых тел."/>
+	<label commandName="SnapFitUndercutCornerRadius" devLabel="RU" translation="RU"/>
+	<label commandName="SnapFitUndercutCornerRadiusToolTipL0" devLabel="Corner Radius" translation="Радиус угла"/>
+	<label commandName="SnapFitUndercutCornerRadiusToolTipL1" devLabel="Specify the radius at the corners of the undercut." translation="Укажите радиус в углах поднутрения."/>
+	<label commandName="SnapFitUndercutLength" devLabel="V" translation="В"/>
+	<label commandName="SnapFitUndercutLengthToolTipL0" devLabel="Undercut Length" translation="Длина подрезки"/>
+	<label commandName="SnapFitUndercutLengthToolTipL1" devLabel="Specify the length of the groove to receive the undercut." translation="Укажите длину канавки для получения подреза."/>
+	<label commandName="SnapFitUndercutWidth" devLabel="U" translation="В"/>
+	<label commandName="SnapFitUndercutWidthToolTipL0" devLabel="Undercut Width" translation="Ширина подрезки"/>
+	<label commandName="SnapFitUndercutWidthToolTipL1" devLabel="Specify the width of the groove to receive the undercut." translation="Укажите ширину канавки для получения подреза."/>
+	<label commandName="SolidSelection" devLabel="Solid Body" translation="Твердотельное тело"/>
+	<label commandName="SpecifyRule" devLabel="Plastic Rule" translation="Правило для пластика"/>
+	<label commandName="SpecifyRuleSelectComponentTooltip" devLabel="Select a component to assign a plastic rule." translation="Выберите компонент, которому нужно назначить правило пластики."/>
+	<label commandName="SpeficyRuleSelectComponentCursor1" devLabel="Select a component in the browser or canvas" translation="Выберите компонент в браузере или на холсте"/>
+	<label commandName="SpeficyRuleSelectComponentCursor2" devLabel="Select a plastic rule" translation="Выберите пластиковое правило"/>
+	<label commandName="StatusError" devLabel="" translation=""/>
+	<label commandName="StatusIgnore" devLabel="" translation=""/>
+	<label commandName="SummaryTab" devLabel="Summary" translation="Краткое содержание"/>
+	<label commandName="SummaryTabDTTDesc" devLabel="Displays an overview of all the alerts found during the analysis of the solid body." translation="Отображает обзор всех предупреждений, обнаруженных во время анализа твердого тела."/>
+	<label commandName="SwitchRule" devLabel="Plastic Rule" translation="Правило для пластика"/>
+	<label commandName="ThicknessAdvice1" devLabel="&lt;b&gt;Advice&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Try to maintain uniform thickness." translation="&lt;"/>
+	<label commandName="ThicknessAdvice2" devLabel="Increase or decrease thickness in regions of high variation. In general, thickness variation should be kept under 25%." translation="Увеличьте или уменьшите толщину в областях с большим разнообразием. В общем, отклонение толщины должно поддерживаться на уровне менее 25%."/>
+	<label commandName="ThicknessAdvice3" devLabel="Adjust draft angle. In general, ribs should be 50% of thickness." translation="Отрегулируйте угол наклона. Обычно ребра должны составлять 50% толщины."/>
+	<label commandName="ThicknessAdvice4" devLabel="&lt;b&gt;Manage Plastic Rules&lt;/b&gt; to verify the &lt;b&gt;Thickness Variation&lt;/b&gt; is defined correctly for the plastic material." translation="&lt;"/>
+	<label commandName="ThicknessAdvice5" devLabel="Set up an &lt;b&gt;Injection Molding&lt;/b&gt; simulation study to get accurate information based on process settings, material selection, and injection location." translation="Настройте исследование моделирования &lt;b&gt;Литье под давлением&lt;/b&gt;, чтобы получить точную информацию на основе настроек процесса, выбора материала и места впрыска."/>
+	<label commandName="ThicknessAlertLargeWallWariation" devLabel="&lt;b&gt;Large Thickness Variation:&lt;/b&gt; %1% %2% the maximum percentage &lt;b&gt;Thickness Variation&lt;/b&gt;." translation="&lt;b&gt;Large Thickness Variation:&lt;/b&gt; %1% %2% the maximum percentage &lt;b&gt;Thickness Variation&lt;/b&gt;."/>
+	<label commandName="ThicknessAlertTooThick" devLabel="%1%&lt;b&gt;Too Thick:&lt;/b&gt; %2% %3% thicker than the upper limit of the &lt;b&gt;Thickness Range&lt;/b&gt;." translation="%1%&lt;b&gt;Too Thick:&lt;/b&gt; %2% %3% thicker than the upper limit of the &lt;b&gt;Thickness Range&lt;/b&gt;."/>
+	<label commandName="ThicknessAlertTooThin" devLabel="%1%&lt;b&gt;Too Thin:&lt;/b&gt; %2% %3% thinner than the lower limit of the &lt;b&gt;Thickness Range&lt;/b&gt;." translation="%1%&lt;b&gt;Too Thin:&lt;/b&gt; %2% %3% thinner than the lower limit of the &lt;b&gt;Thickness Range&lt;/b&gt;."/>
+	<label commandName="ThicknessAlertsInfo" devLabel="ThicknessAlerts" translation="Оповещения о толщине"/>
+	<label commandName="ThicknessDTTDesc" devLabel="Analyzes the solid body for features that fall outside the &lt;b&gt;Thickness Range&lt;/b&gt; or exceed the &lt;b&gt;Thickness Variation&lt;/b&gt; defined in the plastic rule assigned to its component." translation="Анализирует твердое тело на наличие элементов, которые выходят за пределы &lt;b&gt;Диапазона толщины&lt;/b&gt; или превышают &lt;b&gt;Вариацию толщины&lt;/b&gt;, определенное в правиле пластики, назначенном этому компоненту."/>
+	<label commandName="ThicknessGroup" devLabel="Thickness" translation="Толщина"/>
+	<label commandName="ThicknessInfo" devLabel="Thickness" translation="Толщина"/>
+	<label commandName="ThicknessIssueTypeInfo" devLabel="Alert Type" translation="Тип оповещения"/>
+	<label commandName="ThicknessIssueTypeLargeVariationInfo" devLabel="Large Thickness Variation" translation="Большой разброс толщины"/>
+	<label commandName="ThicknessIssueTypeTooThickInfo" devLabel="Too Thick" translation="Слишком толстый"/>
+	<label commandName="ThicknessIssueTypeTooThinInfo" devLabel="Too Thin" translation="Слишком тонкий"/>
+	<label commandName="ThicknessRangeInfo" devLabel="Thickness Range" translation="Диапазон толщины"/>
+	<label commandName="ThicknessRecommendationInfo" devLabel="ThicknessRecommendation" translation="ТолщинаРекомендация"/>
+	<label commandName="ThicknessTab" devLabel="Thickness" translation="Толщина"/>
+	<label commandName="ThicknessTabDTTDesc" devLabel="Displays the details of alerts for features that fall outside the &lt;b&gt;Thickness Range&lt;/b&gt; or exceed the &lt;b&gt;Thickness Variation&lt;/b&gt; defined in the plastic rule." translation="Отображает подробные сведения об оповещениях для элементов, которые выходят за пределы &lt;b&gt;диапазона толщины&lt;/b&gt; или превышают &lt;b&gt;вариант толщины&lt;/b&gt;, определенный в правиле пластика."/>
+	<label commandName="ThicknessVariationInfo" devLabel="Thickness Variation" translation="Изменение толщины"/>
+	<label commandName="ThicknessViewGradientInfo" devLabel="" translation=""/>
+	<label commandName="ThicknessViewInfo" devLabel="Display" translation="Отображать"/>
+	<label commandName="ThicknessViewTransparentInfo" devLabel="" translation=""/>
+	<label commandName="ThinSteelConditionInfo" devLabel="Knife Edge Threshold" translation="Порог острого края"/>
+	<label commandName="TooThickAdvice1" devLabel="&lt;b&gt;Advice&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Decrease thickness in thicker regions." translation="&lt;"/>
+	<label commandName="TooThickAdvice2" devLabel="Adjust draft angle. In general, ribs should be 50% of thickness." translation="Отрегулируйте угол наклона. Обычно ребра должны составлять 50% толщины."/>
+	<label commandName="TooThickAdvice3" devLabel="Use a tool like &lt;b&gt;Shell&lt;/b&gt; to core out thick sections to maintain uniform thickness." translation="Используйте такой инструмент, как &lt;b&gt;Shell&lt;/b&gt;, чтобы вырезать толстые секции и поддерживать одинаковую толщину."/>
+	<label commandName="TooThickAdvice4" devLabel="&lt;b&gt;Manage Plastic Rules&lt;/b&gt; to verify the &lt;b&gt;Thickness Range&lt;/b&gt; is defined correctly for the plastic material." translation="&lt;"/>
+	<label commandName="TooThickDTT" devLabel="Displays only the thickness alerts for regions that are thicker than the upper limit of the &lt;b&gt;Thickness Range&lt;/b&gt; defined in the plastic rule." translation="Отображает предупреждения о толщине только для областей, толщина которых превышает верхний предел &lt;b&gt;диапазона толщины&lt;/b&gt;, определенного в правиле пластика."/>
+	<label commandName="TooThickProblemMessage" devLabel="&lt;b&gt;Too Thick&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Regions that are too thick take longer to cool.This can lead to longer manufacturing cycle times.Slower cooling can cause uneven shrinkage and sink marks, which warp the part as the molten plastic solidifies." translation="&lt;"/>
+	<label commandName="TooThinAdvice1" devLabel="&lt;b&gt;Advice&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Increase thickness in thinner regions." translation="&lt;"/>
+	<label commandName="TooThinAdvice2" devLabel="Adjust draft angle. In general, ribs should be 50% of thickness." translation="Отрегулируйте угол наклона. Обычно ребра должны составлять 50% толщины."/>
+	<label commandName="TooThinAdvice3" devLabel="&lt;b&gt;Manage Plastic Rules&lt;/b&gt; to verify the &lt;b&gt;Thickness Range&lt;/b&gt; is defined correctly for the plastic material." translation="&lt;"/>
+	<label commandName="TooThinDTT" devLabel="Displays only the thickness alerts for regions that are thinner than the lower limit of the &lt;b&gt;Thickness Range&lt;/b&gt; defined in the plastic rule." translation="Отображает только предупреждения о толщине для областей, которые тоньше нижнего предела &lt;b&gt;Диапазона толщины&lt;/b&gt;, определенного в правиле пластика."/>
+	<label commandName="TooThinProblemMessage" devLabel="&lt;b&gt;Too Thin&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Regions that are too thin may fill slower or have difficulty filling completely.They cool faster than thicker regions.This can cause uneven shrinkage, which warps the part as the molten plastic solidifies." translation="&lt;"/>
+	<label commandName="TransparentDTTBase" devLabel="Alerts Only" translation="Только оповещения"/>
+	<label commandName="TransparentDTTDesc" devLabel="Displays the areas affected by thickness alerts as a red overlay on the solid body in the canvas." translation="Отображает области, на которые влияют предупреждения о толщине, в виде красного наложения на твердое тело на холсте."/>
+	<label commandName="UnIsolateSingleAlertInfo" devLabel="Unisolate Alert" translation="Неизолированное оповещение"/>
+	<label commandName="UndercutAdvice1" devLabel="&lt;b&gt;Advice&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Remove undercuts to simplify the mold design." translation="&lt;"/>
+	<label commandName="UndercutAdvice2" devLabel="Confirm pull direction." translation="Подтвердите направление тяги."/>
+	<label commandName="UndercutAdvice3" devLabel="Redesign undercut features to align with the pull direction." translation="Измените дизайн элементов подрезов, чтобы они соответствовали направлению вытягивания."/>
+	<label commandName="UndercutAdvice4" devLabel="Check draft on the undercut feature." translation="Проверьте уклон на подрезе."/>
+	<label commandName="UndercutAdvice5" devLabel="Investigate to make sure the part can be removed from the mold." translation="Проверьте, можно ли вынуть деталь из формы."/>
+	<label commandName="UndercutAdvice6" devLabel="Highlight undercuts as features of concern, and consult a mold designer. Confirm whether sliders, lifters, or inserts could be added to the mold to help remove the part." translation="Выделите подрезы как вызывающие беспокойство особенности и проконсультируйтесь с разработчиком пресс-форм. Подтвердите, можно ли добавить в форму ползунки, подъемники или вставки, чтобы облегчить извлечение детали."/>
+	<label commandName="UndercutAlert" devLabel="&lt;b&gt;Undercuts&lt;/b&gt;: %1% %2% undercuts that will interfere with ejection from a mold." translation="&lt;b&gt;Undercuts&lt;/b&gt;: %1% %2% undercuts that will interfere with ejection from a mold."/>
+	<label commandName="UndercutProblemMessagen" devLabel="&lt;b&gt;Undercuts&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Undercuts are trapped features that can't be ejected from the mold. If the mold requires sliders, lifters, or inserts to help eject the part from the mold, it may increase the cost. Not all undercuts can be avoided, but they should be minimized." translation="&lt;"/>
+	<label commandName="UndercutRegion" devLabel="region contains" translation="регион содержит"/>
+	<label commandName="UndercutRegions" devLabel="regions contain" translation="регионы содержат"/>
+	<label commandName="UndercutTabDTTDesc" devLabel="Displays the details of alerts for features that will interfere with ejection from a mold, based on the pull direction." translation="Отображает подробные сведения об оповещениях о функциях, которые будут мешать извлечению из формы, в зависимости от направления вытягивания."/>
+	<label commandName="UndercutsAlertsInfo" devLabel="UndercutsAlerts" translation="Оповещения о подрезах"/>
+	<label commandName="UndercutsDTTDesc" devLabel="Analyzes the solid body for features that will interfere with ejection from a mold, based on the pull direction." translation="Анализирует твердое тело на предмет особенностей, которые будут мешать извлечению из формы, в зависимости от направления вытягивания."/>
+	<label commandName="UndercutsGroup" devLabel="Undercuts" translation="Подрезы"/>
+	<label commandName="UndercutsRecommendationInfo" devLabel="UndercutsRecommendation" translation="ПодрезыРекомендация"/>
+	<label commandName="UndercutsTab" devLabel="Undercuts" translation="Подрезы"/>
+	<label commandName="ViewDetails" devLabel="View Details" translation="Посмотреть детали"/>
+	<label commandName="ViewDetailsGroupInfo" devLabel="Details" translation="Подробности"/>
+	<label commandName="WVRegion" devLabel="region exceeds" translation="регион превышает"/>
+	<label commandName="WVRegions" devLabel="regions exceed" translation="регионы превышают"/>
+	<label commandName="WallVariationProblemMessage" devLabel="&lt;b&gt;Large Thickness Variation&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Regions with large variation in thickness may fill and cool unevenly.Thick regions may lead to longer manufacturing cycle times.Slower cooling can cause uneven shrinkage and sink marks, which warp the part.Thin regions may fill slower or have difficulty filling completely.They cool faster than thicker regions. This can cause uneven shrinkage, which warps the part." translation="&lt;"/>
+	<label commandName="componentSelection" devLabel="Component" translation="Компонент"/>
+	<label commandName="design-advice-feature-desc" devLabel="Identify manufacturability concerns based on industry best practices and company standards, and receive recommendations to improve the manufacturability and performance of your design. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-DESIGN-ADVICE&quot;&gt;Learn More&lt;/a&gt;" translation="Выявляйте проблемы с технологичностью на основе передового опыта отрасли и стандартов компании и получайте рекомендации по улучшению технологичности и производительности вашей конструкции. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-DESIGN-ADVICE&quot;&gt;Подробнее&lt;/a&gt;"/>
+	<label commandName="design-advice-feature-title" devLabel="Design Advice" translation="Советы по дизайну"/>
+	<label commandName="finishBlack" devLabel="Black" translation="Черный"/>
+	<label commandName="finishChrome" devLabel="Chrome" translation="Хром"/>
+	<label commandName="finishNickelPlated" devLabel="Nickel Plated" translation="Никелированный"/>
+	<label commandName="finishPassivated" devLabel="Passivated" translation="Пассивированный"/>
+	<label commandName="finishZincPlated" devLabel="Zinc Plated" translation="Оцинкованный"/>
+	<label commandName="geometric-pattern-feature-desc" devLabel="Create complex patterns with adjustable size and distribution gradients across a selected face. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-GEOMETRIC-PATTERN&quot;&gt;Learn More&lt;/a&gt;" translation="Создавайте сложные узоры с регулируемым размером и градиентами распределения по выбранной грани. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-GEOMETRIC-PATTERN&quot;&gt;Подробнее&lt;/a&gt;"/>
+	<label commandName="geometric-pattern-feature-title" devLabel="Geometric Pattern" translation="Геометрический узор"/>
+	<label commandName="lclzAssignPlasticRule1" devLabel="Assigns a plastic rule to a component to automatically control the properties of plastic features, like physical material and thickness." translation="Назначает компоненту правило пластики для автоматического управления свойствами пластиковых элементов, таких как физический материал и толщина."/>
+	<label commandName="lclzAssignPlasticRule2" devLabel="Select a component, then select the plastic rule to assign to it." translation="Выберите компонент, затем выберите пластиковую линейку, которую нужно назначить ему."/>
+	<label commandName="lclzAssignPlasticRuleTipsAndTricksDesc" devLabel="In the Browser, you can switch the plastic rule assigned to a component, and all the associated features will update to reflect the values defined in the new rule." translation="В браузере вы можете переключить пластиковое правило, назначенное компоненту, и все связанные элементы обновятся, чтобы отразить значения, определенные в новом правиле."/>
+	<label commandName="lclzAssignPlasticRuleTipsAndTricksTips" devLabel="Assign a plastic rule to a component to automatically control values like plastic material, thickness, and draft angle when you create features using tools like Rib, Web, and Boss." translation="Назначьте компоненту правило пластики, чтобы автоматически контролировать такие значения, как материал пластика, толщина и угол уклона, при создании элементов с помощью таких инструментов, как ребро, перемычка и бобышка."/>
+	<label commandName="lclzAssignPlasticRuleTipsAndTricksTitle" devLabel="Assign Plastic Rule" translation="Назначить пластиковое правило"/>
+	<label commandName="lclzBoss1" devLabel="Creates a boss feature to fasten two solid bodies together and reinforce thin areas of a design." translation="Создает выступ для соединения двух твердых тел и усиления тонких участков конструкции."/>
+	<label commandName="lclzBoss2" devLabel="Select a sketch point between two solid bodies, then adjust the settings for each side of the boss feature and the fastener that will assemble them together." translation="Выберите точку эскиза между двумя твердыми телами, затем настройте параметры для каждой стороны выступа и крепежа, который соединит их вместе."/>
+	<label commandName="lclzBossTipsAndTricksDesc" devLabel="On the Ribs tab, add ribs to each side of the boss feature to strengthen and support them." translation="На вкладке &#171;Ребра&#187; добавьте ребра к каждой стороне выступа, чтобы усилить и поддержать их."/>
+	<label commandName="lclzBossTipsAndTricksTips" devLabel="Create a sketch and place points where you want to create bosses between two bodies in your design. You can leave the sketch points unconstrained and drag them on the sketch plane to adjust the position of each boss, or constrain or dimension them in the sketch to define precise locations." translation="Создайте эскиз и разместите точки там, где вы хотите создать выступы между двумя телами в вашем проекте. Вы можете оставить точки эскиза незакрепленными и перетащить их по плоскости эскиза, чтобы отрегулировать положение каждой бобышки, или ограничить их или нанести размеры на эскизе, чтобы определить точные местоположения."/>
+	<label commandName="lclzBossTipsAndTricksTitle" devLabel="Boss Information" translation="Информация о боссе"/>
+	<label commandName="lclzChangePlasticRule1" devLabel="Assign Plastic Rule" translation="Назначить пластиковое правило"/>
+	<label commandName="lclzChangePlasticRule2" devLabel="Assign a different plastic rule to this component." translation="Назначьте этому компоненту другое правило пластики."/>
+	<label commandName="lclzDesignAdviceCmd1" devLabel="Identifies manufacturability concerns based on best practices for plastic injection molding, and provides recommendations to address them." translation="Выявляет проблемы технологичности на основе передового опыта литья пластмасс под давлением и дает рекомендации по их устранению."/>
+	<label commandName="lclzDesignAdviceCmd2" devLabel="Select a solid body and the pull direction, then click Analyze. Once the analysis is complete, the rules, results, and recommendations display." translation="Выберите твердое тело и направление вытягивания, затем нажмите &#171;Анализ&#187;. После завершения анализа отобразятся правила, результаты и рекомендации."/>
+	<label commandName="lclzLip1" devLabel="Creates a lip, groove, or combined feature on one or two solid bodies." translation="Создает кромку, канавку или комбинированный элемент на одном или двух твердых телах."/>
+	<label commandName="lclzLip2" devLabel="Select an edge on a solid body then choose between the Lip, Groove, or Lip And Groove types. Select a guide type, a pull direction or guide face to locate the feature, then adjust the dimension settings. Optionally, select one or two extents for the feature and choose a result option." translation="Выберите ребро твердого тела, затем выберите тип &#171;Кромка&#187;, &#171;Канавка&#187; или &#171;Кромка и канавка&#187;. Выберите тип направляющей, направление вытягивания или грань направляющей, чтобы найти элемент, а затем настройте параметры размеров. При желании выберите один или два экстента для объекта и выберите вариант результата."/>
+	<label commandName="lclzLipTipsAndTricksDesc" devLabel="When you create a lip and groove together, the groove dimensions are automatically determined by the lip dimensions and clearance." translation="При совместном создании кромки и канавки размеры канавки автоматически определяются размерами кромки и зазором."/>
+	<label commandName="lclzLipTipsAndTricksTips" devLabel="Select the inside edge to place your lip feature to ensure the reveal is on the outside of your design." translation="Выберите внутренний край, чтобы разместить элемент губы, чтобы выступ находился снаружи вашего дизайна."/>
+	<label commandName="lclzLipTipsAndTricksTitle" devLabel="Lip And Groove Information" translation="Информация о губах и канавках"/>
+	<label commandName="lclzManagePlasticRules1" devLabel="Manages plastic rules in the active design to automatically control properties of plastic features, like physical material and thickness." translation="Управляет правилами пластика в активном проекте для автоматического управления свойствами пластиковых элементов, такими как физический материал и толщина."/>
+	<label commandName="lclzManagePlasticRules2" devLabel="Create new rules, edit existing rules, or save rules to a library to use them in multiple designs." translation="Создавайте новые правила, редактируйте существующие правила или сохраняйте правила в библиотеке, чтобы использовать их в нескольких проектах."/>
+	<label commandName="lclzManagePlasticRulesTipsAndTricksDesc" devLabel="Plastic rules that appear in the &lt;b&gt;In This Design&lt;/b&gt; section are stored in the active design document. Plastic rules that appear in the &lt;b&gt;Library&lt;/b&gt; section are stored in the cloud." translation="Пластиковые правила, которые появляются в разделе &lt;b&gt;В этом проекте&lt;/b&gt;, хранятся в активном проектном документе. Пластиковые правила, которые появляются в разделе &lt;b&gt;Библиотека&lt;/b&gt;, хранятся в облаке."/>
+	<label commandName="lclzManagePlasticRulesTipsAndTricksTips" devLabel="When you edit the values in a plastic rule, any plastic features in components that use that plastic rule will update to reflect the new values." translation="Когда вы редактируете значения в правиле пластики, все элементы пластики в компонентах, использующих это правило пластики, обновляются в соответствии с новыми значениями."/>
+	<label commandName="lclzManagePlasticRulesTipsAndTricksTitle" devLabel="Manage Plastic Rules Information" translation="Управление информацией о пластиковых правилах"/>
+	<label commandName="lclzRest1" devLabel="Creates a rest feature that intersects the overall shape and forms a flat area that can be used for other features or placement of other components." translation="Создает опорный элемент, который пересекает общую форму и образует плоскую область, которую можно использовать для других элементов или размещения других компонентов."/>
+	<label commandName="lclzRest2" devLabel="Select a closed sketch profile and a solid body, then specify the thickness." translation="Выберите замкнутый профиль эскиза и твердое тело, затем укажите толщину."/>
+	<label commandName="lclzRestTipsAndTricksDesc" devLabel="The landing area can be used for the placement of another part or to provide a surface that has an orientation different from the adjacent wall." translation="Площадку можно использовать для размещения другой детали или для создания поверхности, имеющей ориентацию, отличную от ориентации соседней стены."/>
+	<label commandName="lclzRestTipsAndTricksTips" devLabel="A rest is a feature on a plastic part that is applied to a wall to form a “landing area” that protrudes partially inside and outside the body." translation="Подставка — это элемент пластиковой детали, который прикрепляется к стене для образования &#171;площадки для приземления&#187;, частично выступающей внутрь и наружу корпуса."/>
+	<label commandName="lclzRestTipsAndTricksTitle" devLabel="Rest Information" translation="Информация об отдыхе"/>
+	<label commandName="lclzSnapFit1" devLabel="Creates a cantilever snap fit feature to fasten two solid bodies together in a design." translation="Создает элемент консольной защелки для скрепления двух твердых тел вместе в конструкции."/>
+	<label commandName="lclzSnapFit2" devLabel="Select a snap fit type, select a sketch point between two solid bodies, then adjust the settings for the hook, groove, or loop on each side of the snap fit feature." translation="Выберите тип защелки, выберите точку эскиза между двумя твердыми телами, затем настройте параметры зацепа, канавки или петли на каждой стороне элемента защелки."/>
+	<label commandName="lclzSnapFitTipsAndTricksTips" devLabel="Create a sketch and place points where you want to create snap fit features between two bodies in your design. You can leave the sketch points unconstrained and drag them on the sketch plane to adjust the position of each snap fit, or constrain or dimension them in the sketch to define precise locations." translation="Создайте эскиз и разместите точки в тех местах, где вы хотите создать элементы привязки между двумя телами в вашем проекте. Вы можете оставить точки эскиза незакрепленными и перетащить их по плоскости эскиза, чтобы отрегулировать положение каждой привязки, или ограничить их или нанести размеры на эскизе, чтобы определить точные местоположения."/>
+	<label commandName="lclzSnapFitTipsAndTricksTitle" devLabel="Snap Fit Information" translation="Информация о моментальной посадке"/>
+	<label commandName="matAluminium" devLabel="Aluminium" translation="Алюминий"/>
+	<label commandName="matBrass" devLabel="Brass" translation="Латунь"/>
+	<label commandName="matCarbonSteel" devLabel="Carbon Steel" translation="Углеродистая сталь"/>
+	<label commandName="matStainlessSteelA2" devLabel="Stainless Steel A2" translation="Нержавеющая сталь А2"/>
+	<label commandName="matStainlessSteelA4" devLabel="Stainless Steel A4" translation="Нержавеющая сталь А4"/>
+	<label commandName="matTitanium" devLabel="Titanium" translation="Титан"/>
+	<label commandName="organic-mesh-feature-desc" devLabel="Convert organically shaped meshes to solid, surface, or T-Spline bodies. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=MESH-CONVERT-TO-SOLID&quot;&gt;Learn More&lt;/a&gt;" translation="Преобразуйте сетки органической формы в твердые, поверхностные или Т-образные тела. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=MESH-CONVERT-TO-SOLID&quot;&gt;Подробнее&lt;/a&gt;"/>
+	<label commandName="organic-mesh-feature-title" devLabel="Organic Mesh Conversion" translation="Преобразование органической сетки"/>
+	<label commandName="plastic-design-tools-feature-desc" devLabel="Use the Boss and Snap Fit tools to create plastic features. Add draft angle, draft pull direction, and fillet radius to Web and Rib features. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-BOSS&quot;&gt;Learn More&lt;/a&gt;" translation="Используйте инструменты &#171;Бобышка&#187; и &#171;Привязка&#187; для создания пластических элементов. Добавьте угол уклона, направление уклона и радиус скругления к элементам перемычек и ребер. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-BOSS&quot;&gt;Подробнее&lt;/a&gt;"/>
+	<label commandName="plastic-design-tools-feature-title" devLabel="Plastic Design Tools" translation="Инструменты для дизайна пластика"/>
+	<label commandName="plastic-design-tools-lip-desc" devLabel="Use the Boss and Snap Fit tools to create plastic features. Add draft angle, draft pull direction, and fillet radius to Web and Rib features. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-LIP&quot;&gt;Learn More&lt;/a&gt;" translation="Используйте инструменты &#171;Бобышка&#187; и &#171;Привязка&#187; для создания пластических элементов. Добавьте угол уклона, направление уклона и радиус скругления к элементам перемычек и ребер. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-LIP&quot;&gt;Подробнее&lt;/a&gt;"/>
+	<label commandName="plastic-design-tools-rest-desc" devLabel="Use the Boss and Snap Fit tools to create plastic features. Add draft angle, draft pull direction, and fillet radius to Web and Rib features. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-REST&quot;&gt;Learn More&lt;/a&gt;" translation="Используйте инструменты &#171;Бобышка&#187; и &#171;Привязка&#187; для создания пластических элементов. Добавьте угол уклона, направление уклона и радиус скругления к элементам перемычек и ребер. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-REST&quot;&gt;Подробнее&lt;/a&gt;"/>
+	<label commandName="plastic-design-tools-snapfit-desc" devLabel="Use the Boss and Snap Fit tools to create plastic features. Add draft angle, draft pull direction, and fillet radius to Web and Rib features. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-SNAP-FIT&quot;&gt;Learn More&lt;/a&gt;" translation="Используйте инструменты &#171;Бобышка&#187; и &#171;Привязка&#187; для создания пластических элементов. Добавьте угол уклона, направление уклона и радиус скругления к элементам перемычек и ребер. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-SNAP-FIT&quot;&gt;Подробнее&lt;/a&gt;"/>
+	<label commandName="plastic-rules-feature-desc" devLabel="Assign plastic rules to components to automatically control the properties of plastic features, like physical material and thickness. Create new rules, edit existing rules, or save rules to a library to use them in multiple designs. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-SETUP-PLASTIC-RULES&quot;&gt;Learn More&lt;/a&gt;" translation="Назначайте правила пластика компонентам, чтобы автоматически контролировать свойства пластиковых элементов, такие как физический материал и толщина. Создавайте новые правила, редактируйте существующие правила или сохраняйте правила в библиотеке, чтобы использовать их в нескольких проектах. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-SETUP-PLASTIC-RULES&quot;&gt;Подробнее&lt;/a&gt;"/>
+	<label commandName="plastic-rules-feature-title" devLabel="Plastic Rules" translation="Правила пластика"/>
+	<label commandName="presets-feature-desc" devLabel="Create setting presets to quickly reuse common values. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-PRESETS&quot;&gt;Learn More&lt;/a&gt;" translation="Создавайте предустановки настроек, чтобы быстро повторно использовать общие значения. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-PRESETS&quot;&gt;Подробнее&lt;/a&gt;"/>
+	<label commandName="presets-feature-title" devLabel="Presets" translation="Пресеты"/>
+	<label commandName="productdesign-featurepack-desc" devLabel="Amplify your design capabilities in Fusion. Use advanced tools to automate the design of complex plastic features, apply intelligent patterns, and add shape-altering properties to your designs. Receive manufacturing-aware advice to improve product performance and prepare your designs for manufacturing. Empower your design process and turn your ideas into finished products faster. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=EXT-PRODUCT-DESIGN&quot;&gt;Learn More&lt;/a&gt;" translation="Расширьте свои дизайнерские возможности в Fusion. Используйте передовые инструменты для автоматизации проектирования сложных пластиковых элементов, применяйте интеллектуальные шаблоны и добавляйте в свои проекты свойства, изменяющие форму. Получите производственные советы по улучшению характеристик продукта и подготовке ваших проектов к производству. Расширьте возможности своего процесса проектирования и быстрее превращайте свои идеи в готовые продукты. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=EXT-PRODUCT-DESIGN&quot;&gt;Подробнее&lt;/a&gt;"/>
+	<label commandName="snapFitFlipDirectionInputTooltip" devLabel="Flips snap fit feature over selected sketch point." translation="Переворачивает элемент привязки к выбранной точке эскиза."/>
+	<label commandName="volumetric-lattice-feature-desc" devLabel="Modify existing solid bodies or mesh bodies to create complex volumetric lattices that alter the shape and appearance of a design. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-VOLUMETRIC-LATTICE&quot;&gt;Learn More&lt;/a&gt;" translation="Изменяйте существующие твердые тела или сетчатые тела для создания сложных объемных решеток, которые изменяют форму и внешний вид конструкции. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-VOLUMETRIC-LATTICE&quot;&gt;Подробнее&lt;/a&gt;"/>
+	<label commandName="volumetric-lattice-feature-title" devLabel="Volumetric Lattice" translation="Объемная решетка"/>
+</Resource>

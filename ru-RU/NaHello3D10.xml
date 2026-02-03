@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<label commandName="CmMKSUnitSystemName" devLabel="cm modeling length with MKS (m, kg, second, Celsius) units" translation="Modellierlänge in cm mit MKS-Einheiten (m, kg, Sekunde, Celsius)"/>
+	<label commandName="Hello3DAssetName" devLabel="Hello3D" translation="Hello3D"/>
+	<label commandName="Hello3DDocDesc" devLabel="A document used to create simple 3D geometries" translation="Ein Dokument zum Erstellen einfacher 3D-Geometrien"/>
+	<label commandName="Hello3DDocName" devLabel="Hello3D Document" translation="Hello3D-Dokument"/>
+	<label commandName="ImperialUnitSystemName" devLabel="Imperial (foot, lbmass, second, Fahrenheit) units" translation="Britische Einheiten (Fuß, lbmass, Sekunde, Fahrenheit)"/>
+	<label commandName="InchImperialUnitSystemName" devLabel="inch modeling length with imperial (foot, lbmass, second, Fahrenheit) units" translation="Zoll-Modellierlänge mit britischen Einheiten (Fuß, lbmass, Sekunde, Fahrenheit)"/>
+	<label commandName="MmMKSUnitSystemName" devLabel="mm modeling length with MKS (m, kg, second, Celsius) units" translation="Modellierlänge in mm mit MKS-Einheiten (m, kg, Sekunde, Celsius)"/>
+</Resource>

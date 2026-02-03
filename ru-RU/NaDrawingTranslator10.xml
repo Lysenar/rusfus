@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="CreatePDFOutputConfigError" devLabel="Error when create AcCoreConsole script file for output pdf!" translation="Ошибка при создании файла сценария AcCoreConsole для выходного PDF-файла!" />
+	<label commandName="DrawingFileFilterDescription" devLabel="DWG Files (*.dwg);;PDF Files (*.pdf)" translation="Файлы DWG (*.dwg);;Файлы PDF (*.pdf)" />
+	<label commandName="FindAcCoreConsoleError" devLabel="Cannot located AcCoreConsole application!" translation="Невозможно найти приложение AcCoreConsole!" />
+	<label commandName="FusDocCustomLineWidth1" devLabel="0.00mm" translation="0.00мм" />
+	<label commandName="FusDocCustomLineWidth10" devLabel="0.35mm" translation="0.35мм" />
+	<label commandName="FusDocCustomLineWidth11" devLabel="0.40mm" translation="0.40мм" />
+	<label commandName="FusDocCustomLineWidth12" devLabel="0.50mm" translation="0.50мм" />
+	<label commandName="FusDocCustomLineWidth13" devLabel="0.53mm" translation="0.53мм" />
+	<label commandName="FusDocCustomLineWidth14" devLabel="0.60mm" translation="0.60мм" />
+	<label commandName="FusDocCustomLineWidth15" devLabel="0.70mm" translation="0.70мм" />
+	<label commandName="FusDocCustomLineWidth16" devLabel="0.80mm" translation="0.80мм" />
+	<label commandName="FusDocCustomLineWidth17" devLabel="0.90mm" translation="0.90мм" />
+	<label commandName="FusDocCustomLineWidth18" devLabel="1.00mm" translation="1.00мм" />
+	<label commandName="FusDocCustomLineWidth19" devLabel="1.06mm" translation="1.06мм" />
+	<label commandName="FusDocCustomLineWidth2" devLabel="0.05mm" translation="0.05мм" />
+	<label commandName="FusDocCustomLineWidth20" devLabel="1.20mm" translation="1.20мм" />
+	<label commandName="FusDocCustomLineWidth21" devLabel="1.40mm" translation="1.40мм" />
+	<label commandName="FusDocCustomLineWidth22" devLabel="1.58mm" translation="1.58мм" />
+	<label commandName="FusDocCustomLineWidth23" devLabel="2.00mm" translation="2.00мм" />
+	<label commandName="FusDocCustomLineWidth24" devLabel="2.11mm" translation="2.11мм" />
+	<label commandName="FusDocCustomLineWidth3" devLabel="0.09mm" translation="0.09мм" />
+	<label commandName="FusDocCustomLineWidth4" devLabel="0.13mm" translation="0.13мм" />
+	<label commandName="FusDocCustomLineWidth5" devLabel="0.15mm" translation="0.15мм" />
+	<label commandName="FusDocCustomLineWidth6" devLabel="0.18mm" translation="0.18мм" />
+	<label commandName="FusDocCustomLineWidth7" devLabel="0.20mm" translation="0.20мм" />
+	<label commandName="FusDocCustomLineWidth8" devLabel="0.25mm" translation="0.25мм" />
+	<label commandName="FusDocCustomLineWidth9" devLabel="0.30mm" translation="0.30мм" />
+	<label commandName="FusDocTextHeightASME0" devLabel="0.07in" translation="0.07дюйм" />
+	<label commandName="FusDocTextHeightASME1" devLabel="0.1in" translation="0.1дюйм" />
+	<label commandName="FusDocTextHeightASME2" devLabel="0.12in" translation="0.12дюйм" />
+	<label commandName="FusDocTextHeightASME3" devLabel="0.24in" translation="0.24дюйм" />
+	<label commandName="FusDocTextHeightASME4" devLabel="0.35in" translation="0.35дюйм" />
+	<label commandName="FusDocTextHeightASME5" devLabel="0.5in" translation="0.5дюйм" />
+	<label commandName="FusDocTextHeightASME6" devLabel="0.75in" translation="0.75дюйм" />
+	<label commandName="FusDocTextHeightISO0" devLabel="1.8mm" translation="1.8мм" />
+	<label commandName="FusDocTextHeightISO1" devLabel="2.5mm" translation="2.5мм" />
+	<label commandName="FusDocTextHeightISO2" devLabel="3.5mm" translation="3.5мм" />
+	<label commandName="FusDocTextHeightISO3" devLabel="5mm" translation="5мм" />
+	<label commandName="FusDocTextHeightISO4" devLabel="7mm" translation="7мм" />
+	<label commandName="FusDocTextHeightISO5" devLabel="10mm" translation="10мм" />
+	<label commandName="FusDocTextHeightISO6" devLabel="14mm" translation="14мм" />
+	<label commandName="FusDocTextHeightISO7" devLabel="20mm" translation="20мм" />
+	<label commandName="LinearUnitFormat0" devLabel="Decimal" translation="Десятичный" />
+	<label commandName="LinearUnitFormat1" devLabel="Fractional" translation="Дробный" />
+	<label commandName="LinearUnitFormat2" devLabel="Engineering" translation="Инженерный" />
+	<label commandName="LinearUnitFormat3" devLabel="Architectural" translation="Архитектурный" />
+	<label commandName="TextHeightCustom" devLabel="Custom" translation="Пользовательский" />
+	<label commandName="TextHeightLarge" devLabel="Large" translation="Большой" />
+	<label commandName="TextHeightMedium" devLabel="Medium" translation="Средний" />
+	<label commandName="TextHeightSmall" devLabel="Small" translation="Малый" />
+</Resource>

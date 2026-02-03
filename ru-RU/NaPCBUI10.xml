@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="3D PCB Environment" devLabel="3D PCB" translation="Корпус"/>
+	<label commandName="3DPCBTypeCanvas" devLabel="Canvas" translation="Холст"/>
+	<label commandName="3DPCBTypeComplete" devLabel="Complete 3D" translation="Полное 3D"/>
+	<label commandName="3DPCBTypeInput" devLabel="3D PCB Type" translation="Тип печатной платы 3D"/>
+	<label commandName="3DPCBTypeSimple" devLabel="Simple 3D" translation="Простое 3D"/>
+	<label commandName="BoardNotDefinedInfo" devLabel="Board outline not defined" translation="Контур платы не определен"/>
+	<label commandName="BoardOutlineNotInUse" devLabel="Sketch not in use" translation="Эскиз не используется"/>
+	<label commandName="BoardOutlineNotInUseContinueButton" devLabel="Continue" translation="Продолжить"/>
+	<label commandName="BoardOutlineNotInUseTipsNew" devLabel="3D PCB uses an external profile to define the board.&lt;br/&gt;&lt;br/&gt;To edit the profile used by this board, edit the sketch profile in the externally referenced design.&lt;br/&gt;&lt;br/&gt;To use this Board Outline Sketch, use the &lt;b&gt;Define Board&lt;/b&gt; tool to select a profile from this sketch." translation="3"/>
+	<label commandName="ChooseEagleProfile" devLabel="Choose EAGLE Board Shape" translation="Выберите форму доски EAGLE"/>
+	<label commandName="ChooseFusionProfile" devLabel="Choose Fusion Board Shape" translation="Выберите форму Fusion Board"/>
+	<label commandName="Create Hole on Board" devLabel="PCBHole" translation="Отверстие PCB"/>
+	<label commandName="Create PCB Document" devLabel="New 3D PCB" translation="Новая 3D-плата"/>
+	<label commandName="Create PCB Workspace" devLabel="Create PCB" translation="Создать печатную плату"/>
+	<label commandName="CreateLinkedPCBTipsHelpLink" devLabel="&lt;a href='%1%'&gt;How to create Linked PCB&lt;/a&gt;" translation="&lt;a href='%1%'&gt;How to create Linked PCB&lt;/a&gt;"/>
+	<label commandName="CreateLinkedPCBTipsHelpLinkNotReady" devLabel="For more help using this feature, read the help documentation" translation="Дополнительные сведения об использовании этой функции см. в справочной документации."/>
+	<label commandName="CreateLinkedPCBTipsNew" devLabel="To finish creating a Linked PCB in the assembly, you must complete the following steps:&lt;br/&gt;&lt;br/&gt;1. Create a sketch.&lt;br/&gt;2. Draw a closed profile.&lt;br/&gt;3. Select the closed profile in the &lt;b&gt;Define Board&lt;/b&gt; tool.&lt;br/&gt;&lt;br/&gt;%1%" translation="To finish creating a Linked PCB in the assembly, you must complete the following steps:&lt;br/&gt;&lt;br/&gt;1. Create a sketch.&lt;br/&gt;2. Draw a closed profile.&lt;br/&gt;3. Select the closed profile in the &lt;b&gt;Define Board&lt;/b&gt; tool.&lt;br/&gt;&lt;br/&gt;%1%"/>
+	<label commandName="CreatePCBCircNPTHInput" devLabel="Convert Circles to NPTHs" translation="Преобразование кругов в NPTH"/>
+	<label commandName="CreatePCBHeightInput" devLabel="Thickness" translation="Толщина"/>
+	<label commandName="CreatePCBNPTHDiameterInput" devLabel="Max NPTH Diameter" translation="Макс. диаметр NPTH"/>
+	<label commandName="CreatePCBProfileInput" devLabel="Profile" translation="Профиль"/>
+	<label commandName="CreatePCBProfileInputTooltip" devLabel="Select sketch profile(s) or face for PCB" translation="Выберите профиль эскиза или грань для печатной платы."/>
+	<label commandName="CreateUnlinkedPCB" devLabel="Create Unlinked PCB" translation="Создать несвязанную плату"/>
+	<label commandName="DefaultExternalPCBComponentName" devLabel="PCB" translation="ПП"/>
+	<label commandName="DefineBoardGuideDetailInfo" devLabel="Board outline not defined. Edit the outline sketch to draw a closed profile, then Define board to select a profile to create the PCB body." translation="Контур платы не определен. Отредактируйте контурный эскиз, чтобы нарисовать закрытый профиль, затем выберите &#171;Определить плату&#187;, чтобы выбрать профиль для создания тела печатной платы."/>
+	<label commandName="DefineBoardOutlineSelection" devLabel="Select sketch profile(s) for PCB" translation="Выберите профили эскизов для печатной платы"/>
+	<label commandName="DefinePCB3DBoard" devLabel="Define Board" translation="Определить доску"/>
+	<label commandName="DeriveLinkedPCB" devLabel="Derive PCB" translation="Получить печатную плату"/>
+	<label commandName="DerivePCBProfileInput" devLabel="Profile" translation="Профиль"/>
+	<label commandName="DerivePCBProfileInputTooltip" devLabel="Select sketch profile(s) for PCB" translation="Выберите профили эскизов для печатной платы"/>
+	<label commandName="EIPCreateLinkedPCBTitle" devLabel="Create Linked PCB" translation="Создать связанную плату"/>
+	<label commandName="EnterIntoPCBEnvironment" devLabel="You have entered into the PCB Mechanical Environment." translation="Вы вошли в механическую среду печатной платы."/>
+	<label commandName="FusionMovePCBComponent" devLabel="Hold SHIFT while moving to snap to grid" translation="Удерживайте SHIFT во время перемещения, чтобы привязаться к сетке."/>
+	<label commandName="FusionPCB3DFlipComponent" devLabel="Flip Component" translation="Перевернуть компонент"/>
+	<label commandName="FusionPCBActivate" devLabel="Edit" translation="Редактировать"/>
+	<label commandName="FusionPCBFlipComponent" devLabel="Flip Component" translation="Перевернуть компонент"/>
+	<label commandName="FusionPCBSelectSketchPlaneNew" devLabel="Select top or bottom face of PCB." translation="Выберите верхнюю или нижнюю грань печатной платы."/>
+	<label commandName="FusionPCBStop" devLabel="Finish PCB" translation="Завершите печатную плату"/>
+	<label commandName="FusionPCBUpdateDocument" devLabel="Update 3D PCB" translation="Обновить 3D ПП"/>
+	<label commandName="FusionSelectDeriveProfileError" devLabel="Can't select 3d sketch to derive" translation="Невозможно выбрать 3D-эскиз для вывода"/>
+	<label commandName="FusionSelectFaceForHole" devLabel="Select face to place hole" translation="Выберите грань, плоскость или точку эскиза, чтобы разместить отверстие."/>
+	<label commandName="FusionSelectMultipleForHole" devLabel="Select sketch point to locate hole" translation="Выберите точку эскиза, чтобы найти отверстие"/>
+	<label commandName="FusionSelectOriginRefPCBDefineBoard" devLabel="Select sketch point for PCB board origin reference" translation="Выберите точку эскиза для ссылки на исходную точку печатной платы."/>
+	<label commandName="FusionSelectOriginRefPCBDefineBoardNew" devLabel="Select point or vertex for 2D PCB origin" translation="Выберите точку или вершину для начала координат 2D-платы."/>
+	<label commandName="FusionSelectPCBComponent" devLabel="Select PCB components" translation="Выберите компоненты печатной платы"/>
+	<label commandName="FusionSelectPCBComponentBodyEdit" devLabel="Select Body from PCB component" translation="Выбор тела из компонента платы"/>
+	<label commandName="FusionSelectPCBComponentEdit" devLabel="Select a PCB component" translation="Выберите компонент печатной платы"/>
+	<label commandName="FusionSelectProfileCreatePCB" devLabel="Select sketch profile(s) for PCB" translation="Выберите профили эскизов для печатной платы"/>
+	<label commandName="FusionSelectProfileCreatePCBNew" devLabel="Select sketch profile(s) or face for PCB" translation="Выберите профиль эскиза или грань для печатной платы."/>
+	<label commandName="FusionSelectProfileDerivePCB" devLabel="Select sketch profile(s) for PCB" translation="Выберите профили эскизов для печатной платы"/>
+	<label commandName="FusionSelectProfileError" devLabel="Can't select 3d sketch to create PCB" translation="Невозможно выбрать 3D-эскиз для создания платы."/>
+	<label commandName="FusionSelectProfilePCBDefineBoard" devLabel="Select sketch profile(s) and origin for PCB" translation="Выберите профиль эскиза и начало координат для печатной платы."/>
+	<label commandName="FusionSelectReferencesForHole" devLabel="Select linear or circular reference edges to fully define hole location" translation="Выберите линейные или круговые опорные кромки, чтобы полностью определить местоположение отверстия."/>
+	<label commandName="FusionSelectSingleForHole" devLabel="Select face to locate hole" translation="Выберите грань или плоскость, чтобы найти отверстие"/>
+	<label commandName="FusionSelectSketchPointForHole" devLabel="Select sketch point to place hole" translation="Выберите точку эскиза для размещения отверстия"/>
+	<label commandName="FusionSelectXDirPointRefPCBDefineBoard" devLabel="Select Sketch Line for board secondary axis orientation" translation="Выберите линию эскиза для ориентации вторичной оси платы."/>
+	<label commandName="FusionSelectXDirPointRefPCBDefineBoardNew" devLabel="Select sketch line or edge for X Axis for 2D PCB orientation" translation="Выберите линию эскиза или ребро для оси X для ориентации 2D-платы."/>
+	<label commandName="InvalidProfileSelection" devLabel="The selected profiles must be able to be merged into single one!" translation="Выбранные профили должны иметь возможность объединения в один!"/>
+	<label commandName="InvisibleObjectWarningMsg" devLabel="The object that you are creating is not visible. Please toggle visibility in the browser." translation="Создаваемый объект не виден. Переключите видимость в браузере."/>
+	<label commandName="MissingExtrudeProfile" devLabel="Missing profiles" translation="нет профилей"/>
+	<label commandName="MissingHoleOrigin" devLabel="missing face" translation="нет поверхностей или точек"/>
+	<label commandName="MissingPCBAxis" devLabel="Missing axis" translation="Отсутствует ось"/>
+	<label commandName="MissingPCBOrigin" devLabel="Missing origin" translation="Отсутствует происхождение"/>
+	<label commandName="Move 3D PCB components" devLabel="Move Component" translation="Переместить компонент"/>
+	<label commandName="Move PCB component Body" devLabel="Move PCB Component body" translation="Переместить тело компонента печатной платы"/>
+	<label commandName="Move PCB components" devLabel="Move PCB Components" translation="Перемещение компонентов печатной платы"/>
+	<label commandName="MoveAngle" devLabel="Angle" translation="Угол"/>
+	<label commandName="MoveMethodFreeMove" devLabel="Free Move" translation="Движение и Вращение"/>
+	<label commandName="MoveMethodPoint2Point" devLabel="Point to Point" translation="Из точки в точку"/>
+	<label commandName="MoveMethodRotate" devLabel="Rotate" translation="Вращение"/>
+	<label commandName="MoveMethodType" devLabel="Move Type" translation="Тип перемещения"/>
+	<label commandName="MoveP2POrigin" devLabel="Origin Point" translation="Отправная точка"/>
+	<label commandName="MoveP2POriginPrompt" devLabel="Select first point" translation="Выберите первую точку"/>
+	<label commandName="MoveP2PTarget" devLabel="Target Point" translation="Объективная точка"/>
+	<label commandName="MoveP2PTargetPrompt" devLabel="Select second point" translation="Выберите вторую точку"/>
+	<label commandName="MoveRotateAxis" devLabel="Axis" translation="Ось"/>
+	<label commandName="MultipleHoleType" devLabel="From Sketch&#xA;&#xA;Adds a non-plated through hole at selected sketch point." translation="По эскизу (несколько отверстий)"/>
+	<label commandName="PCB Environment" devLabel="PCB" translation="ПП"/>
+	<label commandName="PCB Profile" devLabel="PCB Profile" translation="Профиль печатной платы"/>
+	<label commandName="PCB Sketch" devLabel="Edit EAGLE Profile" translation="Редактировать профиль EAGLE"/>
+	<label commandName="PCB3DBoardOutlineEditCommand" devLabel="Edit Board Outline Sketch" translation="Редактировать эскиз"/>
+	<label commandName="PCB3DComponentType" devLabel="PCB" translation="ПП"/>
+	<label commandName="PCB3DComponentTypeDTT" devLabel="Creates a PCB component in the assembly" translation="Создает компонент платы в сборке."/>
+	<label commandName="PCB3DExtComponentType" devLabel="Linked PCB" translation="Связанная печатная плата"/>
+	<label commandName="PCB3DSketchEditCommand" devLabel="Edit Sketch" translation="Редактировать эскиз"/>
+	<label commandName="PCBBoardOutline" devLabel="Outline" translation="Контур"/>
+	<label commandName="PCBCSInputFlipXAxis" devLabel="Flip X Axis" translation="Отразить ось X"/>
+	<label commandName="PCBCSInputFlipYAxis" devLabel="Flip Y Axis" translation="Отразить ось Y"/>
+	<label commandName="PCBCSOriginRefInput" devLabel="Origin" translation="Начало координат"/>
+	<label commandName="PCBCSOriginRefInputTooltip" devLabel="Select point for 2D PCB origin" translation="Выберите точку начала координат 2D-платы"/>
+	<label commandName="PCBCSXDirRefInput" devLabel="X Axis" translation="ось X"/>
+	<label commandName="PCBCSXDirRefInputTooltip" devLabel="Select sketch line for X Axis for 2D PCB orientation" translation="Выберите линию эскиза для оси X для ориентации 2D-платы."/>
+	<label commandName="PCBConstruction" devLabel="Construction" translation="Конструкция"/>
+	<label commandName="PCBCreateCmdFlipXAxis" devLabel="Flip X Axis" translation="Отразить ось X"/>
+	<label commandName="PCBCreateCmdFlipYAxis" devLabel="Flip Y Axis" translation="Отразить ось Y"/>
+	<label commandName="PCBCreateCmdFlipZAxis" devLabel="Flip Z Axis" translation="Отразить ось Z"/>
+	<label commandName="PCBCreateLimitText" devLabel="The maximum number of PCBs within a Design, %1%, has been reached.&#xA;PCBs can be inserted from other Designs." translation="The maximum number of PCBs within a Design, %1%, has been reached.&#xA;PCBs can be inserted from other Designs."/>
+	<label commandName="PCBCreateLimitTitle" devLabel="PCB Limit Reached" translation="Достигнут предел печатной платы"/>
+	<label commandName="PCBCreateOriginRefInput" devLabel="Origin" translation="Начало координат"/>
+	<label commandName="PCBCreateOriginRefInputTooltip" devLabel="Select point or vertex for 2D PCB origin" translation="Выберите точку или вершину для начала координат 2D-платы."/>
+	<label commandName="PCBCreateSimExisting" devLabel="The PCB Feature does not currently support syncing PCBs in Fusion assemblies containing linked components or simulation studies.            &#xA;&#xA;Remove linked components or simulation studies in your assembly to continue, or put the PCB in a separate Fusion design and insert it into your assembly." translation="Функция PCB в настоящее время не поддерживает синхронизацию плат в сборках Fusion, содержащих связанные компоненты или исследования моделирования.            
+
+Удалите связанные компоненты или исследования моделирования в сборке, чтобы продолжить, или поместите плату в отдельный проект Fusion и вставьте ее в сборку."/>
+	<label commandName="PCBCreateXDirRefInput" devLabel="X Axis" translation="ось X"/>
+	<label commandName="PCBCreateXDirRefInputTooltip" devLabel="Select sketch line or edge for X Axis for 2D PCB orientation" translation="Выберите линию эскиза или ребро для оси X для ориентации 2D-платы."/>
+	<label commandName="PCBCreateXRefExisting" devLabel="The PCB Feature does not currently support syncing PCBs in Fusion assemblies containing linked components or simulation studies.            &#xA;&#xA;Remove linked components or simulation studies in your assembly to continue, or put the PCB in a separate Fusion design and insert it into your assembly." translation="Функция PCB в настоящее время не поддерживает синхронизацию плат в сборках Fusion, содержащих связанные компоненты или исследования моделирования.            
+
+Удалите связанные компоненты или исследования моделирования в сборке, чтобы продолжить, или поместите плату в отдельный проект Fusion и вставьте ее в сборку."/>
+	<label commandName="PCBDefineBoardFlipInput" devLabel="Flip" translation="Повернуть"/>
+	<label commandName="PCBDefineBoardHeightInput" devLabel="Thickness" translation="Толщина"/>
+	<label commandName="PCBDefineBoardOriginGroup" devLabel="Origin" translation="Начало координат"/>
+	<label commandName="PCBDefineBoardOriginRefInput" devLabel="Origin" translation="Начало координат"/>
+	<label commandName="PCBDefineBoardProfileInput" devLabel="Profile" translation="Профиль"/>
+	<label commandName="PCBDefineBoardProfileInputTooltip" devLabel="Select sketch profile(s) for PCB" translation="Выберите профили эскизов для печатной платы"/>
+	<label commandName="PCBDefineBoardProfileOnBottom" devLabel="PCB Bottom Layer" translation="Нижний слой печатной платы"/>
+	<label commandName="PCBDefineBoardProfileOnInput" devLabel="Profile On" translation="Профиль включен"/>
+	<label commandName="PCBDefineBoardProfileOnTop" devLabel="PCB Top Layer" translation="Верхний слой печатной платы"/>
+	<label commandName="PCBDefineBoardReorientInput" devLabel="Reorient" translation="Переориентировать"/>
+	<label commandName="PCBDefineBoardShapeGroup" devLabel="Shape" translation="Форма"/>
+	<label commandName="PCBDefineBoardTopInput" devLabel="PCB Top" translation="Верхняя часть печатной платы"/>
+	<label commandName="PCBDefineBoardXDirRefInput" devLabel="X Axis" translation="ось X"/>
+	<label commandName="PCBExternalComponentCreationCmd" devLabel="Create Linked PCB" translation="Создать связанную плату"/>
+	<label commandName="PCBFixed" devLabel="Fixed" translation="Постоянный"/>
+	<label commandName="PCBHoleCenterInput" devLabel="Center" translation="Центр"/>
+	<label commandName="PCBHoleDiameterInput" devLabel="Diameter" translation="Диаметр"/>
+	<label commandName="PCBHoleEdit" devLabel="Edit" translation="Редактировать"/>
+	<label commandName="PCBHoleFaceInput" devLabel="Face/Sketch Point" translation="Грань"/>
+	<label commandName="PCBHoleFacePointInput" devLabel="Face" translation="Грань"/>
+	<label commandName="PCBHoleFail" devLabel="PCB Hole Creation Failed: 3D PCB is outdated, please create it again." translation="Ошибка создания отверстия в печатной плате: 3D-плата устарела, создайте ее заново."/>
+	<label commandName="PCBHolePointInput" devLabel="Sketch Point" translation="Точка эскиза"/>
+	<label commandName="PCBHoleRef0" devLabel="Distance" translation="Расстояние"/>
+	<label commandName="PCBHoleRef0Btn" devLabel="Reference" translation="Ссылка"/>
+	<label commandName="PCBHoleRef1" devLabel="Distance" translation="Расстояние"/>
+	<label commandName="PCBHoleRef1Btn" devLabel="Reference" translation="Ссылка"/>
+	<label commandName="PCBImprintEagle" devLabel="Copy EAGLE Profile" translation="Копировать профиль EAGLE"/>
+	<label commandName="PCBImprintSelPrompt" devLabel="Select destination plane or sketch" translation="Выберите целевую плоскость или эскиз"/>
+	<label commandName="PCBIncrementalMoveInput" devLabel="Use 2D PCB Grid" translation="Использовать 2D-сетку печатной платы"/>
+	<label commandName="PCBMoveBodySelectionInput" devLabel="Selection" translation="Выбор"/>
+	<label commandName="PCBMoveBodyTransformInput" devLabel="Distance" translation="Расстояние"/>
+	<label commandName="PCBMoveRerouteInput" devLabel="Reroute" translation="Перетрассировать"/>
+	<label commandName="PCBMoveSelectionInput" devLabel="Selection" translation="Выбор"/>
+	<label commandName="PCBMoveTransformInput" devLabel="Distance" translation="Расстояние"/>
+	<label commandName="PCBMoveUpdateInput" devLabel="Update 2D PCB" translation="Обновление 2D-платы"/>
+	<label commandName="PCBMoveUpdateInputDisabledTooltip" devLabel="Unavailable in EIP, or when 2D PCB is not open" translation="Недоступно в EIP или когда 2D-плата не открыта."/>
+	<label commandName="PCBOpenFileInput" devLabel="Select Board file" translation="Выберите файл доски"/>
+	<label commandName="PCBOriginInputFlipZAxis" devLabel="Flip Z Axis" translation="Отразить ось Z"/>
+	<label commandName="PCBOriginRefSelection" devLabel="Select point for 2D PCB origin" translation="Выберите точку начала координат 2D-платы"/>
+	<label commandName="PCBOriginXDirSelection" devLabel="Select sketch line for X Axis for 2D PCB orientation" translation="Выберите линию эскиза для оси X для ориентации 2D-платы."/>
+	<label commandName="PCBSketchCreationCommand" devLabel="Create PCB Sketch" translation="Создать эскиз печатной платы"/>
+	<label commandName="PCBSketchSelect" devLabel="Destination" translation="Назначение"/>
+	<label commandName="PCBStatus" devLabel="PCB Status" translation="Статус печатной платы"/>
+	<label commandName="PCBStatusBoardHeight" devLabel="Board Height" translation="Высота доски"/>
+	<label commandName="PCBStatusBoardShape" devLabel="Board Shape" translation="ФОРМА ПЛАТЫ"/>
+	<label commandName="PCBStatusChanged" devLabel="Changed" translation="Изменено"/>
+	<label commandName="PCBStatusComponents" devLabel="PCB Components" translation="Компоненты печатной платы"/>
+	<label commandName="PCBStatusEagleInput" devLabel="EAGLE Board Shape" translation="Форма доски ОРЕЛ"/>
+	<label commandName="PCBStatusFusionInput" devLabel="Fusion Board Shape" translation="Форма фьюжн-доски"/>
+	<label commandName="PCBStatusUnchanged" devLabel="Unchanged" translation="Без изменений"/>
+	<label commandName="PartExtComponentTypeDTT" devLabel="Creates a new PCB in an Electronics Design and inserts it into %1% as an external component." translation="Создает новый Листовой металл в новом Проекте детали и вставляет его как внешний компонент в %1%"/>
+	<label commandName="PlacementType" devLabel="Placement Type" translation="Размещение"/>
+	<label commandName="Push 3D PCB to brd" devLabel="Push to 2D PCB" translation="Отправить в 2D ПП"/>
+	<label commandName="PushDeriveInvalidSelectionMsg" devLabel="Unexpected invalid selection" translation="Неожиданный неправильный выбор"/>
+	<label commandName="PushDeriveToExistingTxnMessage" devLabel="New Derive Feature" translation="Новый производный элемент"/>
+	<label commandName="Replace PCB component" devLabel="Replace Component Body" translation="Заменить корпус компонента"/>
+	<label commandName="RotateAxisPrompt" devLabel="Pick a Rotate Axis" translation="Выберите ось вращения"/>
+	<label commandName="SingleHoleType" devLabel="At Point&#xA;&#xA;Adds a non-plated through hole at selected location on face of 3D PCB." translation="В точке (одно отверстие)"/>
+	<label commandName="StepFFilesFilter" devLabel="STEP Files (*.stp *.step)" translation="Файлы STEP (*.stp *.step)"/>
+	<label commandName="UnSupportedDeriveObject" devLabel="Target document is 3D PCB, which only accepts sketch for derive" translation="Целевым документом является 3D-плата, которая позволяет выводить только эскиз."/>
+	<label commandName="Update PCB component" devLabel="Update PCB Component" translation="Обновить компонент печатной платы"/>
+	<label commandName="XmlFilesFilter" devLabel="Xml Files (*.xml)" translation="XML-файлы (*.xml)"/>
+	<label commandName="lclzDerivePCBCommand1New" devLabel="Derives a new 3D PCB Document from a sketch profile. The derived profile replaces the board outline sketch. Updates to the derived features in the original design reflect in the destination design." translation="Получает новый 3D-документ платы из профиля эскиза. Производный профиль заменяет эскиз контура платы. Обновления производных функций в исходном проекте отражаются в конечном проекте."/>
+	<label commandName="lclzDerivePCBCommand2New" devLabel="Select a sketch profile, then select the origin and axes orientation." translation="Выберите профиль эскиза, затем выберите начало координат и ориентацию осей."/>
+	<label commandName="lclzPCB3DBoardOutlineEditCommandCmd1New" devLabel="Edits the primary sketch that defines the board outline." translation="Редактирует основной эскиз, определяющий контур платы."/>
+	<label commandName="lclzPCB3DBoardOutlineEditCommandCmd2New" devLabel="Create a closed profile to define the board. You can project geometry from the assembly context to ensure the PCB outline stays updated with the mechanical assembly." translation="Создайте замкнутый профиль для определения платы. Вы можете проецировать геометрию из контекста сборки, чтобы контур ПП оставался актуальным с механической сборкой."/>
+	<label commandName="lclzPCB3DFlipComponentCmd1" devLabel="Rotates components along their X-axis and places them on the other side of a double-sided PCB." translation="Поворачивает компоненты вдоль оси X и размещает их на другой стороне двусторонней печатной платы."/>
+	<label commandName="lclzPCB3DFlipComponentCmd2" devLabel="Synchronize changes between the 3D and 2D PCBs, and reroute to maintain correct electrical connections." translation="Синхронизируйте изменения между 3D- и 2D-платами и измените маршрутизацию для поддержания правильных электрических соединений."/>
+	<label commandName="lclzPCB3DMoveComponentCmd1" devLabel="Repositions a component along the X- and Y- axes, or adjusts its angle on the board." translation="Перемещает компонент по осям X и Y или регулирует его угол на плате."/>
+	<label commandName="lclzPCB3DMoveComponentCmd2" devLabel="You can automatically reroute the traces and push the changes to the 2D PCB." translation="Вы можете автоматически перенаправить трассировки и внести изменения в 2D-плату."/>
+	<label commandName="lclzPCB3DWorkspaceTitle" devLabel="Mechanical 3D PCB Workspace" translation="Механическая 3D рабочая область печатной платы"/>
+	<label commandName="lclzPCBBoardSketchEditCmd1" devLabel="Edit the sketch generated from EAGLE board." translation="Отредактируйте эскиз, созданный на плате EAGLE."/>
+	<label commandName="lclzPCBBoardSketchEditCmdTipsAndTricksDesc" devLabel="This command is only available when there's sketch generated from EAGLE board." translation="Эта команда доступна только при наличии эскиза, созданного на плате EAGLE."/>
+	<label commandName="lclzPCBBoardSketchEditCmdTipsAndTricksTips" devLabel="This command will activate the sketch generated from EAGLE board for editing." translation="Эта команда активирует эскиз, созданный на плате EAGLE, для редактирования."/>
+	<label commandName="lclzPCBBoardSketchEditCmdTipsAndTricksTitle" devLabel="Edit the sketch generated from EAGLE board" translation="Отредактируйте эскиз, созданный на плате EAGLE."/>
+	<label commandName="lclzPCBComponentLocked" devLabel="Component or layer is locked. Switch to the 2D PCB document and unlock the component or layer. Edit the object position, then retry updating the 3D PCB." translation="Компонент или слой заблокирован. Переключитесь на 2D-документ платы и разблокируйте компонент или слой. Отредактируйте положение объекта, затем повторите попытку обновления 3D-платы."/>
+	<label commandName="lclzPCBCreateCommand1New2" devLabel="Creates a 3D PCB document from the selected sketch or face. " translation="Создает 3D-документ платы на основе выбранного эскиза или грани."/>
+	<label commandName="lclzPCBCreateCommand2New2" devLabel="Select a sketch or face, then select origin and axes orientation. You can convert circles into non-plated through holes (NPTHs)." translation="Выберите эскиз или грань, затем выберите начало координат и ориентацию осей. Вы можете преобразовать круги в сквозные отверстия без покрытия (NPTH)."/>
+	<label commandName="lclzPCBDefineBoardCmd1" devLabel="Define the shape of the PCB via a sketched profile." translation="Определите форму печатной платы с помощью эскизного профиля."/>
+	<label commandName="lclzPCBDefineBoardCmd2" devLabel="Select a profile and an origin point." translation="Выберите профиль и исходную точку."/>
+	<label commandName="lclzPCBDefineBoardCmdTipsAndTricksDesc" devLabel="After selecting the profile, you must choose an origin to ensure the communication with EAGLE is precise. One corner of the PCB normally works well. Decide if the profile is on the top or bottom of the PCB, and be sure that the extrusion direction is correct. The PCB shape will become visible to EAGLE after the model is saved, and the EAGLE user can change the shape of the board as well." translation="После выбора профиля вы должны выбрать источник, чтобы обеспечить точность связи с EAGLE. Один угол печатной платы обычно работает хорошо. Решите, находится ли профиль сверху или снизу печатной платы, и убедитесь, что направление выдавливания правильное. Форма платы станет видна EAGLE после сохранения модели, и пользователь EAGLE также сможет изменить форму платы."/>
+	<label commandName="lclzPCBDefineBoardCmdTipsAndTricksTips" devLabel="Select a profile and an origin point." translation="Выберите профиль и исходную точку."/>
+	<label commandName="lclzPCBDefineBoardCmdTipsAndTricksTitle" devLabel="PCB Define Board Information" translation="Информация о плате определения печатной платы"/>
+	<label commandName="lclzPCBEditBoardCmd1New" devLabel="Defines the PCB board outline and 2D coordinate system." translation="Определяет контур платы и 2D-систему координат."/>
+	<label commandName="lclzPCBEditBoardCmd2New" devLabel="Select one or more closed profiles from the Board Outline Sketch or mechanical assembly. Choose a point for the origin of the 2D coordinate system and an edge for the X axis. Flip the X and Z axes to set the desired Y axis." translation="Выберите один или несколько закрытых профилей из контурного эскиза платы или механической сборки. Выберите точку начала 2D-системы координат и край оси X. Поверните оси X и Z, чтобы установить нужную ось Y."/>
+	<label commandName="lclzPCBExternalComponentCreationCmd1New" devLabel="Creates a new 3D PCB document as an external component in the assembly. If the board outline sketch references assembly geometry, the board updates with design changes." translation="Создает новый 3D-документ платы в качестве внешнего компонента сборки. Если контурный эскиз платы ссылается на геометрию сборки, плата обновляется при изменении конструкции."/>
+	<label commandName="lclzPCBExternalComponentCreationCmd2New" devLabel="Select location, then open the 3D PCB to complete a closed profile in the board outline to finish defining the board." translation="Выберите местоположение, затем откройте 3D-плату, чтобы завершить закрытый профиль контура платы и завершить определение платы."/>
+	<label commandName="lclzPCBImprintCmd1" devLabel="Copies the profile supplied from EAGLE to an upstream Fusion sketch." translation="Копирует профиль, предоставленный из EAGLE, в исходный эскиз Fusion."/>
+	<label commandName="lclzPCBImprintCmdTipsAndTricksDesc" devLabel="This command is primarily useful when both the Fusion and EAGLE user are actively changing the shape of the PCB." translation="Эта команда в первую очередь полезна, когда пользователь Fusion и EAGLE активно меняет форму платы."/>
+	<label commandName="lclzPCBImprintCmdTipsAndTricksTips" devLabel="Copies the profile supplied from EAGLE to an upstream Fusion sketch. You can copy to a pre-existing sketch, or create a new sketch by selecting a planar face or construction plane. The selected sketch or plane must be parallel to the PCB.  If there is already an upstream sketch that drives the PCB feature, that sketch will be selected by default." translation="Копирует профиль, предоставленный из EAGLE, в исходный эскиз Fusion. Вы можете скопировать уже существующий эскиз или создать новый эскиз, выбрав плоскую грань или вспомогательную плоскость. Выбранный эскиз или плоскость должны быть параллельны плате.  Если уже существует исходный эскиз, управляющий элементом платы, этот эскиз будет выбран по умолчанию."/>
+	<label commandName="lclzPCBImprintCmdTipsAndTricksTitle" devLabel="Copy EAGLE Profile Information" translation="Скопировать информацию профиля EAGLE"/>
+	<label commandName="lclzPCBMoveComponentBodyCommand1" devLabel="Move PCB component body to align with the footprint on the board." translation="Переместите корпус компонента печатной платы так, чтобы он совпал с отпечатком на плате."/>
+	<label commandName="lclzPCBMoveComponentBodyCommand2" devLabel="Select a body from PCB component and move it by dragging or typing in values." translation="Выберите тело из компонента платы и переместите его, перетаскивая или вводя значения."/>
+	<label commandName="lclzPCBMoveComponentBodyCommandTipsAndTricksDesc" devLabel="Note that no Move feature will be created in the timeline. However, the new locations will be remembered by Fusion." translation="Обратите внимание, что на временной шкале не будет создан объект перемещения. Однако новые локации запомнится Fusion."/>
+	<label commandName="lclzPCBMoveComponentBodyCommandTipsAndTricksTips" devLabel="Select a body from PCB component and move it by dragging or typing in values." translation="Выберите тело из компонента платы и переместите его, перетаскивая или вводя значения."/>
+	<label commandName="lclzPCBMoveComponentBodyCommandTipsAndTricksTitle" devLabel="Move PCB Component Body Information" translation="Переместить информацию о теле компонента печатной платы"/>
+	<label commandName="lclzPCBMoveComponentsCommand1" devLabel="Move PCB components to new locations on the board." translation="Переместите компоненты печатной платы в новые места на плате."/>
+	<label commandName="lclzPCBMoveComponentsCommand2" devLabel="Select a component and move it by dragging or typing in values." translation="Выберите компонент и переместите его, перетаскивая или вводя значения."/>
+	<label commandName="lclzPCBMoveComponentsCommandTipsAndTricksDesc" devLabel="Note that no Move feature will be created in the timeline. However, the new locations will be remembered by Fusion, and will become visible to EAGLE after the model is saved, and the EAGLE user can move the components as well." translation="Обратите внимание, что на временной шкале не будет создан объект перемещения. Однако новые местоположения будут запомнены Fusion и станут видимы EAGLE после сохранения модели, а пользователь EAGLE также сможет перемещать компоненты."/>
+	<label commandName="lclzPCBMoveComponentsCommandTipsAndTricksTips" devLabel="Select a component and move it by dragging or typing in values." translation="Выберите компонент и переместите его, перетаскивая или вводя значения."/>
+	<label commandName="lclzPCBMoveComponentsCommandTipsAndTricksTitle" devLabel="Move PCB Components Information" translation="Переместить информацию о компонентах печатной платы"/>
+	<label commandName="lclzPCBReplaceComponentCommand1" devLabel="Replace PCB component with different one." translation="Замените компонент печатной платы на другой."/>
+	<label commandName="lclzPCBReplaceComponentCommand2" devLabel="Select a PCB 3d model(step, stp file format) to replace existing PCB component." translation="Выберите 3d-модель печатной платы (шаг, формат файла stp), чтобы заменить существующий компонент печатной платы."/>
+	<label commandName="lclzPCBReplaceComponentCommandTipsAndTricksDesc" devLabel="Note that no Move feature will be created in the timeline. However, the PCB component will be replace with new model, the change will not able to get back to eagle." translation="Обратите внимание, что на временной шкале не будет создан объект перемещения. Однако компонент печатной платы будет заменен новой моделью, и это изменение не сможет вернуться в Eagle."/>
+	<label commandName="lclzPCBReplaceComponentCommandTipsAndTricksTips" devLabel="Select a model to replace selected PCB component and move it to adjust its position." translation="Выберите модель для замены выбранного компонента платы и переместите ее, чтобы отрегулировать ее положение."/>
+	<label commandName="lclzPCBReplaceComponentCommandTipsAndTricksTitle" devLabel="Replace PCB Component Information" translation="Замените информацию о компонентах печатной платы"/>
+	<label commandName="lclzPCBSketchCreate1" devLabel="Creates a sketch on a selected face or plane and displays the Sketch toolbar." translation="Создает эскиз на выбранной грани или плоскости и отображает панель инструментов &#171;Эскиз&#187;."/>
+	<label commandName="lclzPCBSketchCreate2" devLabel="Add construction geometry that can be referenced in both 2D and 3D PCB documents." translation="Добавьте строительную геометрию, на которую можно ссылаться как в 2D, так и в 3D документах печатных плат."/>
+	<label commandName="lclzPCBStatusCommand1" devLabel="Check the status of the PCB shape and component positions. " translation="Проверьте состояние формы печатной платы и положения компонентов."/>
+	<label commandName="lclzPCBStatusCommand2" devLabel="Both the board shape and the component positions can be driven by either Fusion or EAGLE. Use this command to understand the state of the model." translation="Форма платы и расположение компонентов могут определяться с помощью Fusion или EAGLE. Используйте эту команду, чтобы понять состояние модели."/>
+	<label commandName="lclzPCBStatusCommandTipsAndTricksDesc" devLabel="If the board shape and/or component positions have been edited in Fusion after the last EAGLE update, this command will allow you to see both PCB shapes. Also, it will tell you if your current component positions are different from the last EAGLE update." translation="Если форма платы и/или положение компонентов были отредактированы в Fusion после последнего обновления EAGLE, эта команда позволит вам увидеть обе формы печатной платы. Кроме того, он сообщит вам, отличаются ли ваши текущие позиции компонентов от последнего обновления EAGLE."/>
+	<label commandName="lclzPCBStatusCommandTipsAndTricksTips" devLabel="Both the board shape and the component positions can be driven by either Fusion or EAGLE. Use this command to understand the state of the model." translation="Форма платы и расположение компонентов могут определяться с помощью Fusion или EAGLE. Используйте эту команду, чтобы понять состояние модели."/>
+	<label commandName="lclzPCBStatusCommandTipsAndTricksTitle" devLabel="PCB Status Information" translation="Информация о состоянии печатной платы"/>
+	<label commandName="lclzPCBStop1" devLabel="Return to the Model workspace." translation="Вернитесь в рабочую область модели."/>
+	<label commandName="lclzPCBUpdateComponentCommand1" devLabel="Update PCB component from library." translation="Обновите компонент платы из библиотеки."/>
+	<label commandName="lclzPCBUpdateComponentCommand2" devLabel="Download PCB component from library to replace existing PCB component." translation="Загрузите компонент печатной платы из библиотеки, чтобы заменить существующий компонент печатной платы."/>
+	<label commandName="lclzPCBUpdateComponentCommandTipsAndTricksDesc" devLabel="Note that no Move feature will be created in the timeline. However, the PCB component will be replace with new model, the change will not able to get back to eagle." translation="Обратите внимание, что на временной шкале не будет создан объект перемещения. Однако компонент печатной платы будет заменен новой моделью, и это изменение не сможет вернуться в Eagle."/>
+	<label commandName="lclzPCBUpdateComponentCommandTipsAndTricksTips" devLabel="Download PCB component from library to replace the selected PCB component and move it to adjust its position." translation="Загрузите компонент платы из библиотеки, чтобы заменить выбранный компонент платы, и переместите его, чтобы отрегулировать его положение."/>
+	<label commandName="lclzPCBUpdateComponentCommandTipsAndTricksTitle" devLabel="Update PCB Component Information" translation="Обновить информацию о компонентах печатной платы"/>
+	<label commandName="lclzPCBWorkspaceTitle" devLabel="Mechanical PCB Workspace" translation="Механическая рабочая область печатной платы"/>
+	<label commandName="pcb3dConstructionSketchCmdBlock" devLabel="Create PCB Sketch (unavailable)" translation="Создать эскиз печатной платы (недоступно)"/>
+	<label commandName="pcb3dFlipCmdBlock" devLabel="Flip Component (unavailable)" translation="Перевернуть компонент (недоступно)"/>
+	<label commandName="pcb3dHoleCmdBlock" devLabel="PCBHole (unavailable)" translation="PCBHole (недоступно)"/>
+	<label commandName="pcb3dMoveCmdBlock" devLabel="Move Component (unavailable)" translation="Переместить компонент (недоступно)"/>
+	<label commandName="pcbFlipXDirectionInputTooltip" devLabel="Flip X Axis for 2D PCB orientation" translation="Переворот оси X для 2D-ориентации печатной платы"/>
+	<label commandName="pcbFlipZDirectionInputTooltip" devLabel="Flip Z Axis for 2D PCB orientation" translation="Переворот оси Z для 2D-ориентации печатной платы"/>
+</Resource>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="ExportAttributesToolTip" devLabel="Switch on/off export attributes flag options." translation="Включить/отключить параметры флага атрибутов экспорта." />
+	<label commandName="ExportAttributesUserName" devLabel="Export attributes enable" translation="Экспортировать атрибуты включить" />
+	<label commandName="ExportSketchesEnabledToolTip" devLabel="Switch on/off export sketches enabled flag options." translation="Включите/отключите параметры флага включения экспорта эскизов." />
+	<label commandName="ExportSketchesEnabledUserName" devLabel="Export sketches enabled" translation="Экспорт эскизов включен." />
+	<label commandName="ExportSubEntityIdsToolTip" devLabel="Switch on/off export sub-Entity Ids flag options." translation="Включите/выключите параметры флага экспорта идентификаторов подобъектов." />
+	<label commandName="ExportSubEntityIdsUserName" devLabel="Export sub-Entity Ids enabled" translation="Экспорт идентификаторов подобъектов включен." />
+	<label commandName="InsertImportToolTip" devLabel="Switch on/off import as inserting flag options." translation="Включить/выключить импорт в качестве опции вставки флага." />
+	<label commandName="InsertImportUserName" devLabel="InsertImport enable" translation="Включить импорт" />
+	<label commandName="assetTypeToolTip" devLabel="Create asset by opening a foreign file." translation="Создайте актив, открыв внешний файл." />
+	<label commandName="assetTypeUserName" devLabel="Create asset" translation="Создать актив" />
+	<label commandName="lclzApplicationIsClosing" devLabel="Application is closing..." translation="Приложение закрывается..." />
+	<label commandName="lclzCannotFindAddIn" devLabel="No Add-in found with path that matches: %1%" translation="No Add-in found with path that matches: %1%" />
+	<label commandName="lclzCannotFindMatchedAddIn" devLabel="No Add-in found with identifier that matches: %1%" translation="No Add-in found with identifier that matches: %1%" />
+	<label commandName="lclzCannotFindNeededAddIn" devLabel="Could not find Add-in %1% needed by Add-in %2%" translation="Could not find Add-in %1% needed by Add-in %2%" />
+	<label commandName="lclzCannotLoadAddInXml" devLabel="Could not load Add-in xml file %1%" translation="Could not load Add-in xml file %1%" />
+	<label commandName="lclzCannotLoadAppXml" devLabel="Could not load application xml file %1%" translation="Could not load application xml file %1%" />
+	<label commandName="lclzCantLoadAddIn" devLabel="Could not load the addin in %1%" translation="Could not load the addin in %1%" />
+	<label commandName="lclzLoadInterface" devLabel="loadInterface: " translation="ЗагрузочныйИнтерфейс:" />
+	<label commandName="lclzMissingGetIAddIn" devLabel="GetIAddIn function not found in %1%" translation="GetIAddIn function not found in %1%" />
+	<label commandName="lclzUnloadInterface" devLabel="unloadInterface: " translation="выгрузитьИнтерфейс:" />
+</Resource>

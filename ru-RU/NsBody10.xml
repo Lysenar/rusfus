@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="AppearanceCIStr" devLabel="AppearanceCI" translation="Внешний видCI" />
+	<label commandName="AppearanceStr" devLabel="Appearance" translation="Внешний вид" />
+	<label commandName="BodiesSelectionCategory" devLabel="Bodies Collection" translation="Коллекция тел" />
+	<label commandName="BodiesSelectionId" devLabel="Bodies" translation="Тела" />
+	<label commandName="BodyDefaultUserName" devLabel="Body" translation="Тело" />
+	<label commandName="BodySelectionCategory" devLabel="Bodies" translation="Тела" />
+	<label commandName="BodySelectionId" devLabel="Body" translation="Тело" />
+	<label commandName="ContextFolderTooltip" devLabel="Cached objects from a dissolved Assembly Context" translation="Кэшированные объекты из解散ленной сборки контекста" />
+	<label commandName="EdgeSelectionCategory" devLabel="Body Edges" translation="Ребра тела" />
+	<label commandName="EdgeSelectionId" devLabel="Edge" translation="Ребро" />
+	<label commandName="EdgeToFaceSelectionCategory" devLabel="Body" translation="Тело" />
+	<label commandName="EdgesSelectionId" devLabel="Edges" translation="Рёбра" />
+	<label commandName="FaceSelectionId" devLabel="Face" translation="Грань" />
+	<label commandName="FacesSelectionCategory" devLabel="Body Faces" translation="Грани тела" />
+	<label commandName="FacesSelectionId" devLabel="Faces" translation="Поверхности" />
+	<label commandName="MultipleBodySelectionId" devLabel="Bodies" translation="Тела" />
+	<label commandName="OverridingBodyDefaultUserName" devLabel="Overriding Body" translation="Переопределяющее тело" />
+	<label commandName="PhysicalMaterialStr" devLabel="Physical Material" translation="Физический материал" />
+	<label commandName="PlasticRuleStr" devLabel="Plastic Rule" translation="Правило для пластика" />
+	<label commandName="PropertiesStr" devLabel="Properties" translation="Свойства" />
+	<label commandName="SelectedConfigurationStr" devLabel="Insert" translation="Вставить" />
+	<label commandName="SheetMetalRuleStr" devLabel="Sheet Metal Rule" translation="Правило листового металла" />
+	<label commandName="SurfaceGroupCategory" devLabel="Surface Group" translation="Поверхностная группа" />
+	<label commandName="SurfaceGroupDefaultName" devLabel="Group" translation="Группа" />
+	<label commandName="SurfaceGroupDefectiveName" devLabel="Defective" translation="Дефектный" />
+	<label commandName="SurfaceGroupIntersectingName" devLabel="Intersecting" translation="Пересекающиеся" />
+	<label commandName="SurfaceGroupSelectionId" devLabel="SurfaceGroup" translation="Поверхностная группа" />
+	<label commandName="SurfaceGroupUnstitchableName" devLabel="Unstitchable" translation="Несшиваемый" />
+	<label commandName="SurfaceGroupUnstitchedName" devLabel="Unstitched" translation="несшитый" />
+	<label commandName="VertexSelectionCategory" devLabel="Body Vertices" translation="Вершины тела" />
+	<label commandName="VertexSelectionId" devLabel="Vertex" translation="Вершина" />
+	<label commandName="VerticesSelectionId" devLabel="Vertices" translation="Вершины" />
+	<label commandName="VisibilityStr" devLabel="Visibility" translation="Видимость" />
+</Resource>
