@@ -632,7 +632,7 @@
 	<label commandName="FL_Personalize_Option_MousePresetPowerMill" devLabel="PowerMill" translation="P"/>
 	<label commandName="FL_Personalize_Option_MousePresetSolidWorks" devLabel="SOLIDWORKS" translation="С"/>
 	<label commandName="FL_Personalize_Option_MousePresetTinkercad" devLabel="Tinkercad" translation="Тинкеркад"/>
-	<label commandName="FL_Personalize_Option_Part_Design" devLabel="Part Design" translation="ПРОЕКТИРОВАНИЕ ДЕТАЛЕЙ"/>
+	<label commandName="FL_Personalize_Option_Part_Design" devLabel="Part Design" translation="Деталь"/>
 	<label commandName="FL_Personalize_Option_Placeholder" devLabel="Select" translation="Выбрать"/>
 	<label commandName="FL_Personalize_Option_TeamSize100Plus" devLabel="100+" translation="100+"/>
 	<label commandName="FL_Personalize_Option_TeamSize10To24" devLabel="10-24" translation="10-24"/>
@@ -1191,7 +1191,7 @@
 	<label commandName="MDOutOfDate1" devLabel="%s %s out of date" translation="%"/>
 	<label commandName="MDOwnedbyMe" devLabel="Owned by Me" translation="Принадлежащий мне"/>
 	<label commandName="MDParents" devLabel="Parents" translation="Родительские элементы"/>
-	<label commandName="MDPartDesign" devLabel="Part Design" translation="ПРОЕКТИРОВАНИЕ ДЕТАЛЕЙ"/>
+	<label commandName="MDPartDesign" devLabel="Part Design" translation="Деталь"/>
 	<label commandName="MDPendingApproval" devLabel="Pending Approval" translation="Ожидание подтверждения"/>
 	<label commandName="MDPeople" devLabel="People" translation="Персоны"/>
 	<label commandName="MDPin" devLabel="Pin" translation="Приколи это"/>

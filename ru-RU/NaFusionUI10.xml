@@ -4108,7 +4108,7 @@
 	<label commandName="PartDocSelctedMsg" devLabel="&lt;b&gt;%1%&lt;/b&gt; is a Part Design and can't contain additional components. Select an Assembly Design to insert &lt;b&gt;%2%&lt;/b&gt; into." translation="&lt;b&gt;%1%&lt;/b&gt; является Проектом детали и не может содержать дополнительные компоненты. Выберите Проект сборки для вставки &lt;b&gt;%2%&lt;/b&gt;."/>
 	<label commandName="PartDocSubTypeName" devLabel="Type" translation="Тип"/>
 	<label commandName="PartDocSubTypeToolTip" devLabel="Sets the default type for new Part Document" translation="Устанавливает тип по умолчанию для нового документа детали."/>
-	<label commandName="PartDocTitle" devLabel="Part Design" translation="ПРОЕКТИРОВАНИЕ ДЕТАЛЕЙ"/>
+	<label commandName="PartDocTitle" devLabel="Part Design" translation="Деталь"/>
 	<label commandName="PartExtComponentTypeDTT" devLabel="Creates and inserts a new Part Design as an external component into %1%." translation="Создает и вставляет новую Деталь как внешний компонент в %1%."/>
 	<label commandName="PartNumberGroupMembers" devLabel="Shared Part Number" translation="Общий номер детали"/>
 	<label commandName="PartStdSubTypeDTT" devLabel="Creates a standard container for design elements like sketches and bodies." translation="Создает стандартный контейнер для элементов дизайна, таких как эскизы и тела."/>
@@ -4397,7 +4397,7 @@
 	<label commandName="RIModelingLabel" devLabel="Modeling" translation="Modellieren"/>
 	<label commandName="RINewTemplateLabel" devLabel="New Template" translation="Новый шаблон"/>
 	<label commandName="RIPartDesignDescription" devLabel="Create sketches and bodies to model a single component to manufacture or use in an assembly." translation="Создавайте эскизы и тела для моделирования отдельного компонента для изготовления или использования в сборке."/>
-	<label commandName="RIPartDesignHeading" devLabel="Part Design" translation="ПРОЕКТИРОВАНИЕ ДЕТАЛЕЙ"/>
+	<label commandName="RIPartDesignHeading" devLabel="Part Design" translation="Деталь"/>
 	<label commandName="RIQuartzLabel" devLabel="Quartz" translation="Кварцевый свет"/>
 	<label commandName="RISheetMetalLabel" devLabel="Sheet Metal" translation="Blech"/>
 	<label commandName="RISheetMetalRuleLabel" devLabel="Rule" translation="Правило"/>
