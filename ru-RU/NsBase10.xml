@@ -115,7 +115,7 @@
     <label commandName="ioptin_evergage_label" devLabel="&lt;b&gt;Learning Panel.&lt;/b&gt; Allows us to show contextual content based on your usage data to help you use Fusion. &lt;a href='%1%'&gt;Learn more&lt;/a&gt; about the Learning Panel." translation="&lt;b&gt;Панель обучения.&lt;/b&gt; Позволяет нам показывать контекстный контент на основе ваших данных использования, чтобы помочь вам работать с Fusion. &lt;a href=&apos;%1%&apos;&gt;Узнать больше&lt;/a&gt; о Панели обучения." />
     <label commandName="assemblyExperience-desc" devLabel="Enables a workflow that lets you model individual components in Part Designs, then insert and define relationships between them in an Assembly Design to create a complete assembly." translation="Включает рабочий процесс, который позволяет моделировать отдельные компоненты в Проектах деталей, затем вставлять и определять отношения между ними в Проекте сборки для создания полной сборки." />
     <label commandName="assemblyExperience-title" devLabel="Part and Assembly Design Workflow" translation="Рабочий процесс проектирования деталей и сборок" />
-    <label commandName="lclzAssemblyDesign" devLabel="Assembly Design" translation="Проект сборки" />
+    <label commandName="lclzAssemblyDesign" devLabel="Assembly Design" translation="Сборка" />
     <label commandName="lclzModelingAssemblyDesign" devLabel="Hybrid Design" translation="Гибридный дизайн" />
     <label commandName="lclzPartDesign" devLabel="Part Design" translation="Проект детали" />
 </Resource>

@@ -499,7 +499,7 @@
 	<label commandName="AsciiFileFormatToolTip" devLabel="Exports an ASCII format stereolithography file (STL), which is a unitless description of a triangulated 3D surface." translation="Экспортирует файл стереолитографии (STL) в формате ASCII, который представляет собой безразмерное описание триангулированной 3D-поверхности."/>
 	<label commandName="Assemble Environment" devLabel="Assemble" translation="Собрать"/>
 	<label commandName="AssemblyComponentType" devLabel="Assembly" translation="Сборка"/>
-	<label commandName="AssemblyDocTitle" devLabel="Assembly Design" translation="Проект сборки"/>
+	<label commandName="AssemblyDocTitle" devLabel="Assembly Design" translation="Сборка"/>
 	<label commandName="AssemblyExtComponentTypeDTT" devLabel="Creates and inserts a new Assembly Design as an external component into %1%." translation="Создает и вставляет новую Сборку как внешний компонент в %1%."/>
 	<label commandName="AssemblyMateCmd" devLabel="Constrain Components" translation="Ограничить компоненты"/>
 	<label commandName="AssemblyMateCmdTitle" devLabel="Constrain Components" translation="Ограничить компоненты"/>

@@ -60,7 +60,7 @@
     <label commandName="lclzTutorialType3DPrint" devLabel="3D PRINT" translation="3D-ПЕЧАТЬ" />
     <label commandName="lclzTutorialTypeAnimate" devLabel="ANIMATE" translation="АНИМАЦИЯ" />
     <label commandName="lclzTutorialTypeAssemble" devLabel="ASSEMBLE" translation="СБОРКА" />
-    <label commandName="lclzTutorialTypeBasic" devLabel="PART DESIGN" translation="ПРОЕКТИРОВАНИЕ ДЕТАЛЕЙ" />
+    <label commandName="lclzTutorialTypeBasic" devLabel="PART DESIGN" translation="Деталь" />
     <label commandName="lclzTutorialTypeDesc1" devLabel="Design the foundation of your lamp with basic solid modeling tools." translation="Спроектируйте основу вашей лампы с помощью базовых инструментов твердотельного моделирования." />
     <label commandName="lclzTutorialTypeDesc10" devLabel="Prep your design and 3D print with our easy-to-use 3D print utility." translation="Подготовьте свой дизайн и 3D-печать с помощью нашего удобного инструмента для 3D-печати." />
     <label commandName="lclzTutorialTypeDesc11" devLabel="Create and save a sketch as DXF format to use for laser cutting." translation="Создайте и сохраните эскиз в формате DXF для использования при лазерной резке." />
