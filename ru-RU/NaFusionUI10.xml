@@ -792,7 +792,7 @@
 	<label commandName="ChamferSketchEqualDistanceCmd" devLabel="Equal Distance Chamfer" translation="Эквидистантное снятие фаски"/>
 	<label commandName="ChangeActiveUnitsLength" devLabel="Length" translation="Длина"/>
 	<label commandName="ChangeActiveUnitsMass" devLabel="Mass" translation="Масса"/>
-	<label commandName="ChangeActiveUnitsSystem" devLabel="Unit System" translation="Система единиц"/>
+	<label commandName="ChangeActiveUnitsSystem" devLabel="Unit System" translation="Система"/>
 	<label commandName="ChangeAwarenessComponentsSelInput" devLabel="Components" translation="Компоненты"/>
 	<label commandName="ChangeDegreeSelection" devLabel="Change the degree of the selected spline" translation="Изменить степень выбранного сплайна"/>
 	<label commandName="ChangeDesignDocTypeCmdTitlePrefix" devLabel="CONVERT " translation="Трансформировать "/>
@@ -4408,7 +4408,7 @@
 	<label commandName="RITemplateRadioLabel" devLabel="Template" translation="Шаблон"/>
 	<label commandName="RITemplateTooltipHeader" devLabel="Drawing Template" translation="Шаблон чертежа"/>
 	<label commandName="RITypeLabel" devLabel="Type" translation="Тип"/>
-	<label commandName="RIUnitsLabel" devLabel="Unit System" translation="Система единиц"/>
+	<label commandName="RIUnitsLabel" devLabel="Unit System" translation="Система"/>
 	<label commandName="RIWaterLabel" devLabel="Water" translation="Вода"/>
 	<label commandName="RadiusFilletFeatureType" devLabel="Radius Type" translation="Тип радиуса"/>
 	<label commandName="RadiusRuleFilletFeatureType" devLabel="Radius Type" translation="Тип радиуса"/>
@@ -5747,7 +5747,7 @@
 	<label commandName="UnitCM" devLabel="cm" translation="см"/>
 	<label commandName="UnitFT" devLabel="ft" translation="фут"/>
 	<label commandName="UnitIN" devLabel="in" translation="дюйм"/>
-	<label commandName="UnitInput" devLabel="Unit System" translation="Система единиц"/>
+	<label commandName="UnitInput" devLabel="Unit System" translation="Система"/>
 	<label commandName="UnitM" devLabel="m" translation="м"/>
 	<label commandName="UnitMM" devLabel="mm" translation="мм"/>
 	<label commandName="UnitType" devLabel="Units" translation="Единицы измерения"/>

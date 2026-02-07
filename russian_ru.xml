@@ -2711,7 +2711,7 @@
   <message name="Default operation type">Тип операции по умолчанию</message>
   <message name="Default Preset">Предустановка по умолчанию</message>
   <message name="Default Strategy">Стратегия по умолчанию</message>
-  <message name="Default unit system for new toolpath and other Manufacture elements">Система единиц по умолчанию для новой траектории инструмента и других элементов производства</message>
+  <message name="Default unit system for new toolpath and other Manufacture elements">Единичная система по умолчанию для новой траектории инструмента и других элементов производства</message>
   <message name="Default units">Единицы по умолчанию</message>
   <message name="Default workspace tab">Вкладка рабочей области по умолчанию</message>
   <message name="Default: ">По умолчанию: </message>
@@ -11805,7 +11805,7 @@
   <message name="Unisolate">Отменить изоляцию</message>
   <message name="Unisolate All">Отменить изоляцию всех</message>
   <message name="Unit">Единицы измерения</message>
-  <message name="Unit system">Система единиц</message>
+  <message name="Unit system">Единичная система</message>
   <message name="United Arab Emirates">Объединенные Арабские Эмираты</message>
   <message name="United Kingdom">Великобритания</message>
   <message name="United States">Соединенные Штаты</message>
